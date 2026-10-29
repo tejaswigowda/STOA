@@ -6,12 +6,17 @@
 //   node tools/judge.mjs apply  results.jsonl verdicts.jsonl         write verdicts into the results, in place
 //   node tools/judge.mjs consensus out.jsonl a.jsonl b.jsonl [c.jsonl]   majority of independent judges, with agreement (Cohen's kappa of the first two)
 //   node tools/judge.mjs label  results.jsonl labels.jsonl           add named|descriptive to every recovered name
+//   node tools/judge.mjs votes  results.jsonl a.jsonl b.jsonl [c.jsonl]  record each judge's own verdict on the row (judge_a, judge_b, judge_c)
+//   node tools/judge.mjs abstain results.jsonl                       a "wrong" against a descriptive recovered name becomes "abstained"
 //
 // A pair shows the authored name with its instance index already stripped, and the recovered name.
 import { readFile, writeFile } from "node:fs/promises";
 import { parseArgs } from "node:util";
 
+// What a judge may say. `abstained` is not a judge's verdict: it is what a "wrong" becomes when the recovered
+// name only describes the part (see `abstain`), so a deliberate refusal to name is not scored as a wrong name.
 export const VERDICTS = ["same", "grain", "wrong"];
+export const FINAL_VERDICTS = [...VERDICTS, "abstained"];
 export const pairKey = (r) => `${r.model}#${r.part}`;
 
 const readJsonl = async (f) => (await readFile(f, "utf8")).split("\n").filter((l) => l.trim()).map((l) => JSON.parse(l));
@@ -76,6 +81,30 @@ export function labelNames(rows, labels) {
   return rows;
 }
 
+/** Keep every judge's own verdict on the row: the range of "same" is part of the result. */
+export function recordVotes(rows, sets) {
+  const names = ["judge_a", "judge_b", "judge_c"];
+  sets.forEach((set, i) => {
+    const by = new Map(set.map((v) => [v.key, v.verdict]));
+    for (const r of rows) if (r.kind === "original" && "verdict" in r && by.has(pairKey(r))) r[names[i]] = by.get(pairKey(r));
+  });
+  return rows;
+}
+
+/**
+ * The rubric has no category for "the pipeline declined to name this", so a judge rules such a pair wrong.
+ * A "wrong" whose recovered name only describes the part (shape, colour, position) is an abstention:
+ * it becomes `abstained` and the judge's own verdict is kept as `judge_verdict`.
+ */
+export function abstain(rows) {
+  for (const r of rows) {
+    if (r.kind !== "original" || r.verdict !== "wrong" || r.recovered_label !== "descriptive") continue;
+    r.judge_verdict = r.verdict;
+    r.verdict = "abstained";
+  }
+  return rows;
+}
+
 if (import.meta.url === `file://${process.argv[1]}`) {
   const { values, positionals } = parseArgs({ allowPositionals: true, options: { out: { type: "string" } } });
   const [cmd, results, verdicts] = positionals;
@@ -93,6 +122,11 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     const agr = agreement(sets[0], sets[1]);
     await writeFile(out, consensus(sets).map((v) => JSON.stringify(v)).join("\n") + "\n");
     console.log(JSON.stringify(agr));
+  } else if (cmd === "votes" && positionals.length >= 4) {
+    const [, file, ...sets] = positionals;
+    await writeFile(file, recordVotes(await readJsonl(file), await Promise.all(sets.map(readJsonl))).map((r) => JSON.stringify(r)).join("\n") + "\n");
+  } else if (cmd === "abstain" && results) {
+    await writeFile(results, abstain(await readJsonl(results)).map((r) => JSON.stringify(r)).join("\n") + "\n");
   } else if (cmd === "label" && results && verdicts) {
     await writeFile(results, labelNames(await readJsonl(results), await readJsonl(verdicts)).map((r) => JSON.stringify(r)).join("\n") + "\n");
   } else {

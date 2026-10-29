@@ -49,3 +49,14 @@ One JSON object per line, in the order given:
 ```json
 {"key": "<key from the pair>", "verdict": "same|grain|wrong", "reason": "..."}
 ```
+
+## Abstentions are not your call
+
+You rule on meaning only, with three verdicts. A recovered name that merely describes the part
+(`Near_Black_Thin_Plate_Set`) against a specific authored name is `wrong` as far as you are
+concerned. Afterwards the project labels each recovered name *named* (claims what the part is) or
+*descriptive* (shape, colour, position only), and a `wrong` against a descriptive name is recorded
+as a fourth verdict, `abstained`: the pipeline was told to describe rather than guess when the
+evidence does not support a name, so declining is not an error. Your own verdict stays on the row
+(`judge_verdict`, `judge_a`, `judge_b`, `judge_c`). A descriptive name that happens to match in
+meaning is still `same` or `grain`.

@@ -4,7 +4,7 @@ import { buildGlb, hasIndex, parseGlb, stripIndex, tierGroundTruth } from "./lib
 import { flatten, flattenedTriangles, measure } from "./flatten.mjs";
 import { scoreStructure, toRecords, triangleAreas } from "./score.mjs";
 import { aggregate, modelScores, residualStructure } from "./report.mjs";
-import { agreement, applyVerdicts, consensus, labelNames, toPairs } from "./judge.mjs";
+import { abstain, agreement, applyVerdicts, consensus, labelNames, recordVotes, toPairs } from "./judge.mjs";
 import { checkMeshOrder, scoreRecords } from "./recovery-run.mjs";
 import { findRecord, recoveredFromRecord, recoveredFromRecords } from "./recovered-from-record.mjs";
 
@@ -251,4 +251,16 @@ test("residual structure leaves out the parts a material boundary hands over", (
   assert.equal(r.parts, 2);
   assert.ok(Math.abs(r.micro.mean_best_iou - 0.5) < 1e-12);
   assert.equal(r.micro.recovery_rate, 0.5);
+});
+
+test("a wrong against a descriptive name is an abstention; a wrong against a named part stays wrong; judges' own verdicts are kept", () => {
+  const row = (part, verdict, recovered_label) => ({ kind: "original", model: "M", part, verdict, recovered_label });
+  const rows = abstain([row(0, "wrong", "descriptive"), row(1, "wrong", "named"), row(2, "grain", "descriptive"), row(3, "same", "named")]);
+  assert.deepEqual(rows.map((r) => r.verdict), ["abstained", "wrong", "grain", "same"]);
+  assert.equal(rows[0].judge_verdict, "wrong");
+  assert.equal(rows[1].judge_verdict, undefined);
+  recordVotes(rows, [[{ key: "M#0", verdict: "wrong" }], [{ key: "M#0", verdict: "grain" }]]);
+  assert.deepEqual([rows[0].judge_a, rows[0].judge_b], ["wrong", "grain"]);
+  const n = modelScores(rows.map((r) => ({ ...r, tier: "A", mode: "materials", best_iou: 1, matched: true, failure: null }))).naming;
+  assert.deepEqual([n.same, n.grain, n.wrong, n.abstained, n.pending], [1, 1, 1, 1, 0]);
 });

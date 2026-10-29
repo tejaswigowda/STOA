@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # the results page names the last commit that touched the data
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -19,6 +21,8 @@ jobs:
       # S3: regenerate the index and diff against the committed one
       - run: node tools/build-index.mjs --check
       - run: node --test tools/*.test.mjs
+      # W1: the results page is generated from the JSONL; fail if the committed page differs
+      - run: node tools/report.mjs --site --check
 
   # S4: re-fetch every source and match the recorded hash. Network-bound, so
   # it also runs on a schedule to catch upstream drift.
