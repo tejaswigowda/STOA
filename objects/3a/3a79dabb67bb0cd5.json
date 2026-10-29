@@ -1,0 +1,51 @@
+{
+  "id": "3a79dabb67bb0cd5",
+  "id_method": "primary-file-sha256",
+  "title": "RiggedSimple",
+  "status": "no-evidence",
+  "refusal": {
+    "reason": "no UVs",
+    "detail": "UVs: no; base-colour texture: no; materials: 1",
+    "decided_by": "triage",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/RiggedSimple/glTF-Binary/RiggedSimple.glb",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/RiggedSimple/glTF-Binary/RiggedSimple.glb",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "3a79dabb67bb0cd598a18d08b954d9d357c27c30672f82ef5d3f4e7fe6ca3401",
+    "bytes": 15104,
+    "licence": "CC BY 4.0",
+    "attribution": "Donated by Cesium for glTF testing. This model is licensed under a Creative Commons Attribution 4.0 International License.",
+    "name": "RiggedSimple.glb",
+    "files": [
+      {
+        "path": "2.0/RiggedSimple/glTF-Binary/RiggedSimple.glb",
+        "sha256": "3a79dabb67bb0cd598a18d08b954d9d357c27c30672f82ef5d3f4e7fe6ca3401",
+        "bytes": 15104
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "triangles": 188,
+      "hasUVs": false,
+      "hasBaseColourTexture": false,
+      "skinned": true,
+      "morphTargets": false
+    }
+  }
+}

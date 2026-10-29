@@ -2,6 +2,9 @@ import { createHash } from "node:crypto";
 
 export const ID_LEN = 16;
 
+// Bump when packToGlb changes its output; a pack hash is only comparable within one packer version.
+export const PACKER = "stoa-pack@1";
+
 export const sha256 = (bytes) => createHash("sha256").update(bytes).digest("hex");
 
 /** The id is the first 16 hex chars of the source asset's sha256. */
@@ -117,7 +120,7 @@ export function classify(s) {
   if (s.morphTargets) return { bucket: "refused", reason: "morph-targets" };
   if ((s.meshes > 1 || s.materials > 1) && s.partNames.length > 1) return { bucket: "ground-truth" };
   if (s.hasUVs && s.hasBaseColourTexture) return { bucket: "hard" };
-  return { bucket: "no-evidence" };
+  return { bucket: "no-evidence", reason: !s.hasUVs ? "no UVs" : "no base-colour texture" };
 }
 
 // ------------------------------------------------------------ ground truth tiers
@@ -130,6 +133,19 @@ const PARAMETRIC_NAME = /(^|[_\s])m\d+%_r\d+%/i;
 
 export const isMeaningfulName = (n) =>
   typeof n === "string" && n.trim() !== "" && !GENERIC_NAME.test(n) && !NUMBERED_PART.test(n) && !PARAMETRIC_NAME.test(n);
+
+// One trailing index group: a separated number (`car-11`, `Wheels.001`, `bridg-ll-04`) or a single digit
+// directly after a letter (`Bishop_B1`). A number glued to a word (`build05`, `skscr01`) is part of the
+// type the author chose, so it stays. Applied once: `build05-08` -> `build05`.
+const TRAILING_INDEX = /(?:[-_. ]\d+|(?<=[A-Za-z])\d)$/;
+
+/** The authored name without its instance index; the name itself if stripping would leave nothing. */
+export function stripIndex(name) {
+  const stripped = name.replace(TRAILING_INDEX, "");
+  return stripped === "" ? name : stripped;
+}
+
+export const hasIndex = (name) => stripIndex(name) !== name;
 
 export const NAME_QUALITY_THRESHOLD = 0.5;
 

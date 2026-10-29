@@ -1,0 +1,51 @@
+{
+  "id": "d16cd9a8a46319d0",
+  "id_method": "primary-file-sha256",
+  "title": "CarbonFibre",
+  "status": "no-evidence",
+  "refusal": {
+    "reason": "no base-colour texture",
+    "detail": "UVs: yes; base-colour texture: no; materials: 1",
+    "decided_by": "triage",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/CarbonFibre/glTF-Binary/CarbonFibre.glb",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/CarbonFibre/glTF-Binary/CarbonFibre.glb",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "d16cd9a8a46319d00bcc673791cb05ce28ac3e8995daf4087f146f1531d9a278",
+    "bytes": 513048,
+    "licence": "CC BY 4.0",
+    "attribution": "(C) 2023, Wayfair LLC. CC-BY 4.0 International https://creativecommons.org/licenses/by/4.0/. Model and textures created by Eric Chadwick.",
+    "name": "CarbonFibre.glb",
+    "files": [
+      {
+        "path": "2.0/CarbonFibre/glTF-Binary/CarbonFibre.glb",
+        "sha256": "d16cd9a8a46319d00bcc673791cb05ce28ac3e8995daf4087f146f1531d9a278",
+        "bytes": 513048
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "triangles": 3968,
+      "hasUVs": true,
+      "hasBaseColourTexture": false,
+      "skinned": false,
+      "morphTargets": false
+    }
+  }
+}

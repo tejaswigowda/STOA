@@ -11,7 +11,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import {
-  assertPackPreserved, classify, fetchBytes, idFromSha256, mapLimit, packToGlb, parseGlb, sha256, summarise, tierGroundTruth,
+  assertPackPreserved, classify, fetchBytes, idFromSha256, mapLimit, packToGlb, parseGlb, sha256, summarise, tierGroundTruth, PACKER,
 } from "./lib.mjs";
 
 const REPO = "KhronosGroupArchives/glTF-Sample-Models";
@@ -23,7 +23,10 @@ const opt = (name, dflt) => {
 };
 const outPath = opt("out", "triage/khronos-2.0.json");
 const cacheDir = ".cache/khronos";
+const segRefusals = existsSync("triage/seg-refusals.json") ? JSON.parse(await readFile("triage/seg-refusals.json", "utf8")) : null;
 const featureTests = new Set(JSON.parse(await readFile("triage/feature-tests.json", "utf8")).featureTests);
+
+const cmp = (a, b) => (a < b ? -1 : a > b ? 1 : 0);
 
 const api = async (p) => {
   const headers = { "user-agent": "stoa-tools", accept: "application/vnd.github+json" };
@@ -75,15 +78,40 @@ async function analyse(f) {
   const facts = summarise(json);
   Object.assign(row, { facts: { ...facts, partNames: undefined, partNameCount: facts.partNames.length } });
   Object.assign(row, classify(facts));
+  // classify() is provisional for refusals: whether SEG refuses an asset is SEG's answer (tools/seg-refusals.mjs), not a copy of its rules
+  const verdict = segRefusals?.models[f.model];
+  if (row.bucket === "refused" && verdict) {
+    if (verdict.refused) {
+      row.seg_refusal = { reason: verdict.refused.reason, detail: verdict.refused.detail, seg_version: segRefusals.seg_version };
+    } else {
+      const was = row.reason;
+      delete row.reason;
+      Object.assign(row, classify({ ...facts, skinned: false, morphTargets: false }));
+      row.rebucketed = { from: `refused (${was})`, because: `SEG ${segRefusals.seg_version} would not refuse it` };
+    }
+  }
   row.partNames = facts.partNames;
   if (row.bucket === "ground-truth") Object.assign(row, tierGroundTruth(facts.partNames, f.model, featureTests));
 
+  // The id is the sha256 of the primary file; `files` makes the whole asset verifiable without making the id depend on a tool.
+  row.id_method = "primary-file-sha256";
+  row.source = { files: [{ path: f.path, sha256: row.sha256, bytes: row.bytes }] };
   if (row.canonical && f.ext === "gltf") {
     const dir = path.posix.dirname(f.path);
-    const packed = await packToGlb(json, (uri) => get(`${dir}/${uri}`));
+    const external = new Map();
+    const packed = await packToGlb(json, async (uri) => {
+      const bytes = await get(`${dir}/${uri}`);
+      external.set(`${dir}/${uri}`, { path: `${dir}/${uri}`, sha256: sha256(bytes), bytes: bytes.length });
+      return bytes;
+    });
     const after = summarise(parseGlb(packed.glb).json);
     assertPackPreserved(facts, after);
-    row.packed = { sha256: sha256(packed.glb), bytes: packed.glb.length, checked: "meshes,materials,primitives,nodes,triangles,partNames" };
+    row.source.files.push(...[...external.values()].sort((a, b) => cmp(a.path, b.path)));
+    row.source.packed = {
+      sha256: sha256(packed.glb), bytes: packed.glb.length, packer: PACKER,
+      checked: "meshes,materials,primitives,nodes,triangles,partNames",
+      note: "packer-dependent; not an identifier",
+    };
   }
   return row;
 }
@@ -96,7 +124,6 @@ const rows = await mapLimit(files, 8, async (f) => {
   }
 });
 
-const cmp = (a, b) => (a < b ? -1 : a > b ? 1 : 0);
 const assets = rows.sort((a, b) => cmp(a.path, b.path));
 const canon = assets.filter((r) => r.canonical);
 const count = (xs, key) => xs.reduce((a, r) => ((a[key(r)] = (a[key(r)] ?? 0) + 1), a), {});
@@ -110,7 +137,7 @@ const out = {
     refusals_by_reason: Object.fromEntries(Object.entries(count(canon.filter((r) => r.reason), (r) => r.reason)).sort()),
     ground_truth_tiers: Object.fromEntries(Object.entries(count(canon.filter((r) => r.tier), (r) => r.tier)).sort()),
     tier_a_parts: canon.filter((r) => r.tier === "A").reduce((a, r) => a + r.parts, 0),
-    gltf_only_packed: canon.filter((r) => r.packed).map((r) => r.model),
+    gltf_only_packed: canon.filter((r) => r.source?.packed).map((r) => r.model),
   },
   assets,
 };

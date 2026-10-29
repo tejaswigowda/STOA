@@ -9,6 +9,7 @@
 import { baseId, bucketOf, fetchBytes, ID_RE, mapLimit, sha256 } from "./lib.mjs";
 import { loadRecords, parseRecords } from "./records.mjs";
 
+const PACKAGING = ["none", "pack", "plan", "release-artifacts"];
 const args = new Set(process.argv.slice(2));
 const records = parseRecords(loadRecords({ worktree: args.has("--worktree") }));
 const problems = [];
@@ -26,6 +27,10 @@ for (const { path, record: r } of records) {
   if (!ID_RE.test(file)) fail(path, "filename is not a valid id");
   if (r.id !== file) fail(path, `id "${r.id}" does not match filename`);
   if (path.split("/")[1] !== bucketOf(file)) fail(path, "record is in the wrong bucket");
+  // N4: parents are a scoring artifact, one integer per output triangle; they do not belong in a committed record
+  if (JSON.stringify(r).includes('"parents"')) fail(path, "record carries `parents`; keep them in scoring artifacts");
+  if (r.packaging !== undefined && !PACKAGING.includes(r.packaging)) fail(path, `packaging "${r.packaging}" is not one of ${PACKAGING.join(", ")}`);
+  if (s && !(typeof s.licence === "string" && s.licence.trim()) && !(s.licence === null && s.licence_note)) fail(path, "source.licence is missing (null is allowed only with a licence_note saying why)");
   if (!s?.sha256 || !/^[0-9a-f]{64}$/.test(s.sha256)) {
     fail(path, "source.sha256 missing or malformed");
     continue;
@@ -43,6 +48,18 @@ if (!args.has("--offline")) {
       if (r.source.bytes !== undefined && r.source.bytes !== bytes.length) fail(path, `source bytes ${bytes.length} != recorded ${r.source.bytes}`);
     } catch (e) {
       fail(path, e.message);
+    }
+    // source.files[]: the whole multi-file asset (a .gltf and its .bin and textures), at the same pinned commit
+    const base = /^(https:\/\/raw\.githubusercontent\.com\/[^/]+\/[^/]+\/[0-9a-f]{40})\//.exec(url ?? "")?.[1];
+    for (const file of r.source.files ?? []) {
+      if (file.sha256 === r.source.sha256) continue;
+      if (!base) { fail(path, `source.files cannot be re-fetched: the source url is not a pinned raw GitHub address`); break; }
+      try {
+        const bytes = await fetchBytes(`${base}/${file.path.split("/").map(encodeURIComponent).join("/")}`);
+        if (sha256(bytes) !== file.sha256 || bytes.length !== file.bytes) fail(path, `file ${file.path} does not match its recorded hash or size`);
+      } catch (e) {
+        fail(path, e.message);
+      }
     }
   });
 }

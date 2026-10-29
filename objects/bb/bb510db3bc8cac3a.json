@@ -1,0 +1,56 @@
+{
+  "id": "bb510db3bc8cac3a",
+  "id_method": "primary-file-sha256",
+  "title": "Triangle",
+  "status": "no-evidence",
+  "refusal": {
+    "reason": "no UVs",
+    "detail": "UVs: no; base-colour texture: no; materials: 0",
+    "decided_by": "triage",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/Triangle/glTF/Triangle.gltf",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/Triangle/glTF/Triangle.gltf",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "bb510db3bc8cac3ae869c40449e87cdf872f361dbad5c06aac20e37675f6b421",
+    "bytes": 1113,
+    "licence": "CC0 1.0",
+    "attribution": "Public domain (CC0)",
+    "name": "Triangle.gltf",
+    "files": [
+      {
+        "path": "2.0/Triangle/glTF/Triangle.gltf",
+        "sha256": "bb510db3bc8cac3ae869c40449e87cdf872f361dbad5c06aac20e37675f6b421",
+        "bytes": 1113
+      },
+      {
+        "path": "2.0/Triangle/glTF/simpleTriangle.bin",
+        "sha256": "898ed7f560dca9907a80c98be57fbbc0f3a092d2e3683b964ffcfa75c549ac62",
+        "bytes": 44
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 0,
+      "primitives": 1,
+      "triangles": 1,
+      "hasUVs": false,
+      "hasBaseColourTexture": false,
+      "skinned": false,
+      "morphTargets": false
+    }
+  }
+}

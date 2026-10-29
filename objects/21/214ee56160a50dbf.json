@@ -1,0 +1,51 @@
+{
+  "id": "214ee56160a50dbf",
+  "id_method": "primary-file-sha256",
+  "title": "AnimatedMorphCube",
+  "status": "refused",
+  "refusal": {
+    "reason": "morph-targets",
+    "detail": "SEG: meshes with morph targets are not supported",
+    "decided_by": "seg",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/AnimatedMorphCube/glTF-Binary/AnimatedMorphCube.glb",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/AnimatedMorphCube/glTF-Binary/AnimatedMorphCube.glb",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "214ee56160a50dbf22543a1d66dbf860986e87f0efac3d89feac1359d0e6aeab",
+    "bytes": 6752,
+    "licence": "CC0 1.0",
+    "attribution": "To the extent possible under law, Microsoft has waived all copyright and related or neighboring rights to this asset.",
+    "name": "AnimatedMorphCube.glb",
+    "files": [
+      {
+        "path": "2.0/AnimatedMorphCube/glTF-Binary/AnimatedMorphCube.glb",
+        "sha256": "214ee56160a50dbf22543a1d66dbf860986e87f0efac3d89feac1359d0e6aeab",
+        "bytes": 6752
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "triangles": 12,
+      "hasUVs": false,
+      "hasBaseColourTexture": false,
+      "skinned": false,
+      "morphTargets": true
+    }
+  }
+}

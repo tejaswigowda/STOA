@@ -1,0 +1,32 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "17 5 * * 1"
+
+jobs:
+  gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # S1: id == sha256(source)[:16], filename and bucket agree
+      - run: node tools/verify-sources.mjs --offline
+      # S3: regenerate the index and diff against the committed one
+      - run: node tools/build-index.mjs --check
+      - run: node --test tools/*.test.mjs
+
+  # S4: re-fetch every source and match the recorded hash. Network-bound, so
+  # it also runs on a schedule to catch upstream drift.
+  sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/verify-sources.mjs

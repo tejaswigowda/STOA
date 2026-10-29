@@ -1,0 +1,52 @@
+{
+  "id": "63817cbfa21d7f26",
+  "id_method": "primary-file-sha256",
+  "title": "SuzanneMorphSparse",
+  "status": "refused",
+  "refusal": {
+    "reason": "morph-targets",
+    "detail": "SEG: meshes with morph targets are not supported",
+    "decided_by": "seg",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/SuzanneMorphSparse/glTF-Binary/SuzanneMorphSparse.glb",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/SuzanneMorphSparse/glTF-Binary/SuzanneMorphSparse.glb",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "63817cbfa21d7f2649562476546915de8b28168f4323c2863e59dfe7373e47c0",
+    "bytes": 82568,
+    "licence": null,
+    "licence_note": "The source README says only \"Donated by ousttrue for glTF testing.\" That is not a grant, so no licence is recorded and none is inferred.",
+    "attribution": "Donated by ousttrue for glTF testing.",
+    "name": "SuzanneMorphSparse.glb",
+    "files": [
+      {
+        "path": "2.0/SuzanneMorphSparse/glTF-Binary/SuzanneMorphSparse.glb",
+        "sha256": "63817cbfa21d7f2649562476546915de8b28168f4323c2863e59dfe7373e47c0",
+        "bytes": 82568
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "triangles": 968,
+      "hasUVs": true,
+      "hasBaseColourTexture": false,
+      "skinned": false,
+      "morphTargets": true
+    }
+  }
+}

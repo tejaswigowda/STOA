@@ -1,0 +1,61 @@
+{
+  "id": "aec4aaad5a49e735",
+  "id_method": "primary-file-sha256",
+  "title": "SimpleMorph",
+  "status": "refused",
+  "refusal": {
+    "reason": "morph-targets",
+    "detail": "SEG: meshes with morph targets are not supported",
+    "decided_by": "seg",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/SimpleMorph/glTF/SimpleMorph.gltf",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/SimpleMorph/glTF/SimpleMorph.gltf",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "aec4aaad5a49e735f4998cd34955bdabfee002d4319d293e82a20ba14992ceb4",
+    "bytes": 2924,
+    "licence": "CC0 1.0",
+    "attribution": "Public domain (CC0)",
+    "name": "SimpleMorph.gltf",
+    "files": [
+      {
+        "path": "2.0/SimpleMorph/glTF/SimpleMorph.gltf",
+        "sha256": "aec4aaad5a49e735f4998cd34955bdabfee002d4319d293e82a20ba14992ceb4",
+        "bytes": 2924
+      },
+      {
+        "path": "2.0/SimpleMorph/glTF/simpleMorphAnimation.bin",
+        "sha256": "bba8e6c8579b04fca092057a83266582a2f22fbe390d16f0eb92b577c60f9776",
+        "bytes": 60
+      },
+      {
+        "path": "2.0/SimpleMorph/glTF/simpleMorphGeometry.bin",
+        "sha256": "44e308fa30e6864c143c44d43bcf0dd3a48c0e21b8abd33344cf4949166c12ea",
+        "bytes": 116
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 0,
+      "primitives": 1,
+      "triangles": 1,
+      "hasUVs": false,
+      "hasBaseColourTexture": false,
+      "skinned": false,
+      "morphTargets": true
+    }
+  }
+}

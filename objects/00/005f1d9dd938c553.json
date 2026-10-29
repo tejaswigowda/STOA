@@ -1,0 +1,51 @@
+{
+  "id": "005f1d9dd938c553",
+  "id_method": "primary-file-sha256",
+  "title": "MorphStressTest",
+  "status": "refused",
+  "refusal": {
+    "reason": "morph-targets",
+    "detail": "SEG: meshes with morph targets are not supported",
+    "decided_by": "seg",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/MorphStressTest/glTF-Binary/MorphStressTest.glb",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/MorphStressTest/glTF-Binary/MorphStressTest.glb",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "005f1d9dd938c553a506d6bf3d21830fc3f2ec3a199d9332e9a625baf7342bef",
+    "bytes": 575900,
+    "licence": "CC BY 4.0",
+    "attribution": "Copyright 2021 Analytical Graphics, Inc. CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/ Model and textures by Ed Mackey.",
+    "name": "MorphStressTest.glb",
+    "files": [
+      {
+        "path": "2.0/MorphStressTest/glTF-Binary/MorphStressTest.glb",
+        "sha256": "005f1d9dd938c553a506d6bf3d21830fc3f2ec3a199d9332e9a625baf7342bef",
+        "bytes": 575900
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 2,
+      "primitives": 2,
+      "triangles": 2412,
+      "hasUVs": true,
+      "hasBaseColourTexture": true,
+      "skinned": false,
+      "morphTargets": true
+    }
+  }
+}

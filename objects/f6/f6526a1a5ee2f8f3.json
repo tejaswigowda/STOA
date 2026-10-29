@@ -1,0 +1,61 @@
+{
+  "id": "f6526a1a5ee2f8f3",
+  "id_method": "primary-file-sha256",
+  "title": "TransmissionSuzanne",
+  "status": "no-evidence",
+  "refusal": {
+    "reason": "no base-colour texture",
+    "detail": "UVs: yes; base-colour texture: no; materials: 1",
+    "decided_by": "triage",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/TransmissionSuzanne/glTF/TransmissionSuzanne.gltf",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/TransmissionSuzanne/glTF/TransmissionSuzanne.gltf",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "f6526a1a5ee2f8f315469e97e8029751054bcef8113a66636f988ee9585bf687",
+    "bytes": 3937,
+    "licence": "CC BY 4.0",
+    "attribution": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/ Model and textures by UX3D GmbH",
+    "name": "TransmissionSuzanne.gltf",
+    "files": [
+      {
+        "path": "2.0/TransmissionSuzanne/glTF/TransmissionSuzanne.gltf",
+        "sha256": "f6526a1a5ee2f8f315469e97e8029751054bcef8113a66636f988ee9585bf687",
+        "bytes": 3937
+      },
+      {
+        "path": "2.0/TransmissionSuzanne/glTF/ThicknessMap.png",
+        "sha256": "74936fef1b4ba04b2eaf7c8bebad9498cd80dab9f29a8709f83c1d57bfdcdeff",
+        "bytes": 153733
+      },
+      {
+        "path": "2.0/TransmissionSuzanne/glTF/TransmissionSuzanne.bin",
+        "sha256": "aab742cee2ec8e713629f157cd17502e2845fd2958c576d92a5450ed8cadd4d4",
+        "bytes": 468480
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "triangles": 18608,
+      "hasUVs": true,
+      "hasBaseColourTexture": false,
+      "skinned": false,
+      "morphTargets": false
+    }
+  }
+}

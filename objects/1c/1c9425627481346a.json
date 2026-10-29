@@ -1,0 +1,51 @@
+{
+  "id": "1c9425627481346a",
+  "id_method": "primary-file-sha256",
+  "title": "SimpleInstancing",
+  "status": "no-evidence",
+  "refusal": {
+    "reason": "no UVs",
+    "detail": "UVs: no; base-colour texture: no; materials: 0",
+    "decided_by": "triage",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/SimpleInstancing/glTF-Binary/SimpleInstancing.glb",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/SimpleInstancing/glTF-Binary/SimpleInstancing.glb",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "1c9425627481346a8c226118f7000db7cd7f80198e9f54331f8b664d16726f3f",
+    "bytes": 7356,
+    "licence": "CC0 1.0",
+    "attribution": "Public domain (CC0)",
+    "name": "SimpleInstancing.glb",
+    "files": [
+      {
+        "path": "2.0/SimpleInstancing/glTF-Binary/SimpleInstancing.glb",
+        "sha256": "1c9425627481346a8c226118f7000db7cd7f80198e9f54331f8b664d16726f3f",
+        "bytes": 7356
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 0,
+      "primitives": 1,
+      "triangles": 12,
+      "hasUVs": false,
+      "hasBaseColourTexture": false,
+      "skinned": false,
+      "morphTargets": false
+    }
+  }
+}

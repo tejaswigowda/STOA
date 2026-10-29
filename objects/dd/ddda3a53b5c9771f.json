@@ -1,0 +1,53 @@
+{
+  "id": "ddda3a53b5c9771f",
+  "id_method": "primary-file-sha256",
+  "title": "BrainStem",
+  "status": "no-evidence",
+  "refusal": {
+    "reason": "no UVs",
+    "detail": "UVs: no; base-colour texture: no; materials: 59",
+    "decided_by": "triage",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/BrainStem/glTF-Binary/BrainStem.glb",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/BrainStem/glTF-Binary/BrainStem.glb",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "ddda3a53b5c9771f992463034a430340ba2bac571e5869c723f7cba4976e9174",
+    "bytes": 3194848,
+    "licence": "Poser Pro EULA, clause (g) of “Legitimate Uses”",
+    "licence_url": "http://producturlsupport.com/cgi-bin/cscgi.pl?f=info&p=PSXNEULA",
+    "licence_note": "Proprietary: owned by Smith Micro Software, Inc. The licence text is not bundled because it is not ours to redistribute.",
+    "attribution": "BrainStem model created by Keith Hunter and owned by Smith Micro Software, Inc. Exported from Poser and made available under clause (g) of “Legitimate Uses” as defined by the Poser Pro EULA.",
+    "name": "BrainStem.glb",
+    "files": [
+      {
+        "path": "2.0/BrainStem/glTF-Binary/BrainStem.glb",
+        "sha256": "ddda3a53b5c9771f992463034a430340ba2bac571e5869c723f7cba4976e9174",
+        "bytes": 3194848
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 59,
+      "primitives": 59,
+      "triangles": 61666,
+      "hasUVs": false,
+      "hasBaseColourTexture": false,
+      "skinned": true,
+      "morphTargets": false
+    }
+  }
+}

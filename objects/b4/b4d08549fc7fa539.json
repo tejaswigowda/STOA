@@ -1,0 +1,51 @@
+{
+  "id": "b4d08549fc7fa539",
+  "id_method": "primary-file-sha256",
+  "title": "ClearCoatCarPaint",
+  "status": "no-evidence",
+  "refusal": {
+    "reason": "no base-colour texture",
+    "detail": "UVs: yes; base-colour texture: no; materials: 1",
+    "decided_by": "triage",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/ClearCoatCarPaint/glTF-Binary/ClearCoatCarPaint.glb",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/ClearCoatCarPaint/glTF-Binary/ClearCoatCarPaint.glb",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "b4d08549fc7fa539664791dc8060347be5eb7ba77f75db1262abfece7d698ddd",
+    "bytes": 122024,
+    "licence": "CC0 1.0",
+    "attribution": "CC0, No Rights Reserved, https://creativecommons.org/share-your-work/public-domain/cc0/. Model and texture created by Eric Chadwick.",
+    "name": "ClearCoatCarPaint.glb",
+    "files": [
+      {
+        "path": "2.0/ClearCoatCarPaint/glTF-Binary/ClearCoatCarPaint.glb",
+        "sha256": "b4d08549fc7fa539664791dc8060347be5eb7ba77f75db1262abfece7d698ddd",
+        "bytes": 122024
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "triangles": 3072,
+      "hasUVs": true,
+      "hasBaseColourTexture": false,
+      "skinned": false,
+      "morphTargets": false
+    }
+  }
+}

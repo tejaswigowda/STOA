@@ -1,0 +1,61 @@
+{
+  "id": "4f444aa3a95d0183",
+  "id_method": "primary-file-sha256",
+  "title": "AnimatedTriangle",
+  "status": "no-evidence",
+  "refusal": {
+    "reason": "no UVs",
+    "detail": "UVs: no; base-colour texture: no; materials: 0",
+    "decided_by": "triage",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/AnimatedTriangle/glTF/AnimatedTriangle.gltf",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/AnimatedTriangle/glTF/AnimatedTriangle.gltf",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "4f444aa3a95d0183089b756f425144965f5748abf5b5aaaa1335e41b6c5e1b89",
+    "bytes": 2061,
+    "licence": "CC0 1.0",
+    "attribution": "Public domain (CC0)",
+    "name": "AnimatedTriangle.gltf",
+    "files": [
+      {
+        "path": "2.0/AnimatedTriangle/glTF/AnimatedTriangle.gltf",
+        "sha256": "4f444aa3a95d0183089b756f425144965f5748abf5b5aaaa1335e41b6c5e1b89",
+        "bytes": 2061
+      },
+      {
+        "path": "2.0/AnimatedTriangle/glTF/animation.bin",
+        "sha256": "ec3bdaac71a222034affffef8a9ec531563bc02a3720e513cd8bf852e270f99b",
+        "bytes": 100
+      },
+      {
+        "path": "2.0/AnimatedTriangle/glTF/simpleTriangle.bin",
+        "sha256": "898ed7f560dca9907a80c98be57fbbc0f3a092d2e3683b964ffcfa75c549ac62",
+        "bytes": 44
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 0,
+      "primitives": 1,
+      "triangles": 1,
+      "hasUVs": false,
+      "hasBaseColourTexture": false,
+      "skinned": false,
+      "morphTargets": false
+    }
+  }
+}

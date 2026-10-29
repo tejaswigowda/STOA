@@ -1,0 +1,76 @@
+{
+  "id": "c3bf64aaec344d3c",
+  "id_method": "primary-file-sha256",
+  "title": "ClearcoatRing",
+  "status": "no-evidence",
+  "refusal": {
+    "reason": "no base-colour texture",
+    "detail": "UVs: yes; base-colour texture: no; materials: 2",
+    "decided_by": "triage",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/ClearcoatRing/glTF/ClearcoatRing.gltf",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/ClearcoatRing/glTF/ClearcoatRing.gltf",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "c3bf64aaec344d3c21eb41cfd9a6a7cd059b933f8e56cafd42cb1bb8012ea5b0",
+    "bytes": 5958,
+    "licence": "CC BY 4.0",
+    "attribution": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/ Model and textures by UX3D GmbH",
+    "name": "ClearcoatRing.gltf",
+    "files": [
+      {
+        "path": "2.0/ClearcoatRing/glTF/ClearcoatRing.gltf",
+        "sha256": "c3bf64aaec344d3c21eb41cfd9a6a7cd059b933f8e56cafd42cb1bb8012ea5b0",
+        "bytes": 5958
+      },
+      {
+        "path": "2.0/ClearcoatRing/glTF/Carbon_normal.png",
+        "sha256": "e41706a76f50f610ffcc9ef0ff0240cfaf686f14a0ee6a348f076052f509e3f4",
+        "bytes": 12520770
+      },
+      {
+        "path": "2.0/ClearcoatRing/glTF/Carbon_occlusionRoughnessMetallic.png",
+        "sha256": "bdf32c277e5a7de884df216ae1b52a9db3d36bec18e81d2ff12ce48debc83959",
+        "bytes": 1579843
+      },
+      {
+        "path": "2.0/ClearcoatRing/glTF/ClearcoatRing.bin",
+        "sha256": "3fbcb5b4a6c06db530e2d0630eb2ed50760ef8fcb568814a295f2fd4514160b1",
+        "bytes": 265984
+      },
+      {
+        "path": "2.0/ClearcoatRing/glTF/Titan_normal.png",
+        "sha256": "1b0d07453c788ed8ab7ad5683949203e73bc00ddb22897c988f3ce8a54403483",
+        "bytes": 569058
+      },
+      {
+        "path": "2.0/ClearcoatRing/glTF/Titan_occlusionRoughnessMetallic.png",
+        "sha256": "97811792e650b6161348c8e080314765980a052c43eccf64e1eda720fd5f4d85",
+        "bytes": 5357
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 2,
+      "materials": 2,
+      "primitives": 2,
+      "triangles": 8640,
+      "hasUVs": true,
+      "hasBaseColourTexture": false,
+      "skinned": false,
+      "morphTargets": false
+    }
+  }
+}

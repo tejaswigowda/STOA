@@ -1,0 +1,56 @@
+{
+  "id": "f7734ca37e148bcb",
+  "id_method": "primary-file-sha256",
+  "title": "ClearcoatSphere",
+  "status": "no-evidence",
+  "refusal": {
+    "reason": "no base-colour texture",
+    "detail": "UVs: yes; base-colour texture: no; materials: 1",
+    "decided_by": "triage",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/ClearcoatSphere/glTF/ClearcoatSphere.gltf",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/ClearcoatSphere/glTF/ClearcoatSphere.gltf",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "f7734ca37e148bcb011c08b8f0f507786e1863c11d38a9b6fa62943d36fa226c",
+    "bytes": 3847,
+    "licence": "CC BY 4.0",
+    "attribution": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/ Model and textures by UX3D GmbH",
+    "name": "ClearcoatSphere.gltf",
+    "files": [
+      {
+        "path": "2.0/ClearcoatSphere/glTF/ClearcoatSphere.gltf",
+        "sha256": "f7734ca37e148bcb011c08b8f0f507786e1863c11d38a9b6fa62943d36fa226c",
+        "bytes": 3847
+      },
+      {
+        "path": "2.0/ClearcoatSphere/glTF/ClearcoatSphere.bin",
+        "sha256": "b40e5a5ac32c20d38918d28f619170870cc7adcefc10b2d1cc455da5434337b6",
+        "bytes": 103776
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "triangles": 3968,
+      "hasUVs": true,
+      "hasBaseColourTexture": false,
+      "skinned": false,
+      "morphTargets": false
+    }
+  }
+}

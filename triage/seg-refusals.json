@@ -1,0 +1,146 @@
+{
+  "seg_version": "1.6.0",
+  "source": "SEG.wouldRefuse, no plan: what is wrong with the mesh itself",
+  "models": {
+    "AnimatedMorphCube": {
+      "meshes": 1,
+      "refused": {
+        "reason": "morph-targets",
+        "detail": "SEG: meshes with morph targets are not supported",
+        "meshes_refused": 1
+      }
+    },
+    "AnimatedMorphSphere": {
+      "meshes": 1,
+      "refused": {
+        "reason": "morph-targets",
+        "detail": "SEG: meshes with morph targets are not supported",
+        "meshes_refused": 1
+      }
+    },
+    "AnimatedTriangle": {
+      "meshes": 1,
+      "refused": null
+    },
+    "Box": {
+      "meshes": 1,
+      "refused": null
+    },
+    "BoxInterleaved": {
+      "meshes": 1,
+      "refused": null
+    },
+    "BoxVertexColors": {
+      "meshes": 1,
+      "refused": null
+    },
+    "BrainStem": {
+      "meshes": 59,
+      "refused": null
+    },
+    "Cameras": {
+      "meshes": 1,
+      "refused": null
+    },
+    "CarbonFibre": {
+      "meshes": 1,
+      "refused": null
+    },
+    "CesiumMan": {
+      "meshes": 1,
+      "refused": null
+    },
+    "ClearCoatCarPaint": {
+      "meshes": 1,
+      "refused": null
+    },
+    "ClearcoatRing": {
+      "meshes": 2,
+      "refused": null
+    },
+    "ClearcoatSphere": {
+      "meshes": 1,
+      "refused": null
+    },
+    "Fox": {
+      "meshes": 1,
+      "refused": null
+    },
+    "MorphPrimitivesTest": {
+      "meshes": 2,
+      "refused": {
+        "reason": "morph-targets",
+        "detail": "SEG: meshes with morph targets are not supported",
+        "meshes_refused": 2
+      }
+    },
+    "MorphStressTest": {
+      "meshes": 2,
+      "refused": {
+        "reason": "morph-targets",
+        "detail": "SEG: meshes with morph targets are not supported",
+        "meshes_refused": 2
+      }
+    },
+    "MultipleScenes": {
+      "meshes": 1,
+      "refused": null
+    },
+    "RecursiveSkeletons": {
+      "meshes": 84,
+      "refused": null
+    },
+    "RiggedFigure": {
+      "meshes": 1,
+      "refused": null
+    },
+    "RiggedSimple": {
+      "meshes": 1,
+      "refused": null
+    },
+    "SimpleInstancing": {
+      "meshes": 1,
+      "refused": null
+    },
+    "SimpleMeshes": {
+      "meshes": 2,
+      "refused": null
+    },
+    "SimpleMorph": {
+      "meshes": 1,
+      "refused": {
+        "reason": "morph-targets",
+        "detail": "SEG: meshes with morph targets are not supported",
+        "meshes_refused": 1
+      }
+    },
+    "SimpleSkin": {
+      "meshes": 1,
+      "refused": null
+    },
+    "SimpleSparseAccessor": {
+      "meshes": 1,
+      "refused": null
+    },
+    "SuzanneMorphSparse": {
+      "meshes": 1,
+      "refused": {
+        "reason": "morph-targets",
+        "detail": "SEG: meshes with morph targets are not supported",
+        "meshes_refused": 1
+      }
+    },
+    "TransmissionSuzanne": {
+      "meshes": 1,
+      "refused": null
+    },
+    "Triangle": {
+      "meshes": 1,
+      "refused": null
+    },
+    "TriangleWithoutIndices": {
+      "meshes": 1,
+      "refused": null
+    }
+  }
+}

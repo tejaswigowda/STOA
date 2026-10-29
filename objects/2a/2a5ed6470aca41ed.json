@@ -1,0 +1,51 @@
+{
+  "id": "2a5ed6470aca41ed",
+  "id_method": "primary-file-sha256",
+  "title": "MorphPrimitivesTest",
+  "status": "refused",
+  "refusal": {
+    "reason": "morph-targets",
+    "detail": "SEG: meshes with morph targets are not supported",
+    "decided_by": "seg",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/MorphPrimitivesTest/glTF-Binary/MorphPrimitivesTest.glb",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/MorphPrimitivesTest/glTF-Binary/MorphPrimitivesTest.glb",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "2a5ed6470aca41edc813ef5b7eecf2af53264d8e0ab9e6f32156d54245ca18cf",
+    "bytes": 53656,
+    "licence": "CC BY 4.0",
+    "attribution": "Model by @ft-lab. CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+    "name": "MorphPrimitivesTest.glb",
+    "files": [
+      {
+        "path": "2.0/MorphPrimitivesTest/glTF-Binary/MorphPrimitivesTest.glb",
+        "sha256": "2a5ed6470aca41edc813ef5b7eecf2af53264d8e0ab9e6f32156d54245ca18cf",
+        "bytes": 53656
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 2,
+      "primitives": 2,
+      "triangles": 32,
+      "hasUVs": true,
+      "hasBaseColourTexture": true,
+      "skinned": false,
+      "morphTargets": true
+    }
+  }
+}

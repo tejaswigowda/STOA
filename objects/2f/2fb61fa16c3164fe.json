@@ -1,0 +1,56 @@
+{
+  "id": "2fb61fa16c3164fe",
+  "id_method": "primary-file-sha256",
+  "title": "TriangleWithoutIndices",
+  "status": "no-evidence",
+  "refusal": {
+    "reason": "no UVs",
+    "detail": "UVs: no; base-colour texture: no; materials: 0",
+    "decided_by": "triage",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/TriangleWithoutIndices/glTF/TriangleWithoutIndices.gltf",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/TriangleWithoutIndices/glTF/TriangleWithoutIndices.gltf",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "2fb61fa16c3164fe56879e3e3ef3e49903768201777be37394f5be167514778d",
+    "bytes": 802,
+    "licence": "CC0 1.0",
+    "attribution": "Public domain (CC0)",
+    "name": "TriangleWithoutIndices.gltf",
+    "files": [
+      {
+        "path": "2.0/TriangleWithoutIndices/glTF/TriangleWithoutIndices.gltf",
+        "sha256": "2fb61fa16c3164fe56879e3e3ef3e49903768201777be37394f5be167514778d",
+        "bytes": 802
+      },
+      {
+        "path": "2.0/TriangleWithoutIndices/glTF/triangleWithoutIndices.bin",
+        "sha256": "d8b87038ed2ace74ed183166f6b0a541eab77f7184d50e65edc4bca5ccb5445a",
+        "bytes": 36
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 0,
+      "primitives": 1,
+      "triangles": 1,
+      "hasUVs": false,
+      "hasBaseColourTexture": false,
+      "skinned": false,
+      "morphTargets": false
+    }
+  }
+}

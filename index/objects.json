@@ -1,1 +1,380 @@
-[]
+[
+  {
+    "id": "005f1d9dd938c553",
+    "path": "objects/00/005f1d9dd938c553.json",
+    "title": "MorphStressTest",
+    "source": {
+      "name": "MorphStressTest.glb",
+      "licence": "CC BY 4.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "refused",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "0e74c08e6f26778d",
+    "path": "objects/0e/0e74c08e6f26778d.json",
+    "title": "SimpleSparseAccessor",
+    "source": {
+      "name": "SimpleSparseAccessor.gltf",
+      "licence": "CC0 1.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "15fb11ee4d3b3173",
+    "path": "objects/15/15fb11ee4d3b3173.json",
+    "title": "RecursiveSkeletons",
+    "source": {
+      "name": "RecursiveSkeletons.glb",
+      "licence": "CC BY 4.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "1c9425627481346a",
+    "path": "objects/1c/1c9425627481346a.json",
+    "title": "SimpleInstancing",
+    "source": {
+      "name": "SimpleInstancing.glb",
+      "licence": "CC0 1.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "214ee56160a50dbf",
+    "path": "objects/21/214ee56160a50dbf.json",
+    "title": "AnimatedMorphCube",
+    "source": {
+      "name": "AnimatedMorphCube.glb",
+      "licence": "CC0 1.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "refused",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "2a5ed6470aca41ed",
+    "path": "objects/2a/2a5ed6470aca41ed.json",
+    "title": "MorphPrimitivesTest",
+    "source": {
+      "name": "MorphPrimitivesTest.glb",
+      "licence": "CC BY 4.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "refused",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "2fb61fa16c3164fe",
+    "path": "objects/2f/2fb61fa16c3164fe.json",
+    "title": "TriangleWithoutIndices",
+    "source": {
+      "name": "TriangleWithoutIndices.gltf",
+      "licence": "CC0 1.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "3a79dabb67bb0cd5",
+    "path": "objects/3a/3a79dabb67bb0cd5.json",
+    "title": "RiggedSimple",
+    "source": {
+      "name": "RiggedSimple.glb",
+      "licence": "CC BY 4.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "4f444aa3a95d0183",
+    "path": "objects/4f/4f444aa3a95d0183.json",
+    "title": "AnimatedTriangle",
+    "source": {
+      "name": "AnimatedTriangle.gltf",
+      "licence": "CC0 1.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "5831e35d46da6c39",
+    "path": "objects/58/5831e35d46da6c39.json",
+    "title": "SimpleMeshes",
+    "source": {
+      "name": "SimpleMeshes.gltf",
+      "licence": "CC0 1.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "63817cbfa21d7f26",
+    "path": "objects/63/63817cbfa21d7f26.json",
+    "title": "SuzanneMorphSparse",
+    "source": {
+      "name": "SuzanneMorphSparse.glb",
+      "licence": null
+    },
+    "parts": null,
+    "classes": [],
+    "status": "refused",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "65fdb0963348b3b4",
+    "path": "objects/65/65fdb0963348b3b4.json",
+    "title": "MultipleScenes",
+    "source": {
+      "name": "MultipleScenes.gltf",
+      "licence": "CC0 1.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "697877bac2e295f3",
+    "path": "objects/69/697877bac2e295f3.json",
+    "title": "Cameras",
+    "source": {
+      "name": "Cameras.gltf",
+      "licence": "CC0 1.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "76cd3221b5887243",
+    "path": "objects/76/76cd3221b5887243.json",
+    "title": "SimpleSkin",
+    "source": {
+      "name": "SimpleSkin.gltf",
+      "licence": "CC0 1.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "9c48227f33b0ba2f",
+    "path": "objects/9c/9c48227f33b0ba2f.json",
+    "title": "BoxVertexColors",
+    "source": {
+      "name": "BoxVertexColors.glb",
+      "licence": "CC0 1.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "aec4aaad5a49e735",
+    "path": "objects/ae/aec4aaad5a49e735.json",
+    "title": "SimpleMorph",
+    "source": {
+      "name": "SimpleMorph.gltf",
+      "licence": "CC0 1.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "refused",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "b2ae631f118f1d13",
+    "path": "objects/b2/b2ae631f118f1d13.json",
+    "title": "BoxInterleaved",
+    "source": {
+      "name": "BoxInterleaved.glb",
+      "licence": "CC BY 4.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "b4d08549fc7fa539",
+    "path": "objects/b4/b4d08549fc7fa539.json",
+    "title": "ClearCoatCarPaint",
+    "source": {
+      "name": "ClearCoatCarPaint.glb",
+      "licence": "CC0 1.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "bb510db3bc8cac3a",
+    "path": "objects/bb/bb510db3bc8cac3a.json",
+    "title": "Triangle",
+    "source": {
+      "name": "Triangle.gltf",
+      "licence": "CC0 1.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "c3bf64aaec344d3c",
+    "path": "objects/c3/c3bf64aaec344d3c.json",
+    "title": "ClearcoatRing",
+    "source": {
+      "name": "ClearcoatRing.gltf",
+      "licence": "CC BY 4.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "d16cd9a8a46319d0",
+    "path": "objects/d1/d16cd9a8a46319d0.json",
+    "title": "CarbonFibre",
+    "source": {
+      "name": "CarbonFibre.glb",
+      "licence": "CC BY 4.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "d6be85417d3e2568",
+    "path": "objects/d6/d6be85417d3e2568.json",
+    "title": "RiggedFigure",
+    "source": {
+      "name": "RiggedFigure.glb",
+      "licence": "CC BY 4.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "ddda3a53b5c9771f",
+    "path": "objects/dd/ddda3a53b5c9771f.json",
+    "title": "BrainStem",
+    "source": {
+      "name": "BrainStem.glb",
+      "licence": "Poser Pro EULA, clause (g) of “Legitimate Uses”"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "ed52f7192b8311d7",
+    "path": "objects/ed/ed52f7192b8311d7.json",
+    "title": "Box",
+    "source": {
+      "name": "Box.glb",
+      "licence": "CC BY 4.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "eda89538fdada0ff",
+    "path": "objects/ed/eda89538fdada0ff.json",
+    "title": "AnimatedMorphSphere",
+    "source": {
+      "name": "AnimatedMorphSphere.glb",
+      "licence": "CC0 1.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "refused",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "f6526a1a5ee2f8f3",
+    "path": "objects/f6/f6526a1a5ee2f8f3.json",
+    "title": "TransmissionSuzanne",
+    "source": {
+      "name": "TransmissionSuzanne.gltf",
+      "licence": "CC BY 4.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  },
+  {
+    "id": "f7734ca37e148bcb",
+    "path": "objects/f7/f7734ca37e148bcb.json",
+    "title": "ClearcoatSphere",
+    "source": {
+      "name": "ClearcoatSphere.gltf",
+      "licence": "CC BY 4.0"
+    },
+    "parts": null,
+    "classes": [],
+    "status": "no-evidence",
+    "reviews": 0,
+    "ground_truth": false
+  }
+]

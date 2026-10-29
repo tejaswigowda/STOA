@@ -1,0 +1,56 @@
+{
+  "id": "697877bac2e295f3",
+  "id_method": "primary-file-sha256",
+  "title": "Cameras",
+  "status": "no-evidence",
+  "refusal": {
+    "reason": "no UVs",
+    "detail": "UVs: no; base-colour texture: no; materials: 0",
+    "decided_by": "triage",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/Cameras/glTF/Cameras.gltf",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/Cameras/glTF/Cameras.gltf",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "697877bac2e295f337e29222ee86c8daefe7a5e06c81f4db08de6f569d1bc60b",
+    "bytes": 1689,
+    "licence": "CC0 1.0",
+    "attribution": "Public domain (CC0)",
+    "name": "Cameras.gltf",
+    "files": [
+      {
+        "path": "2.0/Cameras/glTF/Cameras.gltf",
+        "sha256": "697877bac2e295f337e29222ee86c8daefe7a5e06c81f4db08de6f569d1bc60b",
+        "bytes": 1689
+      },
+      {
+        "path": "2.0/Cameras/glTF/simpleSquare.bin",
+        "sha256": "2d73fc484aab11784e8773862e69b28cb7e0d7d1aadac6032ceea7c490cfd15e",
+        "bytes": 60
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 0,
+      "primitives": 1,
+      "triangles": 2,
+      "hasUVs": false,
+      "hasBaseColourTexture": false,
+      "skinned": false,
+      "morphTargets": false
+    }
+  }
+}

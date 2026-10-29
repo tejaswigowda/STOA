@@ -1,0 +1,71 @@
+{
+  "id": "76cd3221b5887243",
+  "id_method": "primary-file-sha256",
+  "title": "SimpleSkin",
+  "status": "no-evidence",
+  "refusal": {
+    "reason": "no UVs",
+    "detail": "UVs: no; base-colour texture: no; materials: 0",
+    "decided_by": "triage",
+    "seg_version": "1.6.0"
+  },
+  "parts": null,
+  "source": {
+    "url": "https://raw.githubusercontent.com/KhronosGroupArchives/glTF-Sample-Models/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/SimpleSkin/glTF/SimpleSkin.gltf",
+    "page": "https://github.com/KhronosGroupArchives/glTF-Sample-Models/blob/d7a3cc8e51d7c573771ae77a57f16b0662a905c6/2.0/SimpleSkin/glTF/SimpleSkin.gltf",
+    "commit": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "sha256": "76cd3221b5887243d3176c8c6a9b24e952a7f1fc5dda33d1c0602b3bc669194e",
+    "bytes": 2480,
+    "licence": "CC0 1.0",
+    "attribution": "Public domain (CC0)",
+    "name": "SimpleSkin.gltf",
+    "files": [
+      {
+        "path": "2.0/SimpleSkin/glTF/SimpleSkin.gltf",
+        "sha256": "76cd3221b5887243d3176c8c6a9b24e952a7f1fc5dda33d1c0602b3bc669194e",
+        "bytes": 2480
+      },
+      {
+        "path": "2.0/SimpleSkin/glTF/inverseBindMatrices.bin",
+        "sha256": "5844ab221cd2ad367420a248f6387b46e5f8498604427730a37ee96b4d4ec599",
+        "bytes": 128
+      },
+      {
+        "path": "2.0/SimpleSkin/glTF/skinAnimation.bin",
+        "sha256": "ff21b1bc3d0abbe53f7665060ec6c22d873b6e85a7669171a2b6b8ae01c39347",
+        "bytes": 240
+      },
+      {
+        "path": "2.0/SimpleSkin/glTF/skinGeometry.bin",
+        "sha256": "35f0ca6bc07976c0aadc163d4737758989cfcc9870a99800004c4478fe698b63",
+        "bytes": 168
+      },
+      {
+        "path": "2.0/SimpleSkin/glTF/skinningData.bin",
+        "sha256": "413bc8a8c0da673df767874e6f05f0b00c9261756a08586b9d555bd5535414b5",
+        "bytes": 320
+      }
+    ]
+  },
+  "modifications": [
+    "None. No segmentation was made: the asset is recorded so that the denominator is complete."
+  ],
+  "packaging": "none",
+  "verification": {
+    "status": "seeded",
+    "reviews": []
+  },
+  "triage": {
+    "source": "KhronosGroupArchives/glTF-Sample-Models@d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+    "facts": {
+      "meshes": 1,
+      "materials": 0,
+      "primitives": 1,
+      "triangles": 8,
+      "hasUVs": false,
+      "hasBaseColourTexture": false,
+      "skinned": true,
+      "morphTargets": false
+    }
+  }
+}

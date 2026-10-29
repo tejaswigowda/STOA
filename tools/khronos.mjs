@@ -28,6 +28,6 @@ export async function loadCanonicalGlb(triage, model) {
   if (row.format === "glb") return { row, glb: bytes };
   const dir = path.posix.dirname(row.path);
   const { glb } = await packToGlb(JSON.parse(bytes.toString("utf8")), (uri) => fetchPinned(triage.source, `${dir}/${uri}`));
-  if (sha256(glb) !== row.packed.sha256) throw new Error(`${row.path}: packed hash differs from triage`);
+  if (sha256(glb) !== row.source.packed.sha256) throw new Error(`${row.path}: packed hash differs from triage`);
   return { row, glb };
 }
