@@ -1,0 +1,23 @@
+{
+  "_comment": "Curated, not derived: feature tests whose part names are descriptive but not inferable from shape. Excluded from naming scoring (recovery work order A). Everything else is tiered by nameQuality in tools/enumerate-khronos.mjs.",
+  "threshold_note": "tier C when nameQuality < 0.5 or parts < 2",
+  "featureTests": [
+    "AlphaBlendModeTest",
+    "AttenuationTest",
+    "ClearCoatTest",
+    "EnvironmentTest",
+    "MeshPrimitiveModes",
+    "MetalRoughSpheres",
+    "NegativeScaleTest",
+    "OrientationTest",
+    "SpecularTest",
+    "TextureCoordinateTest",
+    "TextureSettingsTest",
+    "TextureTransformMultiTest",
+    "TextureTransformTest",
+    "TransmissionRoughnessTest",
+    "TransmissionTest",
+    "UnlitTest",
+    "VertexColorTest"
+  ]
+}

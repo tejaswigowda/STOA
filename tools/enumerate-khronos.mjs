@@ -11,7 +11,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import {
-  assertPackPreserved, classify, fetchBytes, idFromSha256, mapLimit, packToGlb, parseGlb, sha256, summarise,
+  assertPackPreserved, classify, fetchBytes, idFromSha256, mapLimit, packToGlb, parseGlb, sha256, summarise, tierGroundTruth,
 } from "./lib.mjs";
 
 const REPO = "KhronosGroupArchives/glTF-Sample-Models";
@@ -23,6 +23,7 @@ const opt = (name, dflt) => {
 };
 const outPath = opt("out", "triage/khronos-2.0.json");
 const cacheDir = ".cache/khronos";
+const featureTests = new Set(JSON.parse(await readFile("triage/feature-tests.json", "utf8")).featureTests);
 
 const api = async (p) => {
   const headers = { "user-agent": "stoa-tools", accept: "application/vnd.github+json" };
@@ -75,6 +76,7 @@ async function analyse(f) {
   Object.assign(row, { facts: { ...facts, partNames: undefined, partNameCount: facts.partNames.length } });
   Object.assign(row, classify(facts));
   row.partNames = facts.partNames;
+  if (row.bucket === "ground-truth") Object.assign(row, tierGroundTruth(facts.partNames, f.model, featureTests));
 
   if (row.canonical && f.ext === "gltf") {
     const dir = path.posix.dirname(f.path);
@@ -106,6 +108,8 @@ const out = {
     errors: assets.filter((r) => r.error).length,
     canonical_by_bucket: Object.fromEntries(Object.entries(count(canon.filter((r) => !r.error), (r) => r.bucket)).sort()),
     refusals_by_reason: Object.fromEntries(Object.entries(count(canon.filter((r) => r.reason), (r) => r.reason)).sort()),
+    ground_truth_tiers: Object.fromEntries(Object.entries(count(canon.filter((r) => r.tier), (r) => r.tier)).sort()),
+    tier_a_parts: canon.filter((r) => r.tier === "A").reduce((a, r) => a + r.parts, 0),
     gltf_only_packed: canon.filter((r) => r.packed).map((r) => r.model),
   },
   assets,

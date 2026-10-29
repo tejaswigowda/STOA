@@ -41,7 +41,9 @@ Node 22, no dependencies.
     node tools/enumerate-khronos.mjs   triage every .glb/.gltf in KhronosGroupArchives/glTF-Sample-Models/2.0
     node tools/build-index.mjs         regenerate index/ (--check to verify, --worktree for uncommitted records)
     node tools/verify-sources.mjs      S1 id == sha256(source)[:16]; S4 re-fetch every source and compare (--offline for S1 only)
-    node --test tools/stoa.test.mjs
+    node tools/flatten.mjs <model|file.glb> [--mode materials|single] | --all   flatten to one mesh + key.json (.cache/flatten/)
+    node tools/score.mjs --dir <flatten dir> --recovered recovered.json         structural recovery scoring -> JSONL
+    node --test tools/*.test.mjs
 
 `build-index.mjs` reads the committed tree (`git ls-tree -r HEAD`), so commit
 records before regenerating the index.
@@ -54,3 +56,26 @@ texture, bytes and sha256, plus a bucket per model (`ground-truth`, `hard`,
 `no-evidence`, `refused`). glTF-only models (e.g. FlightHelmet) are packed to
 `.glb` in memory with a before/after check on meshes, materials, primitives,
 nodes, triangles and part names.
+
+Ground-truth models also carry a `tier` (A: author-meaningful names, B: feature
+test, C: generic names or < 2 parts) and `nameQuality`, the fraction of part
+names that are not generic, numbered or parametric. C is derived (quality below
+0.5 or fewer than 2 parts); B is the curated list in
+[triage/feature-tests.json](triage/feature-tests.json), because "descriptive
+but not inferable from shape" cannot be computed. Tier A is 21 models, 282
+named parts. Naming is scored on Tier A only; structure on all 49.
+
+## Recovery measurement
+
+`flatten.mjs` merges a multi-part asset into one mesh (one primitive per
+material, or one primitive with `--mode single` for one-material assets such as
+Lantern) and writes `key.json`: every original part, by name, with its triangle
+indices into the flattened mesh. Triangle count (exact), surface area and
+bounding box (to float32 precision, 1e-6) are checked before and after. A part
+is a mesh *instance*, so a mesh reused by several nodes yields several parts and
+the flattened triangle count can exceed the triage's per-mesh count.
+
+`score.mjs` computes per-part best IoU over surface area, recovery rate
+(best IoU >= 0.5), part-count ratio and reverse IoU from a `recovered.json`
+(recovered parts as lists of flattened triangle indices). Naming verdicts
+(same / grain / wrong) are left `null` for a judge to fill in.

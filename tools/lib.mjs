@@ -120,6 +120,33 @@ export function classify(s) {
   return { bucket: "no-evidence" };
 }
 
+// ------------------------------------------------------------ ground truth tiers
+
+// Generic (`body_12`, `Cube.001`, `Mesh_7`), numbered (`PART_1`) or parametric
+// (`g_m0%_r16%`) names carry no answer key.
+const GENERIC_NAME = /^(body|mesh|cube|sphere|plane|cylinder|object|box|icosphere|group|node)[\s._-]*\d*([\s._-]*\d+)*$/i;
+const NUMBERED_PART = /(^|[^a-z])part[\s_-]*\d+/i;
+const PARAMETRIC_NAME = /(^|[_\s])m\d+%_r\d+%/i;
+
+export const isMeaningfulName = (n) =>
+  typeof n === "string" && n.trim() !== "" && !GENERIC_NAME.test(n) && !NUMBERED_PART.test(n) && !PARAMETRIC_NAME.test(n);
+
+export const NAME_QUALITY_THRESHOLD = 0.5;
+
+/**
+ * A: real object, author-meaningful names  -> naming and structure scorable
+ * B: feature test (curated list)           -> structure only
+ * C: generic names, or fewer than 2 parts  -> structure only, no naming key
+ * `featureTests` is the curated set of model names that are tests, not objects:
+ * names descriptive but not inferable from shape cannot be derived from the data.
+ */
+export function tierGroundTruth(partNames, model, featureTests) {
+  const meaningful = partNames.filter(isMeaningfulName).length;
+  const nameQuality = partNames.length ? Math.round((meaningful / partNames.length) * 1000) / 1000 : 0;
+  const tier = nameQuality < NAME_QUALITY_THRESHOLD || partNames.length < 2 ? "C" : featureTests.has(model) ? "B" : "A";
+  return { tier, parts: partNames.length, meaningfulNames: meaningful, nameQuality, scoreNaming: tier === "A", scoreStructure: true };
+}
+
 // ------------------------------------------------------------------- packing
 
 const MIME = { png: "image/png", jpg: "image/jpeg", jpeg: "image/jpeg", webp: "image/webp", ktx2: "image/ktx2" };

@@ -18,6 +18,12 @@
       "morph-targets": 6,
       "skinned": 7
     },
+    "ground_truth_tiers": {
+      "A": 21,
+      "B": 17,
+      "C": 11
+    },
+    "tier_a_parts": 282,
     "gltf_only_packed": [
       "ABeautifulGame",
       "AnimatedCube",
@@ -106,7 +112,13 @@
         "body_8",
         "body_9",
         "rod_123-699_0_Parts_1"
-      ]
+      ],
+      "tier": "C",
+      "parts": 29,
+      "meaningfulNames": 4,
+      "nameQuality": 0.138,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "2CylinderEngine",
@@ -160,7 +172,13 @@
         "body_8",
         "body_9",
         "rod_123-699_0_Parts_1"
-      ]
+      ],
+      "tier": "C",
+      "parts": 29,
+      "meaningfulNames": 4,
+      "nameQuality": 0.138,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "2CylinderEngine",
@@ -214,7 +232,13 @@
         "body_8",
         "body_9",
         "rod_123-699_0_Parts_1"
-      ]
+      ],
+      "tier": "C",
+      "parts": 29,
+      "meaningfulNames": 4,
+      "nameQuality": 0.138,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "2CylinderEngine",
@@ -268,7 +292,13 @@
         "body_8",
         "body_9",
         "rod_123-699_0_Parts_1"
-      ]
+      ],
+      "tier": "C",
+      "parts": 29,
+      "meaningfulNames": 4,
+      "nameQuality": 0.138,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "ABeautifulGame",
@@ -350,6 +380,12 @@
         "Queen_Shared",
         "Queen_W"
       ],
+      "tier": "A",
+      "parts": 56,
+      "meaningfulNames": 56,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true,
       "packed": {
         "sha256": "1e5854cb3eb37acc62b4f539922ba8ed22c8c19006dfb5e7271112f1cca1daa5",
         "bytes": 29899468,
@@ -397,7 +433,13 @@
         "TestCutoffDefaultMesh",
         "TestOpaque",
         "TestOpaqueMesh"
-      ]
+      ],
+      "tier": "B",
+      "parts": 18,
+      "meaningfulNames": 18,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "AlphaBlendModeTest",
@@ -440,7 +482,13 @@
         "TestCutoffDefaultMesh",
         "TestOpaque",
         "TestOpaqueMesh"
-      ]
+      ],
+      "tier": "B",
+      "parts": 18,
+      "meaningfulNames": 18,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "AlphaBlendModeTest",
@@ -483,7 +531,13 @@
         "TestCutoffDefaultMesh",
         "TestOpaque",
         "TestOpaqueMesh"
-      ]
+      ],
+      "tier": "B",
+      "parts": 18,
+      "meaningfulNames": 18,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "AnimatedCube",
@@ -733,7 +787,13 @@
         "camera_uv",
         "tripod",
         "tripod_uv"
-      ]
+      ],
+      "tier": "A",
+      "parts": 4,
+      "meaningfulNames": 4,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "AntiqueCamera",
@@ -762,7 +822,13 @@
         "camera_uv",
         "tripod",
         "tripod_uv"
-      ]
+      ],
+      "tier": "A",
+      "parts": 4,
+      "meaningfulNames": 4,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "AttenuationTest",
@@ -822,7 +888,13 @@
         "R5_Block_1.0",
         "R5_Block_1.5",
         "R5_Block_2.0"
-      ]
+      ],
+      "tier": "B",
+      "parts": 35,
+      "meaningfulNames": 34,
+      "nameQuality": 0.971,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "AttenuationTest",
@@ -882,7 +954,13 @@
         "R5_Block_1.0",
         "R5_Block_1.5",
         "R5_Block_2.0"
-      ]
+      ],
+      "tier": "B",
+      "parts": 35,
+      "meaningfulNames": 34,
+      "nameQuality": 0.971,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "Avocado",
@@ -1174,6 +1252,12 @@
         "Y_axis",
         "Z_axis"
       ],
+      "tier": "A",
+      "parts": 5,
+      "meaningfulNames": 5,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true,
       "packed": {
         "sha256": "78c9290a2c618b5f0e22fdeaefef179706cd9fbcb337a18a247f34e4c7bd1126",
         "bytes": 9992876,
@@ -1340,7 +1424,13 @@
       "partNames": [
         "inner_box",
         "outer_box"
-      ]
+      ],
+      "tier": "A",
+      "parts": 2,
+      "meaningfulNames": 2,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "BoxAnimated",
@@ -1367,7 +1457,13 @@
       "partNames": [
         "inner_box",
         "outer_box"
-      ]
+      ],
+      "tier": "A",
+      "parts": 2,
+      "meaningfulNames": 2,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "BoxAnimated",
@@ -1394,7 +1490,13 @@
       "partNames": [
         "inner_box",
         "outer_box"
-      ]
+      ],
+      "tier": "A",
+      "parts": 2,
+      "meaningfulNames": 2,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "BoxInterleaved",
@@ -1967,7 +2069,13 @@
         "technic_shaft_x8_SOLIDS_3",
         "x_prt_1_2_a_u_SOLIDS_1",
         "x_prt_1_2_a_u_SOLIDS_3"
-      ]
+      ],
+      "tier": "C",
+      "parts": 109,
+      "meaningfulNames": 34,
+      "nameQuality": 0.312,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "Buggy",
@@ -2101,7 +2209,13 @@
         "technic_shaft_x8_SOLIDS_3",
         "x_prt_1_2_a_u_SOLIDS_1",
         "x_prt_1_2_a_u_SOLIDS_3"
-      ]
+      ],
+      "tier": "C",
+      "parts": 109,
+      "meaningfulNames": 34,
+      "nameQuality": 0.312,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "Buggy",
@@ -2235,7 +2349,13 @@
         "technic_shaft_x8_SOLIDS_3",
         "x_prt_1_2_a_u_SOLIDS_1",
         "x_prt_1_2_a_u_SOLIDS_3"
-      ]
+      ],
+      "tier": "C",
+      "parts": 109,
+      "meaningfulNames": 34,
+      "nameQuality": 0.312,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "Buggy",
@@ -2369,7 +2489,13 @@
         "technic_shaft_x8_SOLIDS_3",
         "x_prt_1_2_a_u_SOLIDS_1",
         "x_prt_1_2_a_u_SOLIDS_3"
-      ]
+      ],
+      "tier": "C",
+      "parts": 109,
+      "meaningfulNames": 34,
+      "nameQuality": 0.312,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "Cameras",
@@ -2610,7 +2736,13 @@
         "Cesium_Milk_Truck",
         "Wheels",
         "Wheels.001"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "CesiumMilkTruck",
@@ -2638,7 +2770,13 @@
         "Cesium_Milk_Truck",
         "Wheels",
         "Wheels.001"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "CesiumMilkTruck",
@@ -2666,7 +2804,13 @@
         "Cesium_Milk_Truck",
         "Wheels",
         "Wheels.001"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "CesiumMilkTruck",
@@ -2694,7 +2838,13 @@
         "Cesium_Milk_Truck",
         "Wheels",
         "Wheels.001"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "ClearCoatCarPaint",
@@ -2808,7 +2958,13 @@
         "Y3_Label_BaseNormals",
         "Y4_Label_CoatNormals",
         "Y5_Label_SharedNormals"
-      ]
+      ],
+      "tier": "B",
+      "parts": 37,
+      "meaningfulNames": 37,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "ClearCoatTest",
@@ -2870,7 +3026,13 @@
         "Y3_Label_BaseNormals",
         "Y4_Label_CoatNormals",
         "Y5_Label_SharedNormals"
-      ]
+      ],
+      "tier": "B",
+      "parts": 37,
+      "meaningfulNames": 37,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "ClearcoatRing",
@@ -3208,7 +3370,13 @@
         "m0%_r0%",
         "m0%_r16%",
         "m0%_r33%"
-      ]
+      ],
+      "tier": "C",
+      "parts": 6,
+      "meaningfulNames": 0,
+      "nameQuality": 0,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "DirectionalLight",
@@ -3239,7 +3407,13 @@
         "m0%_r0%",
         "m0%_r16%",
         "m0%_r33%"
-      ]
+      ],
+      "tier": "C",
+      "parts": 6,
+      "meaningfulNames": 0,
+      "nameQuality": 0,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "DragonAttenuation",
@@ -3266,7 +3440,13 @@
       "partNames": [
         "Cloth Backdrop",
         "Dragon"
-      ]
+      ],
+      "tier": "A",
+      "parts": 2,
+      "meaningfulNames": 2,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "DragonAttenuation",
@@ -3317,7 +3497,13 @@
       "partNames": [
         "Cloth Backdrop",
         "Dragon"
-      ]
+      ],
+      "tier": "A",
+      "parts": 2,
+      "meaningfulNames": 2,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "Duck",
@@ -3482,7 +3668,13 @@
         "Cube8",
         "MeterGrid",
         "Plane"
-      ]
+      ],
+      "tier": "C",
+      "parts": 12,
+      "meaningfulNames": 1,
+      "nameQuality": 0.083,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "EmissiveStrengthTest",
@@ -3519,7 +3711,13 @@
         "Cube8",
         "MeterGrid",
         "Plane"
-      ]
+      ],
+      "tier": "C",
+      "parts": 12,
+      "meaningfulNames": 1,
+      "nameQuality": 0.083,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "EnvironmentTest",
@@ -3550,7 +3748,13 @@
         "Dielectric0_N3D2",
         "Metallic0",
         "Metallic0_N3D"
-      ]
+      ],
+      "tier": "B",
+      "parts": 6,
+      "meaningfulNames": 6,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "EnvironmentTest",
@@ -3582,6 +3786,12 @@
         "Metallic0",
         "Metallic0_N3D"
       ],
+      "tier": "B",
+      "parts": 6,
+      "meaningfulNames": 6,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true,
       "packed": {
         "sha256": "b7d320af3fa3a4c6d32447bb2c0e5a5baf3a95589a5bd572a53bdafc8c5aba36",
         "bytes": 361500,
@@ -3617,7 +3827,13 @@
         "Lenses_low",
         "MetalParts_low",
         "RubberWood_low"
-      ]
+      ],
+      "tier": "A",
+      "parts": 6,
+      "meaningfulNames": 6,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "FlightHelmet",
@@ -3649,6 +3865,12 @@
         "MetalParts_low",
         "RubberWood_low"
       ],
+      "tier": "A",
+      "parts": 6,
+      "meaningfulNames": 6,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true,
       "packed": {
         "sha256": "4ff3e28e1189b82c7c1bf9637da232785a0b81854bc1d6f0ee2454d86eb92c90",
         "bytes": 48383292,
@@ -3766,7 +3988,13 @@
         "body_7",
         "body_8",
         "body_9"
-      ]
+      ],
+      "tier": "C",
+      "parts": 32,
+      "meaningfulNames": 0,
+      "nameQuality": 0,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "GearboxAssy",
@@ -3823,7 +4051,13 @@
         "body_7",
         "body_8",
         "body_9"
-      ]
+      ],
+      "tier": "C",
+      "parts": 32,
+      "meaningfulNames": 0,
+      "nameQuality": 0,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "GearboxAssy",
@@ -3880,7 +4114,13 @@
         "body_7",
         "body_8",
         "body_9"
-      ]
+      ],
+      "tier": "C",
+      "parts": 32,
+      "meaningfulNames": 0,
+      "nameQuality": 0,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "GearboxAssy",
@@ -3937,7 +4177,13 @@
         "body_7",
         "body_8",
         "body_9"
-      ]
+      ],
+      "tier": "C",
+      "parts": 32,
+      "meaningfulNames": 0,
+      "nameQuality": 0,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "GlamVelvetSofa",
@@ -3965,7 +4211,13 @@
         "GlamVelvetSofa_fabric",
         "GlamVelvetSofa_feet",
         "GlamVelvetSofa_legs"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "GlamVelvetSofa",
@@ -3993,7 +4245,13 @@
         "GlamVelvetSofa_fabric",
         "GlamVelvetSofa_feet",
         "GlamVelvetSofa_legs"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "InterpolationTest",
@@ -4029,7 +4287,13 @@
         "Cube.009",
         "Plane",
         "Plane.001"
-      ]
+      ],
+      "tier": "C",
+      "parts": 11,
+      "meaningfulNames": 0,
+      "nameQuality": 0,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "InterpolationTest",
@@ -4065,7 +4329,13 @@
         "Cube.009",
         "Plane",
         "Plane.001"
-      ]
+      ],
+      "tier": "C",
+      "parts": 11,
+      "meaningfulNames": 0,
+      "nameQuality": 0,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "IridescenceDielectricSpheres",
@@ -4782,6 +5052,12 @@
         "ThicknessPlane",
         "ThinFilmIorPlane"
       ],
+      "tier": "C",
+      "parts": 691,
+      "meaningfulNames": 5,
+      "nameQuality": 0.007,
+      "scoreNaming": false,
+      "scoreStructure": true,
       "packed": {
         "sha256": "3d6a1623847f7d00924940a24c974ba96ea288aa88371e4ff5a96f896763bc0f",
         "bytes": 10922768,
@@ -4814,7 +5090,13 @@
         "lamp",
         "lamp_iridescence",
         "lamp_transmission"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "IridescenceLamp",
@@ -4842,7 +5124,13 @@
         "lamp",
         "lamp_iridescence",
         "lamp_transmission"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "IridescenceMetallicSpheres",
@@ -5560,6 +5848,12 @@
         "ThicknessPlane",
         "ThinFilmIorPlane"
       ],
+      "tier": "C",
+      "parts": 692,
+      "meaningfulNames": 3,
+      "nameQuality": 0.004,
+      "scoreNaming": false,
+      "scoreStructure": true,
       "packed": {
         "sha256": "80f05d68bd479ec40d1eb44e4eaa76825b49fba0d82f3c48d40c78e4aa1d3c16",
         "bytes": 10921508,
@@ -5592,7 +5886,13 @@
         "Suzanne1",
         "Suzanne2",
         "Suzanne3"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "IridescenceSuzanne",
@@ -5620,7 +5920,13 @@
         "Suzanne1",
         "Suzanne2",
         "Suzanne3"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "IridescentDishWithOlives",
@@ -5649,7 +5955,13 @@
         "glassDish",
         "goldLeaf",
         "olives"
-      ]
+      ],
+      "tier": "A",
+      "parts": 4,
+      "meaningfulNames": 4,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "IridescentDishWithOlives",
@@ -5678,7 +5990,13 @@
         "glassDish",
         "goldLeaf",
         "olives"
-      ]
+      ],
+      "tier": "A",
+      "parts": 4,
+      "meaningfulNames": 4,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "Lantern",
@@ -5706,7 +6024,13 @@
         "LanternPole_Body",
         "LanternPole_Chain",
         "LanternPole_Lantern"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "Lantern",
@@ -5734,7 +6058,13 @@
         "LanternPole_Body",
         "LanternPole_Chain",
         "LanternPole_Lantern"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "Lantern",
@@ -5786,7 +6116,13 @@
         "LanternPole_Body",
         "LanternPole_Chain",
         "LanternPole_Lantern"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "LightsPunctualLamp",
@@ -5861,7 +6197,13 @@
       "partNames": [
         "Shoe",
         "shoe"
-      ]
+      ],
+      "tier": "A",
+      "parts": 2,
+      "meaningfulNames": 2,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "MaterialsVariantsShoe",
@@ -5888,7 +6230,13 @@
       "partNames": [
         "Shoe",
         "shoe"
-      ]
+      ],
+      "tier": "A",
+      "parts": 2,
+      "meaningfulNames": 2,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "MeshPrimitiveModes",
@@ -5920,7 +6268,13 @@
         "mesh with LINE_STRIP",
         "mesh with POINTS",
         "mesh with TRIANGLES"
-      ]
+      ],
+      "tier": "B",
+      "parts": 7,
+      "meaningfulNames": 7,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "MeshPrimitiveModes",
@@ -5953,6 +6307,12 @@
         "mesh with POINTS",
         "mesh with TRIANGLES"
       ],
+      "tier": "B",
+      "parts": 7,
+      "meaningfulNames": 7,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true,
       "packed": {
         "sha256": "39a6d80ffdce93fdf1d50e802cf85c97fdbdc61add2d375177a89a85d6e91fb3",
         "bytes": 2500,
@@ -5987,7 +6347,13 @@
         "Spheres.002",
         "Spheres.003",
         "Spheres.004"
-      ]
+      ],
+      "tier": "B",
+      "parts": 5,
+      "meaningfulNames": 5,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "MetalRoughSpheres",
@@ -6017,7 +6383,13 @@
         "Spheres.002",
         "Spheres.003",
         "Spheres.004"
-      ]
+      ],
+      "tier": "B",
+      "parts": 5,
+      "meaningfulNames": 5,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "MetalRoughSpheres",
@@ -6047,7 +6419,13 @@
         "Spheres.002",
         "Spheres.003",
         "Spheres.004"
-      ]
+      ],
+      "tier": "B",
+      "parts": 5,
+      "meaningfulNames": 5,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "MetalRoughSpheresNoTextures",
@@ -6175,7 +6553,13 @@
         "m83%_r50%",
         "m83%_r66%",
         "m83%_r83%"
-      ]
+      ],
+      "tier": "C",
+      "parts": 103,
+      "meaningfulNames": 4,
+      "nameQuality": 0.039,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "MetalRoughSpheresNoTextures",
@@ -6303,7 +6687,13 @@
         "m83%_r50%",
         "m83%_r66%",
         "m83%_r83%"
-      ]
+      ],
+      "tier": "C",
+      "parts": 103,
+      "meaningfulNames": 4,
+      "nameQuality": 0.039,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "MorphPrimitivesTest",
@@ -6468,7 +6858,13 @@
         "2_mosquito_lr_original.o_material_0_0",
         "5_amber_lr_PBR_0",
         "6_eclats_eclats_0"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "MosquitoInAmber",
@@ -6496,7 +6892,13 @@
         "2_mosquito_lr_original.o_material_0_0",
         "5_amber_lr_PBR_0",
         "6_eclats_eclats_0"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "MultiUVTest",
@@ -6668,7 +7070,13 @@
         "PositiveScaleTestMesh",
         "Shiny1",
         "ShinyMinus1"
-      ]
+      ],
+      "tier": "B",
+      "parts": 16,
+      "meaningfulNames": 15,
+      "nameQuality": 0.938,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "NegativeScaleTest",
@@ -6709,7 +7117,13 @@
         "PositiveScaleTestMesh",
         "Shiny1",
         "ShinyMinus1"
-      ]
+      ],
+      "tier": "B",
+      "parts": 16,
+      "meaningfulNames": 15,
+      "nameQuality": 0.938,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "NormalTangentMirrorTest",
@@ -6916,7 +7330,13 @@
         "TargetY2",
         "TargetZ1",
         "TargetZ2"
-      ]
+      ],
+      "tier": "B",
+      "parts": 26,
+      "meaningfulNames": 26,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "OrientationTest",
@@ -6967,7 +7387,13 @@
         "TargetY2",
         "TargetZ1",
         "TargetZ2"
-      ]
+      ],
+      "tier": "B",
+      "parts": 26,
+      "meaningfulNames": 26,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "OrientationTest",
@@ -7018,7 +7444,13 @@
         "TargetY2",
         "TargetZ1",
         "TargetZ2"
-      ]
+      ],
+      "tier": "B",
+      "parts": 26,
+      "meaningfulNames": 26,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "PrimitiveModeNormalsTest",
@@ -7137,7 +7569,13 @@
         "body_9",
         "body_90",
         "body_92"
-      ]
+      ],
+      "tier": "C",
+      "parts": 65,
+      "meaningfulNames": 0,
+      "nameQuality": 0,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "ReciprocatingSaw",
@@ -7227,7 +7665,13 @@
         "body_9",
         "body_90",
         "body_92"
-      ]
+      ],
+      "tier": "C",
+      "parts": 65,
+      "meaningfulNames": 0,
+      "nameQuality": 0,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "ReciprocatingSaw",
@@ -7317,7 +7761,13 @@
         "body_9",
         "body_90",
         "body_92"
-      ]
+      ],
+      "tier": "C",
+      "parts": 65,
+      "meaningfulNames": 0,
+      "nameQuality": 0,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "ReciprocatingSaw",
@@ -7407,7 +7857,13 @@
         "body_9",
         "body_90",
         "body_92"
-      ]
+      ],
+      "tier": "C",
+      "parts": 65,
+      "meaningfulNames": 0,
+      "nameQuality": 0,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "RecursiveSkeletons",
@@ -7737,7 +8193,13 @@
         "SheenChair_label",
         "SheenChair_metal",
         "SheenChair_wood"
-      ]
+      ],
+      "tier": "A",
+      "parts": 4,
+      "meaningfulNames": 4,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "SheenChair",
@@ -7766,7 +8228,13 @@
         "SheenChair_label",
         "SheenChair_metal",
         "SheenChair_wood"
-      ]
+      ],
+      "tier": "A",
+      "parts": 4,
+      "meaningfulNames": 4,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "SheenCloth",
@@ -7834,6 +8302,12 @@
         "oval-tufted-chair_seat-panel",
         "oval-tufted-chair_seat-welt"
       ],
+      "tier": "A",
+      "parts": 11,
+      "meaningfulNames": 11,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true,
       "packed": {
         "sha256": "8fd5a350ddb5b06b2395d0a10a608b1e169a5b9850f73aa121d04fca78049e76",
         "bytes": 2472356,
@@ -7880,6 +8354,12 @@
         "SM_Sole",
         "Sole"
       ],
+      "tier": "A",
+      "parts": 16,
+      "meaningfulNames": 16,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true,
       "packed": {
         "sha256": "56eab2cabccc701a0f03452f69b0ee1228df6ca3262a17bbc1719b205f402db6",
         "bytes": 15638456,
@@ -8179,7 +8659,13 @@
         "SpecGlossLabel",
         "WaterBottle_MR",
         "WaterBottle_SpecGloss"
-      ]
+      ],
+      "tier": "A",
+      "parts": 6,
+      "meaningfulNames": 6,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "SpecGlossVsMetalRough",
@@ -8210,7 +8696,13 @@
         "SpecGlossLabel",
         "WaterBottle_MR",
         "WaterBottle_SpecGloss"
-      ]
+      ],
+      "tier": "A",
+      "parts": 6,
+      "meaningfulNames": 6,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "SpecularTest",
@@ -8261,7 +8753,13 @@
         "FiveSamples",
         "Labels",
         "OneSample"
-      ]
+      ],
+      "tier": "B",
+      "parts": 26,
+      "meaningfulNames": 26,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "SpecularTest",
@@ -8312,7 +8810,13 @@
         "FiveSamples",
         "Labels",
         "OneSample"
-      ]
+      ],
+      "tier": "B",
+      "parts": 26,
+      "meaningfulNames": 26,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "Sponza",
@@ -8374,7 +8878,13 @@
         "redgems",
         "stainedglass",
         "steel"
-      ]
+      ],
+      "tier": "A",
+      "parts": 8,
+      "meaningfulNames": 8,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "StainedGlassLamp",
@@ -8407,7 +8917,13 @@
         "redgems",
         "stainedglass",
         "steel"
-      ]
+      ],
+      "tier": "A",
+      "parts": 8,
+      "meaningfulNames": 8,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "StainedGlassLamp",
@@ -8441,6 +8957,12 @@
         "stainedglass",
         "steel"
       ],
+      "tier": "A",
+      "parts": 8,
+      "meaningfulNames": 8,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true,
       "packed": {
         "sha256": "69d21b3c262276995ccb0b1bcaa39a208e38266d8798f0bb41352ed7742dd9cb",
         "bytes": 39350460,
@@ -8567,7 +9089,13 @@
         "TopLeftObj",
         "TopRightMesh",
         "TopRightObj"
-      ]
+      ],
+      "tier": "B",
+      "parts": 10,
+      "meaningfulNames": 10,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "TextureCoordinateTest",
@@ -8602,7 +9130,13 @@
         "TopLeftObj",
         "TopRightMesh",
         "TopRightObj"
-      ]
+      ],
+      "tier": "B",
+      "parts": 10,
+      "meaningfulNames": 10,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "TextureCoordinateTest",
@@ -8637,7 +9171,13 @@
         "TopLeftObj",
         "TopRightMesh",
         "TopRightObj"
-      ]
+      ],
+      "tier": "B",
+      "parts": 10,
+      "meaningfulNames": 10,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "TextureEncodingTest",
@@ -8768,7 +9308,13 @@
         "TextureMirrorMeshT",
         "TextureRepeatMeshS",
         "TextureRepeatMeshT"
-      ]
+      ],
+      "tier": "B",
+      "parts": 10,
+      "meaningfulNames": 10,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "TextureSettingsTest",
@@ -8803,7 +9349,13 @@
         "TextureMirrorMeshT",
         "TextureRepeatMeshS",
         "TextureRepeatMeshT"
-      ]
+      ],
+      "tier": "B",
+      "parts": 10,
+      "meaningfulNames": 10,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "TextureSettingsTest",
@@ -8838,7 +9390,13 @@
         "TextureMirrorMeshT",
         "TextureRepeatMeshS",
         "TextureRepeatMeshT"
-      ]
+      ],
+      "tier": "B",
+      "parts": 10,
+      "meaningfulNames": 10,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "TextureTransformMultiTest",
@@ -8895,7 +9453,13 @@
         "UnlitSample",
         "UnlitUV0",
         "UnlitUV1"
-      ]
+      ],
+      "tier": "B",
+      "parts": 32,
+      "meaningfulNames": 32,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "TextureTransformMultiTest",
@@ -8952,7 +9516,13 @@
         "UnlitSample",
         "UnlitUV0",
         "UnlitUV1"
-      ]
+      ],
+      "tier": "B",
+      "parts": 32,
+      "meaningfulNames": 32,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "TextureTransformTest",
@@ -8993,6 +9563,12 @@
         "Scale - Correct",
         "Scale - Not Supported"
       ],
+      "tier": "B",
+      "parts": 15,
+      "meaningfulNames": 15,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true,
       "packed": {
         "sha256": "4db9f0ae7841c2ef87a3995d9796b9414e41b9e159f7e5a1c1d97028e74bdbc2",
         "bytes": 26160,
@@ -9025,7 +9601,13 @@
         "Fabric",
         "Glass",
         "ToyCar"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "ToyCar",
@@ -9053,7 +9635,13 @@
         "Fabric",
         "Glass",
         "ToyCar"
-      ]
+      ],
+      "tier": "A",
+      "parts": 3,
+      "meaningfulNames": 3,
+      "nameQuality": 1,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "TransmissionRoughnessTest",
@@ -9089,7 +9677,13 @@
         "Opaque",
         "RoughnessSamples",
         "SmoothRoughLabels"
-      ]
+      ],
+      "tier": "B",
+      "parts": 11,
+      "meaningfulNames": 11,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "TransmissionRoughnessTest",
@@ -9125,7 +9719,13 @@
         "Opaque",
         "RoughnessSamples",
         "SmoothRoughLabels"
-      ]
+      ],
+      "tier": "B",
+      "parts": 11,
+      "meaningfulNames": 11,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "TransmissionSuzanne",
@@ -9203,7 +9803,13 @@
         "YellowTrans",
         "YellowTransMetal",
         "YellowTransRough"
-      ]
+      ],
+      "tier": "B",
+      "parts": 22,
+      "meaningfulNames": 21,
+      "nameQuality": 0.955,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "TransmissionTest",
@@ -9250,7 +9856,13 @@
         "YellowTrans",
         "YellowTransMetal",
         "YellowTransRough"
-      ]
+      ],
+      "tier": "B",
+      "parts": 22,
+      "meaningfulNames": 21,
+      "nameQuality": 0.955,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "Triangle",
@@ -9468,7 +10080,13 @@
         "Blue Object",
         "Orange Mesh",
         "Orange Object"
-      ]
+      ],
+      "tier": "B",
+      "parts": 4,
+      "meaningfulNames": 4,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "UnlitTest",
@@ -9497,7 +10115,13 @@
         "Blue Object",
         "Orange Mesh",
         "Orange Object"
-      ]
+      ],
+      "tier": "B",
+      "parts": 4,
+      "meaningfulNames": 4,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "VC",
@@ -9657,7 +10281,13 @@
         "vagon00-23",
         "vagon00-24",
         "vagon00-25"
-      ]
+      ],
+      "tier": "A",
+      "parts": 135,
+      "meaningfulNames": 131,
+      "nameQuality": 0.97,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "VC",
@@ -9817,7 +10447,13 @@
         "vagon00-23",
         "vagon00-24",
         "vagon00-25"
-      ]
+      ],
+      "tier": "A",
+      "parts": 135,
+      "meaningfulNames": 131,
+      "nameQuality": 0.97,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "VC",
@@ -9977,7 +10613,13 @@
         "vagon00-23",
         "vagon00-24",
         "vagon00-25"
-      ]
+      ],
+      "tier": "A",
+      "parts": 135,
+      "meaningfulNames": 131,
+      "nameQuality": 0.97,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "VC",
@@ -10137,7 +10779,13 @@
         "vagon00-23",
         "vagon00-24",
         "vagon00-25"
-      ]
+      ],
+      "tier": "A",
+      "parts": 135,
+      "meaningfulNames": 131,
+      "nameQuality": 0.97,
+      "scoreNaming": true,
+      "scoreStructure": true
     },
     {
       "model": "VertexColorTest",
@@ -10166,7 +10814,13 @@
         "Labels",
         "VertexColorTest",
         "VertexColorTestMesh"
-      ]
+      ],
+      "tier": "B",
+      "parts": 4,
+      "meaningfulNames": 4,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "VertexColorTest",
@@ -10195,7 +10849,13 @@
         "Labels",
         "VertexColorTest",
         "VertexColorTestMesh"
-      ]
+      ],
+      "tier": "B",
+      "parts": 4,
+      "meaningfulNames": 4,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "VertexColorTest",
@@ -10224,7 +10884,13 @@
         "Labels",
         "VertexColorTest",
         "VertexColorTestMesh"
-      ]
+      ],
+      "tier": "B",
+      "parts": 4,
+      "meaningfulNames": 4,
+      "nameQuality": 1,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "WaterBottle",
@@ -10330,7 +10996,13 @@
         "Cube",
         "MODEL_ROUNDED_CUBE_PART_1",
         "MODEL_ROUNDED_CUBE_PART_1model_N3D"
-      ]
+      ],
+      "tier": "C",
+      "parts": 3,
+      "meaningfulNames": 0,
+      "nameQuality": 0,
+      "scoreNaming": false,
+      "scoreStructure": true
     },
     {
       "model": "XmpMetadataRoundedCube",
