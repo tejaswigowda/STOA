@@ -10,7 +10,7 @@ const RECORD_RE = /^objects\/[0-9a-f]{2}\/[^/]+\.json$/;
  */
 export function loadRecords({ worktree = false } = {}) {
   const git = (args, input) =>
-    execFileSync("git", args, { input, maxBuffer: 1 << 30, encoding: "buffer" });
+    execFileSync("git", args, { input, maxBuffer: 1 << 30 });
 
   const paths = (
     worktree

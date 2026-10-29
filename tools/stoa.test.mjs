@@ -65,3 +65,10 @@ test("index is generated from records, sorted, and flags refusals and ground tru
   assert.deepEqual(buckets, { 65: 1, 85: 1 });
   assert.throws(() => buildIndex([rec("65bf938f54d6073e", {}), { ...rec("65bf938f54d6073e", {}), path: "objects/65/x.json" }]), /duplicate/);
 });
+
+test("the committed tree is readable: records come back through git cat-file, not only from the working tree", async () => {
+  const { loadRecords } = await import("./records.mjs");
+  const records = loadRecords();
+  assert.ok(records.length > 0);
+  assert.ok(records.every((r) => JSON.parse(r.text).id));
+});
