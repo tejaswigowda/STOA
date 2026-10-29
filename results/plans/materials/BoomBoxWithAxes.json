@@ -1,0 +1,233 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Dark_And_Grey_Appliance_Group",
+    "classes": [
+     "object"
+    ],
+    "grain": "components",
+    "parts": [
+     {
+      "component": 0,
+      "name": "Dark_Grey_Main_Body_Block",
+      "classes": [
+       "body",
+       "housing"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Grey_Upper_Rear_Shell",
+      "classes": [
+       "shell",
+       "housing"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Pale_Right_End_Plates",
+      "classes": [
+       "plate",
+       "trim"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Pale_Right_End_Small_Fittings",
+      "classes": [
+       "fitting",
+       "trim"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Grey_Small_Knob_Right_Front",
+      "classes": [
+       "knob",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 5,
+      "name": "Grey_Small_Knob_Left_Front",
+      "classes": [
+       "knob",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 6,
+      "name": "Black_Small_Control_Left_Upper",
+      "classes": [
+       "control",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 7,
+      "name": "Black_Small_Control_Left_Middle",
+      "classes": [
+       "control",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 8,
+      "name": "Black_Small_Control_Left_Lower",
+      "classes": [
+       "control",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 9,
+      "name": "Dark_Small_Control_Right_Lower",
+      "classes": [
+       "control",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 10,
+      "name": "Dark_Small_Control_Right_Upper",
+      "classes": [
+       "control",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Red_Green_Blue_Marker_Group",
+    "classes": [
+     "marker"
+    ],
+    "parts": [
+     {
+      "island": [
+       0,
+       1,
+       8
+      ],
+      "name": "Red_Marker_Pieces",
+      "classes": [
+       "marker",
+       "red"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": [
+       2,
+       4,
+       6
+      ],
+      "name": "Green_Marker_Pieces",
+      "classes": [
+       "marker",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": [
+       3,
+       5,
+       7
+      ],
+      "name": "Blue_Marker_Pieces",
+      "classes": [
+       "marker",
+       "blue"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Material names: M_BoomBox (mesh 0) and M_Coordinates (mesh 1). Used as evidence only: M_Coordinates is a pure red/green/blue texture of tiny size (~0.003), so I treated it as colour-coded marker pieces, not as parts of the main object; I did not name them as axes/gizmo parts beyond colour grouping.",
+  "Mesh 0: the evidence gives sizes and colours but no function; I named components by colour, size and left/right/upper/lower position only. I did not name any component as a specific real-world part (speaker, handle, dial, etc.) because nothing supports it. Components 6-10 (small dark items, 180 tris each, same size) could be a row of identical controls but the evidence only shows positions, so names are positional.",
+  "Mesh 0 component 0 merges three islands (0,7,9) of dark/grey/white colour; the evidence does not separate them, so it is one part with a descriptive name.",
+  "Mesh 1: the 9 islands share a bounding region far smaller than mesh 0, and island sizes in the report (0.002-0.006) are in mesh frame; I grouped by pure colour since each island is a single flat RGB. Could not tell whether the large 1.5-2k triangle islands are spheres or arrows; merged by colour.",
+  "Mesh 1 'whole' per-mesh group naming: group names are descriptive, since I cannot justify a functional group name.",
+  "Plan syntax: not sure 'grain' is accepted at plan level together with component parts; check result will say."
+ ],
+ "model": "BoomBoxWithAxes",
+ "mode": "materials",
+ "blind_code": "M11"
+}

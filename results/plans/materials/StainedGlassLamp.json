@@ -1,0 +1,1459 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Grill_Disc_Group",
+    "classes": [
+     "grill"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Grill_Small_Disc_Upper",
+      "classes": [
+       "grill",
+       "disc"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Grill_Small_Disc_Lower",
+      "classes": [
+       "grill",
+       "disc"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Grill_Large_Disc_Lowest",
+      "classes": [
+       "grill",
+       "disc"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Steel_Fittings_Group",
+    "classes": [
+     "steel"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Steel_Upright_Low_X_High_Z",
+      "classes": [
+       "steel",
+       "upright"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Steel_Upright_High_X_Low_Z",
+      "classes": [
+       "steel",
+       "upright"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17,
+       18,
+       19,
+       20,
+       21,
+       22,
+       23,
+       24,
+       25,
+       26,
+       27,
+       28,
+       29,
+       30,
+       31,
+       32,
+       33,
+       34,
+       35,
+       36,
+       37,
+       38,
+       39,
+       40,
+       41,
+       42,
+       43,
+       44,
+       45,
+       46,
+       47,
+       48,
+       49,
+       50,
+       51,
+       52,
+       53,
+       54,
+       55,
+       56,
+       57,
+       58,
+       59,
+       60,
+       61,
+       62,
+       63,
+       64,
+       65,
+       66,
+       67,
+       68,
+       69,
+       70,
+       71,
+       72
+      ],
+      "name": "Steel_Short_Pieces_Ring_Upper",
+      "classes": [
+       "steel",
+       "ring"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       73,
+       74,
+       75,
+       76,
+       77,
+       78,
+       79,
+       80,
+       81,
+       82,
+       83,
+       84,
+       85,
+       86,
+       87,
+       88,
+       89,
+       90,
+       91,
+       92,
+       93,
+       94,
+       95,
+       96,
+       97,
+       98,
+       99,
+       100,
+       101,
+       102,
+       103,
+       104,
+       105,
+       106,
+       107,
+       108,
+       109,
+       110,
+       111,
+       112,
+       113,
+       114,
+       115,
+       116,
+       117,
+       118,
+       119,
+       120,
+       121,
+       122,
+       123,
+       124,
+       125,
+       126,
+       127,
+       128,
+       129,
+       130,
+       131,
+       132,
+       133,
+       134,
+       135,
+       136,
+       137,
+       138,
+       139,
+       140,
+       141,
+       142,
+       143
+      ],
+      "name": "Steel_Thin_Rods_Ring_Lower",
+      "classes": [
+       "steel",
+       "ring"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Amber_Beads_Group",
+    "classes": [
+     "beads"
+    ],
+    "parts": [
+     {
+      "island": [
+       213,
+       214,
+       215,
+       216,
+       217,
+       218,
+       219,
+       220,
+       221,
+       222,
+       223,
+       224,
+       225,
+       226,
+       227,
+       228,
+       229,
+       230,
+       231,
+       232,
+       233,
+       234,
+       235,
+       236,
+       237,
+       238,
+       239,
+       240,
+       241,
+       242,
+       243,
+       244,
+       245,
+       246,
+       247,
+       248,
+       249,
+       250,
+       251,
+       252,
+       253,
+       254,
+       255,
+       256,
+       257,
+       258,
+       259,
+       260,
+       261,
+       262,
+       263,
+       264,
+       265,
+       266,
+       267,
+       268,
+       269,
+       270,
+       271,
+       272,
+       273,
+       274,
+       275,
+       276,
+       277,
+       278,
+       279,
+       280,
+       281,
+       282,
+       283
+      ],
+      "name": "Amber_Beads_Ring_Topmost",
+      "classes": [
+       "beads",
+       "ring"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       284,
+       286,
+       288,
+       290,
+       292,
+       294,
+       296,
+       298,
+       300,
+       302,
+       304,
+       306,
+       308,
+       310,
+       312,
+       314,
+       316,
+       318,
+       320,
+       322,
+       324,
+       326,
+       328,
+       330,
+       332,
+       334,
+       336,
+       338,
+       340,
+       342,
+       344,
+       346,
+       348,
+       350,
+       352,
+       354,
+       356,
+       358,
+       360,
+       362,
+       364,
+       366,
+       368,
+       370,
+       372,
+       374,
+       376,
+       378,
+       380,
+       382,
+       384,
+       386,
+       388,
+       390,
+       392,
+       394,
+       396,
+       398,
+       400,
+       402,
+       404,
+       406,
+       408,
+       410,
+       412,
+       414,
+       416,
+       418,
+       420,
+       422,
+       424
+      ],
+      "name": "Amber_Beads_Ring_Upper_High",
+      "classes": [
+       "beads",
+       "ring"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17,
+       18,
+       19,
+       20,
+       21,
+       22,
+       23,
+       24,
+       25,
+       26,
+       27,
+       28,
+       29,
+       30,
+       31,
+       32,
+       33,
+       34,
+       35,
+       36,
+       37,
+       38,
+       39,
+       40,
+       41,
+       42,
+       43,
+       44,
+       45,
+       46,
+       47,
+       48,
+       49,
+       50,
+       51,
+       52,
+       53,
+       54,
+       55,
+       56,
+       57,
+       58,
+       59,
+       60,
+       61,
+       62,
+       63,
+       64,
+       65,
+       66,
+       67,
+       68,
+       69,
+       70
+      ],
+      "name": "Amber_Beads_Ring_Upper_Mid",
+      "classes": [
+       "beads",
+       "ring"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       285,
+       287,
+       289,
+       291,
+       293,
+       295,
+       297,
+       299,
+       301,
+       303,
+       305,
+       307,
+       309,
+       311,
+       313,
+       315,
+       317,
+       319,
+       321,
+       323,
+       325,
+       327,
+       329,
+       331,
+       333,
+       335,
+       337,
+       339,
+       341,
+       343,
+       345,
+       347,
+       349,
+       351,
+       353,
+       355,
+       357,
+       359,
+       361,
+       363,
+       365,
+       367,
+       369,
+       371,
+       373,
+       375,
+       377,
+       379,
+       381,
+       383,
+       385,
+       387,
+       389,
+       391,
+       393,
+       395,
+       397,
+       399,
+       401,
+       403,
+       405,
+       407,
+       409,
+       411,
+       413,
+       415,
+       417,
+       419,
+       421,
+       423,
+       425
+      ],
+      "name": "Amber_Beads_Ring_Middle",
+      "classes": [
+       "beads",
+       "ring"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       142,
+       143,
+       144,
+       145,
+       146,
+       147,
+       148,
+       149,
+       150,
+       151,
+       152,
+       153,
+       154,
+       155,
+       156,
+       157,
+       158,
+       159,
+       160,
+       161,
+       162,
+       163,
+       164,
+       165,
+       166,
+       167,
+       168,
+       169,
+       170,
+       171,
+       172,
+       173,
+       174,
+       175,
+       176,
+       177,
+       178,
+       179,
+       180,
+       181,
+       182,
+       183,
+       184,
+       185,
+       186,
+       187,
+       188,
+       189,
+       190,
+       191,
+       192,
+       193,
+       194,
+       195,
+       196,
+       197,
+       198,
+       199,
+       200,
+       201,
+       202,
+       203,
+       204,
+       205,
+       206,
+       207,
+       208,
+       209,
+       210,
+       211,
+       212
+      ],
+      "name": "Amber_Beads_Ring_Lower_Mid",
+      "classes": [
+       "beads",
+       "ring"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       71,
+       72,
+       73,
+       74,
+       75,
+       76,
+       77,
+       78,
+       79,
+       80,
+       81,
+       82,
+       83,
+       84,
+       85,
+       86,
+       87,
+       88,
+       89,
+       90,
+       91,
+       92,
+       93,
+       94,
+       95,
+       96,
+       97,
+       98,
+       99,
+       100,
+       101,
+       102,
+       103,
+       104,
+       105,
+       106,
+       107,
+       108,
+       109,
+       110,
+       111,
+       112,
+       113,
+       114,
+       115,
+       116,
+       117,
+       118,
+       119,
+       120,
+       121,
+       122,
+       123,
+       124,
+       125,
+       126,
+       127,
+       128,
+       129,
+       130,
+       131,
+       132,
+       133,
+       134,
+       135,
+       136,
+       137,
+       138,
+       139,
+       140,
+       141
+      ],
+      "name": "Amber_Beads_Ring_Lower",
+      "classes": [
+       "beads",
+       "ring"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       426,
+       427,
+       428,
+       429,
+       430,
+       431,
+       432,
+       433,
+       434,
+       435,
+       436,
+       437,
+       438,
+       439,
+       440,
+       441,
+       442,
+       443,
+       444,
+       445,
+       446,
+       447,
+       448,
+       449,
+       450,
+       451,
+       452,
+       453,
+       454,
+       455,
+       456,
+       457,
+       458,
+       459,
+       460,
+       461,
+       462,
+       463,
+       464,
+       465,
+       466,
+       467,
+       468,
+       469,
+       470,
+       471,
+       472,
+       473,
+       474,
+       475,
+       476,
+       477,
+       478,
+       479,
+       480,
+       481,
+       482,
+       483,
+       484,
+       485,
+       486,
+       487,
+       488,
+       489,
+       490,
+       491,
+       492,
+       493,
+       494,
+       495,
+       496
+      ],
+      "name": "Amber_Beads_Ring_Bottommost",
+      "classes": [
+       "beads",
+       "ring"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "plan": {
+    "group": "Red_Gems_Group",
+    "classes": [
+     "gems"
+    ],
+    "parts": [
+     {
+      "island": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17,
+       18,
+       19,
+       20,
+       21,
+       22,
+       23
+      ],
+      "name": "Red_Gems_Ring_Upper",
+      "classes": [
+       "gems",
+       "ring"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       24,
+       25,
+       26
+      ],
+      "name": "Red_Gems_Trio_Lower",
+      "classes": [
+       "gems"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "plan": {
+    "group": "Hardware_Group",
+    "classes": [
+     "hardware"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Hardware_Wide_Flat_Plate_Lower",
+      "classes": [
+       "hardware",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Hardware_Wide_Flat_Plate_Upper",
+      "classes": [
+       "hardware",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 5,
+      "name": "Hardware_Narrow_Flat_Disc",
+      "classes": [
+       "hardware",
+       "disc"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Hardware_Top_Centre_Upright_Piece",
+      "classes": [
+       "hardware"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Hardware_Offset_Block_Low_X",
+      "classes": [
+       "hardware"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Hardware_Offset_Block_High_X",
+      "classes": [
+       "hardware"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 6,
+      "name": "Hardware_Bottom_Centre_Tiny_Piece",
+      "classes": [
+       "hardware"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 7,
+      "name": "Hardware_Central_Small_Collar",
+      "classes": [
+       "hardware"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       8,
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17,
+       18,
+       19,
+       20,
+       21,
+       22,
+       23,
+       24,
+       25,
+       26,
+       27,
+       28,
+       29,
+       30,
+       31,
+       32,
+       33,
+       34,
+       35,
+       36,
+       37,
+       38,
+       39,
+       40,
+       41,
+       42,
+       43,
+       44,
+       45,
+       46,
+       47,
+       48,
+       49,
+       50,
+       51,
+       52,
+       53,
+       54,
+       55,
+       56,
+       57,
+       58,
+       59,
+       60,
+       61,
+       62,
+       63,
+       64,
+       65,
+       66,
+       67,
+       68,
+       69,
+       70,
+       71,
+       72,
+       73,
+       74,
+       75,
+       76,
+       77,
+       78,
+       79,
+       80,
+       81,
+       82,
+       83,
+       84,
+       85,
+       86,
+       87,
+       88,
+       89,
+       90,
+       91,
+       92,
+       93,
+       94,
+       95,
+       96,
+       97,
+       98,
+       99,
+       100,
+       101,
+       102,
+       103,
+       104,
+       105,
+       106,
+       107,
+       108,
+       109,
+       110,
+       111,
+       112,
+       113,
+       114,
+       115,
+       116,
+       117,
+       118,
+       119,
+       120,
+       121,
+       122,
+       123,
+       124,
+       125,
+       126,
+       127,
+       128,
+       129,
+       130,
+       131,
+       132,
+       133,
+       134,
+       135,
+       136,
+       137,
+       138,
+       139,
+       140,
+       141,
+       142,
+       143,
+       144,
+       145,
+       146,
+       147,
+       148,
+       149
+      ],
+      "name": "Hardware_Small_Fittings_Ring",
+      "classes": [
+       "hardware",
+       "ring"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 155,
+      "name": "Hardware_Central_Long_Thin_Rod",
+      "classes": [
+       "hardware",
+       "rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       150,
+       151,
+       152,
+       153,
+       154,
+       156,
+       157,
+       158,
+       159,
+       160,
+       161,
+       162,
+       163,
+       164
+      ],
+      "name": "Hardware_Small_Central_Bits",
+      "classes": [
+       "hardware"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "plan": {
+    "group": "Base_Group",
+    "classes": [
+     "base"
+    ],
+    "parts": [
+     {
+      "component": 3,
+      "name": "Base_Wide_Low_Foot_Piece",
+      "classes": [
+       "base"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Base_Central_Tall_Narrow_Piece",
+      "classes": [
+       "base"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       0,
+       5
+      ],
+      "name": "Base_Upper_Flat_Disc_Layers",
+      "classes": [
+       "base",
+       "disc"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1,
+       7
+      ],
+      "name": "Base_Middle_Flat_Disc_Layers",
+      "classes": [
+       "base",
+       "disc"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       2,
+       6
+      ],
+      "name": "Base_Dark_Top_Block_And_Cap",
+      "classes": [
+       "base"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 8,
+      "name": "Base_Small_Low_Disc",
+      "classes": [
+       "base",
+       "disc"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "plan": {
+    "group": "Stained_Glass_Group",
+    "classes": [
+     "glass"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Stained_Glass_Large_Wide_Panel_Ring",
+      "classes": [
+       "glass"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Stained_Glass_Upper_Narrow_Panel_Ring",
+      "classes": [
+       "glass"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Stained_Glass_Small_Low_Piece_A",
+      "classes": [
+       "glass"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Stained_Glass_Small_Low_Piece_B",
+      "classes": [
+       "glass"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "plan": {
+    "group": "Bulbs_Group",
+    "classes": [
+     "bulbs"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Bulb_High_Z_Side",
+      "classes": [
+       "bulb"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Bulb_Low_Z_Side",
+      "classes": [
+       "bulb"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Bulb_Small_Lower_Centre",
+      "classes": [
+       "bulb"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Material names used as evidence (grill, steel, amberbeads, redgems, hardware, base, stainedglass, bulbs); they are in no basis list. Names for meshes 0-4 and 6-7 take the noun from the material name only; shape/position give just the qualifier.",
+  "Mesh 2 (497 islands) and mesh 1/4 (144/165 components) are 71-fold repeats. Mesh 2 is grouped by height band (7 bands of 71 islands, split by triangle count and 'at' y). I assumed each band is a ring (island 0 and 70 are neighbours in 'at'), but only first/last 'at' per band were looked at. Could not say whether beads of different bands belong to the same strand.",
+  "Plan syntax: no island/component ranges, so 497-element lists had to be written out by hand, and the file could not be written by script.",
+  "Parts of mesh 4 and 5 are shape-descriptive (abstained): wide flat plates, offset blocks, central rod, etc. I could not justify functional names (shade, stem, finial, bracket) from position/size/colour alone, and the grill/base meshes are almost monochrome dark so colour told nothing.",
+  "Mesh 5 merges: components 0+5 (same y and width), 1+7 (same y and width), 2+6 (both neutral dark, stacked) - evidence did not separate them. Components 150-154 and 156-164 of mesh 4 (small central bits) merged into one part for the same reason; 142 near-identical components 8-149 of mesh 4 merged into one ring part rather than 142 parts.",
+  "Mesh 1 component 1 contains 22 islands while component 0 has 4, though the two look like the same kind of upright (size 0.086 tall, opposite sides); I could not tell why. Both left as separate named parts.",
+  "Mesh 6 components 2 and 3 are near-identical (72 tris, 0.12 wide, same y) and differ only by colour shares; named A/B, no way to tell left from right since both at 0.50,0.14,0.50.",
+  "Left/right and front/back are not resolvable from 'at' alone without knowing the model's facing, so I used Low_X/High_X and Low_Z/High_Z wording.",
+  "Colour was nearly useless on the dark meshes (grill, hardware, base): colour shares are all within a few RGB steps of one dark brown/black."
+ ],
+ "model": "StainedGlassLamp",
+ "mode": "materials",
+ "blind_code": "M21"
+}

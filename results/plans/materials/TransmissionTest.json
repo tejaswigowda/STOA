@@ -1,0 +1,554 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "whole": {
+    "group": "Cloth_Backdrop_Group",
+    "name": "Cloth_Backdrop_Surface",
+    "classes": [
+     "backdrop",
+     "cloth"
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Red_Translucent_Body_Group",
+    "classes": [
+     "body"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Red_Translucent_Body",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Yellow_Translucent_Body_Group",
+    "classes": [
+     "body"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Yellow_Translucent_Body",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "plan": {
+    "group": "Blue_Translucent_Masked_Body_First_Group",
+    "classes": [
+     "body"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Blue_Translucent_Masked_Body_First",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "plan": {
+    "group": "Green_Masked_Body_Group",
+    "classes": [
+     "body"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Green_Masked_Body",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "plan": {
+    "group": "Red_Translucent_Rough_Body_Group",
+    "classes": [
+     "body"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Red_Translucent_Rough_Body",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "plan": {
+    "group": "Yellow_Translucent_Rough_Body_Group",
+    "classes": [
+     "body"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Yellow_Translucent_Rough_Body",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "plan": {
+    "group": "Blue_Translucent_Masked_Body_Second_Group",
+    "classes": [
+     "body"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Blue_Translucent_Masked_Body_Second",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "plan": {
+    "group": "Green_Masked_Rough_Body_Group",
+    "classes": [
+     "body"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Green_Masked_Rough_Body",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 9,
+   "plan": {
+    "group": "Red_Translucent_Metal_Body_Group",
+    "classes": [
+     "body"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Red_Translucent_Metal_Body",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 10,
+   "plan": {
+    "group": "Yellow_Translucent_Metal_Body_Group",
+    "classes": [
+     "body"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Yellow_Translucent_Metal_Body",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 11,
+   "plan": {
+    "group": "Green_Masked_Metal_Body_Group",
+    "classes": [
+     "body"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Green_Masked_Metal_Body",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 12,
+   "plan": {
+    "group": "Blue_Translucent_Masked_Body_Third_Group",
+    "classes": [
+     "body"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Blue_Translucent_Masked_Body_Third",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 13,
+   "plan": {
+    "group": "Label_Plate_Set",
+    "classes": [
+     "labels"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Label_Plate_Centre_Upper_Low_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Label_Plate_Centre_Upper_High_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Label_Plate_Right_Top_High_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Label_Plate_Right_Top_Low_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Label_Plate_Right_Upper_Low_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Label_Plate_Right_Upper_High_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Label_Plate_Centre_Right_Top_High_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Label_Plate_Centre_Right_Top_Low_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Label_Plate_Centre_Left_Top_High_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Label_Plate_Centre_Left_Top_Low_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Label_Plate_Centre_Top_High_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Label_Plate_Centre_Top_Low_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Label_Plate_Left_Bottom_High_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Label_Plate_Left_Bottom_Low_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Label_Plate_Left_Lower_High_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 15,
+      "name": "Label_Plate_Left_Lower_Low_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 16,
+      "name": "Label_Plate_Left_Upper_High_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 17,
+      "name": "Label_Plate_Left_Upper_Low_Z",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Meshes 1-12 each hold one 7080-triangle island with a 0.2 cube bounding box and at 0.5,0.5,0.5, so the evidence gives NO world position for any of them; their names rest on the material names (colour word, translucent, mask, rough, metal) and size. Where the report has no colour (no texture) the colour word comes from the material name only, so basis lists only size and shape.",
+  "Three meshes share the material name BlueTransWithMask (3, 7, 12); I could only tell them apart by mesh order (First/Second/Third), which is weak evidence and may not correspond to anything.",
+  "I did not claim a shape for the 0.2 bodies (bounding box only; 7080 triangles).",
+  "Cloth_Backdrop_Surface: one 43779-triangle island, grey 50/50 two-tone, 1.8x1.0x1.9 bbox; name from the material name only, geometry does not look like a backdrop plane. Shape-descriptive alternative would be Grey_Two_Tone_Dense_Sheet.",
+  "LabelMaterial: 18 flat plates in 9 location pairs, each pair at z near 0 and near 1; pairs are separate parts named by at.x/at.y and Low_Z/High_Z (front/back convention unknown). Text content is not evidenced.",
+  "Basis lists exclude material names as instructed."
+ ],
+ "model": "TransmissionTest",
+ "mode": "materials",
+ "blind_code": "N28"
+}

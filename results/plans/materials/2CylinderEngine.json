@@ -1,0 +1,1813 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Mirrored_Block_Assembly_A_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Right_Large_Block",
+      "classes": [
+       "block",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Left_Large_Block",
+      "classes": [
+       "block",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Right_Edge_Plate_Thick",
+      "classes": [
+       "plate",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Left_Edge_Plate_Thick",
+      "classes": [
+       "plate",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Right_Thin_Slab_Further_Out",
+      "classes": [
+       "slab",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Right_Thin_Slab_Further_In",
+      "classes": [
+       "slab",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Left_Thin_Slab_Further_Out",
+      "classes": [
+       "slab",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Left_Thin_Slab_Further_In",
+      "classes": [
+       "slab",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Mirrored_Plate_Assembly_B_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Right_Edge_Plate_Short",
+      "classes": [
+       "plate",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Left_Edge_Plate_Short",
+      "classes": [
+       "plate",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Right_Strip_Five_Wide",
+      "classes": [
+       "strip",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Right_Strip_Half_Width_Inner",
+      "classes": [
+       "strip",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Right_Strip_Half_Width_Outer",
+      "classes": [
+       "strip",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Left_Strip_Five_Wide",
+      "classes": [
+       "strip",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Left_Strip_Half_Width_Inner",
+      "classes": [
+       "strip",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Left_Strip_Half_Width_Outer",
+      "classes": [
+       "strip",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Tall_Narrow_Prism_Pair_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Right_Tall_Narrow_Prism",
+      "classes": [
+       "prism",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Left_Tall_Narrow_Prism",
+      "classes": [
+       "prism",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Medium_Flat_Square_Plate_Group",
+    "name": "Medium_Flat_Square_Plate",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "whole": {
+    "group": "Tall_Large_Block_Group",
+    "name": "Tall_Large_Block",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "whole": {
+    "group": "Large_Flat_Square_Plate_Group",
+    "name": "Large_Flat_Square_Plate",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "whole": {
+    "group": "Tall_Slender_Block_Group",
+    "name": "Tall_Slender_Block",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "plan": {
+    "group": "Small_Unit_Array_A_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Small_Unit_Low_Band_X12_Y08_Z02",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Small_Unit_Low_Band_X07_Y19_Z04",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Small_Unit_Low_Band_X33_Y08_Z04",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Small_Unit_Low_Band_X28_Y19_Z07",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Small_Unit_Low_Band_X54_Y08_Z07",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Small_Unit_Low_Band_X49_Y19_Z09",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Small_Unit_Low_Band_X74_Y08_Z09",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Small_Unit_Low_Band_X70_Y19_Z12",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Small_Unit_Low_Band_X95_Y08_Z12",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Small_Unit_Low_Band_X91_Y19_Z14",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Small_Unit_High_Band_X10_Y92_Z98",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Small_Unit_High_Band_X05_Y81_Z96",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Small_Unit_High_Band_X25_Y92_Z96",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Small_Unit_High_Band_X20_Y81_Z94",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Small_Unit_High_Band_X41_Y92_Z95",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 15,
+      "name": "Small_Unit_High_Band_X36_Y81_Z92",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 16,
+      "name": "Small_Unit_High_Band_X56_Y92_Z93",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 17,
+      "name": "Small_Unit_High_Band_X52_Y81_Z90",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 18,
+      "name": "Small_Unit_High_Band_X72_Y92_Z91",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 19,
+      "name": "Small_Unit_High_Band_X67_Y81_Z88",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "plan": {
+    "group": "Small_Unit_Array_B_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Small_Unit_Variant_Larger_High_Band_X05_Y81_Z01",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Small_Unit_Variant_Larger_High_Band_X19_Y92_Z06",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Small_Unit_Variant_Larger_High_Band_X24_Y81_Z03",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Small_Unit_Variant_Larger_High_Band_X38_Y92_Z08",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Small_Unit_Variant_Larger_High_Band_X43_Y81_Z05",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Small_Unit_Variant_Larger_High_Band_X57_Y92_Z10",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Small_Unit_Variant_Larger_High_Band_X62_Y81_Z07",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Small_Unit_Variant_Larger_High_Band_X77_Y92_Z12",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Small_Unit_Variant_Larger_High_Band_X81_Y81_Z09",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Small_Unit_Variant_Larger_High_Band_X96_Y92_Z14",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Small_Unit_Variant_Larger_Low_Band_X04_Y18_Z99",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Small_Unit_Variant_Larger_Low_Band_X14_Y08_Z95",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Small_Unit_Variant_Larger_Low_Band_X19_Y18_Z97",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Small_Unit_Variant_Larger_Low_Band_X29_Y08_Z93",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Small_Unit_Variant_Larger_Low_Band_X33_Y18_Z96",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 15,
+      "name": "Small_Unit_Variant_Larger_Low_Band_X43_Y08_Z92",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 16,
+      "name": "Small_Unit_Variant_Larger_Low_Band_X47_Y18_Z94",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 17,
+      "name": "Small_Unit_Variant_Larger_Low_Band_X57_Y08_Z90",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 18,
+      "name": "Small_Unit_Variant_Larger_Low_Band_X62_Y18_Z93",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 19,
+      "name": "Small_Unit_Variant_Larger_Low_Band_X72_Y08_Z89",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 9,
+   "plan": {
+    "group": "Medium_Unit_Array_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Medium_Unit_Narrow_X17_Y45_Z07",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Medium_Unit_Wide_X19_Y56_Z11",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Medium_Unit_Narrow_X33_Y45_Z09",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Medium_Unit_Wide_X35_Y56_Z13",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Medium_Unit_Narrow_X49_Y45_Z11",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Medium_Unit_Wide_X51_Y56_Z15",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Medium_Unit_Narrow_X64_Y45_Z13",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Medium_Unit_Wide_X67_Y56_Z17",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Medium_Unit_Narrow_X80_Y45_Z15",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Medium_Unit_Wide_X83_Y56_Z19",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Medium_Unit_Narrow_X16_Y54_Z93",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Medium_Unit_Wide_X16_Y45_Z90",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Medium_Unit_Narrow_X28_Y54_Z92",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Medium_Unit_Wide_X28_Y45_Z88",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Medium_Unit_Narrow_X39_Y54_Z90",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 15,
+      "name": "Medium_Unit_Wide_X40_Y45_Z87",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 16,
+      "name": "Medium_Unit_Narrow_X51_Y54_Z89",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 17,
+      "name": "Medium_Unit_Wide_X52_Y45_Z85",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 18,
+      "name": "Medium_Unit_Narrow_X63_Y54_Z87",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 19,
+      "name": "Medium_Unit_Wide_X64_Y45_Z84",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 10,
+   "plan": {
+    "group": "Wide_Slab_Pair_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Wide_Slab_Low_Z",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Wide_Slab_High_Z",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 11,
+   "plan": {
+    "group": "Compact_Block_Pair_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Compact_Block_Low_Z_Edge",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Compact_Block_High_Z_Edge",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 12,
+   "plan": {
+    "group": "Wide_Long_Bar_Pair_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Wide_Long_Bar_Upper",
+      "classes": [
+       "bar"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Wide_Long_Bar_Lower",
+      "classes": [
+       "bar"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 13,
+   "plan": {
+    "group": "Narrow_Long_Bar_Pair_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Narrow_Long_Bar_Upper",
+      "classes": [
+       "bar"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Narrow_Long_Bar_Lower",
+      "classes": [
+       "bar"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 14,
+   "plan": {
+    "group": "Long_Square_Beam_Quad_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Long_Square_Beam_Upper_High_Z",
+      "classes": [
+       "beam"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Long_Square_Beam_Upper_Low_Z",
+      "classes": [
+       "beam"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Long_Square_Beam_Lower_High_Z",
+      "classes": [
+       "beam"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Long_Square_Beam_Lower_Low_Z",
+      "classes": [
+       "beam"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 15,
+   "plan": {
+    "group": "Tall_Thin_Prism_Pair_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Tall_Thin_Prism_Low_Z",
+      "classes": [
+       "prism"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Tall_Thin_Prism_High_Z",
+      "classes": [
+       "prism"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 16,
+   "plan": {
+    "group": "Flat_Wide_Block_Pair_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Flat_Wide_Block_High_Z",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Flat_Wide_Block_Low_Z",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 17,
+   "whole": {
+    "group": "Large_Tall_Body_Fewer_Triangles_Group",
+    "name": "Large_Tall_Body_Fewer_Triangles",
+    "classes": [
+     "body"
+    ]
+   }
+  },
+  {
+   "mesh": 18,
+   "whole": {
+    "group": "Long_Single_Bar_Group",
+    "name": "Long_Single_Bar",
+    "classes": [
+     "bar"
+    ]
+   }
+  },
+  {
+   "mesh": 19,
+   "whole": {
+    "group": "Medium_Tall_Prism_Higher_Triangle_Count_Group",
+    "name": "Medium_Tall_Prism_Higher_Triangle_Count",
+    "classes": [
+     "prism"
+    ]
+   }
+  },
+  {
+   "mesh": 20,
+   "whole": {
+    "group": "Medium_Tall_Prism_Lower_Triangle_Count_Group",
+    "name": "Medium_Tall_Prism_Lower_Triangle_Count",
+    "classes": [
+     "prism"
+    ]
+   }
+  },
+  {
+   "mesh": 21,
+   "whole": {
+    "group": "Large_Tall_Block_Higher_Triangle_Count_Group",
+    "name": "Large_Tall_Block_Higher_Triangle_Count",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 22,
+   "plan": {
+    "group": "Small_Block_Pair_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Small_Block_High_Z",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Small_Block_Low_Z",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 23,
+   "plan": {
+    "group": "Long_Square_Rail_Quad_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Long_Square_Rail_Low_Y_Low_Z",
+      "classes": [
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Long_Square_Rail_Low_Y_High_Z",
+      "classes": [
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Long_Square_Rail_High_Y_High_Z",
+      "classes": [
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Long_Square_Rail_High_Y_Low_Z",
+      "classes": [
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 24,
+   "whole": {
+    "group": "Large_Tall_Body_More_Triangles_Group",
+    "name": "Large_Tall_Body_More_Triangles",
+    "classes": [
+     "body"
+    ]
+   }
+  },
+  {
+   "mesh": 25,
+   "whole": {
+    "group": "Large_Tall_Block_Lower_Triangle_Count_Group",
+    "name": "Large_Tall_Block_Lower_Triangle_Count",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 26,
+   "plan": {
+    "group": "Long_Bar_Rail_Quad_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Long_Bar_Rail_High_Y_High_Z",
+      "classes": [
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Long_Bar_Rail_High_Y_Low_Z",
+      "classes": [
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Long_Bar_Rail_Low_Y_Low_Z",
+      "classes": [
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Long_Bar_Rail_Low_Y_High_Z",
+      "classes": [
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 27,
+   "whole": {
+    "group": "Very_Large_Cube_Like_Block_Fewer_Triangles_Group",
+    "name": "Very_Large_Cube_Like_Block_Fewer_Triangles",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 28,
+   "whole": {
+    "group": "Very_Large_Cube_Like_Block_More_Triangles_Group",
+    "name": "Very_Large_Cube_Like_Block_More_Triangles",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 29,
+   "whole": {
+    "group": "Very_Large_Tall_Block_Group",
+    "name": "Very_Large_Tall_Block",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 30,
+   "plan": {
+    "group": "Broad_Thin_Panel_Pair_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Broad_Thin_Panel_High_Corner",
+      "classes": [
+       "panel"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Broad_Thin_Panel_Low_Corner",
+      "classes": [
+       "panel"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 31,
+   "plan": {
+    "group": "Thin_Plate_Quad_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Thin_Plate_Right_Upper_Outer_Z",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Thin_Plate_Right_Upper_Inner_Z",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Thin_Plate_Left_Lower_Inner_Z",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Thin_Plate_Left_Lower_Outer_Z",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 32,
+   "plan": {
+    "group": "Square_Beam_Quad_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Square_Beam_Right_Outer_Z",
+      "classes": [
+       "beam"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Square_Beam_Right_Inner_Z",
+      "classes": [
+       "beam"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Square_Beam_Left_Inner_Z",
+      "classes": [
+       "beam"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Square_Beam_Left_Outer_Z",
+      "classes": [
+       "beam"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 33,
+   "plan": {
+    "group": "Thin_Square_End_Piece_Quad_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Thin_Square_End_Piece_Right_Outer_Z",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Thin_Square_End_Piece_Right_Inner_Z",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Thin_Square_End_Piece_Left_Inner_Z",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Thin_Square_End_Piece_Left_Outer_Z",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Material names here (Material_16..23) carry no meaning, and no mesh has uv or colour: all names rest on position, size and shape alone, and name only the form (Block, Plate, Slab, Bar, Beam, Rail, Prism, Panel) plus where it lies. I did not claim any function.",
+  "Rule for the two 20-island meshes of small units (meshes 7 and 8) and the 20-island mesh 9: islands are same-size repeats with distinct at, so each is a separate part named '<Prefix>_<Band>_X<xx>_Y<yy>_Z<zz>' where xx,yy,zz are at*100 from the evidence. Band: Low_Band if at.y < 0.5 (0.08-0.19), else High_Band (0.81-0.92). Mesh 9 is Narrow (~10 wide) or Wide (~15.7 wide) by size.x. The two small-unit meshes differ slightly in size (3.3 vs 3.35 wide), hence the 'Variant_Larger' prefix; this is a weak distinction.",
+  "Many near-identical twin meshes (19/20, 21/25, 27/28, 17/24) have the same size and a few triangles apart; nothing but triangle count separates them, so they are named by triangle count rank ('Higher/Lower/Fewer/More_Triangle(s)'). Their world placement is unknown because 'at' is relative to each mesh.",
+  "Left/right comes from at.x (low = left); I used Low_Z/High_Z for the z axis because front/back is not determinable from the evidence, and Upper/Lower for at.y.",
+  "Mirror symmetry: most multi-island meshes hold mirror pairs in at.x/at.z (both pairs invert), as a 180-degree rotated pair or a mirrored pair; I could not tell which, and kept each as a separate part.",
+  "In meshes 0 and 1 the mirrored edge slabs/strips (eight islands each) could belong to one stack per side; the evidence does not separate that, so they stay as separate parts.",
+  "Same material is shared by otherwise unrelated shapes (Material_17 plates, prisms and beams); material did not help to name parts here.",
+  "Name uniqueness required qualifiers; some names (e.g. '..._Pair_Group') are wordy.",
+  "Tooling: the first check run failed with ERR_CONNECTION_REFUSED on localhost:5611 although the editor was stated to be served; a retry minutes later worked (server was reachable via curl). No plan change."
+ ],
+ "model": "2CylinderEngine",
+ "mode": "materials",
+ "blind_code": "N23"
+}

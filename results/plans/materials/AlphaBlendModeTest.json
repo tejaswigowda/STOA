@@ -1,0 +1,300 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Bed_Material_Group",
+    "classes": [
+     "bed-material"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Bed_Tall_Thin_Panel",
+      "classes": [
+       "panel",
+       "upright"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Bed_Low_Flat_Slab",
+      "classes": [
+       "slab",
+       "base"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Blend_Material_Group",
+    "classes": [
+     "blend-material"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Blend_Small_Black_Tile",
+      "classes": [
+       "tile"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Blend_Textured_Quad",
+      "classes": [
+       "quad",
+       "flat"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "whole": {
+    "group": "Cutoff_Low_Quad_Group",
+    "name": "Cutoff_Low_Textured_Quad",
+    "classes": [
+     "quad",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Cutoff_High_Quad_Group",
+    "name": "Cutoff_High_Textured_Quad",
+    "classes": [
+     "quad",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "whole": {
+    "group": "Cutoff_Default_Quad_Group",
+    "name": "Cutoff_Default_Textured_Quad",
+    "classes": [
+     "quad",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "plan": {
+    "group": "Opaque_Material_Group",
+    "classes": [
+     "opaque-material"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Opaque_Small_Green_Marked_Tile",
+      "classes": [
+       "tile",
+       "check"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Opaque_Small_Red_Marked_Tile",
+      "classes": [
+       "tile",
+       "cross"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Opaque_Small_Black_Tile",
+      "classes": [
+       "tile"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Opaque_Label_Strip_Far_Left",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Opaque_Label_Strip_Left_Centre",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Opaque_Label_Strip_Centre",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Opaque_Label_Strip_Right_Centre",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Opaque_Label_Strip_Far_Right",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Opaque_Textured_Quad",
+      "classes": [
+       "quad",
+       "flat"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Green_Triangle_Upper",
+      "classes": [
+       "triangle",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Green_Triangle_Middle",
+      "classes": [
+       "triangle",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Green_Triangle_Lower",
+      "classes": [
+       "triangle",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Mesh 0 arrived at component grain (2 components); the plan uses component indices there and island indices in the other meshes. Mixing the two grains per mesh is allowed by the brief but I had to infer it from the report text.",
+  "Bed_* names use the material name MatBed; the evidence (a 8.4x2.2x0.1 thin tall panel and an 8.6x0.2x1.3 low slab) does not say headboard/mattress. The panel centre z=-0.417 sits inside the slab footprint, not at its edge, so I did not name a headboard.",
+  "Meshes 1-5: one 1.1x1.87 flat textured quad with identical UVs (black, blue, yellow) appears under Blend, Cutoff-low, Cutoff-high, Cutoff-default and Opaque materials; names carry the alpha-mode word from the material (as evidence) and the shape; no claim about what the picture shows. MatCutoff25/75 mapped to Low/High to avoid digit names.",
+  "Small green/red-marked white tiles plus black tile in mesh 5: Green/Red marked only; \"check\"/\"cross\" classes are an inference from colour, not stated by any material.",
+  "Label strips: white flat 0.58x0.17 quads with 5-12% black along one row, ordered by at.x; the text content is not evidenced.",
+  "Three 1-triangle green slivers in mesh 5 give no function; named by shape, colour and height only.",
+  "Z-direction (front/back) is not used in names because the convention is not given.",
+  "Basis lists exclude material names as instructed."
+ ],
+ "model": "AlphaBlendModeTest",
+ "mode": "materials",
+ "blind_code": "N19"
+}

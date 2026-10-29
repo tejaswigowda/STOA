@@ -1,0 +1,636 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Label_Strips_Group",
+    "classes": [
+     "label"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Label_Strip_Front_Lowest",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Label_Strip_Front_Low",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Label_Strip_Front_Lower_Middle",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Label_Strip_Front_Middle",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Label_Strip_Front_Upper_Middle",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Label_Strip_Front_High",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Label_Strip_Front_Highest",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Label_Strip_Back_Lowest",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Label_Strip_Back_Low",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Label_Strip_Back_Lower_Middle",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Label_Strip_Back_Middle",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Label_Strip_Back_Upper_Middle",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Label_Strip_Back_High",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Label_Strip_Back_Highest",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "whole": {
+    "group": "Spec_Factor_Equal_Extent_Solid_One_Group",
+    "name": "Spec_Factor_Equal_Extent_Solid_One",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "whole": {
+    "group": "Spec_Factor_Equal_Extent_Solid_Two_Group",
+    "name": "Spec_Factor_Equal_Extent_Solid_Two",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Spec_Factor_Equal_Extent_Solid_Three_Group",
+    "name": "Spec_Factor_Equal_Extent_Solid_Three",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "whole": {
+    "group": "Spec_Factor_Equal_Extent_Solid_Four_Group",
+    "name": "Spec_Factor_Equal_Extent_Solid_Four",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "whole": {
+    "group": "Spec_Factor_Equal_Extent_Solid_Five_Group",
+    "name": "Spec_Factor_Equal_Extent_Solid_Five",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "plan": {
+    "group": "Spec_Texture_Solid_Row_Group",
+    "classes": [
+     "solid"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Spec_Texture_Equal_Extent_Solid_Far_Right",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Spec_Texture_Equal_Extent_Solid_Right_Middle",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Spec_Texture_Equal_Extent_Solid_Centre",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Spec_Texture_Equal_Extent_Solid_Left_Middle",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Spec_Texture_Equal_Extent_Solid_Far_Left",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "whole": {
+    "group": "White_Factor_Equal_Extent_Solid_One_Group",
+    "name": "White_Factor_Equal_Extent_Solid_One",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "whole": {
+    "group": "White_Factor_Equal_Extent_Solid_Two_Group",
+    "name": "White_Factor_Equal_Extent_Solid_Two",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 9,
+   "whole": {
+    "group": "White_Factor_Equal_Extent_Solid_Three_Group",
+    "name": "White_Factor_Equal_Extent_Solid_Three",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 10,
+   "whole": {
+    "group": "White_Factor_Equal_Extent_Solid_Four_Group",
+    "name": "White_Factor_Equal_Extent_Solid_Four",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 11,
+   "whole": {
+    "group": "White_Factor_Equal_Extent_Solid_Five_Group",
+    "name": "White_Factor_Equal_Extent_Solid_Five",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 12,
+   "plan": {
+    "group": "White_Texture_Solid_Row_Group",
+    "classes": [
+     "solid"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "White_Texture_Equal_Extent_Solid_Far_Right",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "White_Texture_Equal_Extent_Solid_Right_Middle",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "White_Texture_Equal_Extent_Solid_Centre",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "White_Texture_Equal_Extent_Solid_Left_Middle",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "White_Texture_Equal_Extent_Solid_Far_Left",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 13,
+   "whole": {
+    "group": "Yellow_Factor_Equal_Extent_Solid_One_Group",
+    "name": "Yellow_Factor_Equal_Extent_Solid_One",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 14,
+   "whole": {
+    "group": "Yellow_Factor_Equal_Extent_Solid_Two_Group",
+    "name": "Yellow_Factor_Equal_Extent_Solid_Two",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 15,
+   "whole": {
+    "group": "Yellow_Factor_Equal_Extent_Solid_Three_Group",
+    "name": "Yellow_Factor_Equal_Extent_Solid_Three",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 16,
+   "whole": {
+    "group": "Yellow_Factor_Equal_Extent_Solid_Four_Group",
+    "name": "Yellow_Factor_Equal_Extent_Solid_Four",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 17,
+   "whole": {
+    "group": "Yellow_Factor_Equal_Extent_Solid_Five_Group",
+    "name": "Yellow_Factor_Equal_Extent_Solid_Five",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 18,
+   "plan": {
+    "group": "Yellow_Texture_Solid_Row_Group",
+    "classes": [
+     "solid"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Yellow_Texture_Equal_Extent_Solid_Far_Right",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Yellow_Texture_Equal_Extent_Solid_Right_Middle",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Yellow_Texture_Equal_Extent_Solid_Centre",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Yellow_Texture_Equal_Extent_Solid_Left_Middle",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Yellow_Texture_Equal_Extent_Solid_Far_Left",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 19,
+   "whole": {
+    "group": "Hdr_Equal_Extent_Solid_One_Group",
+    "name": "Hdr_Equal_Extent_Solid_One",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 20,
+   "whole": {
+    "group": "Hdr_Equal_Extent_Solid_Two_Group",
+    "name": "Hdr_Equal_Extent_Solid_Two",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 21,
+   "whole": {
+    "group": "Hdr_Equal_Extent_Solid_Three_Group",
+    "name": "Hdr_Equal_Extent_Solid_Three",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 22,
+   "whole": {
+    "group": "Hdr_Equal_Extent_Solid_Four_Group",
+    "name": "Hdr_Equal_Extent_Solid_Four",
+    "classes": [
+     "solid"
+    ]
+   }
+  },
+  {
+   "mesh": 23,
+   "whole": {
+    "group": "Hdr_Equal_Extent_Solid_Five_Group",
+    "name": "Hdr_Equal_Extent_Solid_Five",
+    "classes": [
+     "solid"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Evidence says little: every non-label mesh is one or five equal-extent solids (size 0.1 on each axis, 1280 triangles each, no uv/colour). Nothing in position/size/colour tells what they are, so they are named by shape (Equal_Extent_Solid) plus the material family word from the material name (material names are evidence but not listed in basis): Spec/White/Yellow/Hdr, Factor vs Texture, and the ordinal from the material suffix written as a word.",
+  "Rule used: mesh with material M<n>.<k>_<family>Fac -> one whole part '<Family>_Factor_Equal_Extent_Solid_<k as word>'. Mesh with a *Tex material -> five islands, one part each, named by x position (at.x .91 Far_Right, .70 Right_Middle, .50 Centre, .30 Left_Middle, .09 Far_Left); the five islands are in a row along x. Left/right is assumed to follow at.x low = left.",
+  "LabelMat mesh: 14 thin flat strips (0.567 x ~0.09, zero depth), 7 at at.z=1 and 7 at at.z=0, each stacked at distinct at.y; named Label_Strip_<Front|Back>_<height rank>. Which of z=0 / z=1 is front is assumed. Colours are mostly white with black (text-like), which is the colour basis; I did not claim any specific text.",
+  "Island order in the label report is not height order (islands 0,1,3,5,6,2,4 rise in y); I re-sorted by at.y.",
+  "Within-mesh position (at) is always 0.5 for the single-solid meshes, so no placement in the whole model is available; the 1280-triangle solids might be spheres, cubes or anything with equal extents; I abstained.",
+  "Tooling: the first check run failed with ERR_CONNECTION_REFUSED on localhost:5611 although the editor was stated to be served; a retry minutes later worked (server was reachable via curl). No plan change."
+ ],
+ "model": "SpecularTest",
+ "mode": "materials",
+ "blind_code": "N07"
+}

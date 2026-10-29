@@ -1,0 +1,213 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "whole": {
+    "group": "Offset_U_Group",
+    "name": "Offset_U_Square",
+    "classes": [
+     "quad",
+     "plane"
+    ],
+    "basis": [
+     "size",
+     "colour",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "whole": {
+    "group": "Offset_V_Group",
+    "name": "Offset_V_Square",
+    "classes": [
+     "quad",
+     "plane"
+    ],
+    "basis": [
+     "size",
+     "colour",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "whole": {
+    "group": "Offset_UV_Group",
+    "name": "Offset_UV_Square",
+    "classes": [
+     "quad",
+     "plane"
+    ],
+    "basis": [
+     "size",
+     "colour",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Rotation_Group",
+    "name": "Rotation_Square",
+    "classes": [
+     "quad",
+     "plane"
+    ],
+    "basis": [
+     "size",
+     "colour",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "whole": {
+    "group": "Scale_Group",
+    "name": "Scale_Square",
+    "classes": [
+     "quad",
+     "plane"
+    ],
+    "basis": [
+     "size",
+     "colour",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "whole": {
+    "group": "All_Group",
+    "name": "All_Square",
+    "classes": [
+     "quad",
+     "plane"
+    ],
+    "basis": [
+     "size",
+     "colour",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "plan": {
+    "group": "Correct_Markers_Group",
+    "classes": [
+     "marker"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Green_Marker_Low_Left",
+      "classes": [
+       "marker",
+       "green"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "colour"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Green_Marker_Top_Centre",
+      "classes": [
+       "marker",
+       "green"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "colour"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Green_Marker_Right_Middle",
+      "classes": [
+       "marker",
+       "green"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "plan": {
+    "group": "Not_Supported_Markers_Group",
+    "classes": [
+     "marker"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Yellow_Marker_Left_Middle",
+      "classes": [
+       "marker",
+       "yellow"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "colour"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Yellow_Marker_Right_Middle",
+      "classes": [
+       "marker",
+       "yellow"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "whole": {
+    "group": "Error_Marker_Group",
+    "name": "Red_Marker_Centre",
+    "classes": [
+     "marker",
+     "red"
+    ],
+    "basis": [
+     "size",
+     "position",
+     "colour"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Material names (Offset U, Offset V, Offset UV, Rotation, Scale, All, Correct, NotSupported, Error) are the main evidence and are used in names; basis cannot list material.",
+  "Meshes 0-5 are single 1x1 quads (2 triangles) textured with a pattern in grey/white plus one colour (green, blue, cyan) or black; 'at' gives no position inside the model. I do not know what each pattern shows, so they are named by material only, as squares.",
+  "Meshes 6-8 are small squares (0.1-0.15) in green, yellow, red positioned around the edge/centre of the mesh bounds; I named them by colour and place and did not give them a function. Whether the three green markers are three of one thing or are separate is not distinguishable beyond position; I kept them as separate parts.",
+  "Mesh sizes of markers (0.15, 0.10, 0.10) are in mesh units and scene-relative placement is only from 'at' within this mesh."
+ ],
+ "model": "TextureTransformTest",
+ "mode": "materials",
+ "blind_code": "N17"
+}

@@ -1,0 +1,732 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Upholstery_Group",
+    "classes": [
+     "upholstery"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Seat_Cushion_Fabric",
+      "classes": [
+       "cushion",
+       "seat"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Backrest_Cushion_Fabric",
+      "classes": [
+       "cushion",
+       "backrest"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Backrest_Panel_Fabric",
+      "classes": [
+       "panel",
+       "backrest"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Seat_Base_Panel_Fabric",
+      "classes": [
+       "panel",
+       "seat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       4
+      ],
+      "name": "Small_Fabric_Nub_Backrest_Left",
+      "classes": [
+       "small-detail"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       5
+      ],
+      "name": "Small_Fabric_Nub_Backrest_Right",
+      "classes": [
+       "small-detail"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       6
+      ],
+      "name": "Small_Fabric_Nub_Seat_Left_Front",
+      "classes": [
+       "small-detail"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       7
+      ],
+      "name": "Small_Fabric_Nub_Seat_Left_Rear",
+      "classes": [
+       "small-detail"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       8
+      ],
+      "name": "Small_Fabric_Nub_Seat_Far_Left_Mid",
+      "classes": [
+       "small-detail"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       9
+      ],
+      "name": "Small_Fabric_Nub_Seat_Centre_Front",
+      "classes": [
+       "small-detail"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       10
+      ],
+      "name": "Small_Fabric_Nub_Seat_Centre_Rear",
+      "classes": [
+       "small-detail"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       11
+      ],
+      "name": "Small_Fabric_Nub_Seat_Left_Mid_Inner",
+      "classes": [
+       "small-detail"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       12
+      ],
+      "name": "Small_Fabric_Nub_Seat_Right_Front",
+      "classes": [
+       "small-detail"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       13
+      ],
+      "name": "Small_Fabric_Nub_Seat_Right_Rear",
+      "classes": [
+       "small-detail"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       14
+      ],
+      "name": "Small_Fabric_Nub_Seat_Right_Mid_Inner",
+      "classes": [
+       "small-detail"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       15
+      ],
+      "name": "Small_Fabric_Nub_Seat_Far_Right_Mid",
+      "classes": [
+       "small-detail"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Wood_Frame_Group",
+    "classes": [
+     "frame"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Backrest_Wood_Panel",
+      "classes": [
+       "panel",
+       "backrest"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Seat_Base_Wood_Panel",
+      "classes": [
+       "panel",
+       "seat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Seat_Side_Rail_Left",
+      "classes": [
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Seat_Rail_Rear",
+      "classes": [
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       4
+      ],
+      "name": "Seat_Rail_Front",
+      "classes": [
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       5
+      ],
+      "name": "Seat_Side_Rail_Right",
+      "classes": [
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       6
+      ],
+      "name": "Tall_Rear_Post_Left",
+      "classes": [
+       "post",
+       "leg"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       7
+      ],
+      "name": "Tall_Rear_Post_Right",
+      "classes": [
+       "post",
+       "leg"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       8
+      ],
+      "name": "Short_Front_Leg_Left",
+      "classes": [
+       "leg"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       9
+      ],
+      "name": "Short_Front_Leg_Right",
+      "classes": [
+       "leg"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Metal_Hardware_Group",
+    "classes": [
+     "hardware"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Small_Metal_Fastener_L_Front_Side_Low",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Small_Metal_Fastener_L_Front_Side_High",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Small_Metal_Fastener_L_Rear_Side_Low",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Small_Metal_Fastener_L_Rear_Side_High",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Small_Metal_Fastener_L_Rear_Back_Low",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Small_Metal_Fastener_L_Rear_Back_Mid",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Small_Metal_Fastener_L_Rear_Back_Upper_Low",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Small_Metal_Fastener_L_Rear_Back_Upper_High",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Small_Metal_Fastener_L_Front_Face_Low",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Small_Metal_Fastener_L_Front_Face_High",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Small_Metal_Fastener_R_Front_Side_Low",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Small_Metal_Fastener_R_Front_Side_High",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Small_Metal_Fastener_R_Rear_Side_Low",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Small_Metal_Fastener_R_Rear_Side_High",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Small_Metal_Fastener_R_Rear_Back_Low",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 15,
+      "name": "Small_Metal_Fastener_R_Rear_Back_Mid",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 16,
+      "name": "Small_Metal_Fastener_R_Rear_Back_Upper_Low",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 17,
+      "name": "Small_Metal_Fastener_R_Rear_Back_Upper_High",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 18,
+      "name": "Small_Metal_Fastener_R_Front_Face_Low",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 19,
+      "name": "Small_Metal_Fastener_R_Front_Face_High",
+      "classes": [
+       "small-detail",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 20,
+      "name": "Flat_Metal_Foot_Pad_Front_Left",
+      "classes": [
+       "foot",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 21,
+      "name": "Flat_Metal_Foot_Pad_Rear_Left",
+      "classes": [
+       "foot",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 22,
+      "name": "Flat_Metal_Foot_Pad_Front_Right",
+      "classes": [
+       "foot",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 23,
+      "name": "Flat_Metal_Foot_Pad_Rear_Right",
+      "classes": [
+       "foot",
+       "metal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Label_Group",
+    "name": "Flat_Textured_Label_Plate",
+    "classes": [
+     "label"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Material names used as evidence (not in basis): 'fabric Mystere Mango Velvet' -> upholstered parts; 'wood Brown' -> frame parts; 'metal' -> small hardware; 'label' -> flat textured plate.",
+  "The object is not identified; the evidence reads as a seat with a backrest (seat-level slab and cushions, a high panel at one end, tall posts at the rear, short legs at the front). I treated +z as front only because the shorter legs and the cushion sit at +z; this is an inference, not stated by the report.",
+  "Mesh 0/1 were cut at component grain (the report offered components); mesh 2/3 at island grain. Mesh 2 has no colours in its report (no texture), so colour could not support anything there.",
+  "Mesh 0: 12 tiny 160-triangle components (16-27) were not identifiable; I gave shape-descriptive names 'Small_Fabric_Nub_*' (could be buttons/tufting or something else) and positions only. Their centres lie slightly inside the cushion top, so I could not tell what they are.",
+  "Mesh 0 comp 0 has 11 islands and comp 1 has 5: the cushion may hold several authored parts (e.g. cushion plus covers or seams) that the evidence does not separate; I kept one part each. Names Seat_Base_Panel_Fabric / Backrest_Panel_Fabric are weaker (same footprint as wood panels) and basically shape-descriptive.",
+  "Mesh 1 comps 6-9 merged several islands each (legs plus pieces at 8,10,14 and 9,12,15); I could not separate sub-pieces like leg versus stretcher/brace and left them as one leg each.",
+  "Mesh 2: the 20 small 160-triangle islands are identical in size and I could only place them by 'at' within the metal mesh's own extent (not the whole model), so the left/right/front/back/low/high words are approximate and 'fastener' is a size/shape guess; the four flat islands at y~0 (20-23) are called foot pads from position at the bottom corners only.",
+  "Mesh 3: single 128-triangle flat textured plate with a texture (colours light grey-beige with dark); position in the whole model unknown (at is relative to its own mesh), so it is not placed and not named beyond shape. Given as whole.",
+  "The 'at' coordinates are relative to each mesh's own extent, which makes cross-mesh placement (e.g. which leg a metal screw sits on) impossible to confirm; the scene-space centres only appear for component-grain meshes."
+ ],
+ "model": "SheenChair",
+ "mode": "materials",
+ "blind_code": "M19"
+}

@@ -1,0 +1,223 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Toy_Car_Assembly",
+    "classes": [
+     "vehicle",
+     "toy"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Car_Body_Green_White",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Wheel_Right_High_Z",
+      "classes": [
+       "wheel",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Wheel_Left_Low_Z",
+      "classes": [
+       "wheel",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Wheel_Right_Low_Z",
+      "classes": [
+       "wheel",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       4
+      ],
+      "name": "Wheel_Left_High_Z",
+      "classes": [
+       "wheel",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       5
+      ],
+      "name": "Thin_White_Strip_Right_Mid",
+      "classes": [
+       "strip",
+       "right"
+      ],
+      "basis": [
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "component": [
+       6
+      ],
+      "name": "Thin_White_Strip_Left_Mid",
+      "classes": [
+       "strip",
+       "left"
+      ],
+      "basis": [
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "component": [
+       7
+      ],
+      "name": "Thin_White_Strip_Left_Low",
+      "classes": [
+       "strip",
+       "left"
+      ],
+      "basis": [
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "component": [
+       8
+      ],
+      "name": "Axle_High_Z",
+      "classes": [
+       "axle"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       9
+      ],
+      "name": "Axle_Low_Z",
+      "classes": [
+       "axle"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "whole": {
+    "group": "Red_Fabric_Sheet_Group",
+    "name": "Flat_Red_Fabric_Sheet",
+    "classes": [
+     "fabric",
+     "sheet"
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Glass_Panes_Group",
+    "classes": [
+     "glass"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Glass_Pane_Low_Z",
+      "classes": [
+       "glass",
+       "pane"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Glass_Pane_High_Z",
+      "classes": [
+       "glass",
+       "pane"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Material names used as given: ToyCar, Fabric, Glass.",
+  "Mesh 0: 1950 islands in 10 components; planned at component grain. Component 0 (67583 tris, 1570 islands) is a single welded blob holding body, interior, lights etc.; evidence does not separate them, so merged as one body part.",
+  "Wheel names inferred from four equal components (0.003x0.005x0.005) at x extremes, low y, two z positions; front/back cannot be told from the evidence, so named by left/right and high/low z only.",
+  "Components 5-7 are zero-width white line-like sheets along z; shape-descriptive names only. Axles for components 8,9 are inferred from x-spanning thin bars at wheel height and z; moderate confidence.",
+  "Mesh 1 is one island, flat and larger than the car body, colours red; named by shape only, no use inferred.",
+  "Mesh 2 glass: two similar components at opposite z ends, mid-height; could be windscreen/rear window but not asserted; named by shape and position only.",
+  "Wheel colour 'white 54%/dark 46%' could be tyre plus hub, but material is shared so could not be split by material."
+ ],
+ "model": "ToyCar",
+ "mode": "materials",
+ "blind_code": "M07"
+}

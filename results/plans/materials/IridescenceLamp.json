@@ -1,0 +1,235 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Opaque_Stacked_Object_Group",
+    "classes": [
+     "object"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Dark_Upper_Shell_Body",
+      "classes": [
+       "shell"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Middle_White_Flat_Disc",
+      "classes": [
+       "disc"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Lower_White_Flat_Disc",
+      "classes": [
+       "disc"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Upper_Pale_Central_Block",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       4
+      ],
+      "name": "Lowest_Wide_White_And_Black_Base",
+      "classes": [
+       "base"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       5
+      ],
+      "name": "Thin_Pale_Disc_Upper",
+      "classes": [
+       "disc"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       6
+      ],
+      "name": "Central_Vertical_Thin_Rod",
+      "classes": [
+       "rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       7
+      ],
+      "name": "Pale_Vane_Left",
+      "classes": [
+       "vane"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       8
+      ],
+      "name": "Pale_Vane_Right",
+      "classes": [
+       "vane"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       9
+      ],
+      "name": "Pale_Vane_Positive_Z_Flat",
+      "classes": [
+       "vane"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       10
+      ],
+      "name": "Small_Black_Nub_Low_Negative_Z",
+      "classes": [
+       "nub"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Transmissive_Nested_Shells_Group",
+    "classes": [
+     "shells"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Outer_Transmissive_Shell",
+      "classes": [
+       "shell"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Inner_Transmissive_Shell",
+      "classes": [
+       "shell"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "whole": {
+    "group": "Iridescent_Overlay_Group",
+    "name": "Iridescent_Shell_Matching_Dark_Upper_Body",
+    "classes": [
+     "shell"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Mesh 0 is a scene-grain report (11 components); I named components, not islands, since the report offered that grain.",
+  "No part name could be justified beyond shape/position/size/colour; every name is shape-descriptive on purpose. Nothing says what the object is as a whole.",
+  "Mesh 1 (transmission+iridescence material): two islands nearly coincident (same 'at' 0.5,0.5,0.5, sizes 0.193 vs 0.190). Nothing separates them by position, so I named them outer/inner by size only; they may really be one thing or two halves; I could not tell.",
+  "Mesh 2 (iridescence material) is one island with the same bounding size as mesh 0 component 0 (0.29x0.23x0.30); I take it to be a coating or overlay of that dark body, but that is an inference from size and not proven. Material names used as evidence (not listed in basis): IridescenceLamp, IridescenceLampTransmissionIridescence, IridescenceLampIridescence.",
+  "Vane names for components 7-9 rest on three near-identical small pieces at about 120 degrees apart around the axis; component 9 is flat in x (0.003) so it may not be a true member of the set. Left/right/positive-Z are world axes; I do not know which is front.",
+  "Component 4 mixes white (71%) and black (29%) and its islands (8,10,16) may be unrelated things joined by touching; component 10 (small black) sits near the base and may belong with it or be a switch/cable; I could not resolve this.",
+  "The 'at' values for mesh 1 and 2 are always 0.5 because each is a single mesh-centred cluster, so position gave nothing there."
+ ],
+ "model": "IridescenceLamp",
+ "mode": "materials",
+ "blind_code": "M13"
+}

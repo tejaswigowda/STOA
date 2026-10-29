@@ -1,0 +1,504 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "whole": {
+    "group": "Base_Color_Test_Zero_Flat_Square_Group",
+    "name": "Base_Color_Test_Zero_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "whole": {
+    "group": "Base_Color_Test_One_Flat_Square_Group",
+    "name": "Base_Color_Test_One_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "whole": {
+    "group": "Base_Color_Sample_Flat_Square_Group",
+    "name": "Base_Color_Sample_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Background_Panel_Group",
+    "name": "Background_Flat_Panel",
+    "classes": [
+     "panel",
+     "background"
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "plan": {
+    "group": "Label_Strips_Group",
+    "classes": [
+     "label"
+    ],
+    "parts": [
+     {
+      "island": 9,
+      "name": "Label_Strip_Wide_First_From_Bottom",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Label_Strip_Wide_Second_From_Bottom",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Label_Strip_Wide_Third_From_Bottom",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Label_Strip_Wide_Fourth_From_Bottom",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 0,
+      "name": "Label_Strip_Wide_Fifth_From_Bottom",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Label_Strip_Wide_Sixth_From_Bottom",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Label_Strip_Wide_Seventh_From_Bottom",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Label_Strip_Wide_Eighth_From_Bottom",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Label_Strip_Wide_Ninth_From_Bottom",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Label_Strip_Top_Row_Left",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Label_Strip_Top_Row_Centre",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Label_Strip_Top_Row_Right_Wider",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "whole": {
+    "group": "Emission_Test_Zero_Flat_Square_Group",
+    "name": "Emission_Test_Zero_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "whole": {
+    "group": "Emission_Test_One_Flat_Square_Group",
+    "name": "Emission_Test_One_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "whole": {
+    "group": "Emission_Sample_Flat_Square_Group",
+    "name": "Emission_Sample_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "whole": {
+    "group": "Normal_Test_Zero_Flat_Square_Group",
+    "name": "Normal_Test_Zero_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 9,
+   "whole": {
+    "group": "Normal_Test_One_Flat_Square_Group",
+    "name": "Normal_Test_One_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 10,
+   "whole": {
+    "group": "Normal_Sample_Flat_Square_Group",
+    "name": "Normal_Sample_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 11,
+   "whole": {
+    "group": "Metal_Rough_Test_Zero_Flat_Square_Group",
+    "name": "Metal_Rough_Test_Zero_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 12,
+   "whole": {
+    "group": "Metal_Rough_Test_One_Flat_Square_Group",
+    "name": "Metal_Rough_Test_One_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 13,
+   "whole": {
+    "group": "Metal_Rough_Sample_Flat_Square_Group",
+    "name": "Metal_Rough_Sample_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 14,
+   "whole": {
+    "group": "Occlusion_Test_Zero_Flat_Square_Group",
+    "name": "Occlusion_Test_Zero_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 15,
+   "whole": {
+    "group": "Occlusion_Test_One_Flat_Square_Group",
+    "name": "Occlusion_Test_One_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 16,
+   "whole": {
+    "group": "Occlusion_Sample_Flat_Square_Group",
+    "name": "Occlusion_Sample_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 17,
+   "whole": {
+    "group": "Unlit_Test_Zero_Flat_Square_Group",
+    "name": "Unlit_Test_Zero_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 18,
+   "whole": {
+    "group": "Unlit_Test_One_Flat_Square_Group",
+    "name": "Unlit_Test_One_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 19,
+   "whole": {
+    "group": "Unlit_Sample_Flat_Square_Group",
+    "name": "Unlit_Sample_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 20,
+   "whole": {
+    "group": "Clearcoat_Test_Zero_Shallow_Raised_Square_Group",
+    "name": "Clearcoat_Test_Zero_Shallow_Raised_Square",
+    "classes": [
+     "square",
+     "raised"
+    ]
+   }
+  },
+  {
+   "mesh": 21,
+   "whole": {
+    "group": "Clearcoat_Test_One_Shallow_Raised_Square_Group",
+    "name": "Clearcoat_Test_One_Shallow_Raised_Square",
+    "classes": [
+     "square",
+     "raised"
+    ]
+   }
+  },
+  {
+   "mesh": 22,
+   "whole": {
+    "group": "Clearcoat_Sample_Shallow_Raised_Square_Group",
+    "name": "Clearcoat_Sample_Shallow_Raised_Square",
+    "classes": [
+     "square",
+     "raised"
+    ]
+   }
+  },
+  {
+   "mesh": 23,
+   "whole": {
+    "group": "Clearcoat_Rough_Test_Zero_Shallow_Raised_Square_Group",
+    "name": "Clearcoat_Rough_Test_Zero_Shallow_Raised_Square",
+    "classes": [
+     "square",
+     "raised"
+    ]
+   }
+  },
+  {
+   "mesh": 24,
+   "whole": {
+    "group": "Clearcoat_Rough_Test_One_Shallow_Raised_Square_Group",
+    "name": "Clearcoat_Rough_Test_One_Shallow_Raised_Square",
+    "classes": [
+     "square",
+     "raised"
+    ]
+   }
+  },
+  {
+   "mesh": 25,
+   "whole": {
+    "group": "Clearcoat_Rough_Sample_Shallow_Raised_Square_Group",
+    "name": "Clearcoat_Rough_Sample_Shallow_Raised_Square",
+    "classes": [
+     "square",
+     "raised"
+    ]
+   }
+  },
+  {
+   "mesh": 26,
+   "whole": {
+    "group": "Clearcoat_Normal_Test_Zero_Flat_Square_Group",
+    "name": "Clearcoat_Normal_Test_Zero_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 27,
+   "whole": {
+    "group": "Clearcoat_Normal_Test_One_Flat_Square_Group",
+    "name": "Clearcoat_Normal_Test_One_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 28,
+   "whole": {
+    "group": "Clearcoat_Normal_Sample_Flat_Square_Group",
+    "name": "Clearcoat_Normal_Sample_Flat_Square",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Almost every mesh is either a flat 0.2 x 0.2 two-triangle square or a 648-triangle square 0.2 x 0.2 with 0.049 relief (shallow raised square). Position/size/colour cannot say more, so they are named by shape plus the family/variant read from the material name (BaseColor, Emission, Normal, MetalRough, Occlusion, Unlit, Clearcoat, ClearcoatRough, ClearcoatNormal; Test0/Test1/Sample written as Test_Zero/Test_One/Sample). Material names are evidence but not listed in basis.",
+  "Rule: material '<Family>(Test0|Test1|Sample)Mat' -> whole part '<Family_words>_<variant>_Flat_Square' (2 triangles) or '_Shallow_Raised_Square' (648 triangles). The three variants of a family differ only in texture window, not in geometry; the evidence cannot separate them by geometry. I did not claim what the variants are.",
+  "BackgroundMat: single flat 2.0 x 2.4 quad, the largest object by far (others 0.2): named Background_Flat_Panel on size plus material name.",
+  "LabelMat: 12 flat strips, nine wide (0.95) in a column at at.x 0.26 ordered by at.y (re-sorted: island order is not height order) and three short ones in a top row at at.y 0.98 (x .61, .75, .91; the last wider). Named by position; colour white with black (text-like) is the colour basis.",
+  "Unlit* quads report white/black colours while the equivalent Base colour/other-family quads of the same size differ only in material. Could not tell why; no claim made.",
+  "No digits-only or placeholder names were used; digits are spelled as words.",
+  "Tooling: the first check run failed with ERR_CONNECTION_REFUSED on localhost:5611 although the editor was stated to be served; a retry minutes later worked (server was reachable via curl). No plan change."
+ ],
+ "model": "TextureTransformMultiTest",
+ "mode": "materials",
+ "blind_code": "N18"
+}

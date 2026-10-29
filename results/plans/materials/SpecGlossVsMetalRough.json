@@ -1,0 +1,199 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Right_Bottle_Spec_Group",
+    "classes": [
+     "bottle",
+     "right"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Right_Bottle_Wide_Lower_Section",
+      "classes": [
+       "lower",
+       "section",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Right_Bottle_Top_Piece",
+      "classes": [
+       "top",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Right_Bottle_Tall_Body",
+      "classes": [
+       "body",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Left_Bottle_MR_Group",
+    "classes": [
+     "bottle",
+     "left"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Left_Bottle_Dark_Wide_Lower_Section",
+      "classes": [
+       "lower",
+       "section",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Left_Bottle_Red_Top_Piece",
+      "classes": [
+       "top",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Left_Bottle_Tall_Tan_Body",
+      "classes": [
+       "body",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Label_White_Panels_Group",
+    "classes": [
+     "label"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Label_White_Panel_Front",
+      "classes": [
+       "label",
+       "panel",
+       "front"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Label_White_Panel_Back",
+      "classes": [
+       "label",
+       "panel",
+       "back"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "plan": {
+    "group": "Label_Overlay_Panels_Group",
+    "classes": [
+     "label"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Label_Overlay_Panel_Front",
+      "classes": [
+       "label",
+       "panel",
+       "front"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Label_Overlay_Panel_Back",
+      "classes": [
+       "label",
+       "panel",
+       "back"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Meshes 0 and 1 have identical triangle counts and component sizes but centres at x=+0.08 and x=-0.08: two copies of the same object side by side, one per material (SpecGloss vs MetalRough-style 'MR'). I named them Right/Left by world x; 'right' means +x, which is a guess about handedness/viewing direction.",
+  "Mesh 0 gives no colour at all ('no texture'), so its names rest on position and size only; mesh 1 colours (dark, red, tan) were used for mesh 1 names.",
+  "Nothing in the evidence tells what the object is for. Component 2 (tall, 0.246) spans the full height and overlaps component 0 (low, wider, 0.099) in y, so component 0 may be a base, a shell around the lower body, or something else; I used shape-descriptive names for it (Wide_Lower_Section). Component 1 (small, at the top, 0.039 tall) is named only as top piece, not as cap/stopper/lid. 'Body' for the tall component rests on size and position only.",
+  "Material names (BottleMat_SpecGloss, BottleMat_MR, Label Material MetalRough, Label Material SpecGloss) were used as evidence for the bottle/label reading and to separate the two copies, but are not listed in basis as instructed.",
+  "Label meshes: two flat quads (size z = 0, 0.150 x 0.019) at z=0.0 and z=1.0 of their own mesh, so a front and a back; mesh 3 repeats mesh 2's geometry with the other half of the UV atlas (v 0.5-1 vs 0-0.5) and no colour. I cannot say how they relate to the bottles (their at is relative to their own tiny mesh, so I do not know whether they sit on one bottle, between the two, or on both) and I did not attach them to a bottle. Front/Back follows +z/-z, again a guess about orientation. The label is wider (0.150) than a bottle (0.100) which is odd; left unresolved.",
+  "Mesh 3 labels got names by role ('Overlay') only because the second material duplicates the first's geometry; I do not know what that second layer is (e.g. a different texture channel); the name describes position in the plan only."
+ ],
+ "model": "SpecGlossVsMetalRough",
+ "mode": "materials",
+ "blind_code": "M08"
+}

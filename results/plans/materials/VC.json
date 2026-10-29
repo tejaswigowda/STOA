@@ -1,0 +1,2679 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "whole": {
+    "group": "Squat_Brown_Slab_0p54_0p66_Group",
+    "name": "Squat_Brown_Slab_0p54_0p66",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "whole": {
+    "group": "Squat_Brown_Slab_0p55_0p65_Group",
+    "name": "Squat_Brown_Slab_0p55_0p65",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "whole": {
+    "group": "Squat_Brown_Slab_0p56_0p64_Group",
+    "name": "Squat_Brown_Slab_0p56_0p64",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Squat_Brown_Slab_0p57_0p62_Group",
+    "name": "Squat_Brown_Slab_0p57_0p62",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "whole": {
+    "group": "Squat_Brown_Slab_0p58_0p62_Group",
+    "name": "Squat_Brown_Slab_0p58_0p62",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "plan": {
+    "group": "Low_Plate_With_Raised_Fittings_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Wide_Low_Base_Plate_Dark",
+      "classes": [
+       "base",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": [
+       1,
+       2,
+       3,
+       4
+      ],
+      "name": "Small_Raised_Fittings_Cluster",
+      "classes": [
+       "fitting",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "whole": {
+    "group": "Orange_Brown_Seven_Facet_Solid_WideZ_Group",
+    "name": "Orange_Brown_Seven_Facet_Solid_WideZ",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "whole": {
+    "group": "Orange_Brown_Seven_Facet_Solid_WideX_Group",
+    "name": "Orange_Brown_Seven_Facet_Solid_WideX",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "whole": {
+    "group": "Orange_Brown_Seven_Facet_Solid_WideZ_Second_Group",
+    "name": "Orange_Brown_Seven_Facet_Solid_WideZ_Second",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 9,
+   "whole": {
+    "group": "Orange_Brown_Seven_Facet_Solid_WideX_Second_Group",
+    "name": "Orange_Brown_Seven_Facet_Solid_WideX_Second",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 10,
+   "whole": {
+    "group": "Orange_Brown_Seven_Facet_Solid_WideZ_Third_Group",
+    "name": "Orange_Brown_Seven_Facet_Solid_WideZ_Third",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 11,
+   "whole": {
+    "group": "Orange_Brown_Seven_Facet_Solid_WideZ_Fourth_Group",
+    "name": "Orange_Brown_Seven_Facet_Solid_WideZ_Fourth",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 12,
+   "whole": {
+    "group": "Orange_Brown_Seven_Facet_Solid_WideX_Third_Group",
+    "name": "Orange_Brown_Seven_Facet_Solid_WideX_Third",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 13,
+   "whole": {
+    "group": "Orange_Brown_Seven_Facet_Solid_WideX_Fourth_Group",
+    "name": "Orange_Brown_Seven_Facet_Solid_WideX_Fourth",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 14,
+   "whole": {
+    "group": "Near_Black_Thin_Plate_Set_2p04_1p99_Group",
+    "name": "Near_Black_Thin_Plate_Set_2p04_1p99",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 15,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_2p42_2p08_Group",
+    "name": "Brown_Thin_Plate_Set_2p42_2p08",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 16,
+   "whole": {
+    "group": "Orange_Thin_Plate_Set_4p33_1p99_Group",
+    "name": "Orange_Thin_Plate_Set_4p33_1p99",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 17,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_2p41_1p52_Group",
+    "name": "Brown_Thin_Plate_Set_2p41_1p52",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 18,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_6p15_1p99_Group",
+    "name": "Brown_Thin_Plate_Set_6p15_1p99",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 19,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_5p55_1p30_Group",
+    "name": "Brown_Thin_Plate_Set_5p55_1p30",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 20,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_2p08_1p76_Group",
+    "name": "Brown_Thin_Plate_Set_2p08_1p76",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 21,
+   "plan": {
+    "group": "Low_Plate_With_Raised_Fittings_Group_Second",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Wide_Low_Base_Plate_Dark_Second",
+      "classes": [
+       "base",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": [
+       1,
+       2,
+       3,
+       4
+      ],
+      "name": "Small_Raised_Fittings_Cluster_Second",
+      "classes": [
+       "fitting",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 22,
+   "plan": {
+    "group": "Near_Black_Main_Body_Cluster_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Near_Black_Main_Body_Cluster",
+      "classes": [
+       "body",
+       "main"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Brown_Upright_Rod_Right_High_LowZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 23,
+   "plan": {
+    "group": "Near_Black_Main_Body_Cluster_Second_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Near_Black_Main_Body_Cluster_Second",
+      "classes": [
+       "body",
+       "main"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Brown_Upright_Rod_Right_High_LowZ_Second",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 24,
+   "plan": {
+    "group": "Red_Main_Body_Cluster_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Red_Main_Body_Cluster",
+      "classes": [
+       "body",
+       "main"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Red_Upright_Rod_Left_High_LowZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Red_Upright_Rod_Left_High_HighZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Red_Upright_Rod_Right_High_LowZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Red_Upright_Rod_Right_High_HighZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 25,
+   "plan": {
+    "group": "Red_Main_Body_Cluster_Second_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Red_Main_Body_Cluster_Second",
+      "classes": [
+       "body",
+       "main"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Red_Upright_Rod_Left_High_LowZ_Second",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Red_Upright_Rod_Left_MidY_HighZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Red_Upright_Rod_Right_MidY_LowZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Red_Upright_Rod_Right_MidY_HighZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 26,
+   "whole": {
+    "group": "Single_Triangle_Light_Facet_Group",
+    "name": "Single_Triangle_Light_Facet",
+    "classes": [
+     "light",
+     "facet"
+    ]
+   }
+  },
+  {
+   "mesh": 27,
+   "whole": {
+    "group": "Untextured_Box_0p35_0p29_0p33_Group",
+    "name": "Untextured_Box_0p35_0p29_0p33",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 28,
+   "whole": {
+    "group": "Untextured_Box_0p43_0p36_0p40_Group",
+    "name": "Untextured_Box_0p43_0p36_0p40",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 29,
+   "whole": {
+    "group": "Dark_Grey_Fine_Detail_Cluster_300Tri_Group",
+    "name": "Dark_Grey_Fine_Detail_Cluster_300Tri",
+    "classes": [
+     "detail",
+     "cluster",
+     "small"
+    ]
+   }
+  },
+  {
+   "mesh": 30,
+   "whole": {
+    "group": "Dark_Grey_Fine_Detail_Cluster_192Tri_Group",
+    "name": "Dark_Grey_Fine_Detail_Cluster_192Tri",
+    "classes": [
+     "detail",
+     "cluster",
+     "small"
+    ]
+   }
+  },
+  {
+   "mesh": 31,
+   "whole": {
+    "group": "Dark_Glass_Small_Block_Group",
+    "name": "Dark_Glass_Small_Block",
+    "classes": [
+     "glass",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 32,
+   "whole": {
+    "group": "Near_Black_Small_Block_18Tri_0p89_0p46_0p92_Group",
+    "name": "Near_Black_Small_Block_18Tri_0p89_0p46_0p92",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 33,
+   "whole": {
+    "group": "Untextured_Box_0p34_0p29_0p31_Group",
+    "name": "Untextured_Box_0p34_0p29_0p31",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 34,
+   "whole": {
+    "group": "Untextured_Box_0p36_0p27_0p36_Group",
+    "name": "Untextured_Box_0p36_0p27_0p36",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 35,
+   "whole": {
+    "group": "Untextured_Box_0p44_0p40_0p41_Group",
+    "name": "Untextured_Box_0p44_0p40_0p41",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 36,
+   "whole": {
+    "group": "Untextured_Box_0p43_0p38_0p37_Group",
+    "name": "Untextured_Box_0p43_0p38_0p37",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 37,
+   "whole": {
+    "group": "Untextured_Box_0p38_0p30_0p35_Group",
+    "name": "Untextured_Box_0p38_0p30_0p35",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 38,
+   "whole": {
+    "group": "Near_Black_Thin_Plate_Set_1p98_1p60_Group",
+    "name": "Near_Black_Thin_Plate_Set_1p98_1p60",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 39,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_5p55_1p30_Second_Group",
+    "name": "Brown_Thin_Plate_Set_5p55_1p30_Second",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 40,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_5p55_1p30_Third_Group",
+    "name": "Brown_Thin_Plate_Set_5p55_1p30_Third",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 41,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_2p08_1p40_Group",
+    "name": "Brown_Thin_Plate_Set_2p08_1p40",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 42,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_1p91_1p52_Group",
+    "name": "Brown_Thin_Plate_Set_1p91_1p52",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 43,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_1p91_1p39_Group",
+    "name": "Brown_Thin_Plate_Set_1p91_1p39",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 44,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_1p91_1p39_Second_Group",
+    "name": "Brown_Thin_Plate_Set_1p91_1p39_Second",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 45,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_1p91_1p39_Third_Group",
+    "name": "Brown_Thin_Plate_Set_1p91_1p39_Third",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 46,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_1p91_1p39_Fourth_Group",
+    "name": "Brown_Thin_Plate_Set_1p91_1p39_Fourth",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 47,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_1p91_1p52_Second_Group",
+    "name": "Brown_Thin_Plate_Set_1p91_1p52_Second",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 48,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_2p08_1p57_Group",
+    "name": "Brown_Thin_Plate_Set_2p08_1p57",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 49,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_2p42_2p08_Second_Group",
+    "name": "Brown_Thin_Plate_Set_2p42_2p08_Second",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 50,
+   "whole": {
+    "group": "Near_Black_Thin_Plate_Set_2p66_1p42_Group",
+    "name": "Near_Black_Thin_Plate_Set_2p66_1p42",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 51,
+   "whole": {
+    "group": "Near_Black_Thin_Plate_Set_2p66_1p42_Second_Group",
+    "name": "Near_Black_Thin_Plate_Set_2p66_1p42_Second",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 52,
+   "whole": {
+    "group": "Near_Black_Thin_Plate_Set_2p66_2p54_Group",
+    "name": "Near_Black_Thin_Plate_Set_2p66_2p54",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 53,
+   "whole": {
+    "group": "Small_Purple_Cube_Group",
+    "name": "Small_Purple_Cube",
+    "classes": [
+     "cube",
+     "purple"
+    ]
+   }
+  },
+  {
+   "mesh": 54,
+   "whole": {
+    "group": "Untextured_Box_0p37_0p29_0p38_Group",
+    "name": "Untextured_Box_0p37_0p29_0p38",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 55,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_9p45_5p44_Group",
+    "name": "Red_Thin_Plate_Set_9p45_5p44",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 56,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_15p41_4p12_Group",
+    "name": "Red_Thin_Plate_Set_15p41_4p12",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 57,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_13p85_5p81_Group",
+    "name": "Red_Thin_Plate_Set_13p85_5p81",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 58,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_18p28_6p63_Group",
+    "name": "Red_Thin_Plate_Set_18p28_6p63",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 59,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_14p14_0p10_Group",
+    "name": "Red_Thin_Plate_Set_14p14_0p10",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 60,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_11p60_5p62_Group",
+    "name": "Red_Thin_Plate_Set_11p60_5p62",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 61,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_8p34_4p20_Group",
+    "name": "Red_Thin_Plate_Set_8p34_4p20",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 62,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_9p02_0p73_Group",
+    "name": "Red_Thin_Plate_Set_9p02_0p73",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 63,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_10p52_10p31_Group",
+    "name": "Red_Thin_Plate_Set_10p52_10p31",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 64,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_13p56_5p16_Group",
+    "name": "Red_Thin_Plate_Set_13p56_5p16",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 65,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_15p65_2p64_Group",
+    "name": "Red_Thin_Plate_Set_15p65_2p64",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 66,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_43p34_27p65_Group",
+    "name": "Red_Thin_Plate_Set_43p34_27p65",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 67,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_62p92_10p62_Group",
+    "name": "Red_Thin_Plate_Set_62p92_10p62",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 68,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_38p21_33p96_Group",
+    "name": "Red_Thin_Plate_Set_38p21_33p96",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 69,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_56p22_12p55_Group",
+    "name": "Red_Thin_Plate_Set_56p22_12p55",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 70,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_42p67_36p76_Group",
+    "name": "Red_Thin_Plate_Set_42p67_36p76",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 71,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_49p23_29p66_Group",
+    "name": "Red_Thin_Plate_Set_49p23_29p66",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 72,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_54p48_8p71_Group",
+    "name": "Red_Thin_Plate_Set_54p48_8p71",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 73,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_58p14_1p71_Group",
+    "name": "Red_Thin_Plate_Set_58p14_1p71",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 74,
+   "whole": {
+    "group": "Near_Black_Thin_Plate_Set_2p71_1p75_Group",
+    "name": "Near_Black_Thin_Plate_Set_2p71_1p75",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 75,
+   "whole": {
+    "group": "Red_Doubled_Block_3p17_2p24_0p81_Group",
+    "name": "Red_Doubled_Block_3p17_2p24_0p81",
+    "classes": [
+     "doubled",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 76,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_56p76_42p75_Group",
+    "name": "Red_Thin_Plate_Set_56p76_42p75",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 77,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_66p13_7p00_Group",
+    "name": "Red_Thin_Plate_Set_66p13_7p00",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 78,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_57p33_0p20_Group",
+    "name": "Red_Thin_Plate_Set_57p33_0p20",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 79,
+   "whole": {
+    "group": "Untextured_Box_0p38_0p29_0p37_Group",
+    "name": "Untextured_Box_0p38_0p29_0p37",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 80,
+   "whole": {
+    "group": "Untextured_Box_0p41_0p33_0p37_Group",
+    "name": "Untextured_Box_0p41_0p33_0p37",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 81,
+   "whole": {
+    "group": "Untextured_Box_0p43_0p36_0p38_Group",
+    "name": "Untextured_Box_0p43_0p36_0p38",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 82,
+   "plan": {
+    "group": "Grey_Main_Body_Cluster_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Grey_Main_Body_Cluster",
+      "classes": [
+       "body",
+       "main"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Grey_Small_Piece_MidX_High_HighZ",
+      "classes": [
+       "piece",
+       "small_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Grey_Small_Piece_Left_Low_HighZ",
+      "classes": [
+       "piece",
+       "small_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Grey_Small_Piece_MidX_High_HighZ_Second",
+      "classes": [
+       "piece",
+       "small_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Grey_Small_Piece_Left_MidY_HighZ",
+      "classes": [
+       "piece",
+       "small_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 83,
+   "whole": {
+    "group": "Dark_Brown_Small_Block_20Tri_0p09_0p05_0p14_Group",
+    "name": "Dark_Brown_Small_Block_20Tri_0p09_0p05_0p14",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 84,
+   "whole": {
+    "group": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Group",
+    "name": "Grey_Mixed_Island_Group_8Tri_0p28_0p08",
+    "classes": [
+     "assembly"
+    ]
+   }
+  },
+  {
+   "mesh": 85,
+   "whole": {
+    "group": "Red_Two_Triangle_Piece_0p10_0p06_0p12_Group",
+    "name": "Red_Two_Triangle_Piece_0p10_0p06_0p12",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 86,
+   "whole": {
+    "group": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Second_Group",
+    "name": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Second",
+    "classes": [
+     "assembly"
+    ]
+   }
+  },
+  {
+   "mesh": 87,
+   "whole": {
+    "group": "Red_Two_Triangle_Piece_0p12_0p06_0p10_Group",
+    "name": "Red_Two_Triangle_Piece_0p12_0p06_0p10",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 88,
+   "whole": {
+    "group": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Third_Group",
+    "name": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Third",
+    "classes": [
+     "assembly"
+    ]
+   }
+  },
+  {
+   "mesh": 89,
+   "whole": {
+    "group": "Red_Two_Triangle_Piece_0p10_0p06_0p12_Second_Group",
+    "name": "Red_Two_Triangle_Piece_0p10_0p06_0p12_Second",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 90,
+   "whole": {
+    "group": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Fourth_Group",
+    "name": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Fourth",
+    "classes": [
+     "assembly"
+    ]
+   }
+  },
+  {
+   "mesh": 91,
+   "whole": {
+    "group": "Red_Two_Triangle_Piece_0p12_0p06_0p10_Second_Group",
+    "name": "Red_Two_Triangle_Piece_0p12_0p06_0p10_Second",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 92,
+   "whole": {
+    "group": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Fifth_Group",
+    "name": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Fifth",
+    "classes": [
+     "assembly"
+    ]
+   }
+  },
+  {
+   "mesh": 93,
+   "whole": {
+    "group": "Red_Two_Triangle_Piece_0p12_0p06_0p10_Third_Group",
+    "name": "Red_Two_Triangle_Piece_0p12_0p06_0p10_Third",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 94,
+   "whole": {
+    "group": "Grey_Mixed_Island_Group_8Tri_0p25_0p14_Group",
+    "name": "Grey_Mixed_Island_Group_8Tri_0p25_0p14",
+    "classes": [
+     "assembly"
+    ]
+   }
+  },
+  {
+   "mesh": 95,
+   "whole": {
+    "group": "Red_Two_Triangle_Piece_0p12_0p06_0p15_Group",
+    "name": "Red_Two_Triangle_Piece_0p12_0p06_0p15",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 96,
+   "whole": {
+    "group": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Sixth_Group",
+    "name": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Sixth",
+    "classes": [
+     "assembly"
+    ]
+   }
+  },
+  {
+   "mesh": 97,
+   "whole": {
+    "group": "Red_Two_Triangle_Piece_0p12_0p06_0p10_Fourth_Group",
+    "name": "Red_Two_Triangle_Piece_0p12_0p06_0p10_Fourth",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 98,
+   "whole": {
+    "group": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Seventh_Group",
+    "name": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Seventh",
+    "classes": [
+     "assembly"
+    ]
+   }
+  },
+  {
+   "mesh": 99,
+   "whole": {
+    "group": "Red_Two_Triangle_Piece_0p12_0p06_0p10_Fifth_Group",
+    "name": "Red_Two_Triangle_Piece_0p12_0p06_0p10_Fifth",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 100,
+   "whole": {
+    "group": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Eighth_Group",
+    "name": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Eighth",
+    "classes": [
+     "assembly"
+    ]
+   }
+  },
+  {
+   "mesh": 101,
+   "whole": {
+    "group": "Red_Two_Triangle_Piece_0p12_0p06_0p10_Sixth_Group",
+    "name": "Red_Two_Triangle_Piece_0p12_0p06_0p10_Sixth",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 102,
+   "whole": {
+    "group": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Ninth_Group",
+    "name": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Ninth",
+    "classes": [
+     "assembly"
+    ]
+   }
+  },
+  {
+   "mesh": 103,
+   "whole": {
+    "group": "Red_Two_Triangle_Piece_0p10_0p06_0p12_Third_Group",
+    "name": "Red_Two_Triangle_Piece_0p10_0p06_0p12_Third",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 104,
+   "whole": {
+    "group": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Tenth_Group",
+    "name": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Tenth",
+    "classes": [
+     "assembly"
+    ]
+   }
+  },
+  {
+   "mesh": 105,
+   "whole": {
+    "group": "Red_Two_Triangle_Piece_0p12_0p06_0p10_Seventh_Group",
+    "name": "Red_Two_Triangle_Piece_0p12_0p06_0p10_Seventh",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 106,
+   "whole": {
+    "group": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Eleventh_Group",
+    "name": "Grey_Mixed_Island_Group_8Tri_0p28_0p08_Eleventh",
+    "classes": [
+     "assembly"
+    ]
+   }
+  },
+  {
+   "mesh": 107,
+   "whole": {
+    "group": "Red_Two_Triangle_Piece_0p10_0p06_0p12_Fourth_Group",
+    "name": "Red_Two_Triangle_Piece_0p10_0p06_0p12_Fourth",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 108,
+   "whole": {
+    "group": "Squat_Brown_Slab_0p52_0p68_Group",
+    "name": "Squat_Brown_Slab_0p52_0p68",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 109,
+   "whole": {
+    "group": "Squat_Brown_Slab_0p55_0p66_Group",
+    "name": "Squat_Brown_Slab_0p55_0p66",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 110,
+   "whole": {
+    "group": "Squat_Brown_Slab_0p56_0p63_Group",
+    "name": "Squat_Brown_Slab_0p56_0p63",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 111,
+   "whole": {
+    "group": "Squat_Brown_Slab_0p58_0p62_Second_Group",
+    "name": "Squat_Brown_Slab_0p58_0p62_Second",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 112,
+   "whole": {
+    "group": "Squat_Brown_Slab_0p60_0p62_Group",
+    "name": "Squat_Brown_Slab_0p60_0p62",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 113,
+   "whole": {
+    "group": "Squat_Brown_Slab_0p61_0p61_Group",
+    "name": "Squat_Brown_Slab_0p61_0p61",
+    "classes": [
+     "piece",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 114,
+   "plan": {
+    "group": "Dark_Red_Upright_Rod_Right_MidY_MidZ_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Dark_Red_Upright_Rod_Right_MidY_MidZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Dark_Red_Upright_Rod_Left_MidY_MidZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Near_Black_Upright_Rod_MidX_High_MidZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 115,
+   "whole": {
+    "group": "Red_Many_Island_Assembly_58Tri_4p00_1p01_Group",
+    "name": "Red_Many_Island_Assembly_58Tri_4p00_1p01",
+    "classes": [
+     "assembly",
+     "complex"
+    ]
+   }
+  },
+  {
+   "mesh": 116,
+   "whole": {
+    "group": "Near_Black_Thin_Plate_Set_2p04_1p99_Second_Group",
+    "name": "Near_Black_Thin_Plate_Set_2p04_1p99_Second",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 117,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_2p14_1p35_Group",
+    "name": "Brown_Thin_Plate_Set_2p14_1p35",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 118,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_5p55_1p30_Fourth_Group",
+    "name": "Brown_Thin_Plate_Set_5p55_1p30_Fourth",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 119,
+   "plan": {
+    "group": "Dark_Red_Main_Body_Cluster_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Dark_Red_Main_Body_Cluster",
+      "classes": [
+       "body",
+       "main"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Dark_Red_Small_Piece_Right_MidY_MidZ",
+      "classes": [
+       "piece",
+       "small_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Dark_Red_Small_Piece_Left_MidY_LowZ",
+      "classes": [
+       "piece",
+       "small_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Dark_Red_Small_Piece_Left_MidY_HighZ",
+      "classes": [
+       "piece",
+       "small_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 120,
+   "whole": {
+    "group": "Untextured_Box_0p42_0p37_0p35_Group",
+    "name": "Untextured_Box_0p42_0p37_0p35",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 121,
+   "whole": {
+    "group": "Untextured_Box_0p41_0p37_0p34_Group",
+    "name": "Untextured_Box_0p41_0p37_0p34",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 122,
+   "whole": {
+    "group": "Red_Many_Island_Assembly_926Tri_18p62_3p42_Group",
+    "name": "Red_Many_Island_Assembly_926Tri_18p62_3p42",
+    "classes": [
+     "assembly",
+     "complex"
+    ]
+   }
+  },
+  {
+   "mesh": 123,
+   "whole": {
+    "group": "Orange_Thin_Plate_Set_4p33_1p99_Second_Group",
+    "name": "Orange_Thin_Plate_Set_4p33_1p99_Second",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 124,
+   "plan": {
+    "group": "Red_Upright_Rod_MidX_MidY_LowZ_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Red_Upright_Rod_MidX_MidY_LowZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Red_Upright_Rod_Left_Low_HighZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Red_Upright_Rod_Right_Low_HighZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Red_Flat_Piece_Right_MidY_MidZ",
+      "classes": [
+       "piece",
+       "flat_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Red_Flat_Piece_Left_MidY_MidZ",
+      "classes": [
+       "piece",
+       "flat_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 125,
+   "plan": {
+    "group": "Orange_Flat_Piece_MidX_MidY_MidZ_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Orange_Flat_Piece_MidX_MidY_MidZ",
+      "classes": [
+       "piece",
+       "flat_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Orange_Flat_Piece_MidX_Low_LowZ",
+      "classes": [
+       "piece",
+       "flat_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 126,
+   "whole": {
+    "group": "Purple_Many_Island_Assembly_58Tri_4p00_1p01_Group",
+    "name": "Purple_Many_Island_Assembly_58Tri_4p00_1p01",
+    "classes": [
+     "assembly",
+     "complex"
+    ]
+   }
+  },
+  {
+   "mesh": 127,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_6p15_1p99_Second_Group",
+    "name": "Brown_Thin_Plate_Set_6p15_1p99_Second",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 128,
+   "plan": {
+    "group": "Dark_Red_Upright_Rod_Right_MidY_MidZ_Second_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Dark_Red_Upright_Rod_Right_MidY_MidZ_Second",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Near_Black_Upright_Rod_Left_MidY_MidZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Near_Black_Upright_Rod_MidX_High_MidZ_Second",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 129,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_5p55_1p30_Fifth_Group",
+    "name": "Brown_Thin_Plate_Set_5p55_1p30_Fifth",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 130,
+   "plan": {
+    "group": "Red_Upright_Rod_MidX_MidY_LowZ_Second_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Red_Upright_Rod_MidX_MidY_LowZ_Second",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Red_Upright_Rod_Left_Low_HighZ_Second",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Red_Upright_Rod_Right_Low_LowZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Red_Flat_Piece_Right_MidY_LowZ",
+      "classes": [
+       "piece",
+       "flat_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Red_Flat_Piece_Left_MidY_MidZ_Second",
+      "classes": [
+       "piece",
+       "flat_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 131,
+   "plan": {
+    "group": "Orange_Flat_Piece_MidX_MidY_MidZ_Second_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Orange_Flat_Piece_MidX_MidY_MidZ_Second",
+      "classes": [
+       "piece",
+       "flat_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Orange_Flat_Piece_MidX_Low_LowZ_Second",
+      "classes": [
+       "piece",
+       "flat_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 132,
+   "whole": {
+    "group": "Near_Black_Thin_Plate_Set_3p79_0p93_Group",
+    "name": "Near_Black_Thin_Plate_Set_3p79_0p93",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 133,
+   "whole": {
+    "group": "Red_Doubled_Block_3p17_2p24_0p57_Group",
+    "name": "Red_Doubled_Block_3p17_2p24_0p57",
+    "classes": [
+     "doubled",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 134,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_3p29_0p27_Group",
+    "name": "Red_Thin_Plate_Set_3p29_0p27",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 135,
+   "whole": {
+    "group": "Red_Doubled_Block_3p17_2p24_0p57_Second_Group",
+    "name": "Red_Doubled_Block_3p17_2p24_0p57_Second",
+    "classes": [
+     "doubled",
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 136,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_3p67_0p27_Group",
+    "name": "Red_Thin_Plate_Set_3p67_0p27",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 137,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_5p19_0p51_Group",
+    "name": "Red_Thin_Plate_Set_5p19_0p51",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 138,
+   "whole": {
+    "group": "Untextured_Box_0p34_0p34_0p28_Group",
+    "name": "Untextured_Box_0p34_0p34_0p28",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 139,
+   "whole": {
+    "group": "Near_Black_Fine_Detail_Cluster_827Tri_Group",
+    "name": "Near_Black_Fine_Detail_Cluster_827Tri",
+    "classes": [
+     "detail",
+     "cluster",
+     "small"
+    ]
+   }
+  },
+  {
+   "mesh": 140,
+   "whole": {
+    "group": "Near_Black_Fine_Detail_Cluster_261Tri_Group",
+    "name": "Near_Black_Fine_Detail_Cluster_261Tri",
+    "classes": [
+     "detail",
+     "cluster",
+     "small"
+    ]
+   }
+  },
+  {
+   "mesh": 141,
+   "whole": {
+    "group": "Near_Black_Fine_Detail_Cluster_120Tri_Group",
+    "name": "Near_Black_Fine_Detail_Cluster_120Tri",
+    "classes": [
+     "detail",
+     "cluster",
+     "small"
+    ]
+   }
+  },
+  {
+   "mesh": 142,
+   "whole": {
+    "group": "Untextured_Block_18Tri_0p08_0p09_0p12_Group",
+    "name": "Untextured_Block_18Tri_0p08_0p09_0p12",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 143,
+   "whole": {
+    "group": "Untextured_Box_0p40_0p36_0p41_Group",
+    "name": "Untextured_Box_0p40_0p36_0p41",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 144,
+   "whole": {
+    "group": "Near_Black_Fine_Detail_Cluster_332Tri_Group",
+    "name": "Near_Black_Fine_Detail_Cluster_332Tri",
+    "classes": [
+     "detail",
+     "cluster",
+     "small"
+    ]
+   }
+  },
+  {
+   "mesh": 145,
+   "whole": {
+    "group": "Grey_Fine_Detail_Cluster_718Tri_Group",
+    "name": "Grey_Fine_Detail_Cluster_718Tri",
+    "classes": [
+     "detail",
+     "cluster",
+     "small"
+    ]
+   }
+  },
+  {
+   "mesh": 146,
+   "whole": {
+    "group": "Near_Black_Fine_Detail_Cluster_108Tri_Group",
+    "name": "Near_Black_Fine_Detail_Cluster_108Tri",
+    "classes": [
+     "detail",
+     "cluster",
+     "small"
+    ]
+   }
+  },
+  {
+   "mesh": 147,
+   "whole": {
+    "group": "Untextured_Block_28Tri_0p10_0p07_0p06_Group",
+    "name": "Untextured_Block_28Tri_0p10_0p07_0p06",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 148,
+   "whole": {
+    "group": "Untextured_Box_0p42_0p42_0p42_Group",
+    "name": "Untextured_Box_0p42_0p42_0p42",
+    "classes": [
+     "block",
+     "untextured"
+    ]
+   }
+  },
+  {
+   "mesh": 149,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_4p29_0p23_Group",
+    "name": "Red_Thin_Plate_Set_4p29_0p23",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 150,
+   "whole": {
+    "group": "Red_Thin_Plate_Set_4p29_0p23_Second_Group",
+    "name": "Red_Thin_Plate_Set_4p29_0p23_Second",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 151,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_2p42_1p29_Group",
+    "name": "Brown_Thin_Plate_Set_2p42_1p29",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 152,
+   "whole": {
+    "group": "Near_Black_Thin_Plate_Set_2p42_1p75_Group",
+    "name": "Near_Black_Thin_Plate_Set_2p42_1p75",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 153,
+   "whole": {
+    "group": "Near_Black_Thin_Plate_Set_168p45_166p04_Group",
+    "name": "Near_Black_Thin_Plate_Set_168p45_166p04",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 154,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_6p15_1p99_Third_Group",
+    "name": "Brown_Thin_Plate_Set_6p15_1p99_Third",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 155,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_5p55_1p30_Sixth_Group",
+    "name": "Brown_Thin_Plate_Set_5p55_1p30_Sixth",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 156,
+   "whole": {
+    "group": "Purple_Many_Island_Assembly_58Tri_4p00_1p01_Second_Group",
+    "name": "Purple_Many_Island_Assembly_58Tri_4p00_1p01_Second",
+    "classes": [
+     "assembly",
+     "complex"
+    ]
+   }
+  },
+  {
+   "mesh": 157,
+   "whole": {
+    "group": "Brown_Thin_Plate_Set_2p14_1p72_Group",
+    "name": "Brown_Thin_Plate_Set_2p14_1p72",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 158,
+   "plan": {
+    "group": "Red_Upright_Rod_MidX_MidY_HighZ_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Red_Upright_Rod_MidX_MidY_HighZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Red_Upright_Rod_Right_Low_LowZ_Second",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Red_Upright_Rod_Left_Low_LowZ",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Red_Flat_Piece_Left_MidY_MidZ_Third",
+      "classes": [
+       "piece",
+       "flat_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Red_Flat_Piece_Right_MidY_MidZ_Second",
+      "classes": [
+       "piece",
+       "flat_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 159,
+   "plan": {
+    "group": "Orange_Flat_Piece_MidX_MidY_MidZ_Third_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Orange_Flat_Piece_MidX_MidY_MidZ_Third",
+      "classes": [
+       "piece",
+       "flat_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Orange_Flat_Piece_MidX_Low_HighZ",
+      "classes": [
+       "piece",
+       "flat_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 160,
+   "whole": {
+    "group": "Orange_Thin_Plate_Set_4p33_1p99_Third_Group",
+    "name": "Orange_Thin_Plate_Set_4p33_1p99_Third",
+    "classes": [
+     "plates",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 161,
+   "plan": {
+    "group": "Brown_Main_Body_Cluster_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Brown_Main_Body_Cluster",
+      "classes": [
+       "body",
+       "main"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Near_Black_Upright_Rod_MidX_High_MidZ_Third",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 162,
+   "plan": {
+    "group": "Dark_Red_Upright_Rod_Right_MidY_MidZ_Third_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Dark_Red_Upright_Rod_Right_MidY_MidZ_Third",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Near_Black_Upright_Rod_Left_MidY_MidZ_Second",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Near_Black_Upright_Rod_MidX_High_MidZ_Fourth",
+      "classes": [
+       "piece",
+       "upright_rod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 163,
+   "whole": {
+    "group": "Near_Black_Many_Island_Assembly_162Tri_2p95_2p62_Group",
+    "name": "Near_Black_Many_Island_Assembly_162Tri_2p95_2p62",
+    "classes": [
+     "assembly",
+     "complex"
+    ]
+   }
+  },
+  {
+   "mesh": 164,
+   "plan": {
+    "group": "Near_Black_Main_Body_Cluster_Third_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Near_Black_Main_Body_Cluster_Third",
+      "classes": [
+       "body",
+       "main"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Near_Black_Small_Piece_Right_MidY_HighZ",
+      "classes": [
+       "piece",
+       "small_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Near_Black_Small_Piece_MidX_MidY_LowZ",
+      "classes": [
+       "piece",
+       "small_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Near_Black_Small_Piece_Left_MidY_HighZ",
+      "classes": [
+       "piece",
+       "small_piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 165,
+   "whole": {
+    "group": "Red_Many_Island_Assembly_186Tri_2p95_2p94_Group",
+    "name": "Red_Many_Island_Assembly_186Tri_2p95_2p94",
+    "classes": [
+     "assembly",
+     "complex"
+    ]
+   }
+  },
+  {
+   "mesh": 166,
+   "whole": {
+    "group": "Near_Black_Mixed_Island_Group_114Tri_2p77_2p35_Group",
+    "name": "Near_Black_Mixed_Island_Group_114Tri_2p77_2p35",
+    "classes": [
+     "assembly"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Names are rule-generated by a script (colour of the largest island/component from its top colour share, shape from size ratios, position from at, dimensions in the name from size). No function (what the thing is) is claimed anywhere: the evidence has no semantic cue except material words light, glass and ColorEffectR57G8B136 (read as a purple), used for Single_Triangle_Light_Facet, Dark_Glass_Small_Block and Small_Purple_Cube.",
+  "Material names such as VMtl01..08, _22jyj, eref, efefefefef, l__l, _1111111 are opaque; they carry no function, so were not used except to confirm that meshes sharing a material and structure are copies.",
+  "Dimension tokens in names (2-decimal, p = decimal point) are mesh-local island sizes; mesh-local scales differ wildly between meshes (0.1 to 160), so sizes cannot be compared across meshes and I could not tell which meshes belong to the same authored object. One group per mesh because grouping meshes into objects is not supported by the evidence.",
+  "Many meshes are identical copies (same triangles, size, colour; only the at-offsets swapped on x/z, i.e. rotated 90 degrees). Uniqueness was forced with ordinal suffixes (_Second, _Third ...); those suffixes carry no meaning and are the only thing separating the copies.",
+  "Thin-plate meshes (islands of 2 or 4 triangles, one coplanar pair duplicated, e.g. 4t pairs with identical size and at) look like double-sided panels or box shells; I merged them as one whole part because the evidence does not separate objects inside them. Whole-mesh abstention for all meshes with 20 or more islands and for all meshes with more than 5 components (hundreds of tiny islands; component grain gives sub-millimetre sizes).",
+  "Component grain meshes with 2-5 components were cut to one part per component: the largest is Main_Body_Cluster, the rest are named by shape (Upright_Rod/Flat_Piece/Small_Piece) and by left/right, low/high, LowZ/HighZ from at. LowZ/HighZ is used because the evidence does not say which of z is front.",
+  "Meshes 5 and 21 were split by island: island 0 (flat, low, widest) vs islands 1-4 (smaller, higher); this is size/position only.",
+  "Untextured 12-triangle meshes (no uv, no texture) have no colour evidence at all; named Untextured_Box_<dims> only.",
+  "Sizes in the report mix frames: island sizes are mesh-local (up to 166) while component sizes are world frame (~0.01-0.1); a component-grain mesh and an island-grain mesh of the same object therefore show 100x different size numbers, which made cross-mesh matching of copies unreliable.",
+  "The describe text for colours lists at most three palette entries; with 2-colour texture atlases (many islands 40-90% one dark red or near-black) colour gives little to separate parts."
+ ],
+ "model": "VC",
+ "mode": "materials",
+ "blind_code": "M17"
+}

@@ -1,0 +1,156 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "whole": {
+    "group": "Cube_Material_Group",
+    "name": "Unit_Cube_Material",
+    "classes": [
+     "cube"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "whole": {
+    "group": "Cube_Material_001_Group",
+    "name": "Unit_Cube_Material_001",
+    "classes": [
+     "cube"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "whole": {
+    "group": "Cube_Material_002_Group",
+    "name": "Unit_Cube_Material_002",
+    "classes": [
+     "cube"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Cube_Material_007_Group",
+    "name": "Unit_Cube_Material_007",
+    "classes": [
+     "cube"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "whole": {
+    "group": "Cube_Material_006_Group",
+    "name": "Slightly_Turned_Cube_Material_006",
+    "classes": [
+     "cube"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "whole": {
+    "group": "Cube_Material_008_Group",
+    "name": "More_Turned_Cube_Material_008",
+    "classes": [
+     "cube"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "whole": {
+    "group": "Cube_Material_004_Group",
+    "name": "Unit_Cube_Material_004",
+    "classes": [
+     "cube"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "whole": {
+    "group": "Cube_Material_005_Group",
+    "name": "Unit_Cube_Material_005",
+    "classes": [
+     "cube"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "whole": {
+    "group": "Cube_Material_003_Group",
+    "name": "Unit_Cube_Material_003",
+    "classes": [
+     "cube"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 9,
+   "whole": {
+    "group": "Wide_White_Strip_Group",
+    "name": "Wide_White_Flat_Strip",
+    "classes": [
+     "strip",
+     "plane"
+    ],
+    "basis": [
+     "size",
+     "colour",
+     "shape"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Material names (Material, Material.001 ... Material.009) say nothing about function; they are used only as a suffix to keep names unique. This puts digits in names, which may read as numbered placeholders; there was no other distinguishing evidence.",
+  "Nine meshes are cubes 2x2x2 (12 triangles). 'at' is relative to each mesh, so nothing says where each cube is in the model. Meshes 0-2 have the cube split into three UV islands (8 + 2 + 2 triangles), others a single island; I kept each as one whole part since the islands are UV pieces of one cube (the 2-triangle islands lie on the top and +x faces).",
+  "Mesh 4 (2.027 x 2.027 x 2) and mesh 5 (2.151 x 2.151 x 2) are slightly wider on x and y than the others, consistent with being a cube turned a little about z; that is an inference from size only.",
+  "Mesh 9 is a 2-triangle flat strip 8.437 x 0.731 in near-white; its role cannot be told from the evidence."
+ ],
+ "model": "InterpolationTest",
+ "mode": "materials",
+ "blind_code": "N24"
+}

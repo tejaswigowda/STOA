@@ -1,0 +1,453 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Wheel_Set",
+    "classes": [
+     "wheels"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Front_Left_Wheel",
+      "classes": [
+       "wheel",
+       "front",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Front_Right_Wheel",
+      "classes": [
+       "wheel",
+       "front",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Rear_Left_Wheel",
+      "classes": [
+       "wheel",
+       "rear",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Rear_Right_Wheel",
+      "classes": [
+       "wheel",
+       "rear",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Truck_Vehicle",
+    "classes": [
+     "vehicle",
+     "truck"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Truck_Body_And_Cab",
+      "classes": [
+       "body",
+       "cab"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Front_Bumper",
+      "classes": [
+       "bumper",
+       "front"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       4
+      ],
+      "name": "Rear_Bumper",
+      "classes": [
+       "bumper",
+       "rear"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Front_Axle",
+      "classes": [
+       "axle",
+       "front"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Rear_Axle",
+      "classes": [
+       "axle",
+       "rear"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       6
+      ],
+      "name": "Left_Mirror_Housing",
+      "classes": [
+       "mirror",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       5
+      ],
+      "name": "Right_Mirror_Housing",
+      "classes": [
+       "mirror",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       8
+      ],
+      "name": "Left_Mirror_Flat_Dark_Plate",
+      "classes": [
+       "mirror",
+       "left",
+       "bracket"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       7
+      ],
+      "name": "Right_Mirror_Flat_Dark_Plate",
+      "classes": [
+       "mirror",
+       "right",
+       "bracket"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Truck_Glazing",
+    "classes": [
+     "glass"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Left_Mirror_Glass",
+      "classes": [
+       "glass",
+       "mirror",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Right_Mirror_Glass",
+      "classes": [
+       "glass",
+       "mirror",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Windshield_Left_Pane",
+      "classes": [
+       "glass",
+       "windshield",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Windshield_Right_Pane",
+      "classes": [
+       "glass",
+       "windshield",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Left_Door_Window_Glass",
+      "classes": [
+       "glass",
+       "window",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Right_Door_Window_Glass",
+      "classes": [
+       "glass",
+       "window",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Left_Rear_Side_Window_Glass",
+      "classes": [
+       "glass",
+       "window",
+       "left",
+       "rear"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Right_Rear_Side_Window_Glass",
+      "classes": [
+       "glass",
+       "window",
+       "right",
+       "rear"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "plan": {
+    "group": "Window_Trim_Set",
+    "classes": [
+     "trim"
+    ],
+    "parts": [
+     {
+      "island": 1,
+      "name": "Left_Door_Window_Trim",
+      "classes": [
+       "trim",
+       "window",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 0,
+      "name": "Right_Door_Window_Trim",
+      "classes": [
+       "trim",
+       "window",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Windshield_Left_Trim",
+      "classes": [
+       "trim",
+       "windshield",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Windshield_Right_Trim",
+      "classes": [
+       "trim",
+       "windshield",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Left_Rear_Side_Window_Trim",
+      "classes": [
+       "trim",
+       "window",
+       "left",
+       "rear"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Right_Rear_Side_Window_Trim",
+      "classes": [
+       "trim",
+       "window",
+       "right",
+       "rear"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Left/right taken as low/high at.x (low = left); front = +z because windshield, mirrors and bumper sit at high z. Evidence gives no handedness of the model's own front, so left/right may be mirrored.",
+  "Mesh 0 wheels: each component holds 3 islands (dominant dark rgb 36 87%, grey 8%) which I take as tyre/rim/hub but cannot separate without island-level positions; kept as one part per wheel.",
+  "Mesh 1 component 0 (940 tris, 7 islands, white 56%, dark 24%, grey 20%) is the entire body+cab+box; evidence cannot separate cab from cargo/chassis, so merged as Truck_Body_And_Cab.",
+  "Axles named from position (same z as wheels, width 1.725 spans between wheels, low y) - moderately confident.",
+  "Components 7/8 (0.218x0.215x0.028, dark, just inboard of mirror housings) are unidentified; named by shape/position only.",
+  "Glass side windows: islands 2/4 (x edges, z 0.77, y 0.53) vs 6/7 (z 0.23) - called door window and rear side window by position only; windshield is two panes (islands 3,5) split on x.",
+  "Component grain was necessary for mesh 1; no problems with plan syntax so far apart from not knowing whether 'component' parts without anchors are accepted."
+ ],
+ "model": "CesiumMilkTruck",
+ "mode": "materials",
+ "blind_code": "M02"
+}

@@ -1,0 +1,92 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "whole": {
+    "group": "Back_Plane_Group",
+    "name": "Back_Plane_Square",
+    "classes": [
+     "plane",
+     "backdrop"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "whole": {
+    "group": "Bottom_Left_Group",
+    "name": "Bottom_Left_Quad",
+    "classes": [
+     "quad",
+     "plane"
+    ],
+    "basis": [
+     "size",
+     "colour",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "whole": {
+    "group": "Bottom_Right_Group",
+    "name": "Bottom_Right_Quad",
+    "classes": [
+     "quad",
+     "plane"
+    ],
+    "basis": [
+     "size",
+     "colour",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Top_Left_Group",
+    "name": "Top_Left_Quad",
+    "classes": [
+     "quad",
+     "plane"
+    ],
+    "basis": [
+     "size",
+     "colour",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "whole": {
+    "group": "Top_Right_Group",
+    "name": "Top_Right_Quad",
+    "classes": [
+     "quad",
+     "plane"
+    ],
+    "basis": [
+     "size",
+     "colour",
+     "shape"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Names rest on material names (BackPlaneMat, BottomLeftMat, ...), which basis cannot list. Each mesh is one flat square (2 triangles).",
+  "'at' is 0.5 everywhere because each mesh is a single quad, so the evidence gives no world position; the left/right/top/bottom words come from the material names only, plus the texture region (u 0-0.4 / 0.6-1, v 0.6-1 / 0-0.4) which agrees with them.",
+  "The back plane is 2x2, the four others 1x1; 'backdrop' as a class rests on the 'BackPlane' material name and the larger size."
+ ],
+ "model": "TextureCoordinateTest",
+ "mode": "materials",
+ "blind_code": "N05"
+}

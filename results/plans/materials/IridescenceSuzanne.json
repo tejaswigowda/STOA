@@ -1,0 +1,155 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Leftmost_Bulky_Object_Group",
+    "classes": [
+     "object"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Leftmost_Large_Central_Body",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Leftmost_Small_Front_Upper_Block_Right",
+      "classes": [
+       "block",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Leftmost_Small_Front_Upper_Block_Left",
+      "classes": [
+       "block",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Middle_Bulky_Object_Group",
+    "classes": [
+     "object"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Middle_Large_Central_Body",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Middle_Small_Front_Upper_Block_Right",
+      "classes": [
+       "block",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Middle_Small_Front_Upper_Block_Left",
+      "classes": [
+       "block",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Rightmost_Bulky_Object_Group",
+    "classes": [
+     "object"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Rightmost_Large_Central_Body",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Rightmost_Small_Front_Upper_Block_Right",
+      "classes": [
+       "block",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Rightmost_Small_Front_Upper_Block_Left",
+      "classes": [
+       "block",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Evidence has no colours and no texture; the three meshes (one material, named 'Material') are identical copies offset in x (-3, 0, 3), so I cannot tell what the object is. All names are shape/position descriptions (abstained on real names): 9 parts.",
+  "Each mesh: component 0 (3456 tris, 2.65x1.91x1.60, centred) and two matching small components (240 tris, 0.50x0.49x0.26) placed symmetrically at the high-z front, upper half, one at lower x and one at higher x. Left/right taken as lower/higher world x; front taken as +z; this convention is an assumption.",
+  "Component 0 holds 5 islands I could not separate by evidence; they are merged into one part rather than guessed at.",
+  "Material names give nothing here (single generic material per mesh), so the ceiling test gave no help."
+ ],
+ "model": "IridescenceSuzanne",
+ "mode": "materials",
+ "blind_code": "M09"
+}

@@ -1,0 +1,627 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Square_Pair_TextureMirrorT",
+    "classes": [
+     "squares"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Square_TextureMirrorT_Left",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Square_TextureMirrorT_Right",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Square_Pair_TextureMirrorS",
+    "classes": [
+     "squares"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Square_TextureMirrorS_Left",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Square_TextureMirrorS_Right",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Square_Pair_TextureRepeatT",
+    "classes": [
+     "squares"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Square_TextureRepeatT_Left",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Square_TextureRepeatT_Right",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "plan": {
+    "group": "Square_Pair_TextureClampT",
+    "classes": [
+     "squares"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Square_TextureClampT_Left",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Square_TextureClampT_Right",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "plan": {
+    "group": "Background_Plane_Pair",
+    "classes": [
+     "background"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Large_Background_Plane_High_Z",
+      "classes": [
+       "background",
+       "plane"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Large_Background_Plane_Low_Z",
+      "classes": [
+       "background",
+       "plane"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "plan": {
+    "group": "Square_Pair_TextureRepeatS",
+    "classes": [
+     "squares"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Square_TextureRepeatS_Left",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Square_TextureRepeatS_Right",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "plan": {
+    "group": "Square_Pair_TextureClampS",
+    "classes": [
+     "squares"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Square_TextureClampS_Left",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Square_TextureClampS_Right",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "plan": {
+    "group": "Square_Pair_DoubleSided",
+    "classes": [
+     "squares"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Square_DoubleSided_Left_High_Z",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Square_DoubleSided_Right_Low_Z",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Square_DoubleSided_Left_Low_Z",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "plan": {
+    "group": "Square_Pair_SingleSided",
+    "classes": [
+     "squares"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Square_SingleSided_Left_Low_Z",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Square_SingleSided_Right_Low_Z",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Square_SingleSided_Left_High_Z",
+      "classes": [
+       "square",
+       "textured"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 9,
+   "plan": {
+    "group": "Label_Plate_Group",
+    "classes": [
+     "labels"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Label_Wide_Second_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Label_Wide_Third_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Label_Wide_Fourth_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Label_Wide_Sixth_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Label_Short_Top_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Label_Wide_Top_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Label_Narrow_Fourth_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Label_Narrow_Sixth_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Label_Wide_Fifth_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Label_Wide_Seventh_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Label_Narrow_Fifth_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Label_Narrow_Seventh_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Label_Wide_Eighth_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Label_Narrow_Eighth_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Label_Wide_Ninth_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 15,
+      "name": "Label_Narrow_Ninth_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Rule (script-generated): material TextureXxxMaterialT/S, DoubleSided/SingleSided: each island is a 0.9x0.9 flat square (2 triangles), left (at.x 0.15) or right (0.85); named Square_<material tag>_<Left|Right>[_Low_Z|High_Z where a mesh has a third square at another depth]. Each carries white with a red or green pattern (colour).",
+  "Material names are evidence and supply the tag (TextureMirror/Repeat/Clamp, DoubleSided, SingleSided, with T/S suffix): I do not know what T or S mean, so they are carried over unexplained. Not in basis.",
+  "BackgroundMaterial: two 10.3x10.1 flat planes at at.z 0 and 1, no UV and no colour; named Large_Background_Plane_Low_Z/High_Z (from size and the material name).",
+  "LabelMaterial: 16 two-triangle flat plates, white with dark marks; named by size class (Wide >3, Short 1.16, Narrow 0.52), row rank on at.y and z side. Pairs at z 0/1 are not told apart as front or back.",
+  "The evidence gives UV ranges outside 0..1 for the squares (repeat/mirror behaviour) but nothing a part name can honestly use, so they are not used."
+ ],
+ "model": "TextureSettingsTest",
+ "mode": "materials",
+ "blind_code": "N09"
+}

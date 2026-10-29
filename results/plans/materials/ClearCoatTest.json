@@ -1,0 +1,980 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Simple_Base_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_Simple_Base",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_Simple_Base",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Simple_Coated_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_Simple_Coated",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_Simple_Coated",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Simple_Coating_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_Simple_Coating",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_Simple_Coating",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "plan": {
+    "group": "Partial_Base_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_Partial_Base",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_Partial_Base",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "plan": {
+    "group": "Partial_Coated_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_Partial_Coated",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_Partial_Coated",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "plan": {
+    "group": "Partial_Coating_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_Partial_Coating",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_Partial_Coating",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "plan": {
+    "group": "RoughVariations_Base_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_RoughVariations_Base",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_RoughVariations_Base",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "plan": {
+    "group": "RoughVariations_Coated_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_RoughVariations_Coated",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_RoughVariations_Coated",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "plan": {
+    "group": "RoughVariations_Coating_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_RoughVariations_Coating",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_RoughVariations_Coating",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 9,
+   "plan": {
+    "group": "BaseNorm_Base_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_BaseNorm_Base",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_BaseNorm_Base",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 10,
+   "plan": {
+    "group": "BaseNorm_Coated_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_BaseNorm_Coated",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_BaseNorm_Coated",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 11,
+   "plan": {
+    "group": "BaseNorm_Coating_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_BaseNorm_Coating",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_BaseNorm_Coating",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 12,
+   "plan": {
+    "group": "CoatNorm_Base_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_CoatNorm_Base",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_CoatNorm_Base",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 13,
+   "plan": {
+    "group": "CoatNorm_Coated_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_CoatNorm_Coated",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_CoatNorm_Coated",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 14,
+   "plan": {
+    "group": "CoatNorm_Coating_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_CoatNorm_Coating",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_CoatNorm_Coating",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 15,
+   "plan": {
+    "group": "SharedNorm_Base_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_SharedNorm_Base",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_SharedNorm_Base",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 16,
+   "plan": {
+    "group": "SharedNorm_Coated_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_SharedNorm_Coated",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_SharedNorm_Coated",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 17,
+   "plan": {
+    "group": "SharedNorm_Coating_Sample",
+    "classes": [
+     "sample"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Rounded_Solid_SharedNorm_Coating",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Thin_Square_Slab_SharedNorm_Coating",
+      "classes": [
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 18,
+   "plan": {
+    "group": "Label_Plate_Group",
+    "classes": [
+     "labels"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Label_Top_Strip_Right_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Label_Top_Strip_Right_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Label_Wide_Top_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Label_Wide_Top_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Label_Wide_Second_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Label_Wide_Second_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Label_Wide_Third_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Label_Wide_Third_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Label_Wide_Fourth_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Label_Wide_Fourth_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Label_Wide_Bottom_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Label_Wide_Bottom_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Label_Wide_Fifth_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Label_Wide_Fifth_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Label_Top_Strip_Left_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 15,
+      "name": "Label_Top_Strip_Left_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 16,
+      "name": "Label_Top_Strip_Centre_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 17,
+      "name": "Label_Top_Strip_Centre_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Rule (script-generated): 18 materials (<Set>_{Base,Coated,Coating}, six sets) each hold the same two components: a dense 2048-triangle form 1.69x1.69x1.05 and a 12-triangle thin 2x2x0.06 slab at lower z (at.z 0.03, centre z -0.525 vs 0.03). Named Rounded_Solid_<material> and Thin_Square_Slab_<material>; the form is dense but the evidence does not say what it is (sphere? dome? boss?), so only a shape name. \"Rounded\" is itself inferred from the triangle density only.",
+  "Material names (Simple/Partial/RoughVariations/BaseNorm/SharedNorm/CoatNorm x Base/Coated/Coating) are evidence and used in names; not in basis. I read the world centres (x 0.029/2.129/4.229, y 1.0..11.5) as a 3x6 grid of samples, one per material, but do not claim what coat/base mean.",
+  "Component 1 is 2 islands (12 triangles) that weld; used as one slab part. Only mesh 5 (Partial_Coating) has a colour (black 100%), the others report no texture/colour, so colour is not used.",
+  "LabelMaterial: 18 two-triangle flat plates (2 per strip at at.z 0 and 1); top strip of three by x rank (at.y 0.98), six wide 4.0 rows by y rank; Low_Z/High_Z not resolvable to front/back.",
+  "Describe output mixes components (materials 0-17) and islands (18): plan uses component for the former, island for the latter."
+ ],
+ "model": "ClearCoatTest",
+ "mode": "materials",
+ "blind_code": "N25"
+}

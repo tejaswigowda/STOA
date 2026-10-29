@@ -1,0 +1,251 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "whole": {
+    "group": "Base_Block_Group",
+    "name": "Base_Ten_Unit_Block",
+    "classes": [
+     "block",
+     "base"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "X1_Pair_Group",
+    "classes": [
+     "pair"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "X1_Large_Piece_Thin_In_X",
+      "classes": [
+       "piece",
+       "large"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "X1_Small_Piece_High",
+      "classes": [
+       "piece",
+       "small"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "X2_Pair_Group",
+    "classes": [
+     "pair"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "X2_Large_Piece_Thin_In_X",
+      "classes": [
+       "piece",
+       "large"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "X2_Small_Piece_High",
+      "classes": [
+       "piece",
+       "small"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "plan": {
+    "group": "Y1_Pair_Group",
+    "classes": [
+     "pair"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Y1_Large_Piece_Thin_In_Y",
+      "classes": [
+       "piece",
+       "large"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Y1_Small_Piece_High_In_X",
+      "classes": [
+       "piece",
+       "small"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "plan": {
+    "group": "Y2_Pair_Group",
+    "classes": [
+     "pair"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Y2_Large_Piece_Thin_In_Y",
+      "classes": [
+       "piece",
+       "large"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Y2_Small_Piece_Low_In_X",
+      "classes": [
+       "piece",
+       "small"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "plan": {
+    "group": "Z1_Pair_Group",
+    "classes": [
+     "pair"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Z1_Large_Piece_Thin_In_Z",
+      "classes": [
+       "piece",
+       "large"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Z1_Small_Piece_Low_In_X",
+      "classes": [
+       "piece",
+       "small"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "plan": {
+    "group": "Z2_Pair_Group",
+    "classes": [
+     "pair"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Z2_Large_Piece_Thin_In_Z",
+      "classes": [
+       "piece",
+       "large"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Z2_Small_Piece_High_In_X",
+      "classes": [
+       "piece",
+       "small"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Material names (BaseMaterial, MatX1, MatX2, MatY1, MatY2, MatZ1, MatZ2) are evidence and appear in names via the X1.. labels; basis cannot list material.",
+  "Mesh 0 is one 10x10x10 island of 140 triangles (more than a plain cube); I named only its size and block shape.",
+  "Meshes 1-6 each hold two islands (38 and 26 triangles) with one extent of 0.661 along a single axis (x for X, y for Y, z for Z materials). They look like six similar pieces, each a larger piece and a smaller one; I cannot say what they are, so names are descriptive only. 'High/Low in X' comes from the island's 'at' x within its own mesh (0.89/0.84 high, 0.20/0.17 low), a weak cue since 'at' is relative to the mesh.",
+  "The pairs differ between meshes in extents and 'at', so I did not merge them as identical things."
+ ],
+ "model": "OrientationTest",
+ "mode": "materials",
+ "blind_code": "N20"
+}

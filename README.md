@@ -47,6 +47,9 @@ Node 22, no dependencies.
     node tools/judge.mjs pairs|apply ...                                        naming pairs out, verdicts in (brief: tools/judge-brief.md)
     node tools/report.mjs results.jsonl...                                      per-model rows, macro (headline) and micro
     node tools/seed-floor.mjs                                                   a record for every refused and no-evidence asset
+    node tools/seg-refusals.mjs                                                 ask SEG.wouldRefuse about the floor (needs the editor served)
+    node tools/recovery-run.mjs identity|evidence|check|run <model>             drive the real editor: plans in, records out, scores (see tools/plan-brief.md)
+    node tools/material-overlap.mjs                                             how much the material boundary and material names hand over
     node --test tools/*.test.mjs
 
 `build-index.mjs` reads the committed tree (`git ls-tree -r HEAD`), so commit
@@ -117,3 +120,8 @@ Sony's or anyone's geometry. Moving to `plan` (the editor regenerates a cut from
 the end state and waits on that landing in Strata. The floor records have no geometry: `packaging: "none"`.
 SEG's `parents` (one integer per output triangle) are scoring artifacts and are never committed in a
 record; `verify-sources.mjs` fails a record that carries them.
+
+## Results
+
+The recovery measurement is in [results/](results/README.md): structure on 49 models, naming on the 21 Tier A
+models, labelled as the ceiling. Start with the "Read these before quoting a number" section.

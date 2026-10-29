@@ -1,0 +1,63 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "whole": {
+    "group": "Dense_Cube_Envelope_First_Group",
+    "name": "Dense_Cube_Envelope_First_Material",
+    "classes": [
+     "dense",
+     "cube-sized"
+    ],
+    "basis": [
+     "size",
+     "shape",
+     "position"
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "whole": {
+    "group": "Dense_Cube_Envelope_Second_Group",
+    "name": "Dense_Cube_Envelope_Second_Material",
+    "classes": [
+     "dense",
+     "cube-sized"
+    ],
+    "basis": [
+     "size",
+     "shape",
+     "position"
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "whole": {
+    "group": "Dense_Cube_Envelope_Third_Group",
+    "name": "Dense_Cube_Envelope_Third_Material",
+    "classes": [
+     "dense",
+     "cube-sized"
+    ],
+    "basis": [
+     "size",
+     "shape",
+     "position"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Three meshes, each one island of exactly 10600 triangles, each 0.434 on all axes and each centred at 0.5,0.5,0.5 of its own bbox. Position, size and triangle count do not distinguish them at all; they may be coincident copies, nested shells or interleaved triangles of one object split by material.",
+  "The only distinction is material order (mat_0.001, mat_1.001, mat_2.001); I used first/second/third in the names to keep them unique and avoided digits. These are placeholders in spirit: the evidence supports no function, only that three equal-size dense pieces exist.",
+  "check refused all three meshes with 'SEG.split: source.attribution is missing'; the plan format has no field for source, which is added by the harness, so this is a harness/source-record problem, not a plan error, and I cannot fix it from the plan.",
+  "Evidence has no colour or uv, and the identical triangle count (10600) suggests the three are copies of one shape, e.g. re-materialled duplicates; this is a hypothesis, not stated in the plan.",
+  "[harness note, added by the runner] The refusal this author logged (\"source.attribution is missing\") was a bug in tools/recovery-run.mjs (an empty README licence section gave an empty attribution), not SEG refusing the plan. Fixed before scoring."
+ ],
+ "model": "DirectionalLight",
+ "mode": "materials",
+ "blind_code": "N27"
+}

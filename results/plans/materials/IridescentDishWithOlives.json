@@ -1,0 +1,722 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "whole": {
+    "group": "Glass_Dish_Group",
+    "name": "Glass_Dish",
+    "classes": [
+     "dish",
+     "glass"
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Olives_Group",
+    "classes": [
+     "olives"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Dark_Olive_Low_ColC_RowG",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Dark_Olive_Low_ColC_RowF",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Green_Olive_Low_ColC_RowD",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Green_Olive_Low_ColB_RowC",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Green_Olive_Low_ColC_RowH",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Green_Olive_Raised_ColB_RowF",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Green_Olive_Low_ColB_RowC_Altx",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Green_Olive_Low_ColD_RowF",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Dark_Olive_Low_ColC_RowE",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Green_Olive_Low_ColC_RowC",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Green_Olive_Low_ColC_RowB",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Green_Olive_Low_ColD_RowG",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Dark_Olive_Raised_ColC_RowD",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Green_Olive_Low_ColB_RowA",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Green_Olive_Low_ColD_RowG_Altx",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 15,
+      "name": "Green_Olive_Low_ColD_RowE",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 16,
+      "name": "Green_Olive_Low_ColD_RowC",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 17,
+      "name": "Green_Olive_Low_ColD_RowB",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 18,
+      "name": "Green_Olive_Raised_ColC_RowE",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 19,
+      "name": "Dark_Olive_Raised_ColD_RowD",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 20,
+      "name": "Dark_Olive_Raised_ColE_RowC",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 21,
+      "name": "Dark_Olive_Low_ColB_RowH",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 22,
+      "name": "Dark_Olive_Low_ColB_RowE",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 23,
+      "name": "Green_Olive_Low_ColA_RowD",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 24,
+      "name": "Green_Olive_Low_ColA_RowC",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 25,
+      "name": "Green_Olive_Low_ColA_RowF",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 26,
+      "name": "Green_Olive_Low_ColA_RowE",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 27,
+      "name": "Green_Olive_Raised_ColA_RowD",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 28,
+      "name": "Dark_Olive_Low_ColC_RowG_Altx",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 29,
+      "name": "Green_Olive_Raised_ColC_RowE_Altx",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 30,
+      "name": "Dark_Olive_Raised_ColC_RowC",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 31,
+      "name": "Green_Olive_Raised_ColC_RowB",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 32,
+      "name": "Green_Olive_Raised_ColC_RowF",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 33,
+      "name": "Dark_Olive_Raised_ColB_RowD",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 34,
+      "name": "Dark_Olive_Low_ColA_RowB",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 35,
+      "name": "Green_Olive_Raised_ColD_RowF",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 36,
+      "name": "Dark_Olive_Raised_ColD_RowE",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 37,
+      "name": "Green_Olive_Low_ColD_RowC_Altx",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 38,
+      "name": "Dark_Olive_Low_ColD_RowA",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 39,
+      "name": "Green_Olive_Raised_ColE_RowE",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 40,
+      "name": "Green_Olive_Raised_ColE_RowD",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 41,
+      "name": "Green_Olive_Low_ColD_RowB_Altx",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 42,
+      "name": "Dark_Olive_Raised_ColA_RowE",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 43,
+      "name": "Dark_Olive_Low_ColE_RowE",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 44,
+      "name": "Dark_Olive_Low_ColE_RowC",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 45,
+      "name": "Green_Olive_Low_ColE_RowB",
+      "classes": [
+       "olive",
+       "green"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 46,
+      "name": "Dark_Olive_Raised_ColB_RowC",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 47,
+      "name": "Dark_Olive_Raised_ColC_RowC_Altx",
+      "classes": [
+       "olive",
+       "dark"
+      ],
+      "basis": [
+       "colour",
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "whole": {
+    "group": "Glass_Cover_Group",
+    "name": "Glass_Cover",
+    "classes": [
+     "cover",
+     "glass"
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "plan": {
+    "group": "Gold_Leaf_Group",
+    "classes": [
+     "gold"
+    ],
+    "parts": [
+     {
+      "island": [
+       0,
+       1
+      ],
+      "name": "Gold_Leaf_Thin_Disc",
+      "classes": [
+       "gold",
+       "disc"
+      ],
+      "basis": [
+       "colour",
+       "size",
+       "position"
+      ]
+     },
+     {
+      "island": [
+       2,
+       3,
+       4,
+       5,
+       6,
+       7
+      ],
+      "name": "Gold_Leaf_Flat_Flecks",
+      "classes": [
+       "gold",
+       "flecks"
+      ],
+      "basis": [
+       "colour",
+       "size",
+       "position"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Evidence has 4 meshes (glassDish, olives, glassCover, goldLeaf); material names were used as handed-over evidence (the plan 'basis' vocabulary has no 'material' entry, so a first check refused it; basis only allows position/size/colour/shape).",
+  "Mesh 0 islands 0 and 1 share the same size and centre (two halves of one thin plate, texture u split at 0.5): evidence does not separate them, so merged into one whole part Glass_Dish. Same for gold leaf islands 0/1 (same footprint as the dish, near-identical size).",
+  "Glass_Dish and Glass_Cover are named from the material names only (glass + dish/cover); size/at only supports 'wide flat disc' and 'single 0.34x0.26x0.35 object'. I did not claim a dome/bowl shape or what the cover sits on.",
+  "Mesh 1 has 48 identical-size olive islands. Only two colour families are cleanly separable (dark ~ r 60-76 vs green/yellow ~ r 130-165); within each there are sub-shades (e.g. 163,147,61 brighter vs 132,118,49 greener; 61,32,29 vs 76,40,36) but I could not tell whether these are different olive kinds or texture variation, so I did not split them further.",
+  "Olive names are descriptive: colour + height (Raised if at-y>0.4) + 5-band column letter on x + 8-band row letter on z. Direction of x/z (left/right, front/back) is not given by the evidence so I used neutral letters; _Altx suffixes only disambiguate islands falling in the same cell. These are not authored names; the unique-name rule has no good answer for 48 identical things without index-like codes.",
+  "The brief says no numbered placeholders; position-cell codes are effectively indices, I judged them acceptable because they carry position evidence.",
+  "Gold leaf islands 2-7 are zero-height (size y 0.000) tiny flat pieces at at-y 1.00 (top of the mesh), toward the high-z edge; I merged them as 'Flecks' since size/colour does not distinguish them. Could equally be a flat decal/marking or separate pieces; unresolved.",
+  "Writing a 48-part plan by hand is very verbose; had to generate names with a helper script (reading only my own evidence)."
+ ],
+ "model": "IridescentDishWithOlives",
+ "mode": "materials",
+ "blind_code": "M06"
+}

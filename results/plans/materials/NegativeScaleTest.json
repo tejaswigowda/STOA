@@ -1,0 +1,481 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Marked_Tile_Set",
+    "classes": [
+     "tiles"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Green_Check_Tile_Right_Lower_Low_Z",
+      "classes": [
+       "tile",
+       "check",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Red_X_Tile_Left_Lower_Low_Z",
+      "classes": [
+       "tile",
+       "cross",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Green_Check_Tile_Centre_Lower_Low_Z",
+      "classes": [
+       "tile",
+       "check",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Green_Check_Tile_Left_Upper_High_Z",
+      "classes": [
+       "tile",
+       "check",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Green_Check_Tile_Right_Upper_Low_Z",
+      "classes": [
+       "tile",
+       "check",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Red_X_Tile_Left_Upper_Low_Z",
+      "classes": [
+       "tile",
+       "cross",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Green_Check_Tile_Centre_Upper_Low_Z",
+      "classes": [
+       "tile",
+       "check",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Red_X_Tile_Centre_Upper_High_Z",
+      "classes": [
+       "tile",
+       "cross",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Green_Check_Tile_Left_Lower_High_Z",
+      "classes": [
+       "tile",
+       "check",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Red_X_Tile_Centre_Lower_High_Z",
+      "classes": [
+       "tile",
+       "cross",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Background_Panel_Pair",
+    "classes": [
+     "background"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Background_Panel_High_Z",
+      "classes": [
+       "background",
+       "panel"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Background_Panel_Low_Z",
+      "classes": [
+       "background",
+       "panel"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Label_Plate_Set",
+    "classes": [
+     "labels"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Label_Plate_Left_Stack_Top",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Label_Plate_High_Row_Middle",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Label_Plate_High_Row_Right",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Label_Plate_High_Row_Left",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Label_Plate_Left_Stack_Second",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Label_Plate_Small_Mid_Right",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Label_Plate_Small_Mid_Left",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Label_Plate_Left_Stack_Third",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Label_Plate_Left_Stack_Fourth",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Label_Plate_Left_Stack_Bottom",
+      "classes": [
+       "label",
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "plan": {
+    "group": "Not_So_Shiny_Body_Pair",
+    "classes": [
+     "bodies"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Not_So_Shiny_Dense_Body_Left",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Not_So_Shiny_Dense_Body_Right",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "plan": {
+    "group": "So_Shiny_Body_Pair",
+    "classes": [
+     "bodies"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "So_Shiny_Dense_Body_Left",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "So_Shiny_Dense_Body_Right",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "plan": {
+    "group": "Dark_Body_Pair",
+    "classes": [
+     "bodies"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Dark_Dense_Body_Left",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Dark_Dense_Body_Right",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Green_Check/Red_X names rest on the material name ChecksAndXMaterial plus the white tile with a 12-14% green or red mark; the mark shape itself is not in the evidence, so this is an inference from material name and colour.",
+  "z=0 / z=1 are called Low_Z / High_Z because the evidence does not say which is front.",
+  "Left/Right from at.x (low x = left) is an assumption of the report convention.",
+  "Meshes 3,4,5 (1280 triangles per island, 1x1x1 bounding box, no uv, no colour) give nothing beyond a dense compact body; names use the material names Not So Shiny / So Shiny / Dark as part of the name and do not claim a shape. The three meshes have identical left/right positions, so they probably overlap or are stacked on y which the per-mesh at cannot show.",
+  "Label plates: five at the left edge z=0 in a stack by at.y; three in a high row at differing z; two smaller ones at mid height. Names are positional; the content of the text is not evidenced.",
+  "Mesh 1 had two identical big flat quads at opposite z faces; kept separate (could be one double-sided background, could be two layers).",
+  "Basis lists exclude material names as instructed, so material-driven names carry only position/size/shape/colour in basis."
+ ],
+ "model": "NegativeScaleTest",
+ "mode": "materials",
+ "blind_code": "N13"
+}

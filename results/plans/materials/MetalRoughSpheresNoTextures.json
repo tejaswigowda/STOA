@@ -1,0 +1,1248 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Huge_Flat_Strip_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Huge_Flat_Strip_AxisZ_XLow_YLowest_ZLowest",
+      "classes": [
+       "piece",
+       "flat-strip"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "component": 0
+     },
+     {
+      "name": "Huge_Flat_Strip_AxisZ_XLowest_ZLowest",
+      "classes": [
+       "piece",
+       "flat-strip"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "component": 1
+     },
+     {
+      "name": "Huge_Flat_Sheet_AxisZ_XHigh_YLowest_ZLowest",
+      "classes": [
+       "piece",
+       "flat-sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "component": 2
+     },
+     {
+      "name": "Huge_Flat_Strip_AxisZ_XLowest_YHigh_ZLowest",
+      "classes": [
+       "piece",
+       "flat-strip"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "component": 3
+     },
+     {
+      "name": "Huge_Flat_Strip_AxisZ_XLowest_YLow_ZLowest",
+      "classes": [
+       "piece",
+       "flat-strip"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "component": 4
+     },
+     {
+      "name": "Huge_Flat_Strip_AxisZ_XLowest_YLow_ZLowest_Peer_A",
+      "classes": [
+       "piece",
+       "flat-strip"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "component": 5
+     },
+     {
+      "name": "Huge_Flat_Sheet_AxisZ_XHighest_YLowest_ZHighest",
+      "classes": [
+       "piece",
+       "flat-sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "component": 6
+     },
+     {
+      "name": "Huge_Flat_Sheet_AxisZ_XLowest_YHighest_ZLowest",
+      "classes": [
+       "piece",
+       "flat-sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "component": 7
+     },
+     {
+      "name": "Huge_Flat_Sheet_AxisZ_XLow_YLowest_ZLowest",
+      "classes": [
+       "piece",
+       "flat-sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "component": 8
+     },
+     {
+      "name": "Huge_Flat_Sheet_AxisZ_XHighest_YLowest_ZLowest",
+      "classes": [
+       "piece",
+       "flat-sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "component": 9
+     },
+     {
+      "name": "Huge_Flat_Strip_AxisZ_XLowest_YLow_ZLowest_Peer_B",
+      "classes": [
+       "piece",
+       "flat-strip"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "component": 10
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group",
+    "name": "Tiny_Equal_Sided_Lump",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_A",
+    "name": "Tiny_Equal_Sided_Lump_Peer_A",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_B",
+    "name": "Tiny_Equal_Sided_Lump_Peer_B",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_C",
+    "name": "Tiny_Equal_Sided_Lump_Peer_C",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_D",
+    "name": "Tiny_Equal_Sided_Lump_Peer_D",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_E",
+    "name": "Tiny_Equal_Sided_Lump_Peer_E",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_F",
+    "name": "Tiny_Equal_Sided_Lump_Peer_F",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_G",
+    "name": "Tiny_Equal_Sided_Lump_Peer_G",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 9,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_H",
+    "name": "Tiny_Equal_Sided_Lump_Peer_H",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 10,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_I",
+    "name": "Tiny_Equal_Sided_Lump_Peer_I",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 11,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_J",
+    "name": "Tiny_Equal_Sided_Lump_Peer_J",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 12,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_K",
+    "name": "Tiny_Equal_Sided_Lump_Peer_K",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 13,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_L",
+    "name": "Tiny_Equal_Sided_Lump_Peer_L",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 14,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_M",
+    "name": "Tiny_Equal_Sided_Lump_Peer_M",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 15,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_N",
+    "name": "Tiny_Equal_Sided_Lump_Peer_N",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 16,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_O",
+    "name": "Tiny_Equal_Sided_Lump_Peer_O",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 17,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_P",
+    "name": "Tiny_Equal_Sided_Lump_Peer_P",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 18,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_Q",
+    "name": "Tiny_Equal_Sided_Lump_Peer_Q",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 19,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_R",
+    "name": "Tiny_Equal_Sided_Lump_Peer_R",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 20,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_S",
+    "name": "Tiny_Equal_Sided_Lump_Peer_S",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 21,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_T",
+    "name": "Tiny_Equal_Sided_Lump_Peer_T",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 22,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_U",
+    "name": "Tiny_Equal_Sided_Lump_Peer_U",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 23,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_V",
+    "name": "Tiny_Equal_Sided_Lump_Peer_V",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 24,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_W",
+    "name": "Tiny_Equal_Sided_Lump_Peer_W",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 25,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_X",
+    "name": "Tiny_Equal_Sided_Lump_Peer_X",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 26,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_Y",
+    "name": "Tiny_Equal_Sided_Lump_Peer_Y",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 27,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_Z",
+    "name": "Tiny_Equal_Sided_Lump_Peer_Z",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 28,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AA",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AA",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 29,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AB",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AB",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 30,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AC",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AC",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 31,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AD",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AD",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 32,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AE",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AE",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 33,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AF",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AF",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 34,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AG",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AG",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 35,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AH",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AH",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 36,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AI",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AI",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 37,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AJ",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AJ",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 38,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AK",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AK",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 39,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AL",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AL",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 40,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AM",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AM",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 41,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AN",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AN",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 42,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AO",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AO",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 43,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AP",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AP",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 44,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AQ",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AQ",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 45,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AR",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AR",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 46,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AS",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AS",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 47,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AT",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AT",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 48,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AU",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AU",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 49,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AV",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AV",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 50,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AW",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AW",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 51,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AX",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AX",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 52,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AY",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AY",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 53,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_AZ",
+    "name": "Tiny_Equal_Sided_Lump_Peer_AZ",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 54,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BA",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BA",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 55,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BB",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BB",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 56,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BC",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BC",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 57,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BD",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BD",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 58,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BE",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BE",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 59,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BF",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BF",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 60,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BG",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BG",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 61,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BH",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BH",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 62,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BI",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BI",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 63,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BJ",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BJ",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 64,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BK",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BK",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 65,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BL",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BL",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 66,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BM",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BM",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 67,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BN",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BN",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 68,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BO",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BO",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 69,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BP",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BP",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 70,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BQ",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BQ",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 71,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BR",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BR",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 72,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BS",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BS",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 73,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BT",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BT",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 74,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BU",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BU",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 75,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BV",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BV",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 76,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BW",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BW",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 77,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BX",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BX",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 78,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BY",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BY",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 79,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_BZ",
+    "name": "Tiny_Equal_Sided_Lump_Peer_BZ",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 80,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CA",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CA",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 81,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CB",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CB",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 82,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CC",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CC",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 83,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CD",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CD",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 84,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CE",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CE",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 85,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CF",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CF",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 86,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CG",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CG",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 87,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CH",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CH",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 88,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CI",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CI",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 89,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CJ",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CJ",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 90,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CK",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CK",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 91,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CL",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CL",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 92,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CM",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CM",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 93,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CN",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CN",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 94,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CO",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CO",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 95,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CP",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CP",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 96,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CQ",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CQ",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 97,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CR",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CR",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  },
+  {
+   "mesh": 98,
+   "whole": {
+    "group": "Tiny_Equal_Sided_Lump_Piece_Group_Peer_CS",
+    "name": "Tiny_Equal_Sided_Lump_Peer_CS",
+    "classes": [
+     "piece",
+     "equal-sided-lump"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Evidence for N08: mesh 0 has no material and 11 flat (zero-thickness) components; meshes 1..98 (mat_0..mat_97) have byte-identical reports: one island, 10600 triangles, size 0.001 cube, at 0.50, no uv, no texture, no colours. Nothing separates them, so no function can be justified; each is named by shape/size only.",
+  "Rule used for meshes 1..98: Tiny_Equal_Sided_Lump plus a Peer_<letters> suffix, only to make names unique; the suffix carries no meaning (letters, not numbers, because numbered placeholders are not allowed). Material names mat_N are numbered placeholders and are deliberately not used as names.",
+  "Doubt: 98 identical 10600-triangle meshes of size 0.001 look odd (possible export artefact, or tiny instanced geometry whose transform was not applied); the report cannot say. Group names (one per mesh) are equally generic.",
+  "Mesh 0 rule: each component is one part named Size_Shape_AxisZ plus position words from at (X/Y Lowest<0.1, Low<0.35, mid omitted, High<0.65..0.9, Highest>=0.9). at is in the world frame for components; Flat means size along one axis 0.000. Wide pieces at low y and a column of tall pieces at low x are shape/position facts only; I did not name them as letters or anything else.",
+  "The guide says to use SEG.components grain for scenes; mesh 0 report was component-grain so parts are given by component number, not island."
+ ],
+ "model": "MetalRoughSpheresNoTextures",
+ "mode": "materials",
+ "blind_code": "N08"
+}

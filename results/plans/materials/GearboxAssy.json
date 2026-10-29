@@ -1,0 +1,3012 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Huge_Plate_Finish_Eta_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Eta_XHighest_ZLowest",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Eta_XLowest_ZLowest",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     },
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Eta_XLowest_ZHighest",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 2
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Medium_Long_Box_Finish_Alpha_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XHighest_YHighest_ZHighest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XHighest_YLow_ZHighest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XHigh_YLow_ZHighest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 2
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XHigh_YLow_ZLowest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 3
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XHighest_YHighest_ZLowest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 4
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XHighest_YLow_ZLowest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 5
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XHigh_YHigh_ZHighest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 6
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XHigh_YLowest_ZHighest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 7
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XHighest_ZHighest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 8
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XLow_YLow_ZHighest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 9
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XLowest_YLow_ZHighest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 10
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XLowest_YHighest_ZHighest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 11
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XLowest_YHighest_ZLowest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 12
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XLow_YLow_ZLowest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 13
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XLowest_YLow_ZLowest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 14
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XLow_ZHighest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 15
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XLowest_YHigh_ZHighest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 16
+     },
+     {
+      "name": "Medium_Long_Box_AxisX_Finish_Alpha_XLowest_YLowest_ZHighest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 17
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Medium_Box_Body_Finish_Alpha_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Medium_Box_Body_Finish_Alpha_XHigh_YHighest",
+      "classes": [
+       "piece",
+       "box-body"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Medium_Box_Body_Finish_Alpha_XHigh_YLowest",
+      "classes": [
+       "piece",
+       "box-body"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     },
+     {
+      "name": "Medium_Box_Body_Finish_Alpha_XHighest",
+      "classes": [
+       "piece",
+       "box-body"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 2
+     },
+     {
+      "name": "Medium_Box_Body_Finish_Alpha_XLow",
+      "classes": [
+       "piece",
+       "box-body"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 3
+     },
+     {
+      "name": "Medium_Box_Body_Finish_Alpha_XLowest_YHighest",
+      "classes": [
+       "piece",
+       "box-body"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 4
+     },
+     {
+      "name": "Medium_Box_Body_Finish_Alpha_XLowest_YLowest",
+      "classes": [
+       "piece",
+       "box-body"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 5
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Huge_Bar_Finish_Eta_Piece_Group",
+    "name": "Huge_Bar_AxisZ_Finish_Eta",
+    "classes": [
+     "piece",
+     "bar"
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "plan": {
+    "group": "Large_Long_Box_Finish_Alpha_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Large_Long_Box_AxisZ_Finish_Alpha_XHighest_YHighest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Large_Long_Box_AxisZ_Finish_Alpha_XHighest_YLowest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     },
+     {
+      "name": "Large_Long_Box_AxisZ_Finish_Alpha_XHigh_YLowest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 2
+     },
+     {
+      "name": "Large_Long_Box_AxisZ_Finish_Alpha_XLow_YLowest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 3
+     },
+     {
+      "name": "Large_Long_Box_AxisZ_Finish_Alpha_XLowest_YLowest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 4
+     },
+     {
+      "name": "Large_Long_Box_AxisZ_Finish_Alpha_XLowest_YHighest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 5
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "plan": {
+    "group": "Huge_Flat_Sheet_Finish_Eta_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Huge_Flat_Sheet_AxisZ_Finish_Eta_XHighest",
+      "classes": [
+       "piece",
+       "flat-sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Huge_Flat_Sheet_AxisZ_Finish_Eta_XLowest",
+      "classes": [
+       "piece",
+       "flat-sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "plan": {
+    "group": "Huge_Bar_Finish_Eta_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Huge_Bar_AxisZ_Finish_Eta_XHighest",
+      "classes": [
+       "piece",
+       "bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Huge_Bar_AxisZ_Finish_Eta_XLowest",
+      "classes": [
+       "piece",
+       "bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "plan": {
+    "group": "Huge_Plate_Finish_Alpha_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Alpha_XHighest",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Alpha_XLowest",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "plan": {
+    "group": "Huge_Plate_Finish_Gamma_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Gamma_XHighest",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Gamma_XLow",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 9,
+   "plan": {
+    "group": "Large_Plate_Finish_Alpha_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Large_Plate_AxisZ_Finish_Alpha_XHighest_ZHighest",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Alpha_XHighest_ZLowest",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Alpha_XLowest_ZHighest",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 2
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Alpha_XLowest_ZLowest",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 3
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 10,
+   "plan": {
+    "group": "Tiny_Equal_Sided_Lump_Finish_Eta_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YLow_ZLowest",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YLow_ZLowest_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YLow_ZLowest_Peer_B",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 2
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YLow_ZLowest_Peer_C",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 3
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YLow_ZLowest_Peer_D",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 4
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_ZLowest",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 5
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YHigh_ZLowest",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 6
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YHigh_ZLowest_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 7
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_ZLowest_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 8
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YHigh_ZLowest_Peer_B",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 9
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YHigh_ZLowest_Peer_C",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 10
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YHigh_ZLowest_Peer_D",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 11
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YHigh_ZLowest_Peer_E",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 12
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_ZLowest_Peer_B",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 13
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YLow_ZLowest_Peer_E",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 14
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YLow_ZHighest",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 15
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YLow_ZHighest_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 16
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YLow_ZHighest_Peer_B",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 17
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_ZHighest",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 18
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_ZHighest_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 19
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YHigh_ZHighest",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 20
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YHigh_ZHighest_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 21
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YHigh_ZHighest_Peer_B",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 22
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YLow_ZHighest_Peer_C",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 23
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YHigh_ZHighest_Peer_C",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 24
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YHigh_ZHighest_Peer_D",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 25
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YLow_ZHighest_Peer_D",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 26
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_ZHighest_Peer_B",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 27
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YLow_ZHighest_Peer_E",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 28
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHighest_YHigh_ZHighest_Peer_E",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 29
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YHigh_ZLowest",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 30
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YHigh_ZLowest_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 31
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YHigh_ZLowest_Peer_B",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 32
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_ZLowest",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 33
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_ZLowest_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 34
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YLow_ZLowest",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 35
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YLow_ZLowest_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 36
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YLow_ZLowest_Peer_B",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 37
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YHigh_ZLowest_Peer_C",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 38
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YLow_ZLowest_Peer_C",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 39
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YLow_ZLowest_Peer_D",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 40
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YHigh_ZLowest_Peer_D",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 41
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_ZLowest_Peer_B",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 42
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YHigh_ZLowest_Peer_E",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 43
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YLow_ZLowest_Peer_E",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 44
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YHigh_ZHighest",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 45
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YHigh_ZHighest_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 46
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YHigh_ZHighest_Peer_B",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 47
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YHigh_ZHighest_Peer_C",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 48
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YHigh_ZHighest_Peer_D",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 49
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_ZHighest",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 50
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YLow_ZHighest",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 51
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YLow_ZHighest_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 52
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_ZHighest_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 53
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YLow_ZHighest_Peer_B",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 54
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YLow_ZHighest_Peer_C",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 55
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YLow_ZHighest_Peer_D",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 56
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YLow_ZHighest_Peer_E",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 57
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_ZHighest_Peer_B",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 58
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLowest_YHigh_ZHighest_Peer_E",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 59
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Eta_XHighest_ZLowest",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 60
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Eta_XHighest_ZLowest_Peer_A",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 61
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Eta_XHighest_ZHighest",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 62
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Eta_XHighest_ZHighest_Peer_A",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 63
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Eta_XLowest_ZLowest",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 64
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Eta_XLowest_ZLowest_Peer_A",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 65
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Eta_XLowest_ZHighest",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 66
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Eta_XLowest_ZHighest_Peer_A",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 67
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 11,
+   "plan": {
+    "group": "Large_Long_Box_Finish_Alpha_Set_Group_Peer_A",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Large_Long_Box_AxisZ_Finish_Alpha_XHigh_YLowest_Peer_A",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Large_Long_Box_AxisZ_Finish_Alpha_XHighest_YHighest_Peer_A",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     },
+     {
+      "name": "Large_Long_Box_AxisZ_Finish_Alpha_XHighest_YLowest_Peer_A",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 2
+     },
+     {
+      "name": "Large_Long_Box_AxisZ_Finish_Alpha_XLowest_YHighest_Peer_A",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 3
+     },
+     {
+      "name": "Large_Long_Box_AxisZ_Finish_Alpha_XLow_YLowest_Peer_A",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 4
+     },
+     {
+      "name": "Large_Long_Box_AxisZ_Finish_Alpha_XLowest_YLowest_Peer_A",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 5
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 12,
+   "plan": {
+    "group": "Huge_Plate_Finish_Alpha_Set_Group_Peer_A",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Alpha_XHighest_Peer_A",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Alpha_XLowest_Peer_A",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 13,
+   "whole": {
+    "group": "Huge_Plate_Finish_Beta_Piece_Group",
+    "name": "Huge_Plate_AxisZ_Finish_Beta",
+    "classes": [
+     "piece",
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 14,
+   "whole": {
+    "group": "Huge_Bar_Finish_Beta_Piece_Group",
+    "name": "Huge_Bar_AxisZ_Finish_Beta",
+    "classes": [
+     "piece",
+     "bar"
+    ]
+   }
+  },
+  {
+   "mesh": 15,
+   "whole": {
+    "group": "Huge_Box_Body_Finish_Delta_Piece_Group",
+    "name": "Huge_Box_Body_Finish_Delta",
+    "classes": [
+     "piece",
+     "box-body"
+    ]
+   }
+  },
+  {
+   "mesh": 16,
+   "plan": {
+    "group": "Huge_Plate_Finish_Gamma_Set_Group_Peer_A",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Gamma_ZLow",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Huge_Plate_AxisY_Finish_Gamma_YHigh",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 17,
+   "whole": {
+    "group": "Huge_Slab_Finish_Eta_Piece_Group",
+    "name": "Huge_Slab_AxisX_Finish_Eta",
+    "classes": [
+     "piece",
+     "slab"
+    ]
+   }
+  },
+  {
+   "mesh": 18,
+   "plan": {
+    "group": "Huge_Plate_Finish_Eta_Set_Group_Peer_A",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Eta_ZLow",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Eta_ZHigh",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 19,
+   "whole": {
+    "group": "Huge_Stubby_Block_Finish_Eta_Piece_Group",
+    "name": "Huge_Stubby_Block_AxisZ_Finish_Eta",
+    "classes": [
+     "piece",
+     "stubby-block"
+    ]
+   }
+  },
+  {
+   "mesh": 20,
+   "whole": {
+    "group": "Huge_Stubby_Block_Finish_Delta_Piece_Group",
+    "name": "Huge_Stubby_Block_AxisZ_Finish_Delta",
+    "classes": [
+     "piece",
+     "stubby-block"
+    ]
+   }
+  },
+  {
+   "mesh": 21,
+   "whole": {
+    "group": "Huge_Bar_Finish_Eta_Piece_Group_Peer_A",
+    "name": "Huge_Bar_AxisZ_Finish_Eta_Peer_A",
+    "classes": [
+     "piece",
+     "bar"
+    ]
+   }
+  },
+  {
+   "mesh": 22,
+   "whole": {
+    "group": "Huge_Slab_Finish_Eta_Piece_Group_Peer_A",
+    "name": "Huge_Slab_AxisX_Finish_Eta_Peer_A",
+    "classes": [
+     "piece",
+     "slab"
+    ]
+   }
+  },
+  {
+   "mesh": 23,
+   "plan": {
+    "group": "Huge_Plate_Finish_Gamma_Set_Group_Peer_B",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Gamma_XLow_Peer_A",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Gamma_XHigh",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 24,
+   "plan": {
+    "group": "Huge_Bar_Finish_Delta_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Huge_Bar_AxisZ_Finish_Delta_XLowest",
+      "classes": [
+       "piece",
+       "bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Huge_Bar_AxisZ_Finish_Delta_XHighest",
+      "classes": [
+       "piece",
+       "bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 25,
+   "whole": {
+    "group": "Huge_Plate_Finish_Eta_Piece_Group",
+    "name": "Huge_Plate_AxisZ_Finish_Eta",
+    "classes": [
+     "piece",
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 26,
+   "plan": {
+    "group": "Large_Stubby_Block_Finish_Epsilon_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Large_Stubby_Block_AxisZ_Finish_Epsilon_XLowest",
+      "classes": [
+       "piece",
+       "stubby-block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Large_Stubby_Block_AxisZ_Finish_Epsilon_XHighest",
+      "classes": [
+       "piece",
+       "stubby-block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 27,
+   "whole": {
+    "group": "Huge_Plate_Finish_Eta_Piece_Group_Peer_A",
+    "name": "Huge_Plate_AxisZ_Finish_Eta_Peer_A",
+    "classes": [
+     "piece",
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 28,
+   "whole": {
+    "group": "Huge_Box_Body_Finish_Eta_Piece_Group",
+    "name": "Huge_Box_Body_Finish_Eta",
+    "classes": [
+     "piece",
+     "box-body"
+    ]
+   }
+  },
+  {
+   "mesh": 29,
+   "plan": {
+    "group": "Tiny_Equal_Sided_Lump_Finish_Eta_Set_Group_Peer_A",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLow_YLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLow_YHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHigh_YLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 2
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 3
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_YHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 4
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_YLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 5
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLow_YLow_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 6
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLow_YHigh_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 7
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHigh_YHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 8
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHigh_YHigh_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 9
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XHigh_YLow_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 10
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Eta_XLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 11
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Eta",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 12
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Eta_Peer_A",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 13
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 30,
+   "whole": {
+    "group": "Huge_Long_Box_Finish_Eta_Piece_Group",
+    "name": "Huge_Long_Box_AxisX_Finish_Eta",
+    "classes": [
+     "piece",
+     "long-box"
+    ]
+   }
+  },
+  {
+   "mesh": 31,
+   "plan": {
+    "group": "Small_Equal_Sided_Lump_Finish_Eta_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Eta_XLow_YLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Eta_YHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Eta_XHigh_YHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 2
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Eta_YLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 3
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Eta_XLow_YLow_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 4
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Eta_XLow_YHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 5
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Eta_XLow_YHigh_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 6
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Eta_XHigh_YLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 7
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Eta_XHigh_YHigh_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 8
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Eta_XHigh_YLow_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 9
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Eta_XLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 10
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Eta_XHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 11
+     },
+     {
+      "name": "Large_Stubby_Block_AxisZ_Finish_Eta",
+      "classes": [
+       "piece",
+       "stubby-block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 12
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Eta_Peer_B",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 13
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 32,
+   "plan": {
+    "group": "Large_Long_Box_Finish_Alpha_Set_Group_Peer_B",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Large_Long_Box_AxisY_Finish_Alpha_XLowest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Large_Long_Box_AxisY_Finish_Alpha_XHighest",
+      "classes": [
+       "piece",
+       "long-box"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 33,
+   "whole": {
+    "group": "Large_Box_Body_Finish_Eta_Piece_Group",
+    "name": "Large_Box_Body_Finish_Eta",
+    "classes": [
+     "piece",
+     "box-body"
+    ]
+   }
+  },
+  {
+   "mesh": 34,
+   "plan": {
+    "group": "Large_Equal_Sided_Lump_Finish_Zeta_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Large_Equal_Sided_Lump_Finish_Zeta_XLowest",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Large_Equal_Sided_Lump_Finish_Zeta_XHighest",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 35,
+   "whole": {
+    "group": "Huge_Slab_Finish_Beta_Piece_Group",
+    "name": "Huge_Slab_AxisX_Finish_Beta",
+    "classes": [
+     "piece",
+     "slab"
+    ]
+   }
+  },
+  {
+   "mesh": 36,
+   "plan": {
+    "group": "Huge_Plate_Finish_Beta_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Beta_ZHigh",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Huge_Plate_AxisZ_Finish_Beta_ZLow",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 37,
+   "whole": {
+    "group": "Huge_Box_Body_Finish_Beta_Piece_Group",
+    "name": "Huge_Box_Body_Finish_Beta",
+    "classes": [
+     "piece",
+     "box-body"
+    ]
+   }
+  },
+  {
+   "mesh": 38,
+   "plan": {
+    "group": "Tiny_Equal_Sided_Lump_Finish_Beta_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Beta_YHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Beta_XHigh_YHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Beta_XLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 2
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Beta_XLow_YLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 3
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Beta_XHigh_YLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 4
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Beta_XLow_YHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 5
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Beta_XLow_YHigh_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 6
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Beta_XHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 7
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Beta_YLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 8
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Beta_XHigh_YLow_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 9
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Beta_XLow_YLow_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 10
+     },
+     {
+      "name": "Tiny_Equal_Sided_Lump_Finish_Beta_XHigh_YHigh_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 11
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Beta",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 12
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Beta_Peer_A",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 13
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 39,
+   "whole": {
+    "group": "Huge_Long_Box_Finish_Beta_Piece_Group",
+    "name": "Huge_Long_Box_AxisX_Finish_Beta",
+    "classes": [
+     "piece",
+     "long-box"
+    ]
+   }
+  },
+  {
+   "mesh": 40,
+   "plan": {
+    "group": "Small_Equal_Sided_Lump_Finish_Beta_Set_Group",
+    "classes": [
+     "group",
+     "cluster"
+    ],
+    "parts": [
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Beta_XLow_YHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 0
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Beta_XHigh_YLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 1
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Beta_XHigh_YLow_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 2
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Beta_XLow_YHigh_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 3
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Beta_YHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 4
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Beta_XHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 5
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Beta_XHigh_YHigh",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 6
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Beta_XLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 7
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Beta_YLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 8
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Beta_XLow_YLow",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 9
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Beta_XHigh_YHigh_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 10
+     },
+     {
+      "name": "Small_Equal_Sided_Lump_Finish_Beta_XLow_YLow_Peer_A",
+      "classes": [
+       "piece",
+       "equal-sided-lump"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 11
+     },
+     {
+      "name": "Large_Stubby_Block_AxisZ_Finish_Beta",
+      "classes": [
+       "piece",
+       "stubby-block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 12
+     },
+     {
+      "name": "Large_Plate_AxisZ_Finish_Beta_Peer_B",
+      "classes": [
+       "piece",
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ],
+      "island": 13
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 41,
+   "whole": {
+    "group": "Large_Box_Body_Finish_Beta_Piece_Group",
+    "name": "Large_Box_Body_Finish_Beta",
+    "classes": [
+     "piece",
+     "box-body"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Evidence for N26: 42 meshes, 7 materials (default_2, Material_12..Material_17), no uv, no texture, no colours, so colour could not be a basis. Single-island meshes always report at 0.50 (relative to themselves), so position only appears for multi-island meshes.",
+  "Names are generated by rule from size alone: <size band>_<shape>_<odd axis>_<Finish>_<position words>. Size band = quintile of an island max extent among all parts of this model. Shape from the sorted extents: Equal_Sided_Lump (all within 8%), Plate/Stubby_Block/Bar (two equal extents, third thinner than half / between / more than double; Axis is the odd extent), Slab, Long_Box, Box_Body. Equal extents may be round or square; the report cannot say, so no function word (disc, shaft, roller, ...) is used.",
+  "Finish_<Greek> = material, ranked alphabetically by name (uppercase sorts first, so Material_12 gets Alpha and default_2 gets the last Greek word). Only a stand-in label for distinct materials.",
+  "Several meshes under different materials hold the same geometry (e.g. meshes 3 and 14, 25/27/36, 28/37, 30/39, 33/41, 22/35): same triangle counts and sizes under default_2 and Material_13. The finish tag keeps their names distinct; the evidence does not say which is an alternate/duplicate of which.",
+  "Mesh 10 has 68 islands (many identical 0.36 cubes arranged in rings at low and high z, plus a few 0.55-thick plates of larger extent) and mesh 1 has 18 identical islands; each is a separate part named by position words from at (mesh frame). Position words collide for some mirrored islands, so a Peer_<letters> suffix (meaningless) disambiguates.",
+  "Doubt: no part has enough evidence for a functional name; group and part names are shape-descriptive on purpose (abstention).",
+  "Finish map: Finish_Alpha=Material_12, Finish_Beta=Material_13, Finish_Gamma=Material_14, Finish_Delta=Material_15, Finish_Epsilon=Material_16, Finish_Zeta=Material_17, Finish_Eta=default_2"
+ ],
+ "model": "GearboxAssy",
+ "mode": "materials",
+ "blind_code": "N26"
+}

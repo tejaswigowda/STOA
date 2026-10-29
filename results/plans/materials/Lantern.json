@@ -1,0 +1,253 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Post_And_Beam_With_Hanging_Fixture",
+    "classes": [
+     "structure"
+    ],
+    "parts": [
+     {
+      "component": 3,
+      "name": "Left_Tall_Upright_Post",
+      "classes": [
+       "post",
+       "upright"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 11,
+      "name": "Horizontal_Crossbeam",
+      "classes": [
+       "beam",
+       "horizontal"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 12,
+      "name": "Beam_Support_Brace_Group",
+      "classes": [
+       "brace",
+       "support"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 13,
+      "name": "Post_Base_Low_Grey_Ring",
+      "classes": [
+       "base"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 14,
+      "name": "Left_Post_Upper_Dark_Block_Set",
+      "classes": [
+       "fitting",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 15,
+      "name": "Left_Post_Top_Dark_Block_Set",
+      "classes": [
+       "fitting",
+       "left",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 10,
+      "name": "Right_Beam_Top_Dark_Block_Set",
+      "classes": [
+       "fitting",
+       "right",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 8,
+      "name": "Chain_Link_Topmost",
+      "classes": [
+       "chain",
+       "link"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Chain_Link_Upper",
+      "classes": [
+       "chain",
+       "link"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Chain_Link_Middle_Pair",
+      "classes": [
+       "chain",
+       "link"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 5,
+      "name": "Chain_Link_Lower",
+      "classes": [
+       "chain",
+       "link"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 6,
+      "name": "Chain_Link_Lowest",
+      "classes": [
+       "chain",
+       "link"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 7,
+      "name": "Hanger_Flat_Dark_Disc",
+      "classes": [
+       "fitting",
+       "hanger"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 9,
+      "name": "Hanger_Small_Dark_Pin",
+      "classes": [
+       "fitting",
+       "hanger"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 0,
+      "name": "Hanging_Dark_Upper_Frame",
+      "classes": [
+       "hanging",
+       "dark"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Hanging_Dark_Large_Lower_Body",
+      "classes": [
+       "hanging",
+       "dark"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Single mesh, single material (LanternPost_Mat). Material name suggests a lantern post; used as evidence for the hanging dark assembly on the right but names stay structural/shape-based.",
+  "Chain links named by silver colour (143,145,148), small size and stacking along y; no way to count actual links (comp 2 holds 2 islands, treated as a pair).",
+  "Components 0 and 1 (large dark hanging assembly, x=0.87) could not be told apart as lantern roof/body/glass/frame from the evidence; named by position and size only.",
+  "Components 14, 15, 10 are small dark block sets (6-8 islands); function (caps/collars/knobs) not resolvable, shape-descriptive names used.",
+  "Brace (comp 12) has 6 islands incl. a little light grey; not split further (can't tell brace vs pegs). Component 13 (50 islands) is a low ring-like grey cluster around the post foot; unresolved what the islands are.",
+  "No right-hand upright found in the evidence; the hanging assembly at x=0.87 hangs from the beam. Beam extends past both sides.",
+  "Grouping used components as the brief's report suggested; islands lists were truncated with an ellipsis so island-level plan was impractical."
+ ],
+ "model": "Lantern",
+ "mode": "materials",
+ "blind_code": "M14"
+}

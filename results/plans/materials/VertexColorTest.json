@@ -1,0 +1,221 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Label_Strips_Group",
+    "classes": [
+     "label",
+     "strips"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Label_Strip_Low_Wide",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Label_Strip_High_Wide",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Label_Strip_Mid_Left_Short",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Label_Strip_Mid_Centre",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Label_Strip_Mid_Right",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Label_Strip_Upper_Centre",
+      "classes": [
+       "label",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Blue_Slab_With_Tiles_Group",
+    "classes": [
+     "slab",
+     "tiles"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Blue_Thin_Slab",
+      "classes": [
+       "slab",
+       "blue"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Square_Tile_Top_Centre",
+      "classes": [
+       "tile",
+       "square"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Square_Tile_Top_Right",
+      "classes": [
+       "tile",
+       "square"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Square_Tile_Top_Left",
+      "classes": [
+       "tile",
+       "square"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Square_Tile_Bottom_Centre",
+      "classes": [
+       "tile",
+       "square"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Square_Tile_Bottom_Right",
+      "classes": [
+       "tile",
+       "square"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Square_Tile_Bottom_Left",
+      "classes": [
+       "tile",
+       "square"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Mesh 0 material is 'Label_Mat': six flat (z-size 0) quads of 2 triangles, about 0.3-0.76 wide and 0.15-0.2 high, mostly black (rgb 0-1) with a few percent of white/grey, which reads like dark text or marks on a light strip; 'label' rests on the material name and the strip proportions, and I do not name what the labels say.",
+  "The 'at' values for mesh 0 are ambiguous: islands are flat in z (size 0.000) yet at.z varies 0.05..0.96 together with at.y (0.05, 0.96, 0.49, 0.49, 0.49, 0.86), so I cannot tell which axis is vertical or whether the islands lie in different planes. 'Low/High/Mid/Upper' follow at.y only and may be wrong about up.",
+  "Mesh 1 island 0 is a 2x2x0.025 slab, a single solid blue colour (rgb 0,0,255 100%, uv a single point), so it is a thin plate. Six 0.462 square quads (2 triangles each) at z=1.00 form a 3x2 grid (x 0.23/0.50/0.80, y 0.24/0.67); I called them tiles by shape and arrangement. At z=1.00 they are on the slab's high-z side but separate islands, possibly lying on its face. Left/right and top/bottom follow at.x / at.y.",
+  "Each tile's colours (e.g. magenta/white on near-black, red/white) differ, so they are distinct islands, but I name none by content; the evidence does not say what they depict.",
+  "The material 'VC_Checks_Mat' is the only hint for mesh 1; I did not use it to claim a function."
+ ],
+ "model": "VertexColorTest",
+ "mode": "materials",
+ "blind_code": "N22"
+}

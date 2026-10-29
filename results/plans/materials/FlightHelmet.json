@@ -1,0 +1,1138 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "whole": {
+    "group": "Hose_Group",
+    "name": "Hose_Assembly_Dark_Brown",
+    "classes": [
+     "hose"
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Dark_Wood_Toned_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Dark_Brown_Central_Block_Back",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Dark_Brown_Small_Piece_Right_Back",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Grey_Brown_Piece_Front_Upper",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Grey_Brown_Piece_Front_Lower_Rear",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       4
+      ],
+      "name": "Grey_Brown_Piece_Front_Upper_Forward",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       5
+      ],
+      "name": "Grey_Brown_Piece_Front_Middle",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       7
+      ],
+      "name": "Grey_Brown_Piece_Front_Bottom",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       6
+      ],
+      "name": "Orange_Brown_Top_Piece",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       8
+      ],
+      "name": "Flat_Orange_Brown_Base_Piece",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       9
+      ],
+      "name": "Flat_Light_Grey_Upper_Piece",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       10
+      ],
+      "name": "Tall_Thin_Orange_Brown_Central_Piece",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       11
+      ],
+      "name": "Yellow_Tan_Piece_Left",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       12
+      ],
+      "name": "Yellow_Tan_Piece_Right",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Light_And_Dark_Translucent_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Cream_Unit_Front_Upper",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Dark_Side_Unit_Left",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Dark_Side_Unit_Right",
+      "classes": [
+       "unit"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "plan": {
+    "group": "Metal_And_Small_Parts_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Bright_Grey_Top_Fitting_Left",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Bright_Grey_Top_Fitting_Right",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Bright_Grey_Thin_Top_Plate_Left",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Bright_Grey_Thin_Top_Plate_Right",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       5
+      ],
+      "name": "Small_Brown_Piece_Upper_Left",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       4
+      ],
+      "name": "Small_Brown_Piece_Upper_Right",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       6
+      ],
+      "name": "Bright_Grey_Long_Bottom_Piece_Left",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       7
+      ],
+      "name": "Small_Tan_Piece_Right_Back_Middle",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       9
+      ],
+      "name": "Tiny_Brown_Piece_Back_Left",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       8
+      ],
+      "name": "Tiny_Brown_Piece_Back_Right",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       10
+      ],
+      "name": "Small_Brown_Cluster_Left_Upper",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       11
+      ],
+      "name": "Small_Brown_Cluster_Left_Middle",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       12
+      ],
+      "name": "Small_Brown_Cluster_Left_Lower",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       15
+      ],
+      "name": "Small_Brown_Cluster_Right_Upper",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       14
+      ],
+      "name": "Small_Brown_Cluster_Right_Middle",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       13
+      ],
+      "name": "Small_Brown_Cluster_Right_Lower",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       16,
+       37
+      ],
+      "name": "Brown_Disc_And_Ring_Left",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       17,
+       38
+      ],
+      "name": "Brown_Disc_And_Ring_Right",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       18
+      ],
+      "name": "Olive_Flat_Piece_Bottom_Left",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       20
+      ],
+      "name": "Bright_Grey_Small_Top_Piece_Left",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       19
+      ],
+      "name": "Bright_Grey_Small_Top_Piece_Right",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       21
+      ],
+      "name": "Grey_Bottom_Piece_Left",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       22
+      ],
+      "name": "Dark_Olive_Thin_Piece_Far_Right",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       23
+      ],
+      "name": "Bright_Grey_Top_Rear_Piece_Left",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       24
+      ],
+      "name": "Bright_Grey_Top_Rear_Piece_Right",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       25,
+       32,
+       48
+      ],
+      "name": "Small_Brown_Cluster_Centre_Low",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       26,
+       33,
+       47
+      ],
+      "name": "Small_Brown_Cluster_Far_Back_High",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       34
+      ],
+      "name": "Bright_Grey_Top_Front_Piece_Centre_Left",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       27
+      ],
+      "name": "Bright_Grey_Top_Front_Piece_Centre_Right",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       28
+      ],
+      "name": "Black_Small_Piece_Front_Upper_Left",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       29
+      ],
+      "name": "Black_Small_Piece_Front_Lower_Left",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       30
+      ],
+      "name": "Black_Small_Piece_Front_Lower_Right",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       31
+      ],
+      "name": "Black_Small_Piece_Front_Upper_Right",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       35
+      ],
+      "name": "Tiny_Bright_Piece_Far_Left_Back",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       36
+      ],
+      "name": "Tiny_Bright_Piece_Far_Left_Front",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       39
+      ],
+      "name": "Tiny_White_Piece_Left_Back_Upper",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       40
+      ],
+      "name": "Tiny_White_Piece_Left_Back_Lower",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       41
+      ],
+      "name": "Tiny_White_Piece_Right_Back_Upper",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       42
+      ],
+      "name": "Tiny_White_Piece_Right_Back_Lower",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       43
+      ],
+      "name": "Dark_Grey_Piece_Bottom_Left_Centre",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       44
+      ],
+      "name": "Cream_Flat_Disc_Bottom_Far_Left",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       45
+      ],
+      "name": "Tiny_Bright_Piece_Bottom_Left_A_Back",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       46
+      ],
+      "name": "Tiny_Bright_Piece_Bottom_Left_B_Front",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       49
+      ],
+      "name": "Thin_Flat_Gold_Sheet_Front_Bottom",
+      "classes": [
+       "fitting"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "plan": {
+    "group": "Leather_Toned_Group",
+    "classes": [
+     "assembly"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Leather_Large_Central_Body",
+      "classes": [
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Leather_Dark_Piece_Left",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Leather_Dark_Piece_Right",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Leather_Small_Pieces_Low_Cluster",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       4
+      ],
+      "name": "Leather_Small_Pieces_Back_Cluster",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       5
+      ],
+      "name": "Leather_Wide_Piece_Front_Middle",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       6
+      ],
+      "name": "Leather_Piece_Low_Left_Front",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       7
+      ],
+      "name": "Leather_Tall_Piece_Back_Right",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       9
+      ],
+      "name": "Leather_Tall_Piece_Back_Left",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       8
+      ],
+      "name": "Leather_Tall_Piece_Back_Centre",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       10
+      ],
+      "name": "Leather_Wide_Piece_Front_Upper",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       11
+      ],
+      "name": "Leather_Small_Piece_Low_Front",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       12
+      ],
+      "name": "Leather_Small_Piece_Back_Right_Middle",
+      "classes": [
+       "piece"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "plan": {
+    "group": "Lens_Pair_Group",
+    "classes": [
+     "lens"
+    ],
+    "parts": [
+     {
+      "component": [
+       1
+      ],
+      "name": "Lens_Left",
+      "classes": [
+       "lens"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       0
+      ],
+      "name": "Lens_Right",
+      "classes": [
+       "lens"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Material names used as evidence (not in basis): HoseMat for mesh 0 (single island, so named a hose assembly; geometry alone would only say dark brown central lump), LensesMat for mesh 5 (two matching components at x 0.2/0.8 -> Lens_Left/Lens_Right), LeatherPartsMat for mesh 4 prefix 'Leather_', RubberWoodMat/GlassPlasticMat/MetalPartsMat used only loosely as colour/material hints in names.",
+  "I cannot say what the whole object is; evidence gives a central dark body with side pairs and a lot of small bright/brown parts. Names for most parts are shape/colour/position descriptors on purpose.",
+  "Left/right: I took low x = Left, high x = Right and low z = Back, high z = Front; the evidence does not say which side the model's own left is. Mesh 3 is symmetric about at-x ~0.60, not 0.5, so 'centre' pairs (27/34) are named Centre_Left/Right.",
+  "Mesh 3 has 50 components of small hardware; I could not tell what any of them are. Merged components with identical 'at' and colour (16+37, 17+38, 25+32+48, 26+33+47) into one part each. Six clusters 10-15 of 5 islands each form an arc of three per side; named by height order only.",
+  "Mesh 1 components 3,4,5,7 are near-identical grey-brown pieces stacked in front; I could not distinguish their roles, positions only. Names like 'Front_Upper_Forward' are awkward placeholders for position.",
+  "Evidence output is large; the describe text is long and the tool output kept being truncated at ~8KB, so I had to condense it with a script (dropping centre coordinates and secondary colours) to read it. Secondary colours and centres were therefore not used except mesh 1/2 inspected in the first read.",
+  "Plan classes are generic ('piece','fitting') because no function could be justified."
+ ],
+ "model": "FlightHelmet",
+ "mode": "materials",
+ "blind_code": "M16"
+}

@@ -1,0 +1,1150 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "King_Black_Group",
+    "classes": [
+     "piece",
+     "king",
+     "black"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "King_Black_Upper_Section",
+      "classes": [
+       "piece",
+       "upper"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "King_Black_Lower_Body",
+      "classes": [
+       "piece",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "King_White_Group",
+    "classes": [
+     "piece",
+     "king",
+     "white"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "King_White_Upper_Section",
+      "classes": [
+       "piece",
+       "upper"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "King_White_Lower_Body",
+      "classes": [
+       "piece",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Queen_Black_Group",
+    "classes": [
+     "piece",
+     "queen",
+     "black"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Queen_Black_Lower_Body",
+      "classes": [
+       "piece",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Queen_Black_Upper_Section",
+      "classes": [
+       "piece",
+       "upper"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Queen_Black_Flat_Top_Disc",
+      "classes": [
+       "piece",
+       "disc"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Queen_Black_Small_Flat_Disc",
+      "classes": [
+       "piece",
+       "disc"
+      ],
+      "basis": [
+       "shape",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "plan": {
+    "group": "Queen_White_Group",
+    "classes": [
+     "piece",
+     "queen",
+     "white"
+    ],
+    "parts": [
+     {
+      "component": [
+       1
+      ],
+      "name": "Queen_White_Lower_Body",
+      "classes": [
+       "piece",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       0
+      ],
+      "name": "Queen_White_Upper_Section_And_Top_Disc",
+      "classes": [
+       "piece",
+       "upper",
+       "disc"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Queen_White_Small_Flat_Disc",
+      "classes": [
+       "piece",
+       "disc"
+      ],
+      "basis": [
+       "shape",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "plan": {
+    "group": "Chessboard_Group",
+    "classes": [
+     "board"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Chessboard_Central_Slab",
+      "classes": [
+       "board",
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Chessboard_Playing_Surface",
+      "classes": [
+       "board",
+       "surface"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape",
+       "colour"
+      ]
+     },
+     {
+      "island": [
+       1,
+       5
+      ],
+      "name": "Chessboard_Frame_Strip_White_Side",
+      "classes": [
+       "board",
+       "frame"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       2,
+       6
+      ],
+      "name": "Chessboard_Frame_Strip_Black_Side",
+      "classes": [
+       "board",
+       "frame"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       3,
+       7
+      ],
+      "name": "Chessboard_Frame_Strip_Left_Side",
+      "classes": [
+       "board",
+       "frame"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       4,
+       8
+      ],
+      "name": "Chessboard_Frame_Strip_Right_Side",
+      "classes": [
+       "board",
+       "frame"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "plan": {
+    "group": "Pawn_Tops_White_Group",
+    "classes": [
+     "piece",
+     "pawn",
+     "white"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Pawn_Top_White_Far_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Pawn_Top_White_Second_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Pawn_Top_White_Third_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Pawn_Top_White_Centre_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Pawn_Top_White_Centre_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Pawn_Top_White_Third_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Pawn_Top_White_Second_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Pawn_Top_White_Far_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "plan": {
+    "group": "Pawn_Bodies_White_Group",
+    "classes": [
+     "piece",
+     "pawn",
+     "white"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Pawn_Body_White_Far_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Pawn_Body_White_Second_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Pawn_Body_White_Third_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Pawn_Body_White_Centre_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       4
+      ],
+      "name": "Pawn_Body_White_Centre_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       5
+      ],
+      "name": "Pawn_Body_White_Third_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       6
+      ],
+      "name": "Pawn_Body_White_Second_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       7
+      ],
+      "name": "Pawn_Body_White_Far_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "plan": {
+    "group": "Pawn_Tops_Black_Group",
+    "classes": [
+     "piece",
+     "pawn",
+     "black"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Pawn_Top_Black_Far_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Pawn_Top_Black_Second_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Pawn_Top_Black_Third_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Pawn_Top_Black_Centre_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Pawn_Top_Black_Centre_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Pawn_Top_Black_Third_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Pawn_Top_Black_Second_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Pawn_Top_Black_Far_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "top"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "plan": {
+    "group": "Pawn_Bodies_Black_Group",
+    "classes": [
+     "piece",
+     "pawn",
+     "black"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Pawn_Body_Black_Far_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Pawn_Body_Black_Second_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Pawn_Body_Black_Third_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Pawn_Body_Black_Centre_Left",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       4
+      ],
+      "name": "Pawn_Body_Black_Centre_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       5
+      ],
+      "name": "Pawn_Body_Black_Third_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       6
+      ],
+      "name": "Pawn_Body_Black_Second_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       7
+      ],
+      "name": "Pawn_Body_Black_Far_Right",
+      "classes": [
+       "piece",
+       "pawn",
+       "body"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 9,
+   "plan": {
+    "group": "Castle_Black_Group",
+    "classes": [
+     "piece",
+     "castle",
+     "black"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Castle_Black_Left",
+      "classes": [
+       "piece",
+       "castle"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Castle_Black_Right",
+      "classes": [
+       "piece",
+       "castle"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 10,
+   "plan": {
+    "group": "Castle_White_Group",
+    "classes": [
+     "piece",
+     "castle",
+     "white"
+    ],
+    "parts": [
+     {
+      "component": [
+       1
+      ],
+      "name": "Castle_White_Left",
+      "classes": [
+       "piece",
+       "castle"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       0
+      ],
+      "name": "Castle_White_Right",
+      "classes": [
+       "piece",
+       "castle"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 11,
+   "plan": {
+    "group": "Knight_Black_Group",
+    "classes": [
+     "piece",
+     "knight",
+     "black"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Knight_Black_Left_Base",
+      "classes": [
+       "piece",
+       "base"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Knight_Black_Right_Base",
+      "classes": [
+       "piece",
+       "base"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Knight_Black_Left_Upper_Section",
+      "classes": [
+       "piece",
+       "upper"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Knight_Black_Right_Upper_Section",
+      "classes": [
+       "piece",
+       "upper"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 12,
+   "plan": {
+    "group": "Knight_White_Group",
+    "classes": [
+     "piece",
+     "knight",
+     "white"
+    ],
+    "parts": [
+     {
+      "component": [
+       1
+      ],
+      "name": "Knight_White_Left_Base",
+      "classes": [
+       "piece",
+       "base"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       0
+      ],
+      "name": "Knight_White_Right_Base",
+      "classes": [
+       "piece",
+       "base"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Knight_White_Left_Upper_Section",
+      "classes": [
+       "piece",
+       "upper"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Knight_White_Right_Upper_Section",
+      "classes": [
+       "piece",
+       "upper"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 13,
+   "plan": {
+    "group": "Bishop_Black_Group",
+    "classes": [
+     "piece",
+     "bishop",
+     "black"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Bishop_Black_Left",
+      "classes": [
+       "piece",
+       "bishop"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Bishop_Black_Right",
+      "classes": [
+       "piece",
+       "bishop"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 14,
+   "plan": {
+    "group": "Bishop_White_Group",
+    "classes": [
+     "piece",
+     "bishop",
+     "white"
+    ],
+    "parts": [
+     {
+      "component": [
+       1
+      ],
+      "name": "Bishop_White_Left",
+      "classes": [
+       "piece",
+       "bishop"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "component": [
+       0
+      ],
+      "name": "Bishop_White_Right",
+      "classes": [
+       "piece",
+       "bishop"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Piece type names (king, queen, pawn, knight, bishop, castle) and 'chessboard' come from the material names, which I was told count as evidence. Nothing else in the report (sizes, at, colours) identifies a piece type by itself.",
+  "Colours are dominated by a texture atlas (same near-identical clusters across many parts), so colour was not used as a basis for any name; materials hold the black/white split.",
+  "My own mistake first: I printed the evidence with the last line of each describe dropped (to strip the footnote), so I missed island 9 of the board and island 7 of each pawn-top mesh; the check refused those three meshes, and I fixed the plan. Component meshes carry a footnote line, island meshes do not; slicing blindly cost a round trip.",
+  "Process note: I listed the plans directory (file names only) and ran a grep on tools/recovery-run.mjs (no output returned) before writing; I read no other plan or file content.",
+  "Pawn tops are named by x-rank only (8 per colour); I did not pair tops to bodies, though x positions line up.",
+  "Pawn_Top_White island 'at' z values and Pawn_Top_Black island 3 'at' suggest the advanced pawns line up with body positions, but no explicit link is given; left/right labels derive from x in world frame (low x = left), which is an assumption about orientation.",
+  "King, queen and knight sub-parts are named only by position (upper/lower, left/right) and size; I could not justify head/crown/cross/neck-type names. Queen flat discs and the tiny grey disc are shape-descriptive. Queen_White merges the upper section with the top flat disc because SEG joined them into one component.",
+  "Knight upper components (4 islands each) are 'upper sections' only; the evidence does not distinguish head from mane or neck.",
+  "Castle and bishop components (15 and 26 islands) are kept whole: the report gives no per-island size/position that separates sub-parts inside the component, and the island-level report was not provided for component meshes.",
+  "Chessboard: island 0 is a thick central slab (0.507x0.019x0.507) and island 9 a flat 0.5x0.5 face at the top of the mesh with light and dark colours (named playing surface; the 'chess' reading comes from the material name); islands 1-4 are four border strips (by size 0.705x0.017x0.099) and 5-8 are zero-height flat islands sharing x/z extent with each strip, merged with their strip as undersides. White/Black side names come from the side with each colour's pieces (z), an inference from other meshes' positions. Island 0 mixes light and dark squares so it was not split by colour.",
+  "Plan syntax: for component meshes the plan must use 'component' parts (island ids are only listed as truncated '0,1,3,4,5,6,…' so I could not use islands there anyway)."
+ ],
+ "model": "ABeautifulGame",
+ "mode": "materials",
+ "blind_code": "M10"
+}

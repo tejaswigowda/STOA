@@ -1,0 +1,5016 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Plate_10p7x30x30_Left_Mid_Back_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Plate_10p7x30x30_Left_Mid_Back",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Plate_10p7x30x30_Right_Mid_Front",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Plate_10p7x30x30_Right_Mid_Back",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Plate_10p7x30x30_Left_Mid_Middle",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Plate_10p7x30x30_Right_Mid_Middle",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Block_15p9x6x6_Right_High_Middle_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_15p9x6x6_Right_High_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_15p9x6x6_Right_Mid_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_15p9x6x6_Left_Mid_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Block_15p9x6x6_Left_Low_Back_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Block_15p9x6x6_Right_Low_Back_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Block_6x15p9x6_Right_Low_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Block_6x15p9x6_Left_Low_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Block_6x15p9x6_Left_Low_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Block_6x15p9x6_Right_Low_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Block_15p9x6x6_Left_Low_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Block_15p9x6x6_Left_Low_Back_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Block_15p9x6x6_Right_Low_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Block_15p9x6x6_Right_Low_Back_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Block_15p9x6x6_Left_Low_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Block_15p9x6x6_Right_Low_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Block_8p6x17x17_Left_Mid_Back_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_8p6x17x17_Left_Mid_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_8p6x17x17_Right_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_8p6x17x17_Right_Mid_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Block_8p6x17x17_Left_Mid_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Block_8p6x17x17_Right_Mid_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Plate_10p7x30x30_Unit",
+    "name": "Plate_10p7x30x30",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "whole": {
+    "group": "Block_8p6x17x17_Unit",
+    "name": "Block_8p6x17x17",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "plan": {
+    "group": "Block_7p8x18p1x23p1_Left_Mid_Front_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_7p8x18p1x23p1_Left_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_7p8x18p1x23p1_Left_Mid_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_7p8x18p1x23p1_Right_Mid_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "plan": {
+    "group": "Long_Bar_64x5x8_Centre_High_Front_A_CopyA_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Long_Bar_64x5x8_Centre_High_Front_A_CopyA",
+      "classes": [
+       "long_bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Long_Bar_64x5x8_Centre_High_Front_A_CopyB",
+      "classes": [
+       "long_bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Long_Bar_64x5x8_Centre_Low_Back",
+      "classes": [
+       "long_bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Long_Bar_64x5x8_Centre_High_Back_A_CopyA",
+      "classes": [
+       "long_bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Long_Bar_64x5x8_Centre_High_Back_A_CopyB",
+      "classes": [
+       "long_bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "whole": {
+    "group": "Block_32x5p8x8_CopyA_Unit",
+    "name": "Block_32x5p8x8_CopyA",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "whole": {
+    "group": "Block_7p8x18p1x23p1_Unit",
+    "name": "Block_7p8x18p1x23p1",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 9,
+   "whole": {
+    "group": "Long_Bar_64x5x8_Unit",
+    "name": "Long_Bar_64x5x8",
+    "classes": [
+     "long_bar"
+    ]
+   }
+  },
+  {
+   "mesh": 10,
+   "whole": {
+    "group": "Block_32x5p8x8_CopyB_Unit",
+    "name": "Block_32x5p8x8_CopyB",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 11,
+   "whole": {
+    "group": "Plate_8p5x8p5x0p1_Unit",
+    "name": "Plate_8p5x8p5x0p1",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 12,
+   "whole": {
+    "group": "Block_20x28x11p1_Unit",
+    "name": "Block_20x28x11p1",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 13,
+   "plan": {
+    "group": "Long_Bar_2p8x0p2x0p4_Centre_Low_Front_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Long_Bar_2p8x0p2x0p4_Centre_Low_Front",
+      "classes": [
+       "long_bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Long_Bar_2p8x0p2x0p4_Centre_High_Back",
+      "classes": [
+       "long_bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 14,
+   "whole": {
+    "group": "Block_9p5x11p3x25p3_Unit",
+    "name": "Block_9p5x11p3x25p3",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 15,
+   "plan": {
+    "group": "Block_4p5x9p3x11p8_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_4p5x9p3x11p8",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_4p5x9x11p8",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 16,
+   "plan": {
+    "group": "Block_10p8x13p7x24_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_10p8x13p7x24",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_3p7x2x5p8",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 17,
+   "plan": {
+    "group": "Block_5p4x9p3x11p8_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_5p4x9p3x11p8",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_5p4x9x11p8",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 18,
+   "plan": {
+    "group": "Block_12p6x13p7x24p3_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_12p6x13p7x24p3",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_4p1x2x6",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 19,
+   "whole": {
+    "group": "Flat_Sheet_2x1p5x0_Unit",
+    "name": "Flat_Sheet_2x1p5x0",
+    "classes": [
+     "flat_sheet"
+    ]
+   }
+  },
+  {
+   "mesh": 20,
+   "whole": {
+    "group": "Block_16p9x18p7x8_Unit",
+    "name": "Block_16p9x18p7x8",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 21,
+   "whole": {
+    "group": "Block_16p2x17p6x22p7_Unit",
+    "name": "Block_16p2x17p6x22p7",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 22,
+   "whole": {
+    "group": "Block_17p7x18p5x23p9_Unit",
+    "name": "Block_17p7x18p5x23p9",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 23,
+   "plan": {
+    "group": "Flat_Sheet_6p7x0x6p7_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Flat_Sheet_6p7x0x6p7",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Flat_Sheet_3p6x0x3p6",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 24,
+   "whole": {
+    "group": "Block_14x24p9x12p7_Unit",
+    "name": "Block_14x24p9x12p7",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 25,
+   "plan": {
+    "group": "Block_2p4x2p6x1p8_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_2p4x2p6x1p8",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_1x1x0p7_Left_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_1x1x0p7_Right_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Block_4p2x0p7x0p7",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Block_1p5x0p8x0p9_Left_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Block_1p5x0p8x0p9_Right_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 26,
+   "whole": {
+    "group": "Block_9p1x11p5x5p1_Unit",
+    "name": "Block_9p1x11p5x5p1",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 27,
+   "whole": {
+    "group": "Block_8p8x16p1x12p2_Unit",
+    "name": "Block_8p8x16p1x12p2",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 28,
+   "plan": {
+    "group": "Block_2x3p3x7p7_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_2x3p3x7p7",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_3p4x7p6x4p4",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_3x2p4x7p7",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 29,
+   "plan": {
+    "group": "Block_14p4x12x8p8_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_14p4x12x8p8",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_11p6x9p9x14p8",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_12p1x14p2x8p1",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 30,
+   "whole": {
+    "group": "Block_7p1x7p6x4p3_Unit",
+    "name": "Block_7p1x7p6x4p3",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 31,
+   "whole": {
+    "group": "Block_10p1x7p8x4p3_Unit",
+    "name": "Block_10p1x7p8x4p3",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 32,
+   "plan": {
+    "group": "Block_7p1x6p3x7p8_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_7p1x6p3x7p8",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_7p6x5p7x7p8",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_7p5x7p3x4p2",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 33,
+   "plan": {
+    "group": "Block_10p1x6p3x7p7_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_10p1x6p3x7p7",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_8p9x6p4x9",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_9p8x8p3x4p2",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 34,
+   "whole": {
+    "group": "Block_8p7x16x13p5_Unit",
+    "name": "Block_8p7x16x13p5",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 35,
+   "whole": {
+    "group": "Block_10p5x11p3x25p4_Unit",
+    "name": "Block_10p5x11p3x25p4",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 36,
+   "whole": {
+    "group": "Block_18p4x11p1x17p3_Unit",
+    "name": "Block_18p4x11p1x17p3",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 37,
+   "whole": {
+    "group": "Block_14x12p5x14_Unit",
+    "name": "Block_14x12p5x14",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 38,
+   "whole": {
+    "group": "Block_8p7x8p7x11p9_Unit",
+    "name": "Block_8p7x8p7x11p9",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 39,
+   "whole": {
+    "group": "Block_13p3x11p5x13p7_Unit",
+    "name": "Block_13p3x11p5x13p7",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 40,
+   "whole": {
+    "group": "Plate_2x7p5x5p5_Unit",
+    "name": "Plate_2x7p5x5p5",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 41,
+   "plan": {
+    "group": "Block_3p9x7p4x7p4_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_3p9x7p4x7p4",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_7p4x3p9x7p4_Centre_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_7p4x3p9x7p4_Centre_High_Front_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Block_7p4x3p9x7p4_Centre_High_Front_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 42,
+   "plan": {
+    "group": "Block_1p7x0p5x0p6_Centre_High_Back_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_1p7x0p5x0p6_Centre_High_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_0p6x0p5x1p7_Left_Low_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_0p6x0p5x1p7_Right_Low_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Block_1p7x0p5x0p6_Centre_Low_Back_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Block_1p7x0p5x0p6_Centre_High_Front_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Block_0p6x0p5x1p7_Right_High_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Block_0p6x0p5x1p7_Left_High_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Block_1p7x0p5x0p6_Centre_Low_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 43,
+   "whole": {
+    "group": "Long_Bar_4p8x48x4p8_Unit",
+    "name": "Long_Bar_4p8x48x4p8",
+    "classes": [
+     "long_bar"
+    ]
+   }
+  },
+  {
+   "mesh": 44,
+   "whole": {
+    "group": "Plate_24x4p2x24_Unit",
+    "name": "Plate_24x4p2x24",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 45,
+   "whole": {
+    "group": "Block_25p2x10p2x25p2_Unit",
+    "name": "Block_25p2x10p2x25p2",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 46,
+   "plan": {
+    "group": "Block_1p7x0p5x0p6_Right_High_Middle_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_1p7x0p5x0p6_Right_High_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_0p6x1p7x0p7_Right_High_Back_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_0p6x1p7x0p7_Right_High_Back_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Block_1p7x0p6x0p5_Right_High_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Block_1p7x0p6x0p5_Right_High_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Block_0p6x1p7x0p7_Right_High_Middle_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Block_0p6x1p7x0p7_Right_High_Middle_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Block_1p7x0p5x0p6_Right_High_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Block_1x1p6x0p5_Left_Low_Front_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Block_1p6x1x0p5_Left_Low_Middle_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Block_1p6x1x0p5_Left_Low_Middle_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Block_1x1p6x0p5_Left_Low_Middle_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Block_1x1p6x0p5_Left_Low_Front_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Block_1p6x1x0p5_Left_Low_Front_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Block_1p6x1x0p5_Left_Low_Front_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 15,
+      "name": "Block_1x1p6x0p5_Left_Low_Middle_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 47,
+   "plan": {
+    "group": "Block_4p8x11p4x64p1_CopyA_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_4p8x11p4x64p1_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Long_Bar_4p8x4p8x64",
+      "classes": [
+       "long_bar"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 48,
+   "whole": {
+    "group": "Block_9p6x9p6x7p6_CopyA_Unit",
+    "name": "Block_9p6x9p6x7p6_CopyA",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 49,
+   "whole": {
+    "group": "Block_9p6x9p6x7p6_CopyB_Unit",
+    "name": "Block_9p6x9p6x7p6_CopyB",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 50,
+   "whole": {
+    "group": "Plate_24p1x24p1x7p8_Unit",
+    "name": "Plate_24p1x24p1x7p8",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 51,
+   "plan": {
+    "group": "Plate_16x3p2x19p2_CopyA_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Plate_16x3p2x19p2_CopyA",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_4p9x4p9x3p2_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 52,
+   "plan": {
+    "group": "Block_16x19p2x21_CopyA_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_16x19p2x21_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Plate_13x1p7x13_CopyA",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 53,
+   "whole": {
+    "group": "Plate_15p3x15p3x0p1_CopyA_Unit",
+    "name": "Plate_15p3x15p3x0p1_CopyA",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 54,
+   "plan": {
+    "group": "Plate_15p8x15p8x3p1_CopyA_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Plate_15p8x15p8x3p1_CopyA",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Flat_Sheet_3p9x0p8x0_Centre_Low_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Flat_Sheet_0p8x3p9x0_Right_Mid_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Flat_Sheet_3p9x0p8x0_Centre_High_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Flat_Sheet_0p8x3p9x0_Left_Mid_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Flat_Sheet_3p2x3p2x0_Right_Low_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Flat_Sheet_3p2x3p2x0_Left_Low_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Flat_Sheet_3p2x3p2x0_Left_High_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Flat_Sheet_3p2x3p2x0_Right_High_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Flat_Sheet_3p9x3p2x0_Centre_Low_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Flat_Sheet_3p2x3p9x0_Left_Mid_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Flat_Sheet_3p9x3p9x0_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Flat_Sheet_3p2x3p9x0_Right_Mid_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Flat_Sheet_3p9x3p2x0_Centre_High_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Flat_Sheet_0p3x0p7x0_Right_Low_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 15,
+      "name": "Flat_Sheet_0p7x0p3x0_Right_High_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 16,
+      "name": "Flat_Sheet_0p3x0p7x0_Left_Low_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 17,
+      "name": "Flat_Sheet_0p7x0p3x0_Left_High_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 18,
+      "name": "Flat_Sheet_0p3x0p7x0_Right_High_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 19,
+      "name": "Flat_Sheet_0p3x0p7x0_Left_High_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 20,
+      "name": "Flat_Sheet_0p7x0p3x0_Right_Low_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 21,
+      "name": "Flat_Sheet_0p7x0p3x0_Left_Low_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 55,
+   "plan": {
+    "group": "Plate_16x3p2x19p2_CopyB_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Plate_16x3p2x19p2_CopyB",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_4p9x4p9x3p2_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 56,
+   "plan": {
+    "group": "Block_16x19p2x21_CopyB_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_16x19p2x21_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Plate_13x1p7x13_CopyB",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 57,
+   "whole": {
+    "group": "Plate_15p3x15p3x0p1_CopyB_Unit",
+    "name": "Plate_15p3x15p3x0p1_CopyB",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 58,
+   "plan": {
+    "group": "Plate_15p8x15p8x3p1_CopyB_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Plate_15p8x15p8x3p1_CopyB",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Flat_Sheet_3p9x0p8x0_Centre_Low_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Flat_Sheet_0p8x3p9x0_Right_Mid_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Flat_Sheet_3p9x0p8x0_Centre_High_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Flat_Sheet_0p8x3p9x0_Left_Mid_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Flat_Sheet_3p2x3p2x0_Right_Low_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Flat_Sheet_3p2x3p2x0_Left_Low_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Flat_Sheet_3p2x3p2x0_Left_High_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Flat_Sheet_3p2x3p2x0_Right_High_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Flat_Sheet_3p9x3p2x0_Centre_Low_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Flat_Sheet_3p2x3p9x0_Left_Mid_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Flat_Sheet_3p9x3p9x0_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Flat_Sheet_3p2x3p9x0_Right_Mid_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Flat_Sheet_3p9x3p2x0_Centre_High_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Flat_Sheet_0p3x0p7x0_Right_Low_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 15,
+      "name": "Flat_Sheet_0p7x0p3x0_Right_High_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 16,
+      "name": "Flat_Sheet_0p3x0p7x0_Left_Low_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 17,
+      "name": "Flat_Sheet_0p7x0p3x0_Left_High_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 18,
+      "name": "Flat_Sheet_0p3x0p7x0_Right_High_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 19,
+      "name": "Flat_Sheet_0p3x0p7x0_Left_High_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 20,
+      "name": "Flat_Sheet_0p7x0p3x0_Right_Low_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 21,
+      "name": "Flat_Sheet_0p7x0p3x0_Left_Low_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 59,
+   "plan": {
+    "group": "Block_6p5x9p3x6p5_CopyA_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_6p5x9p3x6p5_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_2x1x2_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_8x7p6x8_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 60,
+   "whole": {
+    "group": "Block_8x11p4x16_CopyA_Unit",
+    "name": "Block_8x11p4x16_CopyA",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 61,
+   "plan": {
+    "group": "Block_6p5x9p3x6p5_CopyB_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_6p5x9p3x6p5_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_2x1x2_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_8x7p6x8_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 62,
+   "whole": {
+    "group": "Block_8x11p4x16_CopyB_Unit",
+    "name": "Block_8x11p4x16_CopyB",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 63,
+   "plan": {
+    "group": "Block_6x9p6x6p1_CopyA_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_6x9p6x6p1_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_9p2x6x6_Left_Low_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_9p2x6x6_Right_Low_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 64,
+   "plan": {
+    "group": "Block_15p8x6x6_Right_High_Middle_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_15p8x6x6_Right_High_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_15p8x6x6_Right_Mid_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_15p8x6x6_Right_Low_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Block_15p8x6x6_Left_Mid_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Block_15p8x6x6_Left_Low_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 65,
+   "plan": {
+    "group": "Block_1p7x0p5x0p6_Centre_High_Front_CopyB_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_1p7x0p5x0p6_Centre_High_Front_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_0p6x1p7x0p7_Left_Low_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_0p6x1p7x0p7_Right_Low_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Block_1p7x0p6x0p5_Centre_Mid_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Block_1p7x0p6x0p5_Centre_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Block_0p6x1p7x0p7_Right_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Block_0p6x1p7x0p7_Left_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Block_1p7x0p5x0p6_Centre_Low_Back_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 66,
+   "whole": {
+    "group": "Block_4p8x11p4x64p1_CopyB_Unit",
+    "name": "Block_4p8x11p4x64p1_CopyB",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 67,
+   "plan": {
+    "group": "Block_1p7x0p3x0p8_Centre_High_Front_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_1p7x0p3x0p8_Centre_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_0p6x1p2x1p6_Left_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_1p7x0p7x0p4_Centre_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Block_0p6x1p2x1p6_Right_Low_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Block_0p6x1p2x1p6_Left_Low_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Block_1p7x0p7x0p4_Centre_Low_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Block_1p7x0p3x0p8_Centre_Low_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Block_0p6x1p2x1p6_Right_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 68,
+   "whole": {
+    "group": "Plate_4p8x29p6x19p7_Unit",
+    "name": "Plate_4p8x29p6x19p7",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 69,
+   "plan": {
+    "group": "Block_0p6x1p2x1p6_Right_Low_Back_A_CopyA_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_0p6x1p2x1p6_Right_Low_Back_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_1p7x0p3x0p8_Right_Low_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_0p6x1p2x1p6_Right_Low_Back_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Block_1p7x0p3x0p8_Right_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Block_1p7x0p7x0p4_Right_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Block_0p6x1p2x1p6_Right_High_Front_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Block_0p6x1p2x1p6_Right_High_Front_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Block_1p7x0p7x0p4_Right_Low_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Block_0p6x1p2x1p6_Left_Low_Back_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Block_1p7x0p3x0p8_Left_Low_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Block_0p6x1p2x1p6_Left_Low_Back_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Block_1p7x0p3x0p8_Left_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Block_1p7x0p7x0p4_Left_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Block_0p6x1p2x1p6_Left_High_Front_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Block_0p6x1p2x1p6_Left_High_Front_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 15,
+      "name": "Block_1p7x0p7x0p4_Left_Low_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 70,
+   "plan": {
+    "group": "Plate_4p8x29p6x19p7_Right_Mid_Middle_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Plate_4p8x29p6x19p7_Right_Mid_Middle",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Plate_4p8x29p6x19p7_Left_Mid_Middle",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 71,
+   "plan": {
+    "group": "Block_0p5x1p6x1_Right_Low_Front_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_0p5x1p6x1_Right_Low_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_0p5x1x1p6_Left_Low_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_0p5x1x1p6_Left_High_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Block_0p5x1p6x1_Left_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Block_0p5x1p6x1_Right_High_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Block_0p5x1x1p6_Right_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Block_0p5x1x1p6_Right_Low_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Block_0p5x1p6x1_Left_Mid_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 72,
+   "whole": {
+    "group": "Long_Bar_80x4p8x4p8_Unit",
+    "name": "Long_Bar_80x4p8x4p8",
+    "classes": [
+     "long_bar"
+    ]
+   }
+  },
+  {
+   "mesh": 73,
+   "plan": {
+    "group": "Block_7p8x16p3x30_CopyA_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_7p8x16p3x30_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_7p8x30x16p3_Left_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_7p8x30x16p3_Right_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 74,
+   "whole": {
+    "group": "Long_Bar_32x8x4p7_Unit",
+    "name": "Long_Bar_32x8x4p7",
+    "classes": [
+     "long_bar"
+    ]
+   }
+  },
+  {
+   "mesh": 75,
+   "plan": {
+    "group": "Long_Bar_32x5x9p7_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Long_Bar_32x5x9p7",
+      "classes": [
+       "long_bar"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Plate_4p9x4p9x1p9_Right_Low_Back",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Plate_4p9x4p9x1p9_Centre_Low_Back_A_CopyA",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Plate_4p9x4p9x1p9_Centre_Low_Back_A_CopyB",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 76,
+   "whole": {
+    "group": "Plate_16x5x16_CopyA_Unit",
+    "name": "Plate_16x5x16_CopyA",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 77,
+   "whole": {
+    "group": "Block_8x16x48_CopyA_Unit",
+    "name": "Block_8x16x48_CopyA",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 78,
+   "whole": {
+    "group": "Plate_0p1x15p2x12_CopyA_Unit",
+    "name": "Plate_0p1x15p2x12_CopyA",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 79,
+   "whole": {
+    "group": "Block_8x21x16_CopyA_Unit",
+    "name": "Block_8x21x16_CopyA",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 80,
+   "whole": {
+    "group": "Plate_0p1x15p2x12_CopyB_Unit",
+    "name": "Plate_0p1x15p2x12_CopyB",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 81,
+   "whole": {
+    "group": "Block_8x21x16_CopyB_Unit",
+    "name": "Block_8x21x16_CopyB",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 82,
+   "whole": {
+    "group": "Block_8x5x8_CopyA_Unit",
+    "name": "Block_8x5x8_CopyA",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 83,
+   "whole": {
+    "group": "Block_2x1x2_CopyC_Unit",
+    "name": "Block_2x1x2_CopyC",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 84,
+   "whole": {
+    "group": "Block_8x11p4x8_Unit",
+    "name": "Block_8x11p4x8",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 85,
+   "plan": {
+    "group": "Block_2x1x2_Left_Mid_Back_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_2x1x2_Left_Mid_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_2x1x2_Left_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_2x1x2_Right_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 86,
+   "plan": {
+    "group": "Block_8x11p4x8_Left_Mid_Back_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_8x11p4x8_Left_Mid_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_8x11p4x8_Left_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_8x11p4x8_Right_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 87,
+   "plan": {
+    "group": "Block_7p8x7p5x7p5_Centre_Mid_Middle_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_7p8x7p5x7p5_Centre_Mid_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_7p8x7p5x7p5_Left_Mid_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_7p8x7p5x7p5_Right_Mid_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 88,
+   "whole": {
+    "group": "Block_7p8x17p9x15p7_CopyA_Unit",
+    "name": "Block_7p8x17p9x15p7_CopyA",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 89,
+   "plan": {
+    "group": "Block_7p5x15p6x12p8_Left_Mid_Back_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_7p5x15p6x12p8_Left_Mid_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_7p5x8p7x15p6_Left_Mid_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_7p5x8p8x15p6_Left_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Block_15p2x7p9x7p9_Left_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Block_7p5x8p8x15p6_Right_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Block_15p2x7p9x7p9_Right_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Block_7p5x8p7x15p6_Right_Mid_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Block_7p5x15p6x12p8_Right_Mid_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 90,
+   "whole": {
+    "group": "Block_8x11p4x24_CopyA_Unit",
+    "name": "Block_8x11p4x24_CopyA",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 91,
+   "whole": {
+    "group": "Block_4p8x3p2x4p8_Unit",
+    "name": "Block_4p8x3p2x4p8",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 92,
+   "whole": {
+    "group": "Plate_64x5x16_Unit",
+    "name": "Plate_64x5x16",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 93,
+   "plan": {
+    "group": "Block_4p8x3p2x4p8_Centre_High_Front_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_4p8x3p2x4p8_Centre_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_4p8x3p2x4p8_Centre_Low_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 94,
+   "plan": {
+    "group": "Plate_64x5x16_Centre_High_Front_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Plate_64x5x16_Centre_High_Front",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Plate_64x5x16_Centre_Low_Back",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 95,
+   "plan": {
+    "group": "Plate_32x5x16_Centre_High_Front_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Plate_32x5x16_Centre_High_Front",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Plate_16x5x32",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Plate_32x5x16_Centre_Low_Back",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 96,
+   "whole": {
+    "group": "Plate_24x5x16_CopyA_Unit",
+    "name": "Plate_24x5x16_CopyA",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 97,
+   "whole": {
+    "group": "Plate_16x5x16_CopyB_Unit",
+    "name": "Plate_16x5x16_CopyB",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 98,
+   "plan": {
+    "group": "Long_Bar_8x5x48_Left_High_Front_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Long_Bar_8x5x48_Left_High_Front",
+      "classes": [
+       "long_bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Long_Bar_8x5x48_Right_Low_Front",
+      "classes": [
+       "long_bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Long_Bar_8x5x48_Left_Low_Front",
+      "classes": [
+       "long_bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Long_Bar_48x5x8",
+      "classes": [
+       "long_bar"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 99,
+   "whole": {
+    "group": "Long_Bar_8x48x11p4_CopyA_Unit",
+    "name": "Long_Bar_8x48x11p4_CopyA",
+    "classes": [
+     "long_bar"
+    ]
+   }
+  },
+  {
+   "mesh": 100,
+   "whole": {
+    "group": "Flat_Sheet_4p8x3p4x0_CopyA_Unit",
+    "name": "Flat_Sheet_4p8x3p4x0_CopyA",
+    "classes": [
+     "flat_sheet"
+    ]
+   }
+  },
+  {
+   "mesh": 101,
+   "whole": {
+    "group": "Long_Bar_8x48x11p4_CopyB_Unit",
+    "name": "Long_Bar_8x48x11p4_CopyB",
+    "classes": [
+     "long_bar"
+    ]
+   }
+  },
+  {
+   "mesh": 102,
+   "whole": {
+    "group": "Flat_Sheet_4p8x3p4x0_CopyB_Unit",
+    "name": "Flat_Sheet_4p8x3p4x0_CopyB",
+    "classes": [
+     "flat_sheet"
+    ]
+   }
+  },
+  {
+   "mesh": 103,
+   "plan": {
+    "group": "Long_Bar_32x5x8_Centre_High_Middle_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Long_Bar_32x5x8_Centre_High_Middle",
+      "classes": [
+       "long_bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Long_Bar_32x5x8_Centre_Low_Middle",
+      "classes": [
+       "long_bar"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 104,
+   "plan": {
+    "group": "Block_32x11p4x8_Centre_High_Back_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_32x11p4x8_Centre_High_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_32x11p4x8_Centre_Low_Back",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_8x11p4x32_Right_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Block_8x11p4x32_Left_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 105,
+   "whole": {
+    "group": "Block_8x5x24_CopyA_Unit",
+    "name": "Block_8x5x24_CopyA",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 106,
+   "plan": {
+    "group": "Block_8x5x16_Right_High_Front_A_CopyA_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_8x5x16_Right_High_Front_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_8x5x16_Left_High_Front_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Block_16x5x8_Centre_High_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Block_16x5x8_Centre_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Block_8x5x16_Right_High_Front_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Block_8x5x16_Left_High_Front_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Block_16x5x8_Centre_Low_Back_A_CopyA",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Block_16x5x8_Centre_Low_Back_A_CopyB",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Block_8x5x16_Left_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Block_8x5x16_Right_Mid_Front",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 107,
+   "plan": {
+    "group": "Block_8x11p4x16_Left_Mid_Middle_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Block_8x11p4x16_Left_Mid_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Block_8x11p4x16_Right_Mid_Middle",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 108,
+   "plan": {
+    "group": "Flat_Sheet_4p8x0x3p4_CopyA_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Flat_Sheet_4p8x0x3p4_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Back_A_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Middle_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Front_A_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Front_A_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Flat_Sheet_4p8x0x2p1_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Front_A_CopyC",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Back_A_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 109,
+   "whole": {
+    "group": "Long_Bar_8x11p4x128_CopyA_Unit",
+    "name": "Long_Bar_8x11p4x128_CopyA",
+    "classes": [
+     "long_bar"
+    ]
+   }
+  },
+  {
+   "mesh": 110,
+   "plan": {
+    "group": "Flat_Sheet_4p8x0x2_Centre_Mid_Back_CopyA_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Back_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Middle_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Front_CopyA",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 111,
+   "plan": {
+    "group": "Flat_Sheet_4p8x0x3p4_CopyB_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Flat_Sheet_4p8x0x3p4_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Back_A_CopyC",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Middle_CopyC",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Front_A_CopyD",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Front_A_CopyE",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Flat_Sheet_4p8x0x2p1_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Front_A_CopyF",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Back_A_CopyD",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 112,
+   "whole": {
+    "group": "Long_Bar_8x11p4x128_CopyB_Unit",
+    "name": "Long_Bar_8x11p4x128_CopyB",
+    "classes": [
+     "long_bar"
+    ]
+   }
+  },
+  {
+   "mesh": 113,
+   "plan": {
+    "group": "Flat_Sheet_4p8x0x2_Centre_Mid_Back_CopyB_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Back_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Middle_CopyD",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Flat_Sheet_4p8x0x2_Centre_Mid_Front_CopyB",
+      "classes": [
+       "flat_sheet"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 114,
+   "plan": {
+    "group": "Plate_4p8x0p4x3p4_CopyA_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Plate_4p8x0p4x3p4_CopyA",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Plate_4p8x0p2x2_Centre_Mid_Middle_CopyA",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Plate_4p8x0p2x2_Centre_Low_Back_A_CopyA",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Plate_4p8x0p2x2_Centre_Low_Back_A_CopyB",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 115,
+   "whole": {
+    "group": "Plate_8x22p6x96p5_CopyA_Unit",
+    "name": "Plate_8x22p6x96p5_CopyA",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 116,
+   "plan": {
+    "group": "Plate_4p8x0p2x2_Centre_High_Front_CopyA_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Plate_4p8x0p2x2_Centre_High_Front_CopyA",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Plate_4p8x0p2x2_Centre_Mid_Middle_CopyB",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Plate_4p8x0p2x2_Centre_Low_Back_CopyA",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 117,
+   "plan": {
+    "group": "Plate_4p8x0p4x3p4_CopyB_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Plate_4p8x0p4x3p4_CopyB",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Plate_4p8x0p2x2_Centre_Mid_Middle_CopyC",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Plate_4p8x0p2x2_Centre_High_Front_A_CopyA",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Plate_4p8x0p2x2_Centre_High_Front_A_CopyB",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 118,
+   "whole": {
+    "group": "Plate_8x22p6x96p5_CopyB_Unit",
+    "name": "Plate_8x22p6x96p5_CopyB",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 119,
+   "plan": {
+    "group": "Plate_4p8x0p2x2_Centre_Low_Back_CopyB_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Plate_4p8x0p2x2_Centre_Low_Back_CopyB",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Plate_4p8x0p2x2_Centre_Mid_Middle_CopyD",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Plate_4p8x0p2x2_Centre_High_Front_CopyB",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 120,
+   "whole": {
+    "group": "Plate_32x3p2x16_Unit",
+    "name": "Plate_32x3p2x16",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 121,
+   "plan": {
+    "group": "Plate_8x3p2x16_Right_Mid_Front_Cluster",
+    "classes": [
+     "cluster"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Plate_8x3p2x16_Right_Mid_Front",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Plate_8x3p2x16_Right_Mid_Back",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Plate_8x3p2x16_Left_Mid_Back",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "shape",
+       "position"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 122,
+   "whole": {
+    "group": "Plate_24x5x16_CopyB_Unit",
+    "name": "Plate_24x5x16_CopyB",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 123,
+   "whole": {
+    "group": "Long_Bar_32x5x8_Unit",
+    "name": "Long_Bar_32x5x8",
+    "classes": [
+     "long_bar"
+    ]
+   }
+  },
+  {
+   "mesh": 124,
+   "whole": {
+    "group": "Block_15p8x6x6_Unit",
+    "name": "Block_15p8x6x6",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 125,
+   "whole": {
+    "group": "Block_7p8x16p3x30_CopyB_Unit",
+    "name": "Block_7p8x16p3x30_CopyB",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 126,
+   "whole": {
+    "group": "Plate_16x5x16_CopyC_Unit",
+    "name": "Plate_16x5x16_CopyC",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 127,
+   "whole": {
+    "group": "Block_16x11p4x8_Unit",
+    "name": "Block_16x11p4x8",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 128,
+   "whole": {
+    "group": "Block_8x5x8_CopyB_Unit",
+    "name": "Block_8x5x8_CopyB",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 129,
+   "whole": {
+    "group": "Plate_8x3p2x16_Unit",
+    "name": "Plate_8x3p2x16",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 130,
+   "whole": {
+    "group": "Block_32x11p4x8_Unit",
+    "name": "Block_32x11p4x8",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 131,
+   "whole": {
+    "group": "Block_16x5x8_Unit",
+    "name": "Block_16x5x8",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 132,
+   "whole": {
+    "group": "Block_8x5x24_CopyB_Unit",
+    "name": "Block_8x5x24_CopyB",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 133,
+   "whole": {
+    "group": "Long_Bar_8x5x48_Unit",
+    "name": "Long_Bar_8x5x48",
+    "classes": [
+     "long_bar"
+    ]
+   }
+  },
+  {
+   "mesh": 134,
+   "whole": {
+    "group": "Block_8x11p4x24_CopyB_Unit",
+    "name": "Block_8x11p4x24_CopyB",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 135,
+   "whole": {
+    "group": "Plate_16x5x16_CopyD_Unit",
+    "name": "Plate_16x5x16_CopyD",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 136,
+   "whole": {
+    "group": "Block_8x16x48_CopyB_Unit",
+    "name": "Block_8x16x48_CopyB",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 137,
+   "whole": {
+    "group": "Plate_32x5x16_Unit",
+    "name": "Plate_32x5x16",
+    "classes": [
+     "plate"
+    ]
+   }
+  },
+  {
+   "mesh": 138,
+   "whole": {
+    "group": "Block_7p8x7p5x7p5_Unit",
+    "name": "Block_7p8x7p5x7p5",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 139,
+   "whole": {
+    "group": "Block_7p8x17p9x15p7_CopyB_Unit",
+    "name": "Block_7p8x17p9x15p7_CopyB",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 140,
+   "whole": {
+    "group": "Block_15p9x6x6_Unit",
+    "name": "Block_15p9x6x6",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 141,
+   "whole": {
+    "group": "Long_Bar_6p4x85p5x6p4_Unit",
+    "name": "Long_Bar_6p4x85p5x6p4",
+    "classes": [
+     "long_bar"
+    ]
+   }
+  },
+  {
+   "mesh": 142,
+   "whole": {
+    "group": "Block_31p1x31p4x26p2_Unit",
+    "name": "Block_31p1x31p4x26p2",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 143,
+   "whole": {
+    "group": "Block_7p5x15p6x12p8_Unit",
+    "name": "Block_7p5x15p6x12p8",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 144,
+   "whole": {
+    "group": "Block_7p4x7p1x8p3_Unit",
+    "name": "Block_7p4x7p1x8p3",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 145,
+   "whole": {
+    "group": "Block_24x15x22p5_Unit",
+    "name": "Block_24x15x22p5",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 146,
+   "whole": {
+    "group": "Block_6x9p6x6p1_CopyB_Unit",
+    "name": "Block_6x9p6x6p1_CopyB",
+    "classes": [
+     "block"
+    ]
+   }
+  },
+  {
+   "mesh": 147,
+   "whole": {
+    "group": "Plate_32x8x3p2_Unit",
+    "name": "Plate_32x8x3p2",
+    "classes": [
+     "plate"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Rule: every part is named from its own island's evidence only: <shape>_<sizeX>x<sizeY>x<sizeZ>. Shape category from sorted size ratios: Flat_Sheet if thinnest dimension < 0.02; Long_Bar if longest/shortest >= 6 and middle/shortest < 2; Plate if middle/shortest >= 2.5; otherwise Block. Dimensions are the report's size in x,y,z order, rounded to 0.1 ('p' for the decimal point).",
+  "Where two or more islands of ONE mesh share the same shape name, position tokens from `at` are appended: x<0.34 Left, >0.66 Right else Centre; y<0.34 Low, >0.66 High else Mid; z<0.34 Front, >0.66 Back else Middle. Assumes +x is right and +y is up; which z end is the front is a guess, so Front/Back only means low-z/high-z.",
+  "Where identical names remained across different meshes (the evidence for those meshes is identical: same material, triangle count, size), a _CopyA/_CopyB suffix was added in mesh order. The suffix carries no evidence; it only keeps names unique. Many meshes appear in identical pairs or as a multi-island mesh plus a single-island twin with the same island size and triangle count.",
+  "No function was named anywhere: the evidence has no colours, no textures, no uv, only material names, sizes, triangle counts and `at`. Material names (Material_20 to Material_29) are opaque, so they were used only as the unit of cutting (mesh = one material) and not in names or `basis`. All names are therefore shape-descriptive abstentions. Part names contain digits (the dimensions) but are not numbered placeholders.",
+  "Every island is its own part (identical things in one mesh are separate parts per the brief), including 1 to 7 triangle zero-thickness facets in meshes 54/58; I kept them separate rather than merging, which makes those meshes noisy (22 parts each).",
+  "The brief says the report includes colours with shares; this evidence file has none (every island says 'no texture', no uv). I noted this and did not invent colour evidence. `basis` therefore uses only size, shape and (where island positions disambiguate) position.",
+  "Single-island meshes always report at 0.5,0.5,0.5, so no position evidence exists for them: each is `whole`. Position of a mesh in the scene is unknown, which also means mirrored twins (e.g. meshes 46 vs 65 vs 71) cannot be told apart by anything but within-mesh `at`.",
+  "The check command and SEG plan syntax needed no special handling; group names are '<first part name>_Cluster' for multi-island meshes and '<part name>_Unit' for whole-mesh parts, which carry no extra information."
+ ],
+ "model": "Buggy",
+ "mode": "materials",
+ "blind_code": "N12"
+}

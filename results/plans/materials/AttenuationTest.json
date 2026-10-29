@@ -1,0 +1,617 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Shared_Material_Cube_Set",
+    "classes": [
+     "cubes"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Shared_Cube_1p0_Raised",
+      "classes": [
+       "cube"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Shared_Cube_1p0_Low",
+      "classes": [
+       "cube"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Shared_Cube_1p5",
+      "classes": [
+       "cube"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Shared_Cube_2p0",
+      "classes": [
+       "cube"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Shared_Cube_0p5",
+      "classes": [
+       "cube"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Shared_Cube_0p25",
+      "classes": [
+       "cube"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "whole": {
+    "group": "Thickness_Variant_1p5",
+    "name": "Thickness_Cube_1p5",
+    "classes": [
+     "cube"
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "whole": {
+    "group": "Thickness_Variant_2p0",
+    "name": "Thickness_Cube_2p0",
+    "classes": [
+     "cube"
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Thickness_Variant_0p50",
+    "name": "Thickness_Cube_0p50",
+    "classes": [
+     "cube"
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "whole": {
+    "group": "Thickness_Variant_0p25",
+    "name": "Thickness_Cube_0p25",
+    "classes": [
+     "cube"
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "plan": {
+    "group": "Label_Plate_Group",
+    "classes": [
+     "labels"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Label_Small_Top_Strip_Second_From_Right_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Label_Wide_Top_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Label_Small_Top_Strip_Rightmost_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Label_Wide_Second_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Label_Wide_Third_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Label_Wide_Fourth_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Label_Small_Top_Strip_Second_From_Left_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Label_Small_Top_Strip_Middle_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Label_Small_Top_Strip_Leftmost_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Label_Wide_Bottom_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Label_Small_Top_Strip_Second_From_Right_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Label_Wide_Top_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Label_Small_Top_Strip_Rightmost_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Label_Wide_Second_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Label_Wide_Third_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 15,
+      "name": "Label_Wide_Fourth_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 16,
+      "name": "Label_Small_Top_Strip_Second_From_Left_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 17,
+      "name": "Label_Small_Top_Strip_Middle_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 18,
+      "name": "Label_Small_Top_Strip_Leftmost_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 19,
+      "name": "Label_Wide_Bottom_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "plan": {
+    "group": "Textured_Cube_Set",
+    "classes": [
+     "cubes"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Tex_Cube_0p25",
+      "classes": [
+       "cube"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Tex_Cube_1p0",
+      "classes": [
+       "cube"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Tex_Cube_1p5",
+      "classes": [
+       "cube"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Tex_Cube_2p0",
+      "classes": [
+       "cube"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Tex_Cube_0p5",
+      "classes": [
+       "cube"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "whole": {
+    "group": "Attenuation_Variant_1p0",
+    "name": "Attenuation_Cube_1p0",
+    "classes": [
+     "cube"
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "whole": {
+    "group": "Attenuation_Variant_1p5",
+    "name": "Attenuation_Cube_1p5",
+    "classes": [
+     "cube"
+    ]
+   }
+  },
+  {
+   "mesh": 9,
+   "whole": {
+    "group": "Attenuation_Variant_2p0",
+    "name": "Attenuation_Cube_2p0",
+    "classes": [
+     "cube"
+    ]
+   }
+  },
+  {
+   "mesh": 10,
+   "whole": {
+    "group": "Attenuation_Variant_0p50",
+    "name": "Attenuation_Cube_0p50",
+    "classes": [
+     "cube"
+    ]
+   }
+  },
+  {
+   "mesh": 11,
+   "whole": {
+    "group": "Attenuation_Variant_0p25",
+    "name": "Attenuation_Cube_0p25",
+    "classes": [
+     "cube"
+    ]
+   }
+  },
+  {
+   "mesh": 12,
+   "whole": {
+    "group": "Backdrop_Panel_Group",
+    "name": "Grey_Backdrop_Panel",
+    "classes": [
+     "backdrop"
+    ]
+   }
+  },
+  {
+   "mesh": 13,
+   "whole": {
+    "group": "Flat_Sample_1p0",
+    "name": "Flat_Square_1p0",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 14,
+   "whole": {
+    "group": "Flat_Sample_1p5",
+    "name": "Flat_Square_1p5",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 15,
+   "whole": {
+    "group": "Flat_Sample_2p0",
+    "name": "Flat_Square_2p0",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 16,
+   "whole": {
+    "group": "Flat_Sample_0p50",
+    "name": "Flat_Square_0p50",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  },
+  {
+   "mesh": 17,
+   "whole": {
+    "group": "Flat_Sample_0p25",
+    "name": "Flat_Square_0p25",
+    "classes": [
+     "square",
+     "flat"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Rule (script-generated): 12-triangle islands with equal x/y/z size are called cubes (shape only). Sizes 0.25/0.5/1/1.5/2 appear across several materials: names carry the size and, for same-material duplicates, a Raised/Low suffix from at.y (mesh 0: the two 1.0 cubes have the same x and size, one at at.y 0.93 and one at 0.13).",
+  "Material names are evidence and were used (R2_ThicknessFac_*, R5_Attenuation_*, R1_Sample_*, R3_ThicknessTex_Mat, LabelMaterial, FlatBackdrop): they supply the numeric tag in the names. I do not claim what thickness/attenuation means physically; cubes are named by shape.",
+  "Meshes 7-11 (R5_Attenuation_*) are five identical size-1 cubes with at 0.5 each: per-mesh evidence cannot separate them by position, so they are told apart only by material tag.",
+  "Meshes 13-17 R1_Sample_*: 2-triangle flat squares (z size 0), named Flat_Square_<tag>. FlatBackdrop: one 20x20 flat grey square, named Grey_Backdrop_Panel from its size, colour and material name.",
+  "LabelMaterial: 20 two-triangle flat plates, white with black marks (texture-like); 5 wide (4.288) rows by y rank and 5 small plates in a top strip by x rank, each present at at.z 0 and 1 (front/back not distinguishable: Low_Z/High_Z).",
+  "Mesh 0 material name says R2_and_R4 (shared by two rows): its cubes cannot be told apart from the per-material ones except by material; names prefixed Shared_Cube_.",
+  "Plan syntax: `basis` allowed only position/size/colour/shape; material evidence recorded here only."
+ ],
+ "model": "AttenuationTest",
+ "mode": "materials",
+ "blind_code": "N06"
+}

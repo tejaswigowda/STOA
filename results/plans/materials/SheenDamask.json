@@ -1,0 +1,764 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Fabric_Parts_Group",
+    "classes": [
+     "fabric"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Fabric_Upper_Main_Slab",
+      "classes": [
+       "fabric",
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Fabric_Rear_Raised_Panel",
+      "classes": [
+       "fabric",
+       "panel"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Fabric_Rear_Top_Strip",
+      "classes": [
+       "fabric",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Fabric_Lower_Flat_Slab",
+      "classes": [
+       "fabric",
+       "slab"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       4
+      ],
+      "name": "Small_Fabric_Nub_Left_HighZ",
+      "classes": [
+       "fabric",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       5
+      ],
+      "name": "Small_Fabric_Nub_Left_LowZ",
+      "classes": [
+       "fabric",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       6
+      ],
+      "name": "Small_Fabric_Nub_FarLeft_MidZ",
+      "classes": [
+       "fabric",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       7
+      ],
+      "name": "Small_Fabric_Nub_Centre_HighZ",
+      "classes": [
+       "fabric",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       8
+      ],
+      "name": "Small_Fabric_Nub_Centre_LowZ",
+      "classes": [
+       "fabric",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       9
+      ],
+      "name": "Small_Fabric_Nub_InnerLeft_MidZ",
+      "classes": [
+       "fabric",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       10
+      ],
+      "name": "Small_Fabric_Nub_Right_HighZ",
+      "classes": [
+       "fabric",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       11
+      ],
+      "name": "Small_Fabric_Nub_Right_LowZ",
+      "classes": [
+       "fabric",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       12
+      ],
+      "name": "Small_Fabric_Nub_InnerRight_MidZ",
+      "classes": [
+       "fabric",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       13
+      ],
+      "name": "Small_Fabric_Nub_FarRight_MidZ",
+      "classes": [
+       "fabric",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       14
+      ],
+      "name": "Small_Fabric_Piece_Rear_Top_Left",
+      "classes": [
+       "fabric",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       15
+      ],
+      "name": "Small_Fabric_Piece_Rear_Top_Right",
+      "classes": [
+       "fabric",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Wood_Parts_Group",
+    "classes": [
+     "wood"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Wood_Rear_Top_Rail",
+      "classes": [
+       "wood",
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Wood_Base_Frame",
+      "classes": [
+       "wood",
+       "frame"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Wood_Side_Rail_Left",
+      "classes": [
+       "wood",
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       5
+      ],
+      "name": "Wood_Side_Rail_Right",
+      "classes": [
+       "wood",
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Wood_Cross_Bar_LowZ",
+      "classes": [
+       "wood",
+       "bar"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       4
+      ],
+      "name": "Wood_Cross_Bar_HighZ",
+      "classes": [
+       "wood",
+       "bar"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       6
+      ],
+      "name": "Wood_Tall_Post_Left_LowZ",
+      "classes": [
+       "wood",
+       "post"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       7
+      ],
+      "name": "Wood_Tall_Post_Right_LowZ",
+      "classes": [
+       "wood",
+       "post"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       8
+      ],
+      "name": "Wood_Short_Post_Left_HighZ",
+      "classes": [
+       "wood",
+       "post"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "component": [
+       9
+      ],
+      "name": "Wood_Short_Post_Right_HighZ",
+      "classes": [
+       "wood",
+       "post"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Metal_Parts_Group",
+    "classes": [
+     "metal"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Small_Metal_Block_Left_HighZ_Mid_A",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Small_Metal_Block_Left_HighZ_Mid_B",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Small_Metal_Block_Left_LowZ_Mid_A",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Small_Metal_Block_Left_LowZ_Mid_B",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Small_Metal_Block_Left_LowZ_Mid_Edge_A",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Small_Metal_Block_Left_LowZ_Mid_Edge_B",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Small_Metal_Block_Left_LowZ_Top_Edge_A",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Small_Metal_Block_Left_LowZ_Top_Edge_B",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Small_Metal_Block_Left_HighZ_Mid_Edge_A",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Small_Metal_Block_Left_HighZ_Mid_Edge_B",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Small_Metal_Block_Right_HighZ_Mid_A",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Small_Metal_Block_Right_HighZ_Mid_B",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Small_Metal_Block_Right_LowZ_Mid_A",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Small_Metal_Block_Right_LowZ_Mid_B",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Small_Metal_Block_Right_LowZ_Mid_Edge_A",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 15,
+      "name": "Small_Metal_Block_Right_LowZ_Mid_Edge_B",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 16,
+      "name": "Small_Metal_Block_Right_LowZ_Top_Edge_A",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 17,
+      "name": "Small_Metal_Block_Right_LowZ_Top_Edge_B",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 18,
+      "name": "Small_Metal_Block_Right_HighZ_Mid_Edge_A",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 19,
+      "name": "Small_Metal_Block_Right_HighZ_Mid_Edge_B",
+      "classes": [
+       "metal",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 20,
+      "name": "Metal_Base_Foot_Left_HighZ",
+      "classes": [
+       "metal",
+       "foot"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 21,
+      "name": "Metal_Base_Foot_Left_LowZ",
+      "classes": [
+       "metal",
+       "foot"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 22,
+      "name": "Metal_Base_Foot_Right_HighZ",
+      "classes": [
+       "metal",
+       "foot"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 23,
+      "name": "Metal_Base_Foot_Right_LowZ",
+      "classes": [
+       "metal",
+       "foot"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Label_Group",
+    "name": "Flat_Cream_Label_Panel",
+    "classes": [
+     "label",
+     "panel"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Model identity not inferred; names are material + shape + position. Many names abstain to shape descriptions (Slab, Rail, Block, Nub).",
+  "Axis orientation of z unknown, so High_Z/Low_Z used rather than front/back; left/right = low/high x.",
+  "Mesh 0 (fabric) and mesh 1 (wood) components 2/0 and 3/1 share identical centre and size: the same parts appear to be split across materials; I cannot tell whether authored parts are per-material or span materials, so each mesh was named separately.",
+  "Mesh 2 had 24 untextured islands (no colour evidence); 20 are same-size 160-tri blocks mirrored left/right in pairs at nearly identical positions; pair members distinguished only by A/B ordering, unresolved.",
+  "Mesh 2 islands 20-23 are the lowest 0.58 x 0.2 x 0.58 pieces near the corners, named feet by position/size only (moderate confidence).",
+  "Fabric small nubs (10 x 160 tri) and 2 rear top pieces: function unknown, named by size and position only.",
+  "Component indices in mesh 0 printed list was truncated for components 14-15 in the describe text; relied on component 14 data and assumed 15 mirrors it (x+).",
+  "Material name was used as evidence (basis vocabulary has no slot for it, so it is not in basis). Brief says material boundaries are handed over: names prefixed with material accordingly."
+ ],
+ "model": "SheenDamask",
+ "mode": "materials",
+ "blind_code": "M05"
+}

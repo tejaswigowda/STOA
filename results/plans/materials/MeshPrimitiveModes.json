@@ -1,0 +1,65 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Flat_Triple_Shape_Group",
+    "classes": [
+     "flat",
+     "shape"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Flat_Shape_Left",
+      "classes": [
+       "flat",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Flat_Shape_Right",
+      "classes": [
+       "flat",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Flat_Shape_Middle",
+      "classes": [
+       "flat",
+       "middle"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "One mesh with an empty material name, three flat islands (depth 0.000) all 1.732 x 2.000; evidence gives no colour and no texture.",
+  "Left and right islands have 6 triangles each at x 0.15 and 0.85; the middle one has 4 triangles at x 0.50, and all three overlap in x because each is 1.732 wide against a total width of about 2.5-3.5. They differ only in triangle count and x position.",
+  "Names are shape/position descriptions only; I make no claim about what the shapes depict. The 4-vs-6 triangle difference is the only separating feature of the middle one.",
+  "The empty material name gives no evidence at all."
+ ],
+ "model": "MeshPrimitiveModes",
+ "mode": "materials",
+ "blind_code": "N02"
+}

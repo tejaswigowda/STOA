@@ -1,0 +1,1510 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Body_Grid_And_Strips",
+    "classes": [
+     "grid"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Grey_Body_Column_First_Row_First",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Grey_Body_Column_Second_Row_First",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Grey_Body_Column_Third_Row_First",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Grey_Body_Column_Fourth_Row_First",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Grey_Body_Column_Fifth_Row_First",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Grey_Body_Column_Sixth_Row_First",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Grey_Body_Column_Seventh_Row_First",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Yellow_Body_Column_First_Row_First",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Yellow_Body_Column_Second_Row_First",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Yellow_Body_Column_Third_Row_First",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 10,
+      "name": "Yellow_Body_Column_Fourth_Row_First",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 11,
+      "name": "Yellow_Body_Column_Fifth_Row_First",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 12,
+      "name": "Yellow_Body_Column_Sixth_Row_First",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 13,
+      "name": "Yellow_Body_Column_Seventh_Row_First",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 14,
+      "name": "Grey_Body_Column_Sixth_Row_Second",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 15,
+      "name": "Grey_Body_Column_Seventh_Row_Second",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 16,
+      "name": "Grey_Body_Column_Sixth_Row_Third",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 17,
+      "name": "Grey_Body_Column_Seventh_Row_Third",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 18,
+      "name": "Grey_Body_Column_Sixth_Row_Fourth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 19,
+      "name": "Grey_Body_Column_Seventh_Row_Fourth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 20,
+      "name": "Grey_Body_Column_Sixth_Row_Fifth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 21,
+      "name": "Grey_Body_Column_Seventh_Row_Fifth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 22,
+      "name": "Grey_Body_Column_Sixth_Row_Sixth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 23,
+      "name": "Grey_Body_Column_Seventh_Row_Sixth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 24,
+      "name": "Grey_Body_Column_Sixth_Row_Seventh",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 25,
+      "name": "Grey_Body_Column_Seventh_Row_Seventh",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 26,
+      "name": "Yellow_Body_Column_Sixth_Row_Second",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 27,
+      "name": "Yellow_Body_Column_Seventh_Row_Second",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 28,
+      "name": "Yellow_Body_Column_Sixth_Row_Third",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 29,
+      "name": "Yellow_Body_Column_Seventh_Row_Third",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 30,
+      "name": "Yellow_Body_Column_Sixth_Row_Fourth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 31,
+      "name": "Yellow_Body_Column_Seventh_Row_Fourth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 32,
+      "name": "Yellow_Body_Column_Sixth_Row_Fifth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 33,
+      "name": "Yellow_Body_Column_Seventh_Row_Fifth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 34,
+      "name": "Yellow_Body_Column_Sixth_Row_Sixth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 35,
+      "name": "Yellow_Body_Column_Seventh_Row_Sixth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 36,
+      "name": "Yellow_Body_Column_Sixth_Row_Seventh",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 37,
+      "name": "Yellow_Body_Column_Seventh_Row_Seventh",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 38,
+      "name": "Grey_Body_Column_Fourth_Row_Second",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 39,
+      "name": "Grey_Body_Column_Fifth_Row_Second",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 40,
+      "name": "Grey_Body_Column_Fourth_Row_Third",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 41,
+      "name": "Grey_Body_Column_Fifth_Row_Third",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 42,
+      "name": "Grey_Body_Column_Fourth_Row_Fourth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 43,
+      "name": "Grey_Body_Column_Fifth_Row_Fourth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 44,
+      "name": "Grey_Body_Column_Fourth_Row_Fifth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 45,
+      "name": "Grey_Body_Column_Fifth_Row_Fifth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 46,
+      "name": "Grey_Body_Column_Fourth_Row_Sixth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 47,
+      "name": "Grey_Body_Column_Fifth_Row_Sixth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 48,
+      "name": "Grey_Body_Column_Fourth_Row_Seventh",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 49,
+      "name": "Grey_Body_Column_Fifth_Row_Seventh",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 50,
+      "name": "Yellow_Body_Column_Fourth_Row_Second",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 51,
+      "name": "Yellow_Body_Column_Fifth_Row_Second",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 52,
+      "name": "Yellow_Body_Column_Fourth_Row_Third",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 53,
+      "name": "Yellow_Body_Column_Fifth_Row_Third",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 54,
+      "name": "Yellow_Body_Column_Fourth_Row_Fourth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 55,
+      "name": "Yellow_Body_Column_Fifth_Row_Fourth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 56,
+      "name": "Yellow_Body_Column_Fourth_Row_Fifth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 57,
+      "name": "Yellow_Body_Column_Fifth_Row_Fifth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 58,
+      "name": "Yellow_Body_Column_Fourth_Row_Sixth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 59,
+      "name": "Yellow_Body_Column_Fifth_Row_Sixth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 60,
+      "name": "Yellow_Body_Column_Fourth_Row_Seventh",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 61,
+      "name": "Yellow_Body_Column_Fifth_Row_Seventh",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 62,
+      "name": "Grey_Body_Column_Second_Row_Second",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 63,
+      "name": "Grey_Body_Column_Third_Row_Second",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 64,
+      "name": "Grey_Body_Column_Second_Row_Third",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 65,
+      "name": "Grey_Body_Column_Third_Row_Third",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 66,
+      "name": "Grey_Body_Column_Second_Row_Fourth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 67,
+      "name": "Grey_Body_Column_Third_Row_Fourth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 68,
+      "name": "Grey_Body_Column_Second_Row_Fifth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 69,
+      "name": "Grey_Body_Column_Third_Row_Fifth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 70,
+      "name": "Grey_Body_Column_Second_Row_Sixth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 71,
+      "name": "Grey_Body_Column_Third_Row_Sixth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 72,
+      "name": "Grey_Body_Column_Second_Row_Seventh",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 73,
+      "name": "Grey_Body_Column_Third_Row_Seventh",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 74,
+      "name": "Yellow_Body_Column_Second_Row_Second",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 75,
+      "name": "Yellow_Body_Column_Third_Row_Second",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 76,
+      "name": "Yellow_Body_Column_Second_Row_Third",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 77,
+      "name": "Yellow_Body_Column_Third_Row_Third",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 78,
+      "name": "Yellow_Body_Column_Second_Row_Fourth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 79,
+      "name": "Yellow_Body_Column_Third_Row_Fourth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 80,
+      "name": "Yellow_Body_Column_Second_Row_Fifth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 81,
+      "name": "Yellow_Body_Column_Third_Row_Fifth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 82,
+      "name": "Yellow_Body_Column_Second_Row_Sixth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 83,
+      "name": "Yellow_Body_Column_Third_Row_Sixth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 84,
+      "name": "Yellow_Body_Column_Second_Row_Seventh",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 85,
+      "name": "Yellow_Body_Column_Third_Row_Seventh",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 86,
+      "name": "Grey_Body_Column_First_Row_Second",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 87,
+      "name": "Grey_Body_Column_First_Row_Third",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 88,
+      "name": "Grey_Body_Column_First_Row_Fourth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 89,
+      "name": "Grey_Body_Column_First_Row_Fifth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 90,
+      "name": "Grey_Body_Column_First_Row_Sixth",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 91,
+      "name": "Grey_Body_Column_First_Row_Seventh",
+      "classes": [
+       "body",
+       "grey-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 92,
+      "name": "Yellow_Body_Column_First_Row_Second",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 93,
+      "name": "Yellow_Body_Column_First_Row_Third",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 94,
+      "name": "Yellow_Body_Column_First_Row_Fourth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 95,
+      "name": "Yellow_Body_Column_First_Row_Fifth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 96,
+      "name": "Yellow_Body_Column_First_Row_Sixth",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 97,
+      "name": "Yellow_Body_Column_First_Row_Seventh",
+      "classes": [
+       "body",
+       "yellow-layer"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 98,
+      "name": "Flat_Strip_Horizontal_Left_Bottom_High_Z",
+      "classes": [
+       "strip",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 99,
+      "name": "Flat_Strip_Horizontal_Right_Bottom_High_Z",
+      "classes": [
+       "strip",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 100,
+      "name": "Flat_Strip_Vertical_Left_Upper_High_Z",
+      "classes": [
+       "strip",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 101,
+      "name": "Flat_Strip_Horizontal_Left_Bottom_Low_Z",
+      "classes": [
+       "strip",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 102,
+      "name": "Flat_Strip_Vertical_Left_Lower_High_Z",
+      "classes": [
+       "strip",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 103,
+      "name": "Flat_Strip_Horizontal_Right_Bottom_Low_Z",
+      "classes": [
+       "strip",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 104,
+      "name": "Flat_Strip_Vertical_Left_Upper_Low_Z",
+      "classes": [
+       "strip",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 105,
+      "name": "Flat_Strip_Vertical_Left_Lower_Low_Z",
+      "classes": [
+       "strip",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Single mesh with empty material name, 106 islands: 98 identical 5120-triangle 0.8-size bodies on a 7 x 7 x 2 grid (columns by at.x, rows by at.y, two z layers) and 8 two-triangle flat strips. Names generated by rule: colour word + ordinal words for the rank of at.x (Column) and at.y (Row) among the unique values; low x = first column, low y = first row. High-z layer is grey (204,204,204), low-z layer is yellow (204,177,29).",
+  "No material evidence existed (empty name) so there is no hint of function; bodies are named Body only (bounding box, not claiming a sphere or cube).",
+  "The 8 strips (2 tris, 2.4-3.2 long by 0.5 or 0.48 wide, light grey with 5-10% near black) sit along the bottom and left edges of the grid in both z layers; they may be labels or headers, but nothing in the evidence says text, so they are named Flat_Strip_*.",
+  "High_Z / Low_Z used for the two layers because front/back is not defined by the evidence.",
+  "A palette/subdivide was not needed: colours already separate by island."
+ ],
+ "model": "MetalRoughSpheres",
+ "mode": "materials",
+ "blind_code": "N16"
+}

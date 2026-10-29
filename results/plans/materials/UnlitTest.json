@@ -1,0 +1,46 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "whole": {
+    "group": "Orange_Cube_Form_Group",
+    "name": "Orange_Bevelled_Cube_Form",
+    "classes": [
+     "cube",
+     "solid"
+    ],
+    "basis": [
+     "size",
+     "shape",
+     "position"
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "whole": {
+    "group": "Blue_Cube_Form_Group",
+    "name": "Blue_Bevelled_Cube_Form",
+    "classes": [
+     "cube",
+     "solid"
+    ],
+    "basis": [
+     "size",
+     "shape",
+     "position"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Two meshes, one island each, identical size 2x2x2 and identical centre (at 0.5,0.5,0.5), 44 triangles each: the two shapes occupy the same volume, so they are either coincident or nested; the evidence does not say which is inside.",
+  "44 triangles on a 2-unit cube suggests bevelled or chamfered corners, but that is inferred from the triangle count only; I called it 'bevelled' on shape and triangle count alone.",
+  "Colour names come from the material names (Orange, Blue), not from sampled colours: no colour data is reported for untextured materials. Material names are not listed in basis, per the instructions.",
+  "No function is supportable from the evidence, so both are named by shape and material colour only."
+ ],
+ "model": "UnlitTest",
+ "mode": "materials",
+ "blind_code": "N01"
+}

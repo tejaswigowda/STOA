@@ -1,0 +1,33 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "whole": {
+    "group": "Nested_Inner_Group",
+    "name": "Inner_Centered_Body",
+    "classes": [
+     "body"
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "whole": {
+    "group": "Nested_Outer_Group",
+    "name": "Outer_Enclosing_Body",
+    "classes": [
+     "body"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Only two meshes, one island each, no uv/texture/colour. Material names 'inner' and 'outer' were used as evidence (not in basis): mesh 0 is 0.67 of the extent of mesh 1 on x and z, same height, both centred at 0.5,0.5,0.5, so the inner one sits inside the outer one.",
+  "Evidence does not say what either object is, so both names are shape/position descriptive (abstained on a functional name).",
+  "No evidence to separate sub-parts; each mesh is a single whole part."
+ ],
+ "model": "BoxAnimated",
+ "mode": "materials",
+ "blind_code": "M15"
+}

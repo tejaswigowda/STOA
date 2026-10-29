@@ -1,0 +1,46 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "whole": {
+    "group": "Large_Rounded_Cube_Group",
+    "name": "Large_Rounded_Cube_Form",
+    "classes": [
+     "cube",
+     "rounded"
+    ],
+    "basis": [
+     "size",
+     "shape",
+     "position"
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "whole": {
+    "group": "Small_Centred_Cube_Group",
+    "name": "Small_Centred_Cube_Form",
+    "classes": [
+     "cube",
+     "small"
+    ],
+    "basis": [
+     "size",
+     "shape",
+     "position"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Mesh 0 (material 'Rounded Cube Material') is one island of 1724 triangles, 20x20x20; the dense triangle count and the material name support 'rounded cube'.",
+  "Mesh 1 (material 'Material') is one island of 12 triangles, 2x2x2, centred at 0.5,0.5,0.5 of its own bbox, i.e. a plain box. Its position relative to mesh 0 is not given (at is relative to each mesh's own bounding box), so I cannot say whether it sits inside, beside or on the large cube; I only call it small.",
+  "'Centred' in the mesh 1 name refers only to its own bbox, not to its relation to mesh 0; the name may mislead, I kept it because 'Small_Cube_Form' alone would be less distinct.",
+  "No function can be justified from the evidence."
+ ],
+ "model": "XmpMetadataRoundedCube",
+ "mode": "materials",
+ "blind_code": "N10"
+}

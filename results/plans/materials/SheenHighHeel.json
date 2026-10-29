@@ -1,0 +1,482 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Sole_Group",
+    "classes": [
+     "sole"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Sole_Main_Body",
+      "classes": [
+       "sole"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Sole_End_Block",
+      "classes": [
+       "sole",
+       "block"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Inner_Lining_Group",
+    "classes": [
+     "inner"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Inner_Lining_Left",
+      "classes": [
+       "inner",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Inner_Lining_Right",
+      "classes": [
+       "inner",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Inner_End_Patch_Right",
+      "classes": [
+       "inner",
+       "patch",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": [
+       3,
+       4
+      ],
+      "name": "Inner_End_Patch_Left_And_Fragment",
+      "classes": [
+       "inner",
+       "patch",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Metal_Fittings_Group",
+    "classes": [
+     "metal"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Metal_Low_Wide_Plate",
+      "classes": [
+       "metal",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Metal_Small_Block_Low_Far_End",
+      "classes": [
+       "metal",
+       "block"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       2,
+       3,
+       4,
+       5
+      ],
+      "name": "Metal_Small_Cluster_Group_Upper",
+      "classes": [
+       "metal",
+       "cluster"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 6,
+      "name": "Metal_Thin_Piece_Left_Edge",
+      "classes": [
+       "metal",
+       "piece",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       7,
+       8,
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17,
+       18,
+       19,
+       20,
+       21,
+       22,
+       23,
+       24,
+       25,
+       26,
+       27,
+       28
+      ],
+      "name": "Metal_Small_Link_Row_Far_End",
+      "classes": [
+       "metal",
+       "row",
+       "link"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       29,
+       30,
+       31,
+       32,
+       33,
+       34,
+       35,
+       36,
+       37,
+       38,
+       39,
+       40,
+       41,
+       42,
+       43
+      ],
+      "name": "Metal_Small_Link_Row_Left_Mid",
+      "classes": [
+       "metal",
+       "row",
+       "link",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "plan": {
+    "group": "Ornament_Group",
+    "classes": [
+     "ornament"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Ornament_Left",
+      "classes": [
+       "ornament",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Ornament_Right",
+      "classes": [
+       "ornament",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": [
+       2,
+       3
+      ],
+      "name": "Ornament_Small_Fragments_Low_Left",
+      "classes": [
+       "ornament",
+       "fragment",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Ornament_Small_Bar_Top_Centre",
+      "classes": [
+       "ornament",
+       "bar"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "plan": {
+    "group": "Outer_Shell_Group",
+    "classes": [
+     "outer"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Outer_Main_Shell",
+      "classes": [
+       "outer",
+       "shell"
+      ],
+      "basis": [
+       "position",
+       "size"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Outer_Raised_Panel_Left_Far_End",
+      "classes": [
+       "outer",
+       "panel",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       2,
+       3
+      ],
+      "name": "Outer_End_Strip_And_Fragment",
+      "classes": [
+       "outer",
+       "strip"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "whole": {
+    "group": "Pad_Group",
+    "name": "Pad_Body",
+    "classes": [
+     "pad"
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "plan": {
+    "group": "Pearls_Group",
+    "classes": [
+     "pearls"
+    ],
+    "parts": [
+     {
+      "island": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10
+      ],
+      "name": "Pearl_Strand_Left",
+      "classes": [
+       "pearl",
+       "strand",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17,
+       18,
+       19,
+       20,
+       21
+      ],
+      "name": "Pearl_Strand_Centre",
+      "classes": [
+       "pearl",
+       "strand",
+       "centre"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       22,
+       23,
+       24,
+       25,
+       26,
+       27,
+       28,
+       29,
+       30,
+       31,
+       32
+      ],
+      "name": "Pearl_Strand_Right",
+      "classes": [
+       "pearl",
+       "strand",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "whole": {
+    "group": "Footrest_Group",
+    "name": "Footrest_Body",
+    "classes": [
+     "footrest"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Names for Sole, Inner, Outer, Pad, Ornament, Pearls, Footrest parts come from the material names (evidence, not listed in basis); position/size only separate left/right and main/small pieces. I do not know what the whole object is.",
+  "Mesh 0: Sole island 0 spans both sides (x 0.50, 9.1 wide) yet is one island; I could not tell what island 1 (5.4x11.9x4.6 block at one z end) is, so it is shape-named.",
+  "Mesh 1 and 3: two big islands at x 0.25/0.73 and 0.21/0.73 read as left/right mirrored pairs; 'left' means low x in the mesh frame, which may not be the object's own left.",
+  "Mesh 2: 44 components; 22 near-identical 0.3x0.1x0.1 pieces in a line (components 7-28) and 15 in another line (29-43) were merged into one row part each rather than 37 separate parts, because no unique non-numbered names are justifiable. Components 2-5 (small clusters, same y/z) merged into one. Could not say what any metal piece is.",
+  "Mesh 4: Outer island 0 spans the whole bounding box and island 1 is a big raised piece at low x; names are shape/position only. Tiny islands (4 tri, 8 tri, 2 tri) merged into neighbours with similar position.",
+  "Mesh 6: 33 identical pearl spheres (320 tri each) in three strands of 11 along arcs by x; grouped per strand instead of 33 parts; strand order is by x only. Brief says identical things are separate parts: this deviates deliberately.",
+  "Meshes 5 and 7 are single islands: used whole, names Pad_Body and Footrest_Body are material-derived only.",
+  "Evidence has no colour for most meshes (no texture); Inner is ~99% one skin-like orange, no separation by colour possible."
+ ],
+ "model": "SheenHighHeel",
+ "mode": "materials",
+ "blind_code": "M12"
+}

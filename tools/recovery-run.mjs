@@ -40,11 +40,11 @@ export async function sourceFor(triage, row) {
   const readme = (await fetchPinned(triage.source, `${path.posix.dirname(path.posix.dirname(row.path))}/README.md`)).toString("utf8");
   const section = licenceSection(readme);
   let licence;
-  try { licence = licenceLabel(row.model, section); } catch { licence = section?.text.slice(0, 120) ?? "see source README"; }
+  try { licence = licenceLabel(row.model, section); } catch { licence = section?.text.slice(0, 120) || "see source README"; }
   return {
     url: `https://raw.githubusercontent.com/${repo}/${commit}/${row.path.split("/").map(encodeURIComponent).join("/")}`,
     page: `https://github.com/${repo}/blob/${commit}/${row.path}`,
-    commit, sha256: row.sha256, bytes: row.bytes, licence, attribution: section?.text ?? "see source README",
+    commit, sha256: row.sha256, bytes: row.bytes, licence, attribution: section?.text || "see source README",
   };
 }
 

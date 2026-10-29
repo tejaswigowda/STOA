@@ -1,0 +1,3496 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aaa",
+    "name": "Near_Cubic_Unit_Aaa",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aab",
+    "name": "Near_Cubic_Unit_Aab",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aac",
+    "name": "Near_Cubic_Unit_Aac",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aad",
+    "name": "Near_Cubic_Unit_Aad",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aae",
+    "name": "Near_Cubic_Unit_Aae",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aaf",
+    "name": "Near_Cubic_Unit_Aaf",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aag",
+    "name": "Near_Cubic_Unit_Aag",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aah",
+    "name": "Near_Cubic_Unit_Aah",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aai",
+    "name": "Near_Cubic_Unit_Aai",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 9,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aaj",
+    "name": "Near_Cubic_Unit_Aaj",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 10,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aak",
+    "name": "Near_Cubic_Unit_Aak",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 11,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aal",
+    "name": "Near_Cubic_Unit_Aal",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 12,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aam",
+    "name": "Near_Cubic_Unit_Aam",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 13,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aan",
+    "name": "Near_Cubic_Unit_Aan",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 14,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aao",
+    "name": "Near_Cubic_Unit_Aao",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 15,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aap",
+    "name": "Near_Cubic_Unit_Aap",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 16,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aaq",
+    "name": "Near_Cubic_Unit_Aaq",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 17,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aar",
+    "name": "Near_Cubic_Unit_Aar",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 18,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aas",
+    "name": "Near_Cubic_Unit_Aas",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 19,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aat",
+    "name": "Near_Cubic_Unit_Aat",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 20,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aau",
+    "name": "Near_Cubic_Unit_Aau",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 21,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aav",
+    "name": "Near_Cubic_Unit_Aav",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 22,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aaw",
+    "name": "Near_Cubic_Unit_Aaw",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 23,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aax",
+    "name": "Near_Cubic_Unit_Aax",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 24,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aay",
+    "name": "Near_Cubic_Unit_Aay",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 25,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aaz",
+    "name": "Near_Cubic_Unit_Aaz",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 26,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aba",
+    "name": "Near_Cubic_Unit_Aba",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 27,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abb",
+    "name": "Near_Cubic_Unit_Abb",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 28,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abc",
+    "name": "Near_Cubic_Unit_Abc",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 29,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abd",
+    "name": "Near_Cubic_Unit_Abd",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 30,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abe",
+    "name": "Near_Cubic_Unit_Abe",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 31,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abf",
+    "name": "Near_Cubic_Unit_Abf",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 32,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abg",
+    "name": "Near_Cubic_Unit_Abg",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 33,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abh",
+    "name": "Near_Cubic_Unit_Abh",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 34,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abi",
+    "name": "Near_Cubic_Unit_Abi",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 35,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abj",
+    "name": "Near_Cubic_Unit_Abj",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 36,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abk",
+    "name": "Near_Cubic_Unit_Abk",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 37,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abl",
+    "name": "Near_Cubic_Unit_Abl",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 38,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abm",
+    "name": "Near_Cubic_Unit_Abm",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 39,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abn",
+    "name": "Near_Cubic_Unit_Abn",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 40,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abo",
+    "name": "Near_Cubic_Unit_Abo",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 41,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abp",
+    "name": "Near_Cubic_Unit_Abp",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 42,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abq",
+    "name": "Near_Cubic_Unit_Abq",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 43,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abr",
+    "name": "Near_Cubic_Unit_Abr",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 44,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abs",
+    "name": "Near_Cubic_Unit_Abs",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 45,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abt",
+    "name": "Near_Cubic_Unit_Abt",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 46,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abu",
+    "name": "Near_Cubic_Unit_Abu",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 47,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abv",
+    "name": "Near_Cubic_Unit_Abv",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 48,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abw",
+    "name": "Near_Cubic_Unit_Abw",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 49,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abx",
+    "name": "Near_Cubic_Unit_Abx",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 50,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aby",
+    "name": "Near_Cubic_Unit_Aby",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 51,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Abz",
+    "name": "Near_Cubic_Unit_Abz",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 52,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aca",
+    "name": "Near_Cubic_Unit_Aca",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 53,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acb",
+    "name": "Near_Cubic_Unit_Acb",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 54,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acc",
+    "name": "Near_Cubic_Unit_Acc",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 55,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acd",
+    "name": "Near_Cubic_Unit_Acd",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 56,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ace",
+    "name": "Near_Cubic_Unit_Ace",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 57,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acf",
+    "name": "Near_Cubic_Unit_Acf",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 58,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acg",
+    "name": "Near_Cubic_Unit_Acg",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 59,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ach",
+    "name": "Near_Cubic_Unit_Ach",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 60,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aci",
+    "name": "Near_Cubic_Unit_Aci",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 61,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acj",
+    "name": "Near_Cubic_Unit_Acj",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 62,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ack",
+    "name": "Near_Cubic_Unit_Ack",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 63,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acl",
+    "name": "Near_Cubic_Unit_Acl",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 64,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acm",
+    "name": "Near_Cubic_Unit_Acm",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 65,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acn",
+    "name": "Near_Cubic_Unit_Acn",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 66,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aco",
+    "name": "Near_Cubic_Unit_Aco",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 67,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acp",
+    "name": "Near_Cubic_Unit_Acp",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 68,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acq",
+    "name": "Near_Cubic_Unit_Acq",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 69,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acr",
+    "name": "Near_Cubic_Unit_Acr",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 70,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acs",
+    "name": "Near_Cubic_Unit_Acs",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 71,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Act",
+    "name": "Near_Cubic_Unit_Act",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 72,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acu",
+    "name": "Near_Cubic_Unit_Acu",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 73,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acv",
+    "name": "Near_Cubic_Unit_Acv",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 74,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acw",
+    "name": "Near_Cubic_Unit_Acw",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 75,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acx",
+    "name": "Near_Cubic_Unit_Acx",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 76,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acy",
+    "name": "Near_Cubic_Unit_Acy",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 77,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Acz",
+    "name": "Near_Cubic_Unit_Acz",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 78,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ada",
+    "name": "Near_Cubic_Unit_Ada",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 79,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adb",
+    "name": "Near_Cubic_Unit_Adb",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 80,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adc",
+    "name": "Near_Cubic_Unit_Adc",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 81,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Add",
+    "name": "Near_Cubic_Unit_Add",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 82,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ade",
+    "name": "Near_Cubic_Unit_Ade",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 83,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adf",
+    "name": "Near_Cubic_Unit_Adf",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 84,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adg",
+    "name": "Near_Cubic_Unit_Adg",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 85,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adh",
+    "name": "Near_Cubic_Unit_Adh",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 86,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adi",
+    "name": "Near_Cubic_Unit_Adi",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 87,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adj",
+    "name": "Near_Cubic_Unit_Adj",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 88,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adk",
+    "name": "Near_Cubic_Unit_Adk",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 89,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adl",
+    "name": "Near_Cubic_Unit_Adl",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 90,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adm",
+    "name": "Near_Cubic_Unit_Adm",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 91,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adn",
+    "name": "Near_Cubic_Unit_Adn",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 92,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ado",
+    "name": "Near_Cubic_Unit_Ado",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 93,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adp",
+    "name": "Near_Cubic_Unit_Adp",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 94,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adq",
+    "name": "Near_Cubic_Unit_Adq",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 95,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adr",
+    "name": "Near_Cubic_Unit_Adr",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 96,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ads",
+    "name": "Near_Cubic_Unit_Ads",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 97,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adt",
+    "name": "Near_Cubic_Unit_Adt",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 98,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adu",
+    "name": "Near_Cubic_Unit_Adu",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 99,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adv",
+    "name": "Near_Cubic_Unit_Adv",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 100,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adw",
+    "name": "Near_Cubic_Unit_Adw",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 101,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adx",
+    "name": "Near_Cubic_Unit_Adx",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 102,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ady",
+    "name": "Near_Cubic_Unit_Ady",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 103,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Adz",
+    "name": "Near_Cubic_Unit_Adz",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 104,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aea",
+    "name": "Near_Cubic_Unit_Aea",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 105,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aeb",
+    "name": "Near_Cubic_Unit_Aeb",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 106,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aec",
+    "name": "Near_Cubic_Unit_Aec",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 107,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aed",
+    "name": "Near_Cubic_Unit_Aed",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 108,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aee",
+    "name": "Near_Cubic_Unit_Aee",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 109,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aef",
+    "name": "Near_Cubic_Unit_Aef",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 110,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aeg",
+    "name": "Near_Cubic_Unit_Aeg",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 111,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aeh",
+    "name": "Near_Cubic_Unit_Aeh",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 112,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aei",
+    "name": "Near_Cubic_Unit_Aei",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 113,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aej",
+    "name": "Near_Cubic_Unit_Aej",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 114,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aek",
+    "name": "Near_Cubic_Unit_Aek",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 115,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ael",
+    "name": "Near_Cubic_Unit_Ael",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 116,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aem",
+    "name": "Near_Cubic_Unit_Aem",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 117,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aen",
+    "name": "Near_Cubic_Unit_Aen",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 118,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aeo",
+    "name": "Near_Cubic_Unit_Aeo",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 119,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aep",
+    "name": "Near_Cubic_Unit_Aep",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 120,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aeq",
+    "name": "Near_Cubic_Unit_Aeq",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 121,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aer",
+    "name": "Near_Cubic_Unit_Aer",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 122,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aes",
+    "name": "Near_Cubic_Unit_Aes",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 123,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aet",
+    "name": "Near_Cubic_Unit_Aet",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 124,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aeu",
+    "name": "Near_Cubic_Unit_Aeu",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 125,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aev",
+    "name": "Near_Cubic_Unit_Aev",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 126,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aew",
+    "name": "Near_Cubic_Unit_Aew",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 127,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aex",
+    "name": "Near_Cubic_Unit_Aex",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 128,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aey",
+    "name": "Near_Cubic_Unit_Aey",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 129,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aez",
+    "name": "Near_Cubic_Unit_Aez",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 130,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afa",
+    "name": "Near_Cubic_Unit_Afa",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 131,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afb",
+    "name": "Near_Cubic_Unit_Afb",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 132,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afc",
+    "name": "Near_Cubic_Unit_Afc",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 133,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afd",
+    "name": "Near_Cubic_Unit_Afd",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 134,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afe",
+    "name": "Near_Cubic_Unit_Afe",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 135,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aff",
+    "name": "Near_Cubic_Unit_Aff",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 136,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afg",
+    "name": "Near_Cubic_Unit_Afg",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 137,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afh",
+    "name": "Near_Cubic_Unit_Afh",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 138,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afi",
+    "name": "Near_Cubic_Unit_Afi",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 139,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afj",
+    "name": "Near_Cubic_Unit_Afj",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 140,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afk",
+    "name": "Near_Cubic_Unit_Afk",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 141,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afl",
+    "name": "Near_Cubic_Unit_Afl",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 142,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afm",
+    "name": "Near_Cubic_Unit_Afm",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 143,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afn",
+    "name": "Near_Cubic_Unit_Afn",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 144,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afo",
+    "name": "Near_Cubic_Unit_Afo",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 145,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afp",
+    "name": "Near_Cubic_Unit_Afp",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 146,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afq",
+    "name": "Near_Cubic_Unit_Afq",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 147,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afr",
+    "name": "Near_Cubic_Unit_Afr",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 148,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afs",
+    "name": "Near_Cubic_Unit_Afs",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 149,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aft",
+    "name": "Near_Cubic_Unit_Aft",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 150,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afu",
+    "name": "Near_Cubic_Unit_Afu",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 151,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afv",
+    "name": "Near_Cubic_Unit_Afv",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 152,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afw",
+    "name": "Near_Cubic_Unit_Afw",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 153,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afx",
+    "name": "Near_Cubic_Unit_Afx",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 154,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afy",
+    "name": "Near_Cubic_Unit_Afy",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 155,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Afz",
+    "name": "Near_Cubic_Unit_Afz",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 156,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aga",
+    "name": "Near_Cubic_Unit_Aga",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 157,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agb",
+    "name": "Near_Cubic_Unit_Agb",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 158,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agc",
+    "name": "Near_Cubic_Unit_Agc",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 159,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agd",
+    "name": "Near_Cubic_Unit_Agd",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 160,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Age",
+    "name": "Near_Cubic_Unit_Age",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 161,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agf",
+    "name": "Near_Cubic_Unit_Agf",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 162,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agg",
+    "name": "Near_Cubic_Unit_Agg",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 163,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agh",
+    "name": "Near_Cubic_Unit_Agh",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 164,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agi",
+    "name": "Near_Cubic_Unit_Agi",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 165,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agj",
+    "name": "Near_Cubic_Unit_Agj",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 166,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agk",
+    "name": "Near_Cubic_Unit_Agk",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 167,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agl",
+    "name": "Near_Cubic_Unit_Agl",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 168,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agm",
+    "name": "Near_Cubic_Unit_Agm",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 169,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agn",
+    "name": "Near_Cubic_Unit_Agn",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 170,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ago",
+    "name": "Near_Cubic_Unit_Ago",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 171,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agp",
+    "name": "Near_Cubic_Unit_Agp",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 172,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agq",
+    "name": "Near_Cubic_Unit_Agq",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 173,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agr",
+    "name": "Near_Cubic_Unit_Agr",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 174,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ags",
+    "name": "Near_Cubic_Unit_Ags",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 175,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agt",
+    "name": "Near_Cubic_Unit_Agt",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 176,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agu",
+    "name": "Near_Cubic_Unit_Agu",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 177,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agv",
+    "name": "Near_Cubic_Unit_Agv",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 178,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agw",
+    "name": "Near_Cubic_Unit_Agw",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 179,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agx",
+    "name": "Near_Cubic_Unit_Agx",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 180,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agy",
+    "name": "Near_Cubic_Unit_Agy",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 181,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Agz",
+    "name": "Near_Cubic_Unit_Agz",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 182,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aha",
+    "name": "Near_Cubic_Unit_Aha",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 183,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahb",
+    "name": "Near_Cubic_Unit_Ahb",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 184,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahc",
+    "name": "Near_Cubic_Unit_Ahc",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 185,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahd",
+    "name": "Near_Cubic_Unit_Ahd",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 186,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahe",
+    "name": "Near_Cubic_Unit_Ahe",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 187,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahf",
+    "name": "Near_Cubic_Unit_Ahf",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 188,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahg",
+    "name": "Near_Cubic_Unit_Ahg",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 189,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahh",
+    "name": "Near_Cubic_Unit_Ahh",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 190,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahi",
+    "name": "Near_Cubic_Unit_Ahi",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 191,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahj",
+    "name": "Near_Cubic_Unit_Ahj",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 192,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahk",
+    "name": "Near_Cubic_Unit_Ahk",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 193,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahl",
+    "name": "Near_Cubic_Unit_Ahl",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 194,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahm",
+    "name": "Near_Cubic_Unit_Ahm",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 195,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahn",
+    "name": "Near_Cubic_Unit_Ahn",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 196,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aho",
+    "name": "Near_Cubic_Unit_Aho",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 197,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahp",
+    "name": "Near_Cubic_Unit_Ahp",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 198,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahq",
+    "name": "Near_Cubic_Unit_Ahq",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 199,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahr",
+    "name": "Near_Cubic_Unit_Ahr",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 200,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahs",
+    "name": "Near_Cubic_Unit_Ahs",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 201,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aht",
+    "name": "Near_Cubic_Unit_Aht",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 202,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahu",
+    "name": "Near_Cubic_Unit_Ahu",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 203,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahv",
+    "name": "Near_Cubic_Unit_Ahv",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 204,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahw",
+    "name": "Near_Cubic_Unit_Ahw",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 205,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahx",
+    "name": "Near_Cubic_Unit_Ahx",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 206,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahy",
+    "name": "Near_Cubic_Unit_Ahy",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 207,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ahz",
+    "name": "Near_Cubic_Unit_Ahz",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 208,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aia",
+    "name": "Near_Cubic_Unit_Aia",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 209,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aib",
+    "name": "Near_Cubic_Unit_Aib",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 210,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aic",
+    "name": "Near_Cubic_Unit_Aic",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 211,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aid",
+    "name": "Near_Cubic_Unit_Aid",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 212,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aie",
+    "name": "Near_Cubic_Unit_Aie",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 213,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aif",
+    "name": "Near_Cubic_Unit_Aif",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 214,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aig",
+    "name": "Near_Cubic_Unit_Aig",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 215,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aih",
+    "name": "Near_Cubic_Unit_Aih",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 216,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aii",
+    "name": "Near_Cubic_Unit_Aii",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 217,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aij",
+    "name": "Near_Cubic_Unit_Aij",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 218,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aik",
+    "name": "Near_Cubic_Unit_Aik",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 219,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ail",
+    "name": "Near_Cubic_Unit_Ail",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 220,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aim",
+    "name": "Near_Cubic_Unit_Aim",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 221,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ain",
+    "name": "Near_Cubic_Unit_Ain",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 222,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aio",
+    "name": "Near_Cubic_Unit_Aio",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 223,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aip",
+    "name": "Near_Cubic_Unit_Aip",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 224,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aiq",
+    "name": "Near_Cubic_Unit_Aiq",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 225,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Air",
+    "name": "Near_Cubic_Unit_Air",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 226,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ais",
+    "name": "Near_Cubic_Unit_Ais",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 227,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ait",
+    "name": "Near_Cubic_Unit_Ait",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 228,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aiu",
+    "name": "Near_Cubic_Unit_Aiu",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 229,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aiv",
+    "name": "Near_Cubic_Unit_Aiv",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 230,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aiw",
+    "name": "Near_Cubic_Unit_Aiw",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 231,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aix",
+    "name": "Near_Cubic_Unit_Aix",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 232,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aiy",
+    "name": "Near_Cubic_Unit_Aiy",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 233,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aiz",
+    "name": "Near_Cubic_Unit_Aiz",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 234,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aja",
+    "name": "Near_Cubic_Unit_Aja",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 235,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajb",
+    "name": "Near_Cubic_Unit_Ajb",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 236,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajc",
+    "name": "Near_Cubic_Unit_Ajc",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 237,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajd",
+    "name": "Near_Cubic_Unit_Ajd",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 238,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aje",
+    "name": "Near_Cubic_Unit_Aje",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 239,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajf",
+    "name": "Near_Cubic_Unit_Ajf",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 240,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajg",
+    "name": "Near_Cubic_Unit_Ajg",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 241,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajh",
+    "name": "Near_Cubic_Unit_Ajh",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 242,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aji",
+    "name": "Near_Cubic_Unit_Aji",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 243,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajj",
+    "name": "Near_Cubic_Unit_Ajj",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 244,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajk",
+    "name": "Near_Cubic_Unit_Ajk",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 245,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajl",
+    "name": "Near_Cubic_Unit_Ajl",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 246,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajm",
+    "name": "Near_Cubic_Unit_Ajm",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 247,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajn",
+    "name": "Near_Cubic_Unit_Ajn",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 248,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajo",
+    "name": "Near_Cubic_Unit_Ajo",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 249,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajp",
+    "name": "Near_Cubic_Unit_Ajp",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 250,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajq",
+    "name": "Near_Cubic_Unit_Ajq",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 251,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajr",
+    "name": "Near_Cubic_Unit_Ajr",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 252,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajs",
+    "name": "Near_Cubic_Unit_Ajs",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 253,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajt",
+    "name": "Near_Cubic_Unit_Ajt",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 254,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aju",
+    "name": "Near_Cubic_Unit_Aju",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 255,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajv",
+    "name": "Near_Cubic_Unit_Ajv",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 256,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajw",
+    "name": "Near_Cubic_Unit_Ajw",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 257,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajx",
+    "name": "Near_Cubic_Unit_Ajx",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 258,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajy",
+    "name": "Near_Cubic_Unit_Ajy",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 259,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ajz",
+    "name": "Near_Cubic_Unit_Ajz",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 260,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aka",
+    "name": "Near_Cubic_Unit_Aka",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 261,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akb",
+    "name": "Near_Cubic_Unit_Akb",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 262,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akc",
+    "name": "Near_Cubic_Unit_Akc",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 263,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akd",
+    "name": "Near_Cubic_Unit_Akd",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 264,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ake",
+    "name": "Near_Cubic_Unit_Ake",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 265,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akf",
+    "name": "Near_Cubic_Unit_Akf",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 266,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akg",
+    "name": "Near_Cubic_Unit_Akg",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 267,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akh",
+    "name": "Near_Cubic_Unit_Akh",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 268,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aki",
+    "name": "Near_Cubic_Unit_Aki",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 269,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akj",
+    "name": "Near_Cubic_Unit_Akj",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 270,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akk",
+    "name": "Near_Cubic_Unit_Akk",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 271,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akl",
+    "name": "Near_Cubic_Unit_Akl",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 272,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akm",
+    "name": "Near_Cubic_Unit_Akm",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 273,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akn",
+    "name": "Near_Cubic_Unit_Akn",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 274,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ako",
+    "name": "Near_Cubic_Unit_Ako",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 275,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akp",
+    "name": "Near_Cubic_Unit_Akp",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 276,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akq",
+    "name": "Near_Cubic_Unit_Akq",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 277,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akr",
+    "name": "Near_Cubic_Unit_Akr",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 278,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aks",
+    "name": "Near_Cubic_Unit_Aks",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 279,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akt",
+    "name": "Near_Cubic_Unit_Akt",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 280,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aku",
+    "name": "Near_Cubic_Unit_Aku",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 281,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akv",
+    "name": "Near_Cubic_Unit_Akv",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 282,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akw",
+    "name": "Near_Cubic_Unit_Akw",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 283,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akx",
+    "name": "Near_Cubic_Unit_Akx",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 284,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aky",
+    "name": "Near_Cubic_Unit_Aky",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 285,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Akz",
+    "name": "Near_Cubic_Unit_Akz",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 286,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ala",
+    "name": "Near_Cubic_Unit_Ala",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 287,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alb",
+    "name": "Near_Cubic_Unit_Alb",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 288,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alc",
+    "name": "Near_Cubic_Unit_Alc",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 289,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ald",
+    "name": "Near_Cubic_Unit_Ald",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 290,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ale",
+    "name": "Near_Cubic_Unit_Ale",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 291,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alf",
+    "name": "Near_Cubic_Unit_Alf",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 292,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alg",
+    "name": "Near_Cubic_Unit_Alg",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 293,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alh",
+    "name": "Near_Cubic_Unit_Alh",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 294,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ali",
+    "name": "Near_Cubic_Unit_Ali",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 295,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alj",
+    "name": "Near_Cubic_Unit_Alj",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 296,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alk",
+    "name": "Near_Cubic_Unit_Alk",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 297,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_All",
+    "name": "Near_Cubic_Unit_All",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 298,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alm",
+    "name": "Near_Cubic_Unit_Alm",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 299,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aln",
+    "name": "Near_Cubic_Unit_Aln",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 300,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alo",
+    "name": "Near_Cubic_Unit_Alo",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 301,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alp",
+    "name": "Near_Cubic_Unit_Alp",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 302,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alq",
+    "name": "Near_Cubic_Unit_Alq",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 303,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alr",
+    "name": "Near_Cubic_Unit_Alr",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 304,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Als",
+    "name": "Near_Cubic_Unit_Als",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 305,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alt",
+    "name": "Near_Cubic_Unit_Alt",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 306,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alu",
+    "name": "Near_Cubic_Unit_Alu",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 307,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alv",
+    "name": "Near_Cubic_Unit_Alv",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 308,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alw",
+    "name": "Near_Cubic_Unit_Alw",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 309,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alx",
+    "name": "Near_Cubic_Unit_Alx",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 310,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aly",
+    "name": "Near_Cubic_Unit_Aly",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 311,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Alz",
+    "name": "Near_Cubic_Unit_Alz",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 312,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ama",
+    "name": "Near_Cubic_Unit_Ama",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 313,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amb",
+    "name": "Near_Cubic_Unit_Amb",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 314,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amc",
+    "name": "Near_Cubic_Unit_Amc",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 315,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amd",
+    "name": "Near_Cubic_Unit_Amd",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 316,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ame",
+    "name": "Near_Cubic_Unit_Ame",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 317,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amf",
+    "name": "Near_Cubic_Unit_Amf",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 318,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amg",
+    "name": "Near_Cubic_Unit_Amg",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 319,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amh",
+    "name": "Near_Cubic_Unit_Amh",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 320,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ami",
+    "name": "Near_Cubic_Unit_Ami",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 321,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amj",
+    "name": "Near_Cubic_Unit_Amj",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 322,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amk",
+    "name": "Near_Cubic_Unit_Amk",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 323,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Aml",
+    "name": "Near_Cubic_Unit_Aml",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 324,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amm",
+    "name": "Near_Cubic_Unit_Amm",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 325,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amn",
+    "name": "Near_Cubic_Unit_Amn",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 326,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amo",
+    "name": "Near_Cubic_Unit_Amo",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 327,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amp",
+    "name": "Near_Cubic_Unit_Amp",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 328,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amq",
+    "name": "Near_Cubic_Unit_Amq",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 329,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amr",
+    "name": "Near_Cubic_Unit_Amr",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 330,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ams",
+    "name": "Near_Cubic_Unit_Ams",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 331,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amt",
+    "name": "Near_Cubic_Unit_Amt",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 332,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amu",
+    "name": "Near_Cubic_Unit_Amu",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 333,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amv",
+    "name": "Near_Cubic_Unit_Amv",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 334,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amw",
+    "name": "Near_Cubic_Unit_Amw",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 335,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amx",
+    "name": "Near_Cubic_Unit_Amx",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 336,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amy",
+    "name": "Near_Cubic_Unit_Amy",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 337,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Amz",
+    "name": "Near_Cubic_Unit_Amz",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 338,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ana",
+    "name": "Near_Cubic_Unit_Ana",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 339,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Anb",
+    "name": "Near_Cubic_Unit_Anb",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 340,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Anc",
+    "name": "Near_Cubic_Unit_Anc",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 341,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_And",
+    "name": "Near_Cubic_Unit_And",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 342,
+   "whole": {
+    "group": "Near_Cubic_Unit_Group_Ane",
+    "name": "Near_Cubic_Unit_Ane",
+    "classes": [
+     "unit"
+    ]
+   }
+  },
+  {
+   "mesh": 343,
+   "plan": {
+    "group": "Axis_Guide_Lines_Group",
+    "classes": [
+     "guide",
+     "helper"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Guide_Line_Along_X_High_Y",
+      "classes": [
+       "guide",
+       "line"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Guide_Line_Along_Y_Low_X",
+      "classes": [
+       "guide",
+       "line"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Guide_Line_Along_Z_High_X",
+      "classes": [
+       "guide",
+       "line"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "343 of the 344 meshes (all with empty material name) have byte-identical evidence: 1800 triangles, one island, size 2.000x2.000x1.989, at 0.50,0.50,0.50, no texture, no colour. Position, size, colour and material give nothing that separates one from another, so no function can be justified for any of them.",
+  "Rule: each such mesh is a `whole` part named Near_Cubic_Unit_<tag> (shape-descriptive only: bounding box nearly cubic, centred, uncoloured), group Near_Cubic_Unit_Group_<tag>. <tag> is a 3-letter base-26 code of the mesh's order among these meshes (Aaa, Aab, ...); it carries NO evidence and exists only because names must be unique and numbered placeholders are barred. This is an abstention for all of them.",
+  "Because every mesh is centred on the same point at the same size, they are presumably stacked or are copies of one shape at different transforms; the evidence has no world position per mesh to place them left/right/high/low, so even location words could not be used.",
+  "The one mesh with material 'Guides Material' is 3 flat (zero-thickness) black 2-triangle strips, 24 long: one along x (at y 0.96), one along y (at x 0.03), one along z (at x 0.97). Named by axis direction and `at` position only; classes guide/line from shape (flat, long, thin) and the material name (used as evidence, not listed in basis). 'High/Low' in names are relative positions within the mesh, not world positions.",
+  "Plan syntax: no trouble; the guide has no `source` requirement on my side (added for me). Cost: generating 343 unjustifiable names is the real problem, the format has no way to say 'unnamed/abstain' beyond a made-up unique name."
+ ],
+ "model": "IridescenceMetallicSpheres",
+ "mode": "materials",
+ "blind_code": "N14"
+}

@@ -1,0 +1,480 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Top_Row_Metallic_Spheres",
+    "classes": [
+     "sphere-row",
+     "metallic"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Metallic_Sphere_Top_Row_Eleventh_From_Left",
+      "classes": [
+       "sphere",
+       "metallic"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Metallic_Sphere_Top_Row_Tenth_From_Left",
+      "classes": [
+       "sphere",
+       "metallic"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Metallic_Sphere_Top_Row_Ninth_From_Left",
+      "classes": [
+       "sphere",
+       "metallic"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Metallic_Sphere_Top_Row_Eighth_From_Left",
+      "classes": [
+       "sphere",
+       "metallic"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Metallic_Sphere_Top_Row_Seventh_From_Left",
+      "classes": [
+       "sphere",
+       "metallic"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 5,
+      "name": "Metallic_Sphere_Top_Row_Sixth_From_Left",
+      "classes": [
+       "sphere",
+       "metallic"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 6,
+      "name": "Metallic_Sphere_Top_Row_Fifth_From_Left",
+      "classes": [
+       "sphere",
+       "metallic"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 7,
+      "name": "Metallic_Sphere_Top_Row_Fourth_From_Left",
+      "classes": [
+       "sphere",
+       "metallic"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 8,
+      "name": "Metallic_Sphere_Top_Row_Third_From_Left",
+      "classes": [
+       "sphere",
+       "metallic"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 9,
+      "name": "Metallic_Sphere_Top_Row_Second_From_Left",
+      "classes": [
+       "sphere",
+       "metallic"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 10,
+      "name": "Metallic_Sphere_Top_Row_First_From_Left",
+      "classes": [
+       "sphere",
+       "metallic"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Middle_Row_Dielectric_Spheres",
+    "classes": [
+     "sphere-row",
+     "dielectric"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Dielectric_Sphere_Middle_Row_Eighth_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Dielectric_Sphere_Middle_Row_Seventh_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Dielectric_Sphere_Middle_Row_Third_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Dielectric_Sphere_Middle_Row_Fourth_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Dielectric_Sphere_Middle_Row_Sixth_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 5,
+      "name": "Dielectric_Sphere_Middle_Row_Fifth_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 6,
+      "name": "Dielectric_Sphere_Middle_Row_First_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 7,
+      "name": "Dielectric_Sphere_Middle_Row_Second_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 8,
+      "name": "Dielectric_Sphere_Middle_Row_Tenth_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 9,
+      "name": "Dielectric_Sphere_Middle_Row_Ninth_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 10,
+      "name": "Dielectric_Sphere_Middle_Row_Eleventh_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Bottom_Row_Dielectric_Spheres",
+    "classes": [
+     "sphere-row",
+     "dielectric"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Dielectric_Sphere_Bottom_Row_Eighth_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Dielectric_Sphere_Bottom_Row_Seventh_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Dielectric_Sphere_Bottom_Row_Third_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Dielectric_Sphere_Bottom_Row_Fourth_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Dielectric_Sphere_Bottom_Row_Sixth_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 5,
+      "name": "Dielectric_Sphere_Bottom_Row_Fifth_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 6,
+      "name": "Dielectric_Sphere_Bottom_Row_First_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 7,
+      "name": "Dielectric_Sphere_Bottom_Row_Second_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 8,
+      "name": "Dielectric_Sphere_Bottom_Row_Tenth_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 9,
+      "name": "Dielectric_Sphere_Bottom_Row_Ninth_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 10,
+      "name": "Dielectric_Sphere_Bottom_Row_Eleventh_From_Left",
+      "classes": [
+       "sphere",
+       "dielectric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Sphere naming relies on the material names MetallicSpheresMat / DielectricSpheresMat; the geometry evidence is only a 1.294 cube bounding box with 768 triangles in two welded islands per component. A cut-in-two (two hemispheres) is the likely reason for two islands but I merged each component into one part.",
+  "Mesh 1 and mesh 2 share the material name DielectricSpheresMat; they are told apart only by world height (centre y 2.633 vs 0.647), so row names Middle/Bottom come from position, not material.",
+  "Components are not in left-to-right order in meshes 1 and 2, so ordinal names are generated from at.x rank (rule: ordinal word of the rank of at.x within the mesh, low x = left).",
+  "Whether the three rows differ in anything other than material/height (e.g. roughness) is not in the evidence.",
+  "Basis lists exclude material names as instructed."
+ ],
+ "model": "EnvironmentTest",
+ "mode": "materials",
+ "blind_code": "N21"
+}

@@ -3,8 +3,8 @@ import assert from "node:assert/strict";
 import { buildGlb, hasIndex, parseGlb, stripIndex, tierGroundTruth } from "./lib.mjs";
 import { flatten, flattenedTriangles, measure } from "./flatten.mjs";
 import { scoreStructure, toRecords, triangleAreas } from "./score.mjs";
-import { aggregate, modelScores } from "./report.mjs";
-import { applyVerdicts, toPairs } from "./judge.mjs";
+import { aggregate, modelScores, residualStructure } from "./report.mjs";
+import { agreement, applyVerdicts, consensus, labelNames, toPairs } from "./judge.mjs";
 import { checkMeshOrder, scoreRecords } from "./recovery-run.mjs";
 import { findRecord, recoveredFromRecord, recoveredFromRecords } from "./recovered-from-record.mjs";
 
@@ -226,4 +226,29 @@ test("the importer's meshes must be the primitives in order: same triangle count
   assert.throws(() => checkMeshOrder([good[0]], key, areas), /1 meshes for 2/);
   assert.throws(() => checkMeshOrder([{ triangles: 2, area: 1 }, good[1]], key, areas), /not in primitive order/);
   assert.throws(() => checkMeshOrder([{ triangles: 1, area: areas[0] * 1.01 }, good[1]], key, areas), /surface area/);
+});
+
+test("consensus is the majority of the judges, a tie is refused, and agreement is reported", () => {
+  const v = (key, verdict) => ({ key, verdict, reason: "r" });
+  const a = [v("k1", "same"), v("k2", "wrong"), v("k3", "same")];
+  const b = [v("k1", "grain"), v("k2", "wrong"), v("k3", "same")];
+  assert.deepEqual(consensus([a, b, [v("k1", "grain")]]).map((x) => [x.key, x.verdict]), [["k1", "grain"], ["k2", "wrong"], ["k3", "same"]]);
+  assert.throws(() => consensus([a, b]), /no majority/);
+  const g = agreement(a, b);
+  assert.equal(g.agree, 2);
+  assert.equal(g.same_or_grain_agree, 3); // same vs grain is the only disagreement
+});
+
+test("recovered names are labelled named or descriptive; an unlabelled name is an error", () => {
+  const rows = [{ recovered_name: "Wheel_Left" }, { recovered_name: null }];
+  assert.equal(labelNames(rows, [{ name: "Wheel_Left", label: "named" }])[0].recovered_label, "named");
+  assert.throws(() => labelNames([{ recovered_name: "X" }], []), /no label/);
+});
+
+test("residual structure leaves out the parts a material boundary hands over", () => {
+  const o = (part, best_iou) => ({ kind: "original", model: "M", tier: "B", part, best_iou, matched: best_iou >= 0.5 });
+  const r = residualStructure([o(0, 1), o(1, 0.2), o(2, 0.8)], { models: { M: { exact_parts: [0] } } });
+  assert.equal(r.parts, 2);
+  assert.ok(Math.abs(r.micro.mean_best_iou - 0.5) < 1e-12);
+  assert.equal(r.micro.recovery_rate, 0.5);
 });

@@ -1,0 +1,164 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "whole": {
+    "group": "Emit4_Cube_Group",
+    "name": "Emissive_Unit_Cube_Emit4",
+    "classes": [
+     "cube",
+     "emissive"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Backdrop_Group",
+    "classes": [
+     "backdrop"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Backdrop_Large_Panel",
+      "classes": [
+       "backdrop",
+       "panel"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "colour"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Backdrop_Upright_Bar_Left_Of_Centre_Far",
+      "classes": [
+       "bar",
+       "upright"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "colour"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Backdrop_Upright_Bar_Far_Left",
+      "classes": [
+       "bar",
+       "upright"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "colour"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Backdrop_Upright_Bar_Right_Of_Centre_Near",
+      "classes": [
+       "bar",
+       "upright"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "colour"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Backdrop_Upright_Bar_Far_Right",
+      "classes": [
+       "bar",
+       "upright"
+      ],
+      "basis": [
+       "size",
+       "position",
+       "colour"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "whole": {
+    "group": "Emit2_Cube_Group",
+    "name": "Emissive_Unit_Cube_Emit2",
+    "classes": [
+     "cube",
+     "emissive"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "whole": {
+    "group": "Emit1_Cube_Group",
+    "name": "Emissive_Unit_Cube_Emit1",
+    "classes": [
+     "cube",
+     "emissive"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "whole": {
+    "group": "Emit8_Cube_Group",
+    "name": "Emissive_Unit_Cube_Emit8",
+    "classes": [
+     "cube",
+     "emissive"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "whole": {
+    "group": "Emit16_Cube_Group",
+    "name": "Emissive_Unit_Cube_Emit16",
+    "classes": [
+     "cube",
+     "emissive"
+    ],
+    "basis": [
+     "size",
+     "shape"
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Material names Emit1/2/4/8/16 and FlatBackdrop are used as evidence (emissive, backdrop); stated here because basis may not list material.",
+  "Cubes 0,2,3,4,5 are each 1x1x1 with 12 triangles; 'at' is relative to the mesh itself so it says nothing about where each cube stands in the model. Only the material number tells them apart; digits in names come from the material names, not from placeholders.",
+  "FlatBackdrop component 0 is 16x10x4 with only 6 triangles and a 4-unit depth, which is not a flat quad; its shape is unclear, so I named it a large panel and did not say what it is. Components 1-4 are 0.35 x 5 x 4 uprights at x = -4.5,-1.5,1.5,4.5 and y centre 6.5 (higher than the panel centre 5.0); component 2 is far left, 1 left-of-centre, 3 right-of-centre, 4 far right. I did not call them anything functional (slats, pillars, ...)."
+ ],
+ "model": "EmissiveStrengthTest",
+ "mode": "materials",
+ "blind_code": "N03"
+}

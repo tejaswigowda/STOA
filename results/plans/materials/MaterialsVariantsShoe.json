@@ -1,0 +1,350 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Blue_And_Dark_Mechanical_Object",
+    "classes": [
+     "object"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Dark_Blue_Main_Assembly",
+      "classes": [
+       "assembly"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Light_Blue_Thin_Plate_Upper_Centre",
+      "classes": [
+       "plate"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "White_Lower_Long_Pieces",
+      "classes": [
+       "pieces"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Dark_Compact_Block_Upper_Centre",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Light_Blue_Small_Pieces_Left_Upper",
+      "classes": [
+       "pieces"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position"
+      ]
+     },
+     {
+      "component": 5,
+      "name": "Dark_Grey_Rod_Right_Low",
+      "classes": [
+       "rod"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 6,
+      "name": "Dark_Navy_Flat_Disc_Left_ZHigh",
+      "classes": [
+       "disc"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 7,
+      "name": "Dark_Navy_Flat_Disc_Right_ZHigh",
+      "classes": [
+       "disc"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 8,
+      "name": "Dark_Navy_Flat_Disc_Left_ZLow",
+      "classes": [
+       "disc"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 9,
+      "name": "Dark_Navy_Flat_Disc_Right_ZLow",
+      "classes": [
+       "disc"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 10,
+      "name": "Dark_Grey_Rod_Left_High_A",
+      "classes": [
+       "rod"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 11,
+      "name": "Dark_Grey_Rod_Left_High_B",
+      "classes": [
+       "rod"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 12,
+      "name": "Dark_Grey_Rod_Centre_Mid_A",
+      "classes": [
+       "rod"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 13,
+      "name": "Dark_Grey_Rod_Centre_Mid_B",
+      "classes": [
+       "rod"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 14,
+      "name": "Light_Blue_Small_Block_ZLow_Right_End",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 15,
+      "name": "Light_Blue_Small_Block_ZLow_Right_Mid",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 16,
+      "name": "Light_Blue_Small_Block_ZLow_Left_Mid",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 17,
+      "name": "Light_Blue_Small_Block_ZLow_Left_End",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 18,
+      "name": "Light_Blue_Small_Block_ZHigh_Right_End",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 19,
+      "name": "Light_Blue_Small_Block_ZHigh_Right_Mid",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 20,
+      "name": "Light_Blue_Small_Block_ZHigh_Left_Mid",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 21,
+      "name": "Light_Blue_Small_Block_ZHigh_Left_End",
+      "classes": [
+       "block"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 22,
+      "name": "Dark_Grey_Rod_Right_Mid_A",
+      "classes": [
+       "rod"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 23,
+      "name": "Dark_Grey_Rod_Right_Mid_B",
+      "classes": [
+       "rod"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position",
+       "shape"
+      ]
+     },
+     {
+      "component": 24,
+      "name": "Black_Small_Cluster_Left_End",
+      "classes": [
+       "cluster"
+      ],
+      "basis": [
+       "size",
+       "colour",
+       "position"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Only one mesh (one material, phong1SG), so material boundaries gave no separation: all 25 parts come from SEG's position-only components; I did not use islands.",
+  "Material name 'phong1SG' is a default Maya-style shading group and carries no information about parts.",
+  "I could not justify a functional name for any part: the evidence has only size, centre and colours, and no real-world scale or orientation labels (which of z is front is unknown), so I used left/right on x and ZHigh/ZLow on z and abstained on function.",
+  "Repetition patterns found: 4 flat navy discs at a 2x2 grid (components 6-9), 8 light-blue small blocks in two rows of 4 (14-21), 7 dark grey rods along z arranged on a diagonal in pairs (5,10-13,22,23). I did not claim what they are.",
+  "Pairs of rods (10/11, 12/13, 22/23) have near-identical centres; the A/B suffix is arbitrary and does not mean anything.",
+  "Component 0 (4900 tris, 15 islands) mixes dark grey and blue and spans nearly the whole x extent; evidence does not split it, so it is one merged assembly. Components 1 and 4 share the same three light-blue colours (41/30/29%) so they may be the same kind of piece, one large, one small.",
+  "Component 2 (white, 9 islands, y at 0.14, widest) is probably a lower base/support but I only named it by colour, size and position.",
+  "No attach/anchors used since every component is explicitly assigned; the plan syntax for component parts was straightforward. Check output for refusals recorded below."
+ ],
+ "model": "MaterialsVariantsShoe",
+ "mode": "materials",
+ "blind_code": "M18"
+}

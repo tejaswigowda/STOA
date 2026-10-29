@@ -1,0 +1,958 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Label_Plate_Stack",
+    "classes": [
+     "labels"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Label_Plate_Top_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Label_Plate_Top_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Label_Plate_Second_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Label_Plate_Third_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Label_Plate_Fourth_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Label_Plate_Bottom_Row_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Label_Plate_Second_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Label_Plate_Third_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Label_Plate_Fourth_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 9,
+      "name": "Label_Plate_Bottom_Row_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Solid_Row_IOR_1p0",
+    "classes": [
+     "row"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Flat_Solid_IOR_1p0_Far_Left",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Flat_Solid_IOR_1p0_Left_Outer",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Flat_Solid_IOR_1p0_Left_Inner",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Flat_Solid_IOR_1p0_Centre_Left",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Flat_Solid_IOR_1p0_Centre",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Flat_Solid_IOR_1p0_Centre_Right",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Flat_Solid_IOR_1p0_Right_Inner",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Flat_Solid_IOR_1p0_Right_Outer",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Flat_Solid_IOR_1p0_Far_Right",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Solid_Row_IOR_1p33",
+    "classes": [
+     "row"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Flat_Solid_IOR_1p33_Far_Left",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Flat_Solid_IOR_1p33_Left_Outer",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Flat_Solid_IOR_1p33_Left_Inner",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Flat_Solid_IOR_1p33_Centre_Left",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Flat_Solid_IOR_1p33_Centre",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Flat_Solid_IOR_1p33_Centre_Right",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Flat_Solid_IOR_1p33_Right_Inner",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Flat_Solid_IOR_1p33_Right_Outer",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Flat_Solid_IOR_1p33_Far_Right",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 3,
+   "plan": {
+    "group": "Solid_Row_IOR_1p50",
+    "classes": [
+     "row"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Flat_Solid_IOR_1p50_Far_Left",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Flat_Solid_IOR_1p50_Left_Outer",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Flat_Solid_IOR_1p50_Left_Inner",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Flat_Solid_IOR_1p50_Centre_Left",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Flat_Solid_IOR_1p50_Centre",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Flat_Solid_IOR_1p50_Centre_Right",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Flat_Solid_IOR_1p50_Right_Inner",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Flat_Solid_IOR_1p50_Right_Outer",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Flat_Solid_IOR_1p50_Far_Right",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 4,
+   "plan": {
+    "group": "Solid_Row_IOR_1p76",
+    "classes": [
+     "row"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Flat_Solid_IOR_1p76_Far_Left",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Flat_Solid_IOR_1p76_Left_Outer",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Flat_Solid_IOR_1p76_Left_Inner",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Flat_Solid_IOR_1p76_Centre_Left",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Flat_Solid_IOR_1p76_Centre",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Flat_Solid_IOR_1p76_Centre_Right",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Flat_Solid_IOR_1p76_Right_Inner",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Flat_Solid_IOR_1p76_Right_Outer",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Flat_Solid_IOR_1p76_Far_Right",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 5,
+   "plan": {
+    "group": "Solid_Row_IOR_2p42",
+    "classes": [
+     "row"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Flat_Solid_IOR_2p42_Far_Left",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Flat_Solid_IOR_2p42_Left_Outer",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Flat_Solid_IOR_2p42_Left_Inner",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Flat_Solid_IOR_2p42_Centre_Left",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Flat_Solid_IOR_2p42_Centre",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Flat_Solid_IOR_2p42_Centre_Right",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Flat_Solid_IOR_2p42_Right_Inner",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Flat_Solid_IOR_2p42_Right_Outer",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Flat_Solid_IOR_2p42_Far_Right",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 6,
+   "plan": {
+    "group": "Solid_Row_Opaque",
+    "classes": [
+     "row"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Flat_Solid_Opaque_Far_Left",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Flat_Solid_Opaque_Left_Outer",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Flat_Solid_Opaque_Left_Inner",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Flat_Solid_Opaque_Centre_Left",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Flat_Solid_Opaque_Centre",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 5,
+      "name": "Flat_Solid_Opaque_Centre_Right",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Flat_Solid_Opaque_Right_Inner",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 7,
+      "name": "Flat_Solid_Opaque_Right_Outer",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 8,
+      "name": "Flat_Solid_Opaque_Far_Right",
+      "classes": [
+       "solid"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 7,
+   "whole": {
+    "group": "Backdrop_Panel_Group",
+    "name": "Grey_Backdrop_Panel",
+    "classes": [
+     "backdrop"
+    ]
+   }
+  },
+  {
+   "mesh": 8,
+   "plan": {
+    "group": "Paired_Label_Plates",
+    "classes": [
+     "labels"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Label_Plate_Left_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 1,
+      "name": "Label_Plate_Right_High_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 2,
+      "name": "Label_Plate_Left_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "island": 3,
+      "name": "Label_Plate_Right_Low_Z",
+      "classes": [
+       "label",
+       "plate"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Rule (script-generated, every name from that mesh's own evidence): LabelMat -> ten 2-triangle flat plates named by row rank on y (Top..Bottom) and by z side; the plates come in pairs with the same size/y at at.z 0 and 1.",
+  "Meshes Mat_IOR_*/Mat_Opaque each hold nine identical 1440-triangle solids 0.1x0.1x0.03 in a row along x, same y/z, no colour; named Flat_Solid_<material tag>_<x rank word>. Shape only: the evidence does not say what they are (rounded? lens? disc?), so no function named.",
+  "Material names (Mat_IOR_1.0 ... 2.42, Mat_Opaque, LabelMat, FlatBackdrop, SmoothVsRough) were used as evidence: they are in the group/part names (tag) and as the reason for \"label\" and \"backdrop\"; they are not in basis. Backdrop: 4 triangles, 2.0x0.9x0.5 grey, material FlatBackdrop; whole mesh as one part.",
+  "The nine solids per material sit at the same 9 x positions in every mesh and every mesh has the same y,z (at 0.5): their placement in the world (one row per material?) is not visible in per-mesh `at`, so I cannot say which row they belong to beyond the material.",
+  "Which of the paired plates (z 0 vs z 1) is front or back cannot be told; named Low_Z/High_Z. SmoothVsRough plates: left (0.205 wide) vs right (0.17 wide) are named by position only, not by which text each carries.",
+  "Plan syntax: `basis` allowed only position/size/colour/shape, so the material evidence is only recorded here."
+ ],
+ "model": "TransmissionRoughnessTest",
+ "mode": "materials",
+ "blind_code": "N04"
+}

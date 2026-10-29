@@ -1,0 +1,502 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Sofa_Legs_Group",
+    "classes": [
+     "legs"
+    ],
+    "parts": [
+     {
+      "island": [
+       0,
+       9
+      ],
+      "name": "Leg_Centre_ZLowest",
+      "classes": [
+       "leg"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       1,
+       10
+      ],
+      "name": "Leg_Centre_ZMid",
+      "classes": [
+       "leg"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       2,
+       11
+      ],
+      "name": "Leg_LeftCentre_ZMid",
+      "classes": [
+       "leg"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       3,
+       12
+      ],
+      "name": "Leg_Left_ZHigh",
+      "classes": [
+       "leg"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       4,
+       13
+      ],
+      "name": "Leg_Left_ZLow",
+      "classes": [
+       "leg"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       5,
+       14
+      ],
+      "name": "Leg_Right_ZHigh",
+      "classes": [
+       "leg"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       6,
+       15
+      ],
+      "name": "Leg_Right_ZMid",
+      "classes": [
+       "leg"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       7,
+       16
+      ],
+      "name": "Leg_Centre_ZLow",
+      "classes": [
+       "leg"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       8,
+       17
+      ],
+      "name": "Leg_RightCentre_ZLow",
+      "classes": [
+       "leg"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Sofa_Feet_Group",
+    "classes": [
+     "feet"
+    ],
+    "parts": [
+     {
+      "component": [
+       0
+      ],
+      "name": "Foot_Centre_ZLowest",
+      "classes": [
+       "foot"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       1
+      ],
+      "name": "Foot_Centre_ZMid",
+      "classes": [
+       "foot"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       2
+      ],
+      "name": "Foot_LeftCentre_ZMid",
+      "classes": [
+       "foot"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       3
+      ],
+      "name": "Foot_Left_ZHigh",
+      "classes": [
+       "foot"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       4
+      ],
+      "name": "Foot_Left_ZLow",
+      "classes": [
+       "foot"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       5
+      ],
+      "name": "Foot_Right_ZHigh",
+      "classes": [
+       "foot"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       6
+      ],
+      "name": "Foot_Right_ZMid",
+      "classes": [
+       "foot"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       7
+      ],
+      "name": "Foot_Centre_ZLow",
+      "classes": [
+       "foot"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       8
+      ],
+      "name": "Foot_RightCentre_ZLow",
+      "classes": [
+       "foot"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 2,
+   "plan": {
+    "group": "Sofa_Navy_Fabric_Group",
+    "classes": [
+     "upholstery"
+    ],
+    "parts": [
+     {
+      "island": 0,
+      "name": "Wide_Thin_Mid_Height_Panel",
+      "classes": [
+       "panel",
+       "fabric"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       3,
+       9,
+       13,
+       14
+      ],
+      "name": "Underside_Flat_Panels",
+      "classes": [
+       "panel",
+       "underside"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 4,
+      "name": "Backrest_Panel_Centre",
+      "classes": [
+       "backrest",
+       "cushion"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": 6,
+      "name": "Backrest_Top_Roll_Centre",
+      "classes": [
+       "backrest",
+       "cushion"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       1
+      ],
+      "name": "Backrest_Left_Outer_Piece",
+      "classes": [
+       "backrest",
+       "cushion"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       5
+      ],
+      "name": "Backrest_Left_Inner_Piece",
+      "classes": [
+       "backrest",
+       "cushion"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       7
+      ],
+      "name": "Backrest_Right_Upper_Piece",
+      "classes": [
+       "backrest",
+       "cushion"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       10
+      ],
+      "name": "Backrest_Right_Lower_Piece",
+      "classes": [
+       "backrest",
+       "cushion"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       2
+      ],
+      "name": "Right_Side_Arm_Wide_Piece",
+      "classes": [
+       "arm",
+       "side"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       11
+      ],
+      "name": "Right_Side_Arm_Narrow_Piece",
+      "classes": [
+       "arm",
+       "side"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       15
+      ],
+      "name": "Seat_Level_Cushion_Left_Rear",
+      "classes": [
+       "seat",
+       "cushion"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       8
+      ],
+      "name": "Seat_Level_Cushion_Left_Front",
+      "classes": [
+       "seat",
+       "cushion"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "island": [
+       12
+      ],
+      "name": "Seat_Level_Cushion_Front_Strip",
+      "classes": [
+       "seat",
+       "cushion"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Material names used as evidence: GlamVelvetSofa_legs, _feet, _fabric_navy; they say sofa, legs, feet, navy velvet/fabric.",
+  "Mesh 0: 9 tall islands (24 tris) and 9 flat y=0 islands (10 tris) share x/z positions pairwise; I paired island i with i+9 as one leg each (flat ones read as end caps; inferred from matching at x,z, not certain). Mesh 1 components pair the same 9 positions as small feet; both are named by position only.",
+  "Orientation is unknown: I do not know which z end is front. Leg names use ZLow/ZHigh and left/centre/right by at.x only.",
+  "Mesh 2 (16 islands): names beyond Backrest/Seat/Arm are position-and-shape guesses; the grouping into left/centre/right backrest pieces and seat-level cushions is only supported by at/size, the layering (two islands at the same x) is ambiguous. Island 0 (1.96 wide, 0.1 thick) left shape-descriptive; 3,9,13,14 merged as flat y~0 underside panels.",
+  "No left arm identified; island 1 and 5 (left, y 0.35-0.38) could be left arm or back pieces; named as backrest pieces on weak evidence.",
+  "basis accepts only position/size/colour/shape; material evidence is recorded here instead. Colour was not given in the evidence (no colours listed, no texture)."
+ ],
+ "model": "GlamVelvetSofa",
+ "mode": "materials",
+ "blind_code": "M20"
+}

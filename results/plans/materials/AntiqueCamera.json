@@ -1,0 +1,891 @@
+{
+ "author": "agent",
+ "meshes": [
+  {
+   "mesh": 0,
+   "plan": {
+    "group": "Camera_Assembly",
+    "classes": [
+     "camera"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Lens_Barrel",
+      "classes": [
+       "lens",
+       "barrel"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       34,
+       36
+      ],
+      "name": "Dark_Lens_Disc_Pair",
+      "classes": [
+       "disc",
+       "dark"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       8,
+       35
+      ],
+      "name": "Small_Upper_Front_Ring",
+      "classes": [
+       "ring",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 22,
+      "name": "Dark_Flat_Plate_Below_Lens",
+      "classes": [
+       "plate",
+       "dark"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       48,
+       49
+      ],
+      "name": "Front_Tiny_Studs",
+      "classes": [
+       "stud",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 11,
+      "name": "Front_Small_Flat_Plate_Left",
+      "classes": [
+       "plate",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       12,
+       20
+      ],
+      "name": "Left_Upright_Rod_And_Knob",
+      "classes": [
+       "rod",
+       "knob",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       23,
+       44
+      ],
+      "name": "Right_Front_Small_Knob",
+      "classes": [
+       "knob",
+       "small",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       2,
+       3,
+       4
+      ],
+      "name": "Front_Panel_Layers",
+      "classes": [
+       "panel",
+       "front"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       25,
+       26,
+       27,
+       28,
+       29,
+       30,
+       31,
+       32,
+       33
+      ],
+      "name": "Bellows",
+      "classes": [
+       "bellows",
+       "pleated"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 9,
+      "name": "Rear_Large_Panel_Block",
+      "classes": [
+       "panel",
+       "rear"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Rear_Top_Brown_Strip",
+      "classes": [
+       "strip",
+       "rear"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 5,
+      "name": "Rear_Top_Left_Fitting",
+      "classes": [
+       "fitting",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 6,
+      "name": "Rear_Top_Right_Fitting",
+      "classes": [
+       "fitting",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 45,
+      "name": "Rear_Top_Left_Small_Piece",
+      "classes": [
+       "piece",
+       "small",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 46,
+      "name": "Rear_Top_Right_Small_Piece",
+      "classes": [
+       "piece",
+       "small",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 13,
+      "name": "Rear_Top_Right_Small_Brown_Piece",
+      "classes": [
+       "piece",
+       "small",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 51,
+      "name": "Rear_Top_Dark_Red_Flat_Patch",
+      "classes": [
+       "patch",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 10,
+      "name": "Base_Long_Wide_Board",
+      "classes": [
+       "base",
+       "board"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 15,
+      "name": "Base_Long_Narrow_Board",
+      "classes": [
+       "base",
+       "board"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 7,
+      "name": "Base_Long_Raised_Rail",
+      "classes": [
+       "base",
+       "rail"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 50,
+      "name": "Base_Flat_Sheet_Under",
+      "classes": [
+       "sheet",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       14,
+       24
+      ],
+      "name": "Rear_Underside_Plates",
+      "classes": [
+       "plate",
+       "underside"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 16,
+      "name": "Base_Knob_Right",
+      "classes": [
+       "knob",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 17,
+      "name": "Base_Knob_Left",
+      "classes": [
+       "knob",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 18,
+      "name": "Side_Disc_Knob_Right",
+      "classes": [
+       "knob",
+       "disc",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 19,
+      "name": "Side_Disc_Knob_Left",
+      "classes": [
+       "knob",
+       "disc",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       37,
+       38
+      ],
+      "name": "Side_Plate_Pair_Right",
+      "classes": [
+       "plate",
+       "side",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       39,
+       40
+      ],
+      "name": "Side_Plate_Pair_Left",
+      "classes": [
+       "plate",
+       "side",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       21,
+       41,
+       47
+      ],
+      "name": "Front_Left_Lower_Knob_Cluster",
+      "classes": [
+       "knob",
+       "cluster",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 42,
+      "name": "Base_Small_Nut_Right",
+      "classes": [
+       "nut",
+       "small",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 43,
+      "name": "Base_Small_Nut_Left",
+      "classes": [
+       "nut",
+       "small",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "mesh": 1,
+   "plan": {
+    "group": "Tripod_Assembly",
+    "classes": [
+     "tripod"
+    ],
+    "parts": [
+     {
+      "component": 0,
+      "name": "Tripod_Head_Body",
+      "classes": [
+       "head",
+       "tripod"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 1,
+      "name": "Rear_Extending_Bar",
+      "classes": [
+       "bar",
+       "rear"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 2,
+      "name": "Brown_Flat_Plate_Under_Head",
+      "classes": [
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 3,
+      "name": "Head_Top_Round_Plate",
+      "classes": [
+       "plate",
+       "round"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 4,
+      "name": "Head_Mount_Block",
+      "classes": [
+       "block",
+       "mount"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 38,
+      "name": "Mount_Top_Flat_Plate",
+      "classes": [
+       "plate",
+       "flat"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 11,
+      "name": "Head_Disc_Left",
+      "classes": [
+       "disc",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": 12,
+      "name": "Head_Disc_Right",
+      "classes": [
+       "disc",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       13,
+       25,
+       28
+      ],
+      "name": "Tripod_Leg_Front_Right",
+      "classes": [
+       "leg",
+       "front",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       14,
+       26,
+       29
+      ],
+      "name": "Tripod_Leg_Left",
+      "classes": [
+       "leg",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       15,
+       27,
+       30
+      ],
+      "name": "Tripod_Leg_Back_Right",
+      "classes": [
+       "leg",
+       "back",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       16,
+       17,
+       22
+      ],
+      "name": "Foot_Front_Right",
+      "classes": [
+       "foot",
+       "front",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       18,
+       19,
+       23
+      ],
+      "name": "Foot_Left",
+      "classes": [
+       "foot",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       20,
+       21,
+       24
+      ],
+      "name": "Foot_Back_Right",
+      "classes": [
+       "foot",
+       "back",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       5,
+       31
+      ],
+      "name": "Leg_Mid_Clip_Front_Right",
+      "classes": [
+       "clip",
+       "front",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       9,
+       35
+      ],
+      "name": "Leg_Mid_Clip_Left",
+      "classes": [
+       "clip",
+       "left"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       10,
+       36
+      ],
+      "name": "Leg_Mid_Clip_Back_Right",
+      "classes": [
+       "clip",
+       "back",
+       "right"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 37,
+      "name": "Brown_Spreader_Frame",
+      "classes": [
+       "frame",
+       "spreader"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       6,
+       32
+      ],
+      "name": "Joint_Block_Small_Right_Front",
+      "classes": [
+       "joint",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       7,
+       33
+      ],
+      "name": "Joint_Block_Small_Left_Front",
+      "classes": [
+       "joint",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": [
+       8,
+       34
+      ],
+      "name": "Joint_Block_Small_Back",
+      "classes": [
+       "joint",
+       "small"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 39,
+      "name": "Joint_Block_Wide_Front",
+      "classes": [
+       "joint",
+       "wide"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 40,
+      "name": "Joint_Block_Wide_Left",
+      "classes": [
+       "joint",
+       "wide"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     },
+     {
+      "component": 41,
+      "name": "Joint_Block_Wide_Right",
+      "classes": [
+       "joint",
+       "wide"
+      ],
+      "basis": [
+       "position",
+       "size",
+       "colour",
+       "shape"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "log": [
+  "Evidence is two meshes (camera 52 components, tripod 42 components) from 598+199 islands; I cut at component grain because the report gave components. Materials were only 'camera' and 'tripod', so material boundaries carried almost no part information; all part-level naming rests on position, size, colour.",
+  "Orientation is not stated. I assumed the front is +z (the large circular lens-like parts sit at high z, the big rear block at low z) and left/right means low/high at.x. If the camera faces the other way my left/right is mirrored; the evidence does not say.",
+  "Names I committed to on thin support: Lens_Barrel (centred, front-most, dark discs on the same axis), Bellows (nine nested dark rectangular frames of growing size between the front layers and the rear block), Tripod_Head_Body, Tripod_Leg_* (three tall near-identical limbs spread at roughly 120 degrees, each in three tapering sections). These are inferences from layout, not from any label.",
+  "Abstained or shape-described: the small knob/nut/stud/clip/joint pieces, the Rear_Top_* fittings, Base_* boards (three long flat components stacked at slightly different heights; could not tell which is the bed, rail or cover), Front_Panel_Layers (three thin square plates at nearly the same z), Dark_Flat_Plate_Below_Lens, the red flat patch.",
+  "Several symmetric small components (left/right pairs) had no evidence for function, so were named by what they look like plus side. Merged tiny components that sat at the same position and shared colour (e.g. the two-piece leg clips, joint-block pairs); the evidence cannot separate a part from its own cap.",
+  "Joint_Block_* in the tripod: six small blocks at about y 3.94 in two size classes; I could not pair the wide ones with the small ones reliably so left them separate, and cannot say whether they belong to legs or to the spreader frame.",
+  "The camera mesh has a zero-thickness flat component (50) with the same footprint (0.477 x 1.037) as a tripod part (38); the camera/tripod meshes may share an interface plate. Could not tell which mesh owns it.",
+  "Plan syntax: 'component' given as a single number or an array worked as documented; the guide says that with no anchors parts go by component, which I did. No authored names were seen.",
+  "Cost: the evidence report for 52 components is dense; the bellows pleats (c25-c33) differ only in size and z so I could not sort them individually beyond 'a stack'."
+ ],
+ "model": "AntiqueCamera",
+ "mode": "materials",
+ "blind_code": "M03"
+}
